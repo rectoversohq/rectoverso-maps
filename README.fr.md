@@ -19,7 +19,7 @@ Choisissez une langue ou installez les deux. Les paquets partagent leurs images 
 
 La sélection suit les 249 codes de pays et territoires officiellement attribués par l’ISO 3166-1 dans la référence conservée. Elle comprend des territoires inhabités : **ce n’est pas une liste de 249 États souverains**. Les noms usuels sont distincts des noms formels de l’ISO. [Lire la convention de couverture et de limites](docs/sources.fr.md), notamment le traitement neutre du Cachemire et d’Abyei.
 
-**État de la version :** `0.2.0-rc.1` est un candidat de revue non publié. Les sources et l’étiquette sont publiées ; aucune release de paquets n’est encore téléchargeable. Cette branche réorganise les sources après l’étiquette initiale, qui conserve sa structure d’origine. Le [workflow de CI Anki](docs/building.fr.md#contrôles-automatiques) s’exécute sur les branches et pull requests. La publication des paquets reste soumise à une revue distincte.
+**État de la version :** `0.2.0-rc.2` est un candidat de revue non publié, avec la structure organisée des sources. Les URL des paquets désignent les destinations de release prévues. Les modifications et empreintes exactes passent par une pull request ; la publication des paquets exige une approbation distincte. L’étiquette publiée `v0.2.0-rc.1` conserve ses fichiers d’origine. Le [workflow de CI Anki](docs/building.fr.md#contrôles-automatiques) vérifie les branches et pull requests.
 
 ## Construire pour Anki
 
@@ -27,7 +27,7 @@ La fabrication utilise les images déjà présentes dans ce dépôt. **Ni Node, 
 
 Prérequis : Git, Bash et **Python 3.14**, avec `venv` et `pip`. La procédure est testée sur macOS avec la bibliothèque Python d’Anki figée à **26.9.3**. Les autres systèmes n’ont pas été vérifiés. Anki desktop permet d’étudier le jeu obtenu, mais n’a pas besoin d’être lancé pendant sa fabrication.
 
-Clonez le dépôt et créez l’environnement. Jusqu’à la fusion de la PR de réorganisation, exécutez `git switch codex/631-multilingual-source` après le clonage et l’entrée dans le dossier. Ces instructions décrivent cette révision ; les anciennes étiquettes conservent leur propre README. Si vous disposez déjà de ces sources, commencez par `cd` :
+Clonez le dépôt et créez l’environnement. Ces instructions décrivent cette révision ; les anciennes étiquettes conservent leur propre README. Si vous disposez déjà de ces sources, commencez par `cd` :
 
 ```sh
 git clone https://github.com/rectoversohq/rectoverso-maps.git

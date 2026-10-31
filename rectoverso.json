@@ -1,6 +1,6 @@
 {
   "id": "rectoverso-maps",
-  "version": "0.2.0-rc.1",
+  "version": "0.2.0-rc.2",
   "status": "review-candidate",
   "title": {
     "en": "Maps",
@@ -5075,7 +5075,7 @@
     }
   ],
   "repository": "https://github.com/rectoversohq/rectoverso-maps",
-  "releaseTag": "v0.2.0-rc.1",
+  "releaseTag": "v0.2.0-rc.2",
   "sourceFiles": {
     "pictures": "source/media",
     "originals": "artwork/svg",
@@ -5102,9 +5102,9 @@
       "id": "rectoverso-maps-en",
       "package": {
         "file": "Maps-en-249.apkg",
-        "bytes": 69301889,
-        "sha256": "c0b11d0b0ada65d5880d7d39585e07f0c4226ebf1a7b26317c5e8bb718a95bdb",
-        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.2.0-rc.1/Maps-en-249.apkg"
+        "bytes": 69301911,
+        "sha256": "f550c1fd895f8bb9e0f8b476cfcf3c9aafb2f43fb50cb93f409776c5f4b201b0",
+        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.2.0-rc.2/Maps-en-249.apkg"
       },
       "sourceFiles": {
         "deck": "source/languages/en/deck.json",
@@ -5116,9 +5116,9 @@
       "id": "rectoverso-maps-fr",
       "package": {
         "file": "Cartes-fr-249.apkg",
-        "bytes": 69301436,
-        "sha256": "1eb000aa1fb13c118b7ed333216c664a3d277a5d9f1944c86dea035f5226ba6a",
-        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.2.0-rc.1/Cartes-fr-249.apkg"
+        "bytes": 69302093,
+        "sha256": "8e81dbb0040b69488c19fc7e92968d0366344f456e87b22d465b454edd7391fe",
+        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.2.0-rc.2/Cartes-fr-249.apkg"
       },
       "sourceFiles": {
         "deck": "source/languages/fr/deck.json",
