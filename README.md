@@ -19,7 +19,7 @@ Choose either language, or install both. The two packages share their artwork an
 
 Coverage follows the 249 officially assigned ISO 3166-1 country and territory codes in the recorded reference. It includes uninhabited territories and is **not a list of 249 sovereign states**. Common learner names are separate from formal ISO names. [Read the coverage and boundary convention](docs/sources.md), including the neutral treatment of Kashmir and Abyei.
 
-**Release status:** `0.2.0-rc.1` is an unpublished review candidate. Source and tag are published; no package release is downloadable yet. This branch reorganizes the source after the original tag, which retains its original layout. The [Anki CI workflow](docs/building.md#automated-checks) runs on source branches and pull requests. Release publication remains separately reviewed.
+**Release status:** `0.2.0-rc.2` is an unpublished review candidate using the organized source layout. Its package URLs are planned release destinations. Source changes and exact package checksums are reviewed through a pull request; package publication is a separate approval. The published `v0.2.0-rc.1` tag retains its original files. The [Anki CI workflow](docs/building.md#automated-checks) validates source branches and pull requests.
 
 ## Build for Anki
 
@@ -27,7 +27,7 @@ The package build uses the pictures already in this repository. **You do not nee
 
 Requirements: Git, Bash and **Python 3.14** with `venv` and `pip`. The documented build is tested on macOS with Anki's pinned Python library, **26.9.3**. Other operating systems have not been verified. Anki desktop is needed to study the resulting deck, but does not need to be running to build it.
 
-Clone the repository and create the environment. Until the layout PR is merged, run `git switch codex/631-multilingual-source` after cloning and entering the directory. These instructions describe this revision; older tags include their own README. If you already have this source checkout, start with `cd`:
+Clone the repository and create the environment. These instructions describe this revision; older tags include their own README. If you already have this source checkout, start with `cd`:
 
 ```sh
 git clone https://github.com/rectoversohq/rectoverso-maps.git
