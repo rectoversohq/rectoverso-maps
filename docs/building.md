@@ -88,7 +88,7 @@ Actions is enabled for this public repository. In the repository settings, allow
 
 ## Regional candidate and additive upgrade
 
-This branch prepares unpublished 0.3.0-rc.1, 288 cards per language. Metadata distinguishes 249 ISO entities from 39 supplemental regions; the legacy answer field names remain for schema compatibility, while the template/card kind is **Map → Place**. Published rc.2 assets are untouched. `tests/test-regions.py` and deliberately damaged-source tests verify exact named-region assignments, missing/overlapping groups and rejection of fake ISO classification. The source CI runs these checks; no app-runtime change is required for the namespaced place codes.
+This branch prepares unpublished 0.3.0-rc.1, 288 cards per language. Metadata distinguishes 249 ISO entities from 39 supplemental regions; the legacy answer field names remain for schema compatibility, while new Anki templates are named **Map → Place**. RectoVerso derives its existing **Map → Country or territory** header from those stable field names, so the advertised card kind preserves that wording even for regional questions; changing app wording is outside this source-only update. Published rc.2 assets are untouched. `tests/test-regions.py` and deliberately damaged-source tests verify exact named-region assignments, missing/overlapping groups and rejection of fake ISO classification. The source CI runs these checks; no app-runtime change is required for the namespaced place codes.
 
 Use the approved old release and a new candidate to check a real additive upgrade (this is separate from two-build reproducibility):
 

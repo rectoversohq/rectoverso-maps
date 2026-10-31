@@ -75,7 +75,6 @@ class MultilingualSourceTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Artifact URL'):
             self.check()
 
-
     def test_missing_supplementary_group_is_rejected(self):
         self.edit('source/geography/coverage.json', lambda value: value['supplementaryEntries'].pop())
         with self.assertRaisesRegex(ValueError, 'Supplementary'):
@@ -96,7 +95,6 @@ class MultilingualSourceTests(unittest.TestCase):
     def test_swapping_regional_geometries_is_rejected(self):
         def swap(value):
             first, second = [row for row in value if row.get('parentCode') == 'PRT']
-            import json
             a, b = json.loads(first['field']), json.loads(second['field'])
             a['outline'], b['outline'] = b['outline'], a['outline']
             first['field'], second['field'] = json.dumps(a), json.dumps(b)
@@ -106,9 +104,9 @@ class MultilingualSourceTests(unittest.TestCase):
 
     def test_lost_core_polygon_is_rejected(self):
         def remove(value):
-            import json
             row = next(row for row in value if row['code'] == 'FRA')
-            field = json.loads(row['field']);field['outline']['coordinates'].pop()
+            field = json.loads(row['field'])
+            field['outline']['coordinates'].pop()
             row['field'] = json.dumps(field)
         self.edit('source/places.json', remove)
         with self.assertRaisesRegex(ValueError, 'named source group'):
@@ -117,6 +115,12 @@ class MultilingualSourceTests(unittest.TestCase):
     def test_total_question_count_is_not_iso_count(self):
         self.edit('source/geography/coverage.json', lambda value: value.update(referenceCount=288))
         with self.assertRaisesRegex(ValueError, 'Coverage count'):
+            self.check()
+
+
+    def test_card_kind_matches_the_existing_app_mapping(self):
+        self.edit('rectoverso.json', lambda value: value['cardKinds'][0].update(en='Map → Place'))
+        with self.assertRaisesRegex(ValueError, 'Card kind differs'):
             self.check()
 
 

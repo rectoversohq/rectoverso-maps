@@ -127,6 +127,9 @@ def verify_language(language, sources, coverage, expected_codes):
     if len(by_guid) != len(notes) or len(notes) != len(expected_codes):
         raise ValueError('Duplicate note GUIDs or wrong note count')
     answer_field = {'en': 'Country or territory', 'fr': 'Pays ou territoire'}[language]
+    picture_field = {'en': 'Map', 'fr': 'Carte'}[language]
+    if [kind.get(language) for kind in metadata['cardKinds']] != [f'{picture_field} → {answer_field}']:
+        raise ValueError('Card kind differs from stable Anki fields used by the app')
     places = indexed(sources['places'], 'places')
     codebook = indexed(sources['codebook'], 'codebook')
     for row in coverage['entries'] + coverage['supplementaryEntries']:

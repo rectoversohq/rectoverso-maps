@@ -21,8 +21,8 @@
   "pictures": 288,
   "cardKinds": [
     {
-      "en": "Map → Place",
-      "fr": "Carte → Lieu"
+      "en": "Map → Country or territory",
+      "fr": "Carte → Pays ou territoire"
     }
   ],
   "coverCode": "ITA",
@@ -6454,8 +6454,8 @@
       "id": "rectoverso-maps-en",
       "package": {
         "file": "Maps-en-288.apkg",
-        "bytes": 82231243,
-        "sha256": "8fb0e0a39c2124f9832ebe5fb2918f9a6095bc852388a5409d49b3776d2b3a38",
+        "bytes": 82231138,
+        "sha256": "c43878dd1303c64cc1e6a3ea2d3fb11fe84055a3b2526bbdefea4c461e372ccb",
         "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.3.0-rc.1/Maps-en-288.apkg"
       },
       "sourceFiles": {
@@ -6468,8 +6468,8 @@
       "id": "rectoverso-maps-fr",
       "package": {
         "file": "Cartes-fr-288.apkg",
-        "bytes": 82232880,
-        "sha256": "187b99e4bea812a094b33897f211b91122fecf5f20e8d3fdf4a477f5a6a64b11",
+        "bytes": 82232243,
+        "sha256": "203387ec451a72130be08466857568c6bdac9067e2ce0e631d59d3cf386bcf68",
         "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.3.0-rc.1/Cartes-fr-288.apkg"
       },
       "sourceFiles": {

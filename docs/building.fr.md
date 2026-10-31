@@ -88,7 +88,7 @@ Actions est activé pour ce dépôt public. Dans les paramètres, autoriser `act
 
 ## Candidat régional et mise à jour additive
 
-Cette branche prépare 0.3.0-rc.1, non publiée, avec 288 cartes par langue : 249 entités ISO et 39 régions supplémentaires. Les noms historiques des champs de réponse restent stables ; le modèle affiche **Carte → Lieu**. Les fichiers rc.2 publiés restent intacts. `tests/test-regions.py` et les tests de sources corrompues contrôlent l’affectation exacte des polygones, les groupes manquants ou superposés et les fausses classifications ISO ; ces tests sont exécutés en CI.
+Cette branche prépare 0.3.0-rc.1, non publiée, avec 288 cartes par langue : 249 entités ISO et 39 régions supplémentaires. Les noms historiques des champs de réponse restent stables ; les nouveaux modèles Anki s’appellent **Carte → Lieu**. RectoVerso déduit son en-tête **Carte → Pays ou territoire** des noms de champs conservés : les métadonnées gardent donc ce libellé, y compris pour les questions régionales. Une modification du texte de l’app dépasse cette mise à jour des sources. Les fichiers rc.2 publiés restent intacts. `tests/test-regions.py` et les tests de sources corrompues contrôlent l’affectation exacte des polygones, les groupes manquants ou superposés et les fausses classifications ISO ; ces tests sont exécutés en CI.
 
 ```sh
 .venv/bin/python scripts/checks/validate-upgrade.py /chemin/rc2/Cartes-fr-249.apkg /chemin/candidat/Cartes-fr-288.apkg /chemin/preuves/upgrade-fr.json
