@@ -60,8 +60,26 @@ Chaque conversion PNG dispose de trois processus distincts au maximum, chacun li
 
 Le candidat actuel est `0.2.0-rc.1`. Ses métadonnées nomment l’étiquette prévue `v0.2.0-rc.1`, préparée localement pour le sous-module, sans affirmer l’existence d’une étiquette distante, release, validation distante ou CI terminée. Les paquets vont dans les releases versionnées, jamais dans Git. Les anciens dossiers de travail par langue et leurs historiques Git ont été conservés séparément avant consolidation.
 
-La CI du dépôt de jeu doit contrôler les sources, Anki et les identités des reconstructions. Le dépôt de l’application RectoVerso assure sa compatibilité d’import/export et l’intégration de la galerie. Son passage à un sous-module unique est suivi dans simonpinkas/RectoVerso#633 ; les deux workflows restent à faire. Anki utilise les images stockées ; les limites du globe interactif de l’application pour l’Antarctique et les îles dispersées restent un sujet distinct, en attente.
+La CI du dépôt de jeu doit contrôler les sources, Anki et les identités des reconstructions. Le dépôt de l’application RectoVerso assure sa compatibilité d’import/export et l’intégration de la galerie. Son passage à un sous-module unique est suivi dans simonpinkas/RectoVerso#633 ; le workflow source est implémenté ici, avec un workflow explicite de compatibilité dans le dépôt de l’application. Leur exécution sur GitHub attend la publication des sources et leur activation. Anki utilise les images stockées ; les limites du globe interactif de l’application pour l’Antarctique et les îles dispersées restent un sujet distinct, en attente.
 
 ## Interface de validation de la galerie
 
 Le dépôt de l’application vérifie d’abord le commit, l’étiquette et la propreté du sous-module. Il appelle ensuite `source_data.inputs(language)` dans un processus Python distinct, sans écrire de fichiers. Cette fonction retourne `(metadata, notes, model, deck)`, sérialisables en JSON. Les métadonnées développées doivent correspondre exactement aux données communes et à l’entrée de langue déclarées. La construction des notes reste dans ce dépôt ; l’application ne duplique pas la logique géographique.
+
+## Contrôles automatiques
+
+`.github/workflows/anki.yml` lance **Anki packages** sur les pull requests, les pushes de branches et les demandes manuelles, sur un Mac hébergé par GitHub avec Python 3.14.7. Les actions sont figées par commit et les permissions du dépôt sont en lecture seule. Aucun Anki desktop lancé, identifiant, signature ni jeton de release n’est nécessaire. Ce workflow ne publie aucune release.
+
+Pour exécuter la même suite localement, avec l’environnement du README :
+
+```sh
+.venv/bin/python ci.py --output /chemin/absolu/vers/nouvelle-sortie-ci --base SHA_COMPLET_DU_COMMIT_PRECEDENT
+```
+
+La référence doit exister dans l’historique Git local. La CI utilise la base de la PR ou le commit précédant le push. Un premier push de branche ou une demande manuelle sans `base` conserve une référence nulle : seule la reconstruction est alors vérifiée. Pour contrôler manuellement une mise à jour, fournir le commit source précédemment approuvé dans `base`.
+
+La suite contrôle la couverture, les tests des sources, du rendu et des identités, puis compare les GUID et les identités des jeux, modèles, champs et modèles de cartes à la référence, sans exécuter son code. Elle construit deux fois les deux langues, vérifie les deux constructions avec Anki et importe la reconstruction sur des cartes déjà révisées. Les ajouts sont signalés ; supprimer une langue ou une carte, ou modifier une identité, échoue et exige une migration explicitement conçue. La règle de couverture des 249 lieux reste applicable. Ce contrôle protège les identités entre commits sans certifier toutes les migrations historiques possibles.
+
+Dans Actions, ouvrir l’exécution et télécharger `maps-anki-RUN_ID-ATTEMPT`. L’archive contient les deux `.apkg` et leurs métadonnées de la première construction, les rapports Anki, journaux, comparaison et `ci.json`. Ces résultats restent disponibles 14 jours, y compris les journaux disponibles en cas d’échec. Une valeur `passed` absente ou fausse dans `ci.json` ne vaut pas réussite. Ce sont des artefacts de test, pas des releases publiées. Leurs empreintes décrivent ces nouvelles constructions ; les métadonnées de release décrivent toujours le lot exact soumis à revue.
+
+Après publication autorisée des sources, activer Actions dans les paramètres du dépôt, autoriser `actions/checkout`, `actions/setup-python` et `actions/upload-artifact`, puis rendre **Anki packages** obligatoire dans les règles de la branche par défaut après une première réussite. Le workflow doit atteindre cette branche avant que le bouton Run workflow soit disponible. Les contributions passent par une branche et une PR dans ce dépôt. Les changements d’images exigent toujours une régénération complète et une revue visuelle humaine ; cette CI ne certifie ni l’esthétique des cartes ni le globe interactif de l’application.

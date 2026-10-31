@@ -19,7 +19,7 @@ Choose either language, or install both. The two packages share their artwork an
 
 Coverage follows the 249 officially assigned ISO 3166-1 country and territory codes in the recorded reference. It includes uninhabited territories and is **not a list of 249 sovereign states**. Common learner names are separate from formal ISO names. [Read the coverage and boundary convention](docs/sources.md), including the neutral treatment of Kashmir and Abyei.
 
-**Release status:** `0.2.0-rc.1` is an unpublished review candidate. The release URLs in its metadata are planned destinations. There is no downloadable release yet; source publication and automated release CI remain pending.
+**Release status:** `0.2.0-rc.1` is an unpublished review candidate. The release URLs in its metadata are planned destinations. There is no downloadable release yet; source publication remains pending. The [Anki CI workflow](docs/building.md#automated-checks) is prepared; its first GitHub run awaits publication.
 
 ## Build for Anki
 

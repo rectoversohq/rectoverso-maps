@@ -19,7 +19,7 @@ Choisissez une langue ou installez les deux. Les paquets partagent leurs images 
 
 La sélection suit les 249 codes de pays et territoires officiellement attribués par l’ISO 3166-1 dans la référence conservée. Elle comprend des territoires inhabités : **ce n’est pas une liste de 249 États souverains**. Les noms usuels sont distincts des noms formels de l’ISO. [Lire la convention de couverture et de limites](docs/sources.fr.md), notamment le traitement neutre du Cachemire et d’Abyei.
 
-**État de la version :** `0.2.0-rc.1` est un candidat de revue non publié. Les URL de release dans les métadonnées sont des destinations prévues. Aucune release n’est encore téléchargeable ; la publication des sources et la CI de release restent à faire.
+**État de la version :** `0.2.0-rc.1` est un candidat de revue non publié. Les URL de release dans les métadonnées sont des destinations prévues. Aucune release n’est encore téléchargeable ; la publication des sources reste à faire. Le [workflow de CI Anki](docs/building.fr.md#contrôles-automatiques) est prêt ; sa première exécution GitHub attend cette publication.
 
 ## Construire pour Anki
 

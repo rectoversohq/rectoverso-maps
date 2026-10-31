@@ -60,8 +60,26 @@ PNG conversion gets at most three fresh processes, each with a 60-second limit. 
 
 The current candidate is `0.2.0-rc.1`. Its metadata names the intended tag `v0.2.0-rc.1`; prepared locally for the submodule; no remote tag, release, remote-checkout result or automated CI completion is implied. Packages belong on versioned releases, never in source Git. The original language working trees and Git histories were preserved separately before consolidation.
 
-Deck-source CI is responsible for source checks, Anki checks and rebuild identities. The RectoVerso app repository is responsible for its own import/export compatibility and gallery integration. Its single-submodule migration is tracked in simonpinkas/RectoVerso#633; both workflows remain pending. Anki uses these stored images; the app's Antarctica and dispersed-island live-globe limitations are separate and remain held.
+Deck-source CI is responsible for source checks, Anki checks and rebuild identities. The RectoVerso app repository is responsible for its own import/export compatibility and gallery integration. Its single-submodule migration is tracked in simonpinkas/RectoVerso#633; the source workflow is implemented here, with a separate explicit compatibility workflow in the app repository. Hosted execution awaits source publication and workflow activation. Anki uses these stored images; the app's Antarctica and dispersed-island live-globe limitations are separate and remain held.
 
 ## Gallery validation interface
 
 The app repository first verifies the submodule commit, version tag and clean working tree. It then calls `source_data.inputs(language)` in a separate Python process without writing files. The function returns JSON-serializable `(metadata, notes, model, deck)` values. Expanded metadata must exactly match the declared shared metadata and language entry. Note construction stays in this repository; the app does not duplicate geography logic.
+
+## Automated checks
+
+`.github/workflows/anki.yml` runs **Anki packages** on pull requests, branch pushes and manual requests, on a GitHub-hosted macOS runner with Python 3.14.7. It uses read-only repository permissions and pinned actions. No desktop Anki process, credentials, signing or release token is needed. It never publishes releases.
+
+Run the same pipeline locally with the environment from the README:
+
+```sh
+.venv/bin/python ci.py --output /absolute/path/to/new-ci-output --base FULL_PREVIOUS_COMMIT_SHA
+```
+
+The baseline must exist in the local Git history. CI uses the PR base or previous push commit. A first branch push or manual run without `base` records a null baseline: it certifies a rebuild only. For a manual update check, supply the previous approved source commit as `base`.
+
+The pipeline runs the coverage audit and source/rendering/identity tests, checks existing GUIDs and deck/model/field/template identities against the baseline without executing baseline code, builds both languages twice, validates both builds with Anki, and imports the independent rebuild over scheduled cards. Source additions are reported; removed languages/cards or changed identities fail and require an explicitly designed migration. The ordinary 249-place coverage rule still applies. This protects stable identities across commits; it does not certify every possible historical schema migration.
+
+In Actions, open the run and download `maps-anki-RUN_ID-ATTEMPT`. It contains the first build's two `.apkg` files and sidecars, Anki reports, logs, baseline comparison and `ci.json`. Evidence is retained for 14 days, including available failure logs. A missing or false `passed` in `ci.json` is not a pass. These are test artifacts, not published releases. CI archive hashes describe those new builds; the release metadata continues to describe the exact reviewed release batch.
+
+After approved source publication, enable Actions in the repository settings, allow `actions/checkout`, `actions/setup-python` and `actions/upload-artifact`, and require the **Anki packages** status check in the default branch's ruleset after the first successful run. The workflow must reach the default branch before the manual Run workflow button is available. Ordinary contributions use a branch and PR in this repository. Map artwork changes still need full regeneration and human visual review; Anki CI does not certify map aesthetics or the app's live globe.
