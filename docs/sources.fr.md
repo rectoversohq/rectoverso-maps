@@ -4,7 +4,26 @@
 
 ## Couverture, noms et limites
 
-Tous les codes de cette version sont des codes ISO 3166-1 alpha-3. Les territoires ayant leur propre code ont leur propre contour : la France exclut ses territoires codés séparément mais comprend Clipperton ; la Norvège exclut Svalbard et Jan Mayen ; le Portugal comprend les Açores et Madère ; l’Espagne comprend les Canaries. `source/geography/codebook.json` et `source/geography/geometry-selections.json` exposent chaque sélection. `source/geography/picture-groups.json` regroupe les polygones existants pour les vues détaillées, sans inventer ni découper de littoral.
+La référence reste celle des 249 codes ISO 3166-1 de pays et territoires officiellement attribués. Ce candidat ajoute 39 questions issues de **tous les groupes d’images déjà nommés**. Ce sont des questions d’apprentissage, ni de nouveaux États souverains ni de nouveaux codes ISO. Les GUID et identités de schéma sont conservés. FRA/PRT utilisent leur groupe principal ; les autres entrées ISO composites gardent leur vue d’ensemble. Aucun territoire ISO déjà séparé n’est dupliqué.
+
+`source/geography/regional-questions.json` définit la sélection, les noms et régions bilingues, les codes stables propres au jeu (`rectoverso-maps-regions-v1`) et les empreintes des polygones. Chaque champ régional contient exactement les polygones de son groupe. Leur union retrouve l’ancienne géométrie complète, sans découpe, doublon ni perte. Les encarts sont des images Anki statiques ; aucune interaction n’est ajoutée dans l’app.
+
+| Entrée existante | Nouvelles questions régionales |
+| --- | --- |
+| France | Île de Clipperton |
+| Portugal | Açores, Madère |
+| Svalbard et Jan Mayen | Svalbard, Jan Mayen |
+| Bonaire, Saint-Eustache et Saba | Bonaire, Saint-Eustache, Saba |
+| Îles Heard et McDonald | Île Heard, Îles McDonald |
+| Tokelau | Atafu, Nukunonu, Fakaofo |
+| Sainte-Hélène, Ascension et Tristan da Cunha | Sainte-Hélène, Ascension, Archipel Tristan da Cunha |
+| Géorgie du Sud-et-les Îles Sandwich du Sud | Géorgie du Sud, Îles Sandwich du Sud |
+| Îles Pitcairn | Pitcairn, Henderson, Oeno, Ducie |
+| Terres australes françaises | Îles Kerguelen, Îles Crozet, Amsterdam et Saint-Paul, Îles Glorieuses, Juan de Nova, Europa, Bassas da India, Tromelin |
+| Îles mineures éloignées des États-Unis | Atoll Johnston, Île Jarvis, Île Baker, Île Howland, Atoll Wake, Îles Midway, Île de la Navasse, Atoll Palmyra, Récif Kingman |
+
+La question principale de la France inclut la Corse mais exclut Clipperton ; celle du Portugal exclut les Açores et Madère. Les réponses restent France/Portugal, avec une note de portée explicite. Les autres subdivisions du monde (par exemple les régions éloignées d’Espagne) ne sont pas ajoutées implicitement : elles demandent une définition de groupe examinée séparément. Les indications régionales donnent un contexte géographique, pas une souveraineté.
+
 
 Le jeu applique une convention territoriale documentée, éclairée par des sources de l’ONU, sans approbation de l’ONU ni de l’ISO. L’Ukraine comprend la Crimée ; la Géorgie, l’Abkhazie et l’Ossétie du Sud ; la Serbie, le Kosovo avec une note sur la résolution 1244 ; la Moldavie, la Transnistrie ; la Somalie, le Somaliland ; Chypre, sa partie nord, sans les zones de souveraineté britanniques. Le Maroc exclut tout le territoire géographique du Sahara occidental, qui a sa propre carte ESH. La Syrie comprend le plateau du Golan ; la Palestine comprend Jérusalem-Est. Le contour ne détermine ni la souveraineté ni la reconnaissance.
 

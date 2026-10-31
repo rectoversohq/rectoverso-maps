@@ -4,7 +4,26 @@
 
 ## Coverage, names and boundaries
 
-Every code in this version uses the ISO 3166-1 alpha-3 namespace. Separate ISO territories have separate outlines: France excludes its separately coded territories but includes Clipperton; Norway excludes Svalbard and Jan Mayen; Portugal includes the Azores and Madeira; Spain includes the Canaries. `source/geography/codebook.json` and `source/geography/geometry-selections.json` expose each selection. `source/geography/picture-groups.json` partitions existing polygons into named groups for insets; it never invents or clips coastline.
+The reference remains the 249 officially assigned ISO 3166-1 country/territory codes. This candidate adds 39 regional questions from **all existing named picture groups**. These are learning questions, not extra sovereign countries or new ISO assignments. Existing GUIDs/schema IDs are retained; FRA/PRT now use their core group, while other ISO composites retain their full overview. No already separate ISO territory is duplicated.
+
+`source/geography/regional-questions.json` owns the explicit roster, bilingual names/hints, stable deck-local codes (`rectoverso-maps-regions-v1`) and frozen polygon fingerprints. Every regional field contains precisely its named group's original polygons. The union of the separate questions equals the old complete parent geometry, without clipping, duplication or loss. Insets are static Anki images; no app interaction is added.
+
+| Existing entry | New regional questions |
+| --- | --- |
+| France | Clipperton Island |
+| Portugal | Azores, Madeira |
+| Svalbard and Jan Mayen | Svalbard, Jan Mayen |
+| Bonaire, Sint Eustatius and Saba | Bonaire, Sint Eustatius, Saba |
+| Heard Island and McDonald Islands | Heard Island, McDonald Islands |
+| Tokelau | Atafu, Nukunonu, Fakaofo |
+| Saint Helena, Ascension and Tristan da Cunha | Saint Helena, Ascension, Tristan da Cunha group |
+| South Georgia and the South Sandwich Islands | South Georgia, South Sandwich Islands |
+| Pitcairn Islands | Pitcairn, Henderson, Oeno, Ducie |
+| French Southern Territories | Kerguelen Islands, Crozet Islands, Amsterdam and Saint Paul, Glorioso Islands, Juan de Nova, Europa, Bassas da India, Tromelin |
+| United States Minor Outlying Islands | Johnston Atoll, Jarvis Island, Baker Island, Howland Island, Wake Atoll, Midway Islands, Navassa Island, Palmyra Atoll, Kingman Reef |
+
+France’s primary question includes Corsica but excludes Clipperton; Portugal’s primary question excludes the Azores and Madeira. Their answers remain France/Portugal, with explicit scope notes. Other worldwide subdivisions (for example Spain’s outlying geography) are not silently added by this rule; they require a separately reviewed named-group definition. Region hints identify geographic context, never sovereignty.
+
 
 The deck uses a documented territorial convention informed by UN sources, not an endorsement by the UN or ISO. Ukraine includes Crimea; Georgia includes Abkhazia and South Ossetia; Serbia includes Kosovo with a resolution 1244 status note; Moldova includes Transnistria; Somalia includes Somaliland; Cyprus includes northern Cyprus and excludes the British Sovereign Base Areas. Morocco excludes the whole Western Sahara geographic territory, which has its own ESH card. Syria includes the Golan Heights; Palestine includes East Jerusalem. The outline does not determine sovereignty or recognition.
 

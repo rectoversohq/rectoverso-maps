@@ -1,0 +1,1257 @@
+{
+  "schemaVersion": 1,
+  "approved": "2026-11-01",
+  "rule": "Promote every existing named picture group into a quiz card, reusing the FRA/PRT core card; retain other ISO composite overviews. This is not a general administrative-subdivision roster.",
+  "sourceIssue": "https://github.com/rectoversohq/rectoverso-maps/issues/4",
+  "baselineVersion": "0.2.0-rc.2",
+  "namespace": "rectoverso-maps-regions-v1",
+  "isoCount": 249,
+  "supplementaryCount": 39,
+  "totalCount": 288,
+  "coreGroups": {
+    "FRA": 0,
+    "PRT": 0
+  },
+  "parentGeometry": {
+    "FRA": {
+      "polygons": [
+        "2194d618a032a28e44afcd6ab532629a28cd81fc5aca94415e144b404cd670aa",
+        "3cf77cb1314ea20dac9fdc1417f4bf898a1a79fc205e3a1816f53cb15982da96",
+        "47fc0b3f6df3f2e612ab57c6f8036b4e3781dffb80e309a1a8ba5bd3994bf263",
+        "51bfefb7b2e594dda68cc4d77b39826aaa1cd4df48c68565d9ba668e7af5d9ff",
+        "64e2c94cbee32b3d5db5a03a68738ce1171cadd86d4914a779ee83c5b3d1648d",
+        "8edddebc547a2f27d28b2dfe92a7ffe954e07e9655d59db4777b1caef7a9faec",
+        "9f4bac98056654cdee288c610b7d2babedaa51346dc0298fae734aec6cc0adb5",
+        "b46d4c720b03f50c854f87321f69fa86b3136f18147a34569bec27a9920776bf",
+        "b51752de19fcfffe8a997340641bb0152b27d2ced13fc474ccc780c3d63a2216",
+        "b77f585fdcc69282ebeffa1b8ba362d03ca5d2d1f56d2d2f8732d2762311f7ab",
+        "c33625bf3f352faa4a5fe0568e3ff22347810d57c31c32eee93fee6a204fecfb"
+      ],
+      "groups": [
+        [
+          "3cf77cb1314ea20dac9fdc1417f4bf898a1a79fc205e3a1816f53cb15982da96",
+          "47fc0b3f6df3f2e612ab57c6f8036b4e3781dffb80e309a1a8ba5bd3994bf263",
+          "51bfefb7b2e594dda68cc4d77b39826aaa1cd4df48c68565d9ba668e7af5d9ff",
+          "64e2c94cbee32b3d5db5a03a68738ce1171cadd86d4914a779ee83c5b3d1648d",
+          "8edddebc547a2f27d28b2dfe92a7ffe954e07e9655d59db4777b1caef7a9faec",
+          "9f4bac98056654cdee288c610b7d2babedaa51346dc0298fae734aec6cc0adb5",
+          "b46d4c720b03f50c854f87321f69fa86b3136f18147a34569bec27a9920776bf",
+          "b51752de19fcfffe8a997340641bb0152b27d2ced13fc474ccc780c3d63a2216",
+          "b77f585fdcc69282ebeffa1b8ba362d03ca5d2d1f56d2d2f8732d2762311f7ab",
+          "c33625bf3f352faa4a5fe0568e3ff22347810d57c31c32eee93fee6a204fecfb"
+        ],
+        [
+          "2194d618a032a28e44afcd6ab532629a28cd81fc5aca94415e144b404cd670aa"
+        ]
+      ]
+    },
+    "PRT": {
+      "polygons": [
+        "1858e53a4c109895f8cfd89d3ef197a065b65da5ffae2a225d0ec1a86a548ab4",
+        "20a1b9949ec00f2a27ae84e760da02d7994cfd5738a2e47580aa72eeb53c2364",
+        "2c4f1cc9e4e6a45030f7db36e0b4453724a55ca0351b1f9eae7afa4407f72ce4",
+        "3025a14017dcbc2870aa6a53f1fa939b24b6c617b12a476239ae4bebf8aacdfb",
+        "3a8f6100346b814747af6da5f0544281e044ae539e21e42d2b776d799ff46044",
+        "490c59a42032d90505c5646d5715457f83e6ebad9d4ac6c8735a2222a24734dd",
+        "4dc7deac24085704aa5ad6420a73d0c51354f649b6e83d1f0fefbb8c67d6b0fe",
+        "5c5128fdb741cdb7b2687bc9d895a26e362e03aa550d9abdf9ff438b08992d1f",
+        "78f46d84c2fd0dbced7515eacb8528de40a936f9b16836c8a21e19abe6ef356b",
+        "80fdba6aeb4038eb218bb2ff99b0f59f77c0cb8e866674aaa791ec8fc00929b2",
+        "893d4d8c73dd9bfc1a40e1b2131ee8d833ad2c9626b5f694d76c875ac3db27af",
+        "8f866f8b5c612475551af16d5babf9d6df95677c601cc9d881173cba72ba50c9",
+        "8f92d9e13f9d1ad42019ed0512153235ab91c93dc4951773c49b5d9fcf8f7505",
+        "91b509536384114cb600a688da9ff063ef7b42361e583a6e78420bfcba2265ca",
+        "b2fbdaf5b305a89d6b4bec6ddd0eb1ad5be83e60ae6cca132f93abfc720eaaf0",
+        "ebd176735278cd9e6780af9058129b8b43d5baec247ce224d6512e0ca50b3de2",
+        "fe30589aeb06b195d00067c5d3693a9f38811f8a5fc7ec19ba784c0bd83bf251"
+      ],
+      "groups": [
+        [
+          "4dc7deac24085704aa5ad6420a73d0c51354f649b6e83d1f0fefbb8c67d6b0fe",
+          "80fdba6aeb4038eb218bb2ff99b0f59f77c0cb8e866674aaa791ec8fc00929b2",
+          "8f866f8b5c612475551af16d5babf9d6df95677c601cc9d881173cba72ba50c9"
+        ],
+        [
+          "1858e53a4c109895f8cfd89d3ef197a065b65da5ffae2a225d0ec1a86a548ab4",
+          "20a1b9949ec00f2a27ae84e760da02d7994cfd5738a2e47580aa72eeb53c2364",
+          "3a8f6100346b814747af6da5f0544281e044ae539e21e42d2b776d799ff46044",
+          "490c59a42032d90505c5646d5715457f83e6ebad9d4ac6c8735a2222a24734dd",
+          "5c5128fdb741cdb7b2687bc9d895a26e362e03aa550d9abdf9ff438b08992d1f",
+          "78f46d84c2fd0dbced7515eacb8528de40a936f9b16836c8a21e19abe6ef356b",
+          "91b509536384114cb600a688da9ff063ef7b42361e583a6e78420bfcba2265ca",
+          "b2fbdaf5b305a89d6b4bec6ddd0eb1ad5be83e60ae6cca132f93abfc720eaaf0",
+          "fe30589aeb06b195d00067c5d3693a9f38811f8a5fc7ec19ba784c0bd83bf251"
+        ],
+        [
+          "2c4f1cc9e4e6a45030f7db36e0b4453724a55ca0351b1f9eae7afa4407f72ce4",
+          "3025a14017dcbc2870aa6a53f1fa939b24b6c617b12a476239ae4bebf8aacdfb",
+          "893d4d8c73dd9bfc1a40e1b2131ee8d833ad2c9626b5f694d76c875ac3db27af",
+          "8f92d9e13f9d1ad42019ed0512153235ab91c93dc4951773c49b5d9fcf8f7505",
+          "ebd176735278cd9e6780af9058129b8b43d5baec247ce224d6512e0ca50b3de2"
+        ]
+      ]
+    },
+    "SJM": {
+      "polygons": [
+        "0193ac677fc99250fda5f68a7d2a4e1adf7813e6c68dcf3088faa71f8441fde8",
+        "06df9fd91bd5dc24e03914f17bb86342a5f920f313cf7193db8af3f17fabddae",
+        "18df23c34e5b7cebf1a73bad7fd3dc31ed602890f118dda9d421ea5e4992d55d",
+        "19a40efd05ed6f265868b1de4d63e43066b104dfcbbc9a3dd155b3bb1406ff0d",
+        "1bd9ca7eae8e568e04b0c85b41e62adca2317a5ec706b72badfa8bfd4c3e8b0c",
+        "26ae8086ab8f28f74752f393c38c18d20963b50386d25257529e06fc7d1ba61d",
+        "2a50bb16072f5b3afd633671d374b9e6d0243a66609d6d6ed3e4171d27b54ba8",
+        "4775e4747c7080e3096d5dadcf017719a8e07f111d3d003cdb23930d70b88659",
+        "5ef5c7a6c11cc32a8b18e99a18c514a743299767020525aea6ae71aa548b19eb",
+        "608eb5763debb49826be2a04d0366fc941c76774177e592e0e8e758222369ab0",
+        "6cab924ab5fa1e508bbc6d89626fd92063f9bdc72799b29d141b6c9549bded8d",
+        "75b1eefa4f98fd06895265f01b81b75cb7be16b86139c110349c077d72411f0c",
+        "7ebc7df18a4cb381b70d17d168e528c0dab73b1149d749168fcd8a20341451f8",
+        "838f8ca380f9c757dfec6ff71ed561aa5fd1272bf861f4b0ed3a5544383d093e",
+        "9b8abb18eba425e5b8123e7f484022637c8976660f04d292a87d08518e825efb",
+        "a7f436a5ac64703c8162efd5bcad2516a21dc81d8dff902ff7d053558688a0b3",
+        "ab2e5cef74575a79da594f463f030c19372bca88bcc49f7b60141a1ff38bf879",
+        "adc72cd80ce4cd148b058dfbab52b043d201e39834ac776ce91ba5a3cb89b517",
+        "beac25fa335b91d41374c53077b04713a0011269c89571af2f346f0b4d44fd07",
+        "d92599a12b109151f5c77097fa07838b3c65174a8a2198e6ff18601ee012a484",
+        "ebaf28d2074865e00d4224e5073f3e20fa5d36dcfa5cd5cf40bcbe8b926153ea",
+        "f4e053c78751516364ca6166f6d40414f97aa9ec2497eebe46fd134eb5f9e6fd",
+        "faa6b3e42b9bba399f197dfd541d4edb079e201f139137d239e5d748a25a7232"
+      ],
+      "groups": [
+        [
+          "0193ac677fc99250fda5f68a7d2a4e1adf7813e6c68dcf3088faa71f8441fde8",
+          "06df9fd91bd5dc24e03914f17bb86342a5f920f313cf7193db8af3f17fabddae",
+          "18df23c34e5b7cebf1a73bad7fd3dc31ed602890f118dda9d421ea5e4992d55d",
+          "19a40efd05ed6f265868b1de4d63e43066b104dfcbbc9a3dd155b3bb1406ff0d",
+          "1bd9ca7eae8e568e04b0c85b41e62adca2317a5ec706b72badfa8bfd4c3e8b0c",
+          "26ae8086ab8f28f74752f393c38c18d20963b50386d25257529e06fc7d1ba61d",
+          "2a50bb16072f5b3afd633671d374b9e6d0243a66609d6d6ed3e4171d27b54ba8",
+          "4775e4747c7080e3096d5dadcf017719a8e07f111d3d003cdb23930d70b88659",
+          "5ef5c7a6c11cc32a8b18e99a18c514a743299767020525aea6ae71aa548b19eb",
+          "608eb5763debb49826be2a04d0366fc941c76774177e592e0e8e758222369ab0",
+          "6cab924ab5fa1e508bbc6d89626fd92063f9bdc72799b29d141b6c9549bded8d",
+          "75b1eefa4f98fd06895265f01b81b75cb7be16b86139c110349c077d72411f0c",
+          "7ebc7df18a4cb381b70d17d168e528c0dab73b1149d749168fcd8a20341451f8",
+          "9b8abb18eba425e5b8123e7f484022637c8976660f04d292a87d08518e825efb",
+          "a7f436a5ac64703c8162efd5bcad2516a21dc81d8dff902ff7d053558688a0b3",
+          "ab2e5cef74575a79da594f463f030c19372bca88bcc49f7b60141a1ff38bf879",
+          "adc72cd80ce4cd148b058dfbab52b043d201e39834ac776ce91ba5a3cb89b517",
+          "beac25fa335b91d41374c53077b04713a0011269c89571af2f346f0b4d44fd07",
+          "d92599a12b109151f5c77097fa07838b3c65174a8a2198e6ff18601ee012a484",
+          "ebaf28d2074865e00d4224e5073f3e20fa5d36dcfa5cd5cf40bcbe8b926153ea",
+          "f4e053c78751516364ca6166f6d40414f97aa9ec2497eebe46fd134eb5f9e6fd",
+          "faa6b3e42b9bba399f197dfd541d4edb079e201f139137d239e5d748a25a7232"
+        ],
+        [
+          "838f8ca380f9c757dfec6ff71ed561aa5fd1272bf861f4b0ed3a5544383d093e"
+        ]
+      ]
+    },
+    "BES": {
+      "polygons": [
+        "184edc678edfe8ba3ddadc5160b4232946fbb6f5fb0ad815f6a902f501c25634",
+        "91207a45a5a5ce76d9f38ec15558649486e60bdf74da40c80ea3add46f7df805",
+        "b5f211ad8ff7f4f40e44b3d52a47c17f5983cdbad2bfa5338b94b4dd3f62c66a"
+      ],
+      "groups": [
+        [
+          "91207a45a5a5ce76d9f38ec15558649486e60bdf74da40c80ea3add46f7df805"
+        ],
+        [
+          "184edc678edfe8ba3ddadc5160b4232946fbb6f5fb0ad815f6a902f501c25634"
+        ],
+        [
+          "b5f211ad8ff7f4f40e44b3d52a47c17f5983cdbad2bfa5338b94b4dd3f62c66a"
+        ]
+      ]
+    },
+    "HMD": {
+      "polygons": [
+        "0cafc06707610c013f958c3f80bb181a5c1e873b675bdfc7a86c17618270c566",
+        "12e60e4da4faf5940fd9a883cbfdda9983c9cc924d70d058f07cfa52c96a07f2",
+        "138e66ae1c4333b02302660519e7d2af1fbe1c01de0741001b312eff8b0c8044",
+        "16ae025a01e28fee088b3d9a6384e746fc2f3c81ffc3f358fa8f01fbf84755d8",
+        "16faf0555913ee815fd616a8a6cb08b03b8f0c7ed3a748d1ec4a2c6eb35ded6d",
+        "176591390c2bf372325070c43bd36661ee57ee93c9d767041c0c73740b6f6e19",
+        "17b0104b4771942bf8c6b8438672c84cc9d08b1b7f8d530fb4274782f41b1f73",
+        "183de7c458f441ce3ddc93bbe1067c683ed7ddc0f830ee7b6ea5fb9ad19facfd",
+        "2502e28ae1e52798248f479bcf39b90b8b9f9af484c27fa7af921ae008156dc3",
+        "27b0d30d85282026d5db1c337a0c54134e8d005916c25ff858bf4a7b80891505",
+        "2be1781f59e78dbc08a26881752e98d207dfb2095db2e966473b9d4cef594bb2",
+        "2c38f78873870e6e62072347584101b29b354ead184c387d9314961cca73ff07",
+        "300227a9a32144edb3b3521ffc5c3eb679a8746639a39ef8e49574d71ddea8a4",
+        "3207e7b55fd962b484d35a644bf2a76f5cba8e0e328d4e1f91b912c2cbebff60",
+        "32893415f57870e35c86a617b5bf1a16b14d15c0131bb48ebe08a1608a9014aa",
+        "32caafe2f206bfcac27b255e4fd657e9efc4938df46c5fb62d2d96743b1cf1ef",
+        "338e4f9214199caf2234c564de3c3fb6d6dc19f1c4c0eca85812c95e6ef42464",
+        "3425afb3b1e4a0dd35a25726bd3358f9c23cca1eabbef9ce74fc1d830da5a79a",
+        "3465a42a78f59edc51575ea8be482c0567a92a48bfe4a9883169df10a3e410a7",
+        "3790d54929b9d725d1bf2f16acc2518480a56bab3d3dbc193a104ebd268b0e59",
+        "3cb0be6a734f836db9fcbb28fec00ae59027c7720de1c8ad8264db7488242f30",
+        "3ce01672769cd14bb6972b0656f82982f8dbbd9f7eb98f91d0a32b8033c30604",
+        "3f1e85498abfd4fc971bd1b85519c0dd306fded266aab3073248834fa6625ccf",
+        "426a93813da99288c1756d3c31194e0e502bba79fd755c782f0c5a12619b127d",
+        "428535fd8d76e02a7230cc15f943a706eabf5a40121701924228dbac166281fc",
+        "42aac45bac591875e6daa0862a4dac752fc0cd5ffe57840369db372ff651fe61",
+        "450ad35e4a5fc9f5d6b92cc4459bbdee81ea0473ff68e80d9d457fe067e7b9ae",
+        "4ab1a788ad255dc1fac4b0aeae78cc71b1aabbbfa493f075f9ee2838098286b3",
+        "4e9f61a1a643a4e888be1663d2195c42295aa8064a4434827fa3355de9872d7f",
+        "50b9fb508b0bb02fadf6ae2d4732ca058590be3371e33296544c9b2f275330ed",
+        "50f91da0aa917982e6b19bffd9f40ec81421a9a92b71abd1aab3613bcddd5c03",
+        "619b65b292f0c8970811ba997b26bf2e69730b1ae38a87365d63abe16ee8c24a",
+        "630bd584807d58956ef1d99399a4a064406dcd0eac89413b8f4dc725eada29c9",
+        "6480cd35951a739a1d69d385afa2d3163b50bf0cf072c1b43c74f72f12cbf649",
+        "684e12232eec44103c9efa29a7ae9ffcf1adbb81e2b99e9168ca04d4b299e8f2",
+        "6d91cf0d5d6ea3a6a411eb6e87acab30de7bf3a2a9172552230218990eba7ef1",
+        "6f51f6b31925cb153210871dbce541d1dc7f2feb52b4d736c5979aa7827670a9",
+        "7218a4ae9402475d11c1e78a65c0e4580f2a0d8a129a6e588b1393fa8b96a960",
+        "74dd0c88d22cff29341afaee1990cab282e340c6791b2b454a711257107d7866",
+        "767a090453ff6351e850da3c85efd76b36e1ec704ea6faac03ae9900dbfd37ad",
+        "7a0c6c0db04576bc886ff9b2a5ceb8d8241d1e2c774ac0b08e95acefb7616b3c",
+        "817d90af956895bbfbfeda09878afb75cdd6d73ef297df160d24ba154651462b",
+        "8c8e25a47b29c8df66da5f8ddb0ba9354cedc203c80933df10db2c2535e492b9",
+        "8ed6a88fd0d7dca672fd4c9b83f19fe8690f12be845371e714f55f4a4fb4b1cf",
+        "91715e79ce2e8d812960870b5e8d672f1d951b5ebc28c33b6cb23588021e123c",
+        "933b32621e2d7a054f450a6802405ce386052eb4c5aa68c45e403b92efa326fb",
+        "94ae17be51cf9d4110fd7de539dc4e4ce402b724e92e24e4a2b9c98e25c77189",
+        "99619229d466c03b171c2dd241566193ee29ebe7f63511dafbee7a40b6cc4b6d",
+        "9bce61a4160e44b9dceb3c7079400ddd77a222d593b18441923960a213a2b2f9",
+        "9c2e11781bf74d741d252f44cb874f73bceae98bf4938db3557a7f8367993bfe",
+        "a017690535456949641ea6290911a402b6f592078f44fc04ed0fb674924cbd21",
+        "a065a2c2b293a6a954abf6ff053c8b4635d23312f67a02ac88ee94f51dba1f02",
+        "a6aa8dff32fd0889f506d41c0902d6c522fb45dcea5b028c45b24c27e1366594",
+        "a80037a5214150f61719c0598134c9e3d16a260910a16f818f723d2bc16787cf",
+        "aca277dfc969164baa7a657875f0e4eb53f12e942bbb690fc2349738a38a9192",
+        "ba94d41890f6da4297d6ee957e84c8f7d60f728078a7f0f40467ffad6bf3dad4",
+        "bfc8539e49e430c8aa90422d55b2be493e35d7002df9ac47522ece633a867650",
+        "c22422ec019e53eaa806c1959f343c9240d19c03d0882a3f569127618e37c4ad",
+        "c3b401ad021eb821b88fdefdbd850a22f3cc66dc4ff086b53bbd46b3ef2c9f33",
+        "c3d4730b3eafccedbfd5ab3c76830926d62cff84bbe0aed2d43bf6a9a92f32ae",
+        "cd2be2746127360f0e7a646be4736f5d8842145b56de6baf53d0bff86b2c591f",
+        "cf1f9f8456a7cd2cfbdfe5e0b6221a168bf78798dd20b98c07b1f494531a98b5",
+        "d11ca3e1e5e986d0a96b0beac22327a3fd291fca13d2f557eccf769aa151b8b3",
+        "e10c80d37c04d08b1fb1a63936958b5e714f04363a19ed23ef87fc48f4ca1cb5",
+        "e1ef9fb5a38ae0b43345c9d4b2b4047791e24132d76a072538c45be1d1fb4ebf",
+        "e39b02af0d3b69af51d4402e719f5fbaac546552bed1554bb721633a6b974929",
+        "ed916c9195f8f92a04ceb9d6e4cb0fda9c755852d68180b10ead20dd027eacc4",
+        "f04f46f43f9a90ede8140c333f4917b6bceda39e1594a62312ff11fc1ca0c926",
+        "f1a687e99b0a427266dda99e9b471e7abff197bc0540cbcaf26c6f2e46cda983",
+        "f2a0706eb20cb7ee927669cd85772182560a6c7469e22e2bff80a974be3caf40",
+        "f892871b1f26f05edb0c6b19e5431533bb13990b21b75a7a98dc44e75737ab77",
+        "f8e1ccf3e19d916f3f4fe5316ab71fba391040b1f2601954cc60ccfd5e6357dc",
+        "f91bde9cb84e8f1135ec140698016b4ce902faeae67590e5e567429b3afa8c28",
+        "fa279eede1bfacd508ce4c6500fa6b13643dff24dc680f73bbf103e6cb1bab40",
+        "ff0785fcc9d87f0219574451b986ab77ebbf492b94b1eed657c9df30ca10649e",
+        "ff4daa20f548c7f193911273400ec30ecfd6476acc0913157a27180ac24d81f1"
+      ],
+      "groups": [
+        [
+          "300227a9a32144edb3b3521ffc5c3eb679a8746639a39ef8e49574d71ddea8a4"
+        ],
+        [
+          "0cafc06707610c013f958c3f80bb181a5c1e873b675bdfc7a86c17618270c566",
+          "12e60e4da4faf5940fd9a883cbfdda9983c9cc924d70d058f07cfa52c96a07f2",
+          "138e66ae1c4333b02302660519e7d2af1fbe1c01de0741001b312eff8b0c8044",
+          "16ae025a01e28fee088b3d9a6384e746fc2f3c81ffc3f358fa8f01fbf84755d8",
+          "16faf0555913ee815fd616a8a6cb08b03b8f0c7ed3a748d1ec4a2c6eb35ded6d",
+          "176591390c2bf372325070c43bd36661ee57ee93c9d767041c0c73740b6f6e19",
+          "17b0104b4771942bf8c6b8438672c84cc9d08b1b7f8d530fb4274782f41b1f73",
+          "183de7c458f441ce3ddc93bbe1067c683ed7ddc0f830ee7b6ea5fb9ad19facfd",
+          "2502e28ae1e52798248f479bcf39b90b8b9f9af484c27fa7af921ae008156dc3",
+          "27b0d30d85282026d5db1c337a0c54134e8d005916c25ff858bf4a7b80891505",
+          "2be1781f59e78dbc08a26881752e98d207dfb2095db2e966473b9d4cef594bb2",
+          "2c38f78873870e6e62072347584101b29b354ead184c387d9314961cca73ff07",
+          "3207e7b55fd962b484d35a644bf2a76f5cba8e0e328d4e1f91b912c2cbebff60",
+          "32893415f57870e35c86a617b5bf1a16b14d15c0131bb48ebe08a1608a9014aa",
+          "32caafe2f206bfcac27b255e4fd657e9efc4938df46c5fb62d2d96743b1cf1ef",
+          "338e4f9214199caf2234c564de3c3fb6d6dc19f1c4c0eca85812c95e6ef42464",
+          "3425afb3b1e4a0dd35a25726bd3358f9c23cca1eabbef9ce74fc1d830da5a79a",
+          "3465a42a78f59edc51575ea8be482c0567a92a48bfe4a9883169df10a3e410a7",
+          "3790d54929b9d725d1bf2f16acc2518480a56bab3d3dbc193a104ebd268b0e59",
+          "3cb0be6a734f836db9fcbb28fec00ae59027c7720de1c8ad8264db7488242f30",
+          "3ce01672769cd14bb6972b0656f82982f8dbbd9f7eb98f91d0a32b8033c30604",
+          "3f1e85498abfd4fc971bd1b85519c0dd306fded266aab3073248834fa6625ccf",
+          "426a93813da99288c1756d3c31194e0e502bba79fd755c782f0c5a12619b127d",
+          "428535fd8d76e02a7230cc15f943a706eabf5a40121701924228dbac166281fc",
+          "42aac45bac591875e6daa0862a4dac752fc0cd5ffe57840369db372ff651fe61",
+          "450ad35e4a5fc9f5d6b92cc4459bbdee81ea0473ff68e80d9d457fe067e7b9ae",
+          "4ab1a788ad255dc1fac4b0aeae78cc71b1aabbbfa493f075f9ee2838098286b3",
+          "4e9f61a1a643a4e888be1663d2195c42295aa8064a4434827fa3355de9872d7f",
+          "50b9fb508b0bb02fadf6ae2d4732ca058590be3371e33296544c9b2f275330ed",
+          "50f91da0aa917982e6b19bffd9f40ec81421a9a92b71abd1aab3613bcddd5c03",
+          "619b65b292f0c8970811ba997b26bf2e69730b1ae38a87365d63abe16ee8c24a",
+          "630bd584807d58956ef1d99399a4a064406dcd0eac89413b8f4dc725eada29c9",
+          "6480cd35951a739a1d69d385afa2d3163b50bf0cf072c1b43c74f72f12cbf649",
+          "684e12232eec44103c9efa29a7ae9ffcf1adbb81e2b99e9168ca04d4b299e8f2",
+          "6d91cf0d5d6ea3a6a411eb6e87acab30de7bf3a2a9172552230218990eba7ef1",
+          "6f51f6b31925cb153210871dbce541d1dc7f2feb52b4d736c5979aa7827670a9",
+          "7218a4ae9402475d11c1e78a65c0e4580f2a0d8a129a6e588b1393fa8b96a960",
+          "74dd0c88d22cff29341afaee1990cab282e340c6791b2b454a711257107d7866",
+          "767a090453ff6351e850da3c85efd76b36e1ec704ea6faac03ae9900dbfd37ad",
+          "7a0c6c0db04576bc886ff9b2a5ceb8d8241d1e2c774ac0b08e95acefb7616b3c",
+          "817d90af956895bbfbfeda09878afb75cdd6d73ef297df160d24ba154651462b",
+          "8c8e25a47b29c8df66da5f8ddb0ba9354cedc203c80933df10db2c2535e492b9",
+          "8ed6a88fd0d7dca672fd4c9b83f19fe8690f12be845371e714f55f4a4fb4b1cf",
+          "91715e79ce2e8d812960870b5e8d672f1d951b5ebc28c33b6cb23588021e123c",
+          "933b32621e2d7a054f450a6802405ce386052eb4c5aa68c45e403b92efa326fb",
+          "94ae17be51cf9d4110fd7de539dc4e4ce402b724e92e24e4a2b9c98e25c77189",
+          "99619229d466c03b171c2dd241566193ee29ebe7f63511dafbee7a40b6cc4b6d",
+          "9bce61a4160e44b9dceb3c7079400ddd77a222d593b18441923960a213a2b2f9",
+          "9c2e11781bf74d741d252f44cb874f73bceae98bf4938db3557a7f8367993bfe",
+          "a017690535456949641ea6290911a402b6f592078f44fc04ed0fb674924cbd21",
+          "a065a2c2b293a6a954abf6ff053c8b4635d23312f67a02ac88ee94f51dba1f02",
+          "a6aa8dff32fd0889f506d41c0902d6c522fb45dcea5b028c45b24c27e1366594",
+          "a80037a5214150f61719c0598134c9e3d16a260910a16f818f723d2bc16787cf",
+          "aca277dfc969164baa7a657875f0e4eb53f12e942bbb690fc2349738a38a9192",
+          "ba94d41890f6da4297d6ee957e84c8f7d60f728078a7f0f40467ffad6bf3dad4",
+          "bfc8539e49e430c8aa90422d55b2be493e35d7002df9ac47522ece633a867650",
+          "c22422ec019e53eaa806c1959f343c9240d19c03d0882a3f569127618e37c4ad",
+          "c3b401ad021eb821b88fdefdbd850a22f3cc66dc4ff086b53bbd46b3ef2c9f33",
+          "c3d4730b3eafccedbfd5ab3c76830926d62cff84bbe0aed2d43bf6a9a92f32ae",
+          "cd2be2746127360f0e7a646be4736f5d8842145b56de6baf53d0bff86b2c591f",
+          "cf1f9f8456a7cd2cfbdfe5e0b6221a168bf78798dd20b98c07b1f494531a98b5",
+          "d11ca3e1e5e986d0a96b0beac22327a3fd291fca13d2f557eccf769aa151b8b3",
+          "e10c80d37c04d08b1fb1a63936958b5e714f04363a19ed23ef87fc48f4ca1cb5",
+          "e1ef9fb5a38ae0b43345c9d4b2b4047791e24132d76a072538c45be1d1fb4ebf",
+          "e39b02af0d3b69af51d4402e719f5fbaac546552bed1554bb721633a6b974929",
+          "ed916c9195f8f92a04ceb9d6e4cb0fda9c755852d68180b10ead20dd027eacc4",
+          "f04f46f43f9a90ede8140c333f4917b6bceda39e1594a62312ff11fc1ca0c926",
+          "f1a687e99b0a427266dda99e9b471e7abff197bc0540cbcaf26c6f2e46cda983",
+          "f2a0706eb20cb7ee927669cd85772182560a6c7469e22e2bff80a974be3caf40",
+          "f892871b1f26f05edb0c6b19e5431533bb13990b21b75a7a98dc44e75737ab77",
+          "f8e1ccf3e19d916f3f4fe5316ab71fba391040b1f2601954cc60ccfd5e6357dc",
+          "f91bde9cb84e8f1135ec140698016b4ce902faeae67590e5e567429b3afa8c28",
+          "fa279eede1bfacd508ce4c6500fa6b13643dff24dc680f73bbf103e6cb1bab40",
+          "ff0785fcc9d87f0219574451b986ab77ebbf492b94b1eed657c9df30ca10649e",
+          "ff4daa20f548c7f193911273400ec30ecfd6476acc0913157a27180ac24d81f1"
+        ]
+      ]
+    },
+    "TKL": {
+      "polygons": [
+        "0918aff8f3255688deae0e5a026457cffa9022983ffefb9fdd5e1a672283b407",
+        "14c498a77ad8662804819c2fd7fc7dd06721f4c3af585aeccbb05f6ec0fbb4c6",
+        "258ce6ba53fafcdb65d731e02607335c221cae85fc927304956a4ade5ec3f0a2",
+        "836db35f267b158a2891b7e9f4ed773a8af228eebdcb0986dddc389732b82191",
+        "94e80544c316c48acd03aa641437b19a571faa572d58b61b2f482a23085ad7df",
+        "e70819629c20c6f6197966811a6c73f4c75a3357a9cc35c9047c05d75ee7deb1"
+      ],
+      "groups": [
+        [
+          "258ce6ba53fafcdb65d731e02607335c221cae85fc927304956a4ade5ec3f0a2"
+        ],
+        [
+          "836db35f267b158a2891b7e9f4ed773a8af228eebdcb0986dddc389732b82191",
+          "e70819629c20c6f6197966811a6c73f4c75a3357a9cc35c9047c05d75ee7deb1"
+        ],
+        [
+          "0918aff8f3255688deae0e5a026457cffa9022983ffefb9fdd5e1a672283b407",
+          "14c498a77ad8662804819c2fd7fc7dd06721f4c3af585aeccbb05f6ec0fbb4c6",
+          "94e80544c316c48acd03aa641437b19a571faa572d58b61b2f482a23085ad7df"
+        ]
+      ]
+    },
+    "SHN": {
+      "polygons": [
+        "17d75e13b542acd06e668f32f58a85948d4aaf358036a60a4aad6ac4191a9cc9",
+        "61252da3fbbbf968ec117dc70c4e1033c35f26fb9a08673cb47a8e5842a8d057",
+        "62a70fbccb866cd29eefad0735e51ea436d8575ec4d6584face41fe8ffc5b250",
+        "6b86b6c0c62efc3bb9b62c6c99387145e438e01a3d0380972cff7252242cd1da"
+      ],
+      "groups": [
+        [
+          "61252da3fbbbf968ec117dc70c4e1033c35f26fb9a08673cb47a8e5842a8d057"
+        ],
+        [
+          "62a70fbccb866cd29eefad0735e51ea436d8575ec4d6584face41fe8ffc5b250"
+        ],
+        [
+          "17d75e13b542acd06e668f32f58a85948d4aaf358036a60a4aad6ac4191a9cc9",
+          "6b86b6c0c62efc3bb9b62c6c99387145e438e01a3d0380972cff7252242cd1da"
+        ]
+      ]
+    },
+    "SGS": {
+      "polygons": [
+        "02ac09fbe93dbaba8f7fa02ce5ac7c56e7315b1d00505bc806e93d016fb887e0",
+        "11a74145f87d23cf9bc0036649d005d4b0ec6d3fdfd0235664470c25bd682d8d",
+        "253aad91ff4132d71e21df40e3f532ec46cb7ef765aa5116fa096969cf36c366",
+        "5c8d1e9eca85d089328350f6bd43d1070ed8901c450f6d883918171767f09740",
+        "5e9576603ea1b257bde623c7f69990da1415fab925c70edcce49c33985692195",
+        "6a20d294069c25e6d6f845844e2969757579369020c288ab5a2177e27cc821f0",
+        "75becdb8a4a338c255bdeca1d1b53bbff7a4773c422748b0541ab3097eddc15b",
+        "78e5541fde6c904047e9b4ffe2324fb44f5b486f149ca6d529dfaf4bcaa241e5",
+        "959ac97d72232ef8ebd17fcc92bc34f0d42760309232569e6febfb64fdd6b9bd",
+        "98aada408d6700ba8826cd4f0f0799e53d999db6fa6db60166c9705103eba5a6",
+        "a84d7857112b274aa08544f3811dd98395607634f7d9f94e642d2e846f184e60",
+        "a9210607233d96c5781a79a9334b97c7410fcb3db3936e299d78a1a62fea9514",
+        "ab98ba9c58827d90b11cf167542448c5c9810cac4e61d2ac30dff96c87539b89",
+        "b41d8f2ac405e563623dbdf037de009080ccc836b6c46ac0ce22098ba8df68eb",
+        "ceac98ca788609549d83aeb5989b5beb1930efdcd209124aaadef8237628fef9",
+        "ef97413b3d0a267b46f99c7da3b4eb2177ee4cef7de1730adc9c33a786f96a25",
+        "fd4668581e54e99a55cfe13744f89d1329a32af723890933719357efc2b497be"
+      ],
+      "groups": [
+        [
+          "02ac09fbe93dbaba8f7fa02ce5ac7c56e7315b1d00505bc806e93d016fb887e0",
+          "11a74145f87d23cf9bc0036649d005d4b0ec6d3fdfd0235664470c25bd682d8d",
+          "5e9576603ea1b257bde623c7f69990da1415fab925c70edcce49c33985692195",
+          "78e5541fde6c904047e9b4ffe2324fb44f5b486f149ca6d529dfaf4bcaa241e5",
+          "a84d7857112b274aa08544f3811dd98395607634f7d9f94e642d2e846f184e60",
+          "b41d8f2ac405e563623dbdf037de009080ccc836b6c46ac0ce22098ba8df68eb",
+          "ceac98ca788609549d83aeb5989b5beb1930efdcd209124aaadef8237628fef9",
+          "fd4668581e54e99a55cfe13744f89d1329a32af723890933719357efc2b497be"
+        ],
+        [
+          "253aad91ff4132d71e21df40e3f532ec46cb7ef765aa5116fa096969cf36c366",
+          "5c8d1e9eca85d089328350f6bd43d1070ed8901c450f6d883918171767f09740",
+          "6a20d294069c25e6d6f845844e2969757579369020c288ab5a2177e27cc821f0",
+          "75becdb8a4a338c255bdeca1d1b53bbff7a4773c422748b0541ab3097eddc15b",
+          "959ac97d72232ef8ebd17fcc92bc34f0d42760309232569e6febfb64fdd6b9bd",
+          "98aada408d6700ba8826cd4f0f0799e53d999db6fa6db60166c9705103eba5a6",
+          "a9210607233d96c5781a79a9334b97c7410fcb3db3936e299d78a1a62fea9514",
+          "ab98ba9c58827d90b11cf167542448c5c9810cac4e61d2ac30dff96c87539b89",
+          "ef97413b3d0a267b46f99c7da3b4eb2177ee4cef7de1730adc9c33a786f96a25"
+        ]
+      ]
+    },
+    "PCN": {
+      "polygons": [
+        "17345f5adcc0428da5cf0148f2001548044abea9ead5e060a46bbaff7933e1c1",
+        "3d9dd3fd61df25abb2ce97ee404544f4bae21a8374f868fc0d0e8e81f84ce535",
+        "40fa637b1d9ca5fb76c9ab1bcb889d09ec3aff353776a70d16a9b0e930509ce5",
+        "445627586f8bef92775b1d5f379e572c634e6fcbce9bcbf03317b3626348f6f8"
+      ],
+      "groups": [
+        [
+          "3d9dd3fd61df25abb2ce97ee404544f4bae21a8374f868fc0d0e8e81f84ce535"
+        ],
+        [
+          "17345f5adcc0428da5cf0148f2001548044abea9ead5e060a46bbaff7933e1c1"
+        ],
+        [
+          "445627586f8bef92775b1d5f379e572c634e6fcbce9bcbf03317b3626348f6f8"
+        ],
+        [
+          "40fa637b1d9ca5fb76c9ab1bcb889d09ec3aff353776a70d16a9b0e930509ce5"
+        ]
+      ]
+    },
+    "ATF": {
+      "polygons": [
+        "0f574cde218b2cf7c59b8c3e2382d21b2086403747a65ffff5d191733fef0d98",
+        "14e9208207c1d6f0c5dd5e7916531fac07ddc0c7c4d62986ec6cce2710389849",
+        "17d1dd33a96794117b5be9c72953c6fabedc0aa99a91e253788664291ffb1e54",
+        "4e005a94098a57f40673626bb66b679ca54207fd454c60ac4714d1a57e387f65",
+        "5adab0476891241c76a31a08ffbaa98a5aa1cec28d7fc56543360957684def75",
+        "6a667e4e9b89afa837eb34e6d673f7dee6e2654471891ff9e9bb93be192bb34f",
+        "7688d746f188fc6d6a1788814c0bfe8910b1d1b7cd506f23398c442c36a318ce",
+        "7793869ea92719de21595865cac61b5fca89d895c8db7ca31cd81fb52e1cf06e",
+        "7e6459317b52d685b9b68b8e05ceb02e0d9d96a7e26b9f558479a805244b8920",
+        "8c1932f53ff320e275868e3325b548ca9bfc7408e1e690aa1d56188c40e1b208",
+        "8d5f340ac5e539f819470461adc8cf5e4dfe4f8060d28788408999f57d41e847",
+        "8f4270aeeb6ab603ff24950c254fa44598857a1a65781265e73e26f6fb3c08bb",
+        "a93e029c279cc085ab22c1b069f22c1cbd4afc63051ab2112a683b44dc312371",
+        "b4953ae1e19ec3a3c86abf6eb88e9acb39b0dfba9a0f65c0670dd700e5a0360c",
+        "c660fa8b8252b70b3946d84919af69f9ba4f2d2dbae04e62be06d7a6a0c1c67c",
+        "c674d8367b6ac254b9a136d3ac16088fe2c56c0938c9e6264c6a4fc8a3393486",
+        "cfa6b0ba67e8a579133b7b0e9cb2d9aacc57be13756965e3b7a2016df9e55026",
+        "e22fcabbab901bff34f1e8433549165e5715bbf8b00bdab3941708063cee2aa1",
+        "e6800e7773ce8b2358efc27dcdd354abfbb9fb958928cd15abbb579aa8e76540",
+        "f6bad74df1edb3837b6280c1181c240c346ad81f3aeed1b80034fe0cadd5fa2f"
+      ],
+      "groups": [
+        [
+          "17d1dd33a96794117b5be9c72953c6fabedc0aa99a91e253788664291ffb1e54",
+          "4e005a94098a57f40673626bb66b679ca54207fd454c60ac4714d1a57e387f65",
+          "5adab0476891241c76a31a08ffbaa98a5aa1cec28d7fc56543360957684def75",
+          "7688d746f188fc6d6a1788814c0bfe8910b1d1b7cd506f23398c442c36a318ce",
+          "7793869ea92719de21595865cac61b5fca89d895c8db7ca31cd81fb52e1cf06e",
+          "8f4270aeeb6ab603ff24950c254fa44598857a1a65781265e73e26f6fb3c08bb",
+          "a93e029c279cc085ab22c1b069f22c1cbd4afc63051ab2112a683b44dc312371",
+          "cfa6b0ba67e8a579133b7b0e9cb2d9aacc57be13756965e3b7a2016df9e55026",
+          "e6800e7773ce8b2358efc27dcdd354abfbb9fb958928cd15abbb579aa8e76540"
+        ],
+        [
+          "14e9208207c1d6f0c5dd5e7916531fac07ddc0c7c4d62986ec6cce2710389849",
+          "8d5f340ac5e539f819470461adc8cf5e4dfe4f8060d28788408999f57d41e847"
+        ],
+        [
+          "0f574cde218b2cf7c59b8c3e2382d21b2086403747a65ffff5d191733fef0d98",
+          "c674d8367b6ac254b9a136d3ac16088fe2c56c0938c9e6264c6a4fc8a3393486"
+        ],
+        [
+          "b4953ae1e19ec3a3c86abf6eb88e9acb39b0dfba9a0f65c0670dd700e5a0360c"
+        ],
+        [
+          "8c1932f53ff320e275868e3325b548ca9bfc7408e1e690aa1d56188c40e1b208"
+        ],
+        [
+          "e22fcabbab901bff34f1e8433549165e5715bbf8b00bdab3941708063cee2aa1"
+        ],
+        [
+          "6a667e4e9b89afa837eb34e6d673f7dee6e2654471891ff9e9bb93be192bb34f",
+          "7e6459317b52d685b9b68b8e05ceb02e0d9d96a7e26b9f558479a805244b8920",
+          "c660fa8b8252b70b3946d84919af69f9ba4f2d2dbae04e62be06d7a6a0c1c67c"
+        ],
+        [
+          "f6bad74df1edb3837b6280c1181c240c346ad81f3aeed1b80034fe0cadd5fa2f"
+        ]
+      ]
+    },
+    "UMI": {
+      "polygons": [
+        "0f76a3839cbbf81223923bcbef788ac93995f8de315009009c9ab1d3ce3c40d1",
+        "1326aba684b51eb9a5be034c56e54dc9c8514270ee0d97e261eeea8cc1777f6c",
+        "304420bb2f26ff19ed036cfdd43546f6331e0286bfe3c4853afb1cc39ea8c850",
+        "5f181f6d7d0e84155908d0cf3ffe946ab53203713bba70d980406ffe7ffc65a8",
+        "77b0e9ea2775d054240750a534323af1677991ad9d8e8b70014921f69f4e0662",
+        "7b4424cdf5a9acaa5b4cf681fa6aa9ca4d60ce8e8e4e09943bba4a9d445ff3be",
+        "8b87220a16734eb09c6128cd90ae9d8e326e70ed1c8e5a3f21ce2aeebf9c0811",
+        "adfa6f2328289c179b785216d551890b6045d6fe42e77252ac994b3e83a256e3",
+        "ae0967c15f08449a07366ff634d5b2985b3f663f4a7111e660ded73a8d5563e9",
+        "bdb8c852c4d31a4d0505ae9f12e6d5e674a8a8ab8fef70fd830956808f1b2037",
+        "d7dfa6124c650fe576eefcf6d2248b6f0dff02b40088caee95325599dca70c97",
+        "da5072b79ec87aabde547df1815cdc2c453c622d4fb35d87f2c35d630a054ade",
+        "ea3bff1551408a7064bc9d7725d8ced116f89a5af2d945b9487e8e62fa19f041"
+      ],
+      "groups": [
+        [
+          "8b87220a16734eb09c6128cd90ae9d8e326e70ed1c8e5a3f21ce2aeebf9c0811",
+          "bdb8c852c4d31a4d0505ae9f12e6d5e674a8a8ab8fef70fd830956808f1b2037",
+          "d7dfa6124c650fe576eefcf6d2248b6f0dff02b40088caee95325599dca70c97"
+        ],
+        [
+          "da5072b79ec87aabde547df1815cdc2c453c622d4fb35d87f2c35d630a054ade"
+        ],
+        [
+          "5f181f6d7d0e84155908d0cf3ffe946ab53203713bba70d980406ffe7ffc65a8",
+          "77b0e9ea2775d054240750a534323af1677991ad9d8e8b70014921f69f4e0662"
+        ],
+        [
+          "adfa6f2328289c179b785216d551890b6045d6fe42e77252ac994b3e83a256e3"
+        ],
+        [
+          "0f76a3839cbbf81223923bcbef788ac93995f8de315009009c9ab1d3ce3c40d1"
+        ],
+        [
+          "7b4424cdf5a9acaa5b4cf681fa6aa9ca4d60ce8e8e4e09943bba4a9d445ff3be",
+          "ae0967c15f08449a07366ff634d5b2985b3f663f4a7111e660ded73a8d5563e9"
+        ],
+        [
+          "304420bb2f26ff19ed036cfdd43546f6331e0286bfe3c4853afb1cc39ea8c850"
+        ],
+        [
+          "1326aba684b51eb9a5be034c56e54dc9c8514270ee0d97e261eeea8cc1777f6c"
+        ],
+        [
+          "ea3bff1551408a7064bc9d7725d8ced116f89a5af2d945b9487e8e62fa19f041"
+        ]
+      ]
+    }
+  },
+  "questions": [
+    {
+      "code": "MAPS-FRA-CLIPPERTON-ISLAND",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "FRA",
+      "groupIndex": 1,
+      "name": {
+        "en": "Clipperton Island",
+        "fr": "Île de Clipperton"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-fra-clipperton-island",
+        "fr": "rv-map-fr-maps-fra-clipperton-island"
+      },
+      "regionHint": {
+        "en": "Eastern Pacific",
+        "fr": "Pacifique oriental"
+      }
+    },
+    {
+      "code": "MAPS-PRT-AZORES",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "PRT",
+      "groupIndex": 1,
+      "name": {
+        "en": "Azores",
+        "fr": "Açores"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-prt-azores",
+        "fr": "rv-map-fr-maps-prt-azores"
+      },
+      "regionHint": {
+        "en": "North Atlantic",
+        "fr": "Atlantique Nord"
+      }
+    },
+    {
+      "code": "MAPS-PRT-MADEIRA",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "PRT",
+      "groupIndex": 2,
+      "name": {
+        "en": "Madeira",
+        "fr": "Madère"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-prt-madeira",
+        "fr": "rv-map-fr-maps-prt-madeira"
+      },
+      "regionHint": {
+        "en": "North Atlantic",
+        "fr": "Atlantique Nord"
+      }
+    },
+    {
+      "code": "MAPS-SJM-SVALBARD",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "SJM",
+      "groupIndex": 0,
+      "name": {
+        "en": "Svalbard",
+        "fr": "Svalbard"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-sjm-svalbard",
+        "fr": "rv-map-fr-maps-sjm-svalbard"
+      },
+      "regionHint": {
+        "en": "Arctic",
+        "fr": "Arctique"
+      }
+    },
+    {
+      "code": "MAPS-SJM-JAN-MAYEN",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "SJM",
+      "groupIndex": 1,
+      "name": {
+        "en": "Jan Mayen",
+        "fr": "Jan Mayen"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-sjm-jan-mayen",
+        "fr": "rv-map-fr-maps-sjm-jan-mayen"
+      },
+      "regionHint": {
+        "en": "Arctic",
+        "fr": "Arctique"
+      }
+    },
+    {
+      "code": "MAPS-BES-BONAIRE",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "BES",
+      "groupIndex": 0,
+      "name": {
+        "en": "Bonaire",
+        "fr": "Bonaire"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-bes-bonaire",
+        "fr": "rv-map-fr-maps-bes-bonaire"
+      },
+      "regionHint": {
+        "en": "Caribbean",
+        "fr": "Caraïbes"
+      }
+    },
+    {
+      "code": "MAPS-BES-SINT-EUSTATIUS",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "BES",
+      "groupIndex": 1,
+      "name": {
+        "en": "Sint Eustatius",
+        "fr": "Saint-Eustache"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-bes-sint-eustatius",
+        "fr": "rv-map-fr-maps-bes-sint-eustatius"
+      },
+      "regionHint": {
+        "en": "Caribbean",
+        "fr": "Caraïbes"
+      }
+    },
+    {
+      "code": "MAPS-BES-SABA",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "BES",
+      "groupIndex": 2,
+      "name": {
+        "en": "Saba",
+        "fr": "Saba"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-bes-saba",
+        "fr": "rv-map-fr-maps-bes-saba"
+      },
+      "regionHint": {
+        "en": "Caribbean",
+        "fr": "Caraïbes"
+      }
+    },
+    {
+      "code": "MAPS-HMD-HEARD-ISLAND",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "HMD",
+      "groupIndex": 0,
+      "name": {
+        "en": "Heard Island",
+        "fr": "Île Heard"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-hmd-heard-island",
+        "fr": "rv-map-fr-maps-hmd-heard-island"
+      },
+      "regionHint": {
+        "en": "Southern Indian Ocean",
+        "fr": "Sud de l’océan Indien"
+      }
+    },
+    {
+      "code": "MAPS-HMD-MCDONALD-ISLANDS",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "HMD",
+      "groupIndex": 1,
+      "name": {
+        "en": "McDonald Islands",
+        "fr": "Îles McDonald"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-hmd-mcdonald-islands",
+        "fr": "rv-map-fr-maps-hmd-mcdonald-islands"
+      },
+      "regionHint": {
+        "en": "Southern Indian Ocean",
+        "fr": "Sud de l’océan Indien"
+      }
+    },
+    {
+      "code": "MAPS-TKL-ATAFU",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "TKL",
+      "groupIndex": 0,
+      "name": {
+        "en": "Atafu",
+        "fr": "Atafu"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-tkl-atafu",
+        "fr": "rv-map-fr-maps-tkl-atafu"
+      },
+      "regionHint": {
+        "en": "Polynesia",
+        "fr": "Polynésie"
+      }
+    },
+    {
+      "code": "MAPS-TKL-NUKUNONU",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "TKL",
+      "groupIndex": 1,
+      "name": {
+        "en": "Nukunonu",
+        "fr": "Nukunonu"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-tkl-nukunonu",
+        "fr": "rv-map-fr-maps-tkl-nukunonu"
+      },
+      "regionHint": {
+        "en": "Polynesia",
+        "fr": "Polynésie"
+      }
+    },
+    {
+      "code": "MAPS-TKL-FAKAOFO",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "TKL",
+      "groupIndex": 2,
+      "name": {
+        "en": "Fakaofo",
+        "fr": "Fakaofo"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-tkl-fakaofo",
+        "fr": "rv-map-fr-maps-tkl-fakaofo"
+      },
+      "regionHint": {
+        "en": "Polynesia",
+        "fr": "Polynésie"
+      }
+    },
+    {
+      "code": "MAPS-SHN-SAINT-HELENA",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "SHN",
+      "groupIndex": 0,
+      "name": {
+        "en": "Saint Helena",
+        "fr": "Sainte-Hélène"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-shn-saint-helena",
+        "fr": "rv-map-fr-maps-shn-saint-helena"
+      },
+      "regionHint": {
+        "en": "South Atlantic",
+        "fr": "Atlantique Sud"
+      }
+    },
+    {
+      "code": "MAPS-SHN-ASCENSION",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "SHN",
+      "groupIndex": 1,
+      "name": {
+        "en": "Ascension",
+        "fr": "Ascension"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-shn-ascension",
+        "fr": "rv-map-fr-maps-shn-ascension"
+      },
+      "regionHint": {
+        "en": "South Atlantic",
+        "fr": "Atlantique Sud"
+      }
+    },
+    {
+      "code": "MAPS-SHN-TRISTAN-DA-CUNHA-GROUP",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "SHN",
+      "groupIndex": 2,
+      "name": {
+        "en": "Tristan da Cunha group",
+        "fr": "Archipel Tristan da Cunha"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-shn-tristan-da-cunha-group",
+        "fr": "rv-map-fr-maps-shn-tristan-da-cunha-group"
+      },
+      "regionHint": {
+        "en": "South Atlantic",
+        "fr": "Atlantique Sud"
+      }
+    },
+    {
+      "code": "MAPS-SGS-SOUTH-GEORGIA",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "SGS",
+      "groupIndex": 0,
+      "name": {
+        "en": "South Georgia",
+        "fr": "Géorgie du Sud"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-sgs-south-georgia",
+        "fr": "rv-map-fr-maps-sgs-south-georgia"
+      },
+      "regionHint": {
+        "en": "South Atlantic",
+        "fr": "Atlantique Sud"
+      }
+    },
+    {
+      "code": "MAPS-SGS-SOUTH-SANDWICH-ISLANDS",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "SGS",
+      "groupIndex": 1,
+      "name": {
+        "en": "South Sandwich Islands",
+        "fr": "Îles Sandwich du Sud"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-sgs-south-sandwich-islands",
+        "fr": "rv-map-fr-maps-sgs-south-sandwich-islands"
+      },
+      "regionHint": {
+        "en": "South Atlantic",
+        "fr": "Atlantique Sud"
+      }
+    },
+    {
+      "code": "MAPS-PCN-PITCAIRN",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "PCN",
+      "groupIndex": 0,
+      "name": {
+        "en": "Pitcairn",
+        "fr": "Pitcairn"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-pcn-pitcairn",
+        "fr": "rv-map-fr-maps-pcn-pitcairn"
+      },
+      "regionHint": {
+        "en": "South Pacific",
+        "fr": "Pacifique Sud"
+      }
+    },
+    {
+      "code": "MAPS-PCN-HENDERSON",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "PCN",
+      "groupIndex": 1,
+      "name": {
+        "en": "Henderson",
+        "fr": "Henderson"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-pcn-henderson",
+        "fr": "rv-map-fr-maps-pcn-henderson"
+      },
+      "regionHint": {
+        "en": "South Pacific",
+        "fr": "Pacifique Sud"
+      }
+    },
+    {
+      "code": "MAPS-PCN-OENO",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "PCN",
+      "groupIndex": 2,
+      "name": {
+        "en": "Oeno",
+        "fr": "Oeno"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-pcn-oeno",
+        "fr": "rv-map-fr-maps-pcn-oeno"
+      },
+      "regionHint": {
+        "en": "South Pacific",
+        "fr": "Pacifique Sud"
+      }
+    },
+    {
+      "code": "MAPS-PCN-DUCIE",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "PCN",
+      "groupIndex": 3,
+      "name": {
+        "en": "Ducie",
+        "fr": "Ducie"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-pcn-ducie",
+        "fr": "rv-map-fr-maps-pcn-ducie"
+      },
+      "regionHint": {
+        "en": "South Pacific",
+        "fr": "Pacifique Sud"
+      }
+    },
+    {
+      "code": "MAPS-ATF-KERGUELEN-ISLANDS",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "ATF",
+      "groupIndex": 0,
+      "name": {
+        "en": "Kerguelen Islands",
+        "fr": "Îles Kerguelen"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-atf-kerguelen-islands",
+        "fr": "rv-map-fr-maps-atf-kerguelen-islands"
+      },
+      "regionHint": {
+        "en": "Indian Ocean",
+        "fr": "Océan Indien"
+      }
+    },
+    {
+      "code": "MAPS-ATF-CROZET-ISLANDS",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "ATF",
+      "groupIndex": 1,
+      "name": {
+        "en": "Crozet Islands",
+        "fr": "Îles Crozet"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-atf-crozet-islands",
+        "fr": "rv-map-fr-maps-atf-crozet-islands"
+      },
+      "regionHint": {
+        "en": "Indian Ocean",
+        "fr": "Océan Indien"
+      }
+    },
+    {
+      "code": "MAPS-ATF-AMSTERDAM-AND-SAINT-PAUL",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "ATF",
+      "groupIndex": 2,
+      "name": {
+        "en": "Amsterdam and Saint Paul",
+        "fr": "Amsterdam et Saint-Paul"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-atf-amsterdam-and-saint-paul",
+        "fr": "rv-map-fr-maps-atf-amsterdam-and-saint-paul"
+      },
+      "regionHint": {
+        "en": "Indian Ocean",
+        "fr": "Océan Indien"
+      }
+    },
+    {
+      "code": "MAPS-ATF-GLORIOSO-ISLANDS",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "ATF",
+      "groupIndex": 3,
+      "name": {
+        "en": "Glorioso Islands",
+        "fr": "Îles Glorieuses"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-atf-glorioso-islands",
+        "fr": "rv-map-fr-maps-atf-glorioso-islands"
+      },
+      "regionHint": {
+        "en": "Indian Ocean",
+        "fr": "Océan Indien"
+      }
+    },
+    {
+      "code": "MAPS-ATF-JUAN-DE-NOVA",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "ATF",
+      "groupIndex": 4,
+      "name": {
+        "en": "Juan de Nova",
+        "fr": "Juan de Nova"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-atf-juan-de-nova",
+        "fr": "rv-map-fr-maps-atf-juan-de-nova"
+      },
+      "regionHint": {
+        "en": "Indian Ocean",
+        "fr": "Océan Indien"
+      }
+    },
+    {
+      "code": "MAPS-ATF-EUROPA",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "ATF",
+      "groupIndex": 5,
+      "name": {
+        "en": "Europa",
+        "fr": "Europa"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-atf-europa",
+        "fr": "rv-map-fr-maps-atf-europa"
+      },
+      "regionHint": {
+        "en": "Indian Ocean",
+        "fr": "Océan Indien"
+      }
+    },
+    {
+      "code": "MAPS-ATF-BASSAS-DA-INDIA",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "ATF",
+      "groupIndex": 6,
+      "name": {
+        "en": "Bassas da India",
+        "fr": "Bassas da India"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-atf-bassas-da-india",
+        "fr": "rv-map-fr-maps-atf-bassas-da-india"
+      },
+      "regionHint": {
+        "en": "Indian Ocean",
+        "fr": "Océan Indien"
+      }
+    },
+    {
+      "code": "MAPS-ATF-TROMELIN",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "ATF",
+      "groupIndex": 7,
+      "name": {
+        "en": "Tromelin",
+        "fr": "Tromelin"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-atf-tromelin",
+        "fr": "rv-map-fr-maps-atf-tromelin"
+      },
+      "regionHint": {
+        "en": "Indian Ocean",
+        "fr": "Océan Indien"
+      }
+    },
+    {
+      "code": "MAPS-UMI-JOHNSTON-ATOLL",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "UMI",
+      "groupIndex": 0,
+      "name": {
+        "en": "Johnston Atoll",
+        "fr": "Atoll Johnston"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-umi-johnston-atoll",
+        "fr": "rv-map-fr-maps-umi-johnston-atoll"
+      },
+      "regionHint": {
+        "en": "Pacific Ocean",
+        "fr": "Océan Pacifique"
+      }
+    },
+    {
+      "code": "MAPS-UMI-JARVIS-ISLAND",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "UMI",
+      "groupIndex": 1,
+      "name": {
+        "en": "Jarvis Island",
+        "fr": "Île Jarvis"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-umi-jarvis-island",
+        "fr": "rv-map-fr-maps-umi-jarvis-island"
+      },
+      "regionHint": {
+        "en": "Pacific Ocean",
+        "fr": "Océan Pacifique"
+      }
+    },
+    {
+      "code": "MAPS-UMI-BAKER-ISLAND",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "UMI",
+      "groupIndex": 2,
+      "name": {
+        "en": "Baker Island",
+        "fr": "Île Baker"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-umi-baker-island",
+        "fr": "rv-map-fr-maps-umi-baker-island"
+      },
+      "regionHint": {
+        "en": "Pacific Ocean",
+        "fr": "Océan Pacifique"
+      }
+    },
+    {
+      "code": "MAPS-UMI-HOWLAND-ISLAND",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "UMI",
+      "groupIndex": 3,
+      "name": {
+        "en": "Howland Island",
+        "fr": "Île Howland"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-umi-howland-island",
+        "fr": "rv-map-fr-maps-umi-howland-island"
+      },
+      "regionHint": {
+        "en": "Pacific Ocean",
+        "fr": "Océan Pacifique"
+      }
+    },
+    {
+      "code": "MAPS-UMI-WAKE-ATOLL",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "UMI",
+      "groupIndex": 4,
+      "name": {
+        "en": "Wake Atoll",
+        "fr": "Atoll Wake"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-umi-wake-atoll",
+        "fr": "rv-map-fr-maps-umi-wake-atoll"
+      },
+      "regionHint": {
+        "en": "Pacific Ocean",
+        "fr": "Océan Pacifique"
+      }
+    },
+    {
+      "code": "MAPS-UMI-MIDWAY-ISLANDS",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "UMI",
+      "groupIndex": 5,
+      "name": {
+        "en": "Midway Islands",
+        "fr": "Îles Midway"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-umi-midway-islands",
+        "fr": "rv-map-fr-maps-umi-midway-islands"
+      },
+      "regionHint": {
+        "en": "Pacific Ocean",
+        "fr": "Océan Pacifique"
+      }
+    },
+    {
+      "code": "MAPS-UMI-NAVASSA-ISLAND",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "UMI",
+      "groupIndex": 6,
+      "name": {
+        "en": "Navassa Island",
+        "fr": "Île de la Navasse"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-umi-navassa-island",
+        "fr": "rv-map-fr-maps-umi-navassa-island"
+      },
+      "regionHint": {
+        "en": "Caribbean",
+        "fr": "Caraïbes"
+      }
+    },
+    {
+      "code": "MAPS-UMI-PALMYRA-ATOLL",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "UMI",
+      "groupIndex": 7,
+      "name": {
+        "en": "Palmyra Atoll",
+        "fr": "Atoll Palmyra"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-umi-palmyra-atoll",
+        "fr": "rv-map-fr-maps-umi-palmyra-atoll"
+      },
+      "regionHint": {
+        "en": "Pacific Ocean",
+        "fr": "Océan Pacifique"
+      }
+    },
+    {
+      "code": "MAPS-UMI-KINGMAN-REEF",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "parentCode": "UMI",
+      "groupIndex": 8,
+      "name": {
+        "en": "Kingman Reef",
+        "fr": "Récif Kingman"
+      },
+      "guid": {
+        "en": "rv-map-en-maps-umi-kingman-reef",
+        "fr": "rv-map-fr-maps-umi-kingman-reef"
+      },
+      "regionHint": {
+        "en": "Pacific Ocean",
+        "fr": "Océan Pacifique"
+      }
+    }
+  ]
+}

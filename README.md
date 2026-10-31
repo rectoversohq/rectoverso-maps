@@ -1,6 +1,6 @@
 # Maps / Cartes
 
-**Recognize a place. Learn its name.** 249 countries and territories, in English or French, for Anki.
+**Recognize a place. Learn its name.** 288 map questions: countries, territories and named regions, in English or French, for Anki.
 
 [Français](README.fr.md) · [Build the decks](#build-for-anki) · [Sources and boundaries](docs/sources.md) · [CC BY 4.0](LICENSE)
 
@@ -12,14 +12,14 @@
 
 | Language | Deck in Anki | Cards | Built file |
 | --- | --- | ---: | --- |
-| English | Maps | 249 | `Maps-en-249.apkg` |
-| Français | Cartes | 249 | `Cartes-fr-249.apkg` |
+| English | Maps | 288 | `Maps-en-288.apkg` |
+| Français | Cartes | 288 | `Cartes-fr-288.apkg` |
 
 Choose either language, or install both. The two packages share their artwork and geometry, with separate note identities so reviews stay independent. Each includes every picture; no RectoVerso account or app is needed to study in Anki.
 
-Coverage follows the 249 officially assigned ISO 3166-1 country and territory codes in the recorded reference. It includes uninhabited territories and is **not a list of 249 sovereign states**. Common learner names are separate from formal ISO names. [Read the coverage and boundary convention](docs/sources.md), including the neutral treatment of Kashmir and Abyei.
+This source candidate retains all **249 ISO country/territory card identities** and adds **39 named regional questions**, for **288 cards per language**. France and Portugal now ask their metropolitan/mainland geography, with separate outlying-region questions; other composite ISO entries retain their overview and gain individual regional questions. This is **not a list of 288 countries**. The extra regions use explicit deck-local codes, not invented ISO codes. Common learner names are separate from formal ISO names. [Read the coverage and boundary convention](docs/sources.md), including the neutral treatment of Kashmir and Abyei.
 
-**Release status:** [0.2.0-rc.2 is available as a prerelease](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.2.0-rc.2), with an English and a French Anki package. Download the `.apkg` for your language, or build it from source below. The release notes include exact checksums and validation details. The published version tags are immutable; this README update changes no deck content.
+**Development candidate:** this branch builds **0.3.0-rc.1 (288 cards)**; it is **not published**. The latest downloadable release remains [0.2.0-rc.2 (249 cards)](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.2.0-rc.2), with an English and a French Anki package. Download that published `.apkg` for the existing 249-card deck, or build this source to review the 288-card candidate. The release notes include exact checksums and validation details. Published tags and release assets remain immutable. Updating from rc.2 keeps existing note identities and review progress; 39 new questions are added.
 
 ## Build for Anki
 
@@ -35,6 +35,8 @@ cd rectoverso-maps
 python3.14 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 ```
+
+While the 288-card candidate is under review, check out `codex/4-regional-cards` after cloning and before creating the environment. The default branch still describes the published 249-card deck until this PR merges. Run `git switch codex/4-regional-cards`; confirm `rectoverso.json` says `0.3.0-rc.1` and `288` cards before building.
 
 Build both languages into a **new directory outside the checkout**. The source tree includes large SVG originals; use a disk with room for the checkout, packages and temporary build files. Replace the example output path with one on your data drive:
 

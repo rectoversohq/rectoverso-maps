@@ -76,5 +76,49 @@ class MultilingualSourceTests(unittest.TestCase):
             self.check()
 
 
+    def test_missing_supplementary_group_is_rejected(self):
+        self.edit('source/geography/coverage.json', lambda value: value['supplementaryEntries'].pop())
+        with self.assertRaisesRegex(ValueError, 'Supplementary'):
+            self.check()
+
+    def test_regional_code_cannot_claim_iso_namespace(self):
+        self.edit('source/geography/regional-questions.json', lambda value: value['questions'][0].update(codeNamespace='ISO-3166-1-alpha3'))
+        with self.assertRaisesRegex(ValueError, 'regional identity'):
+            self.check()
+
+    def test_changed_regional_name_is_rejected(self):
+        def change(value):
+            next(row for row in value if row.get('parentCode'))['name']['en'] = 'Wrong island'
+        self.edit('source/places.json', change)
+        with self.assertRaisesRegex(ValueError, 'approved regional source'):
+            self.check()
+
+    def test_swapping_regional_geometries_is_rejected(self):
+        def swap(value):
+            first, second = [row for row in value if row.get('parentCode') == 'PRT']
+            import json
+            a, b = json.loads(first['field']), json.loads(second['field'])
+            a['outline'], b['outline'] = b['outline'], a['outline']
+            first['field'], second['field'] = json.dumps(a), json.dumps(b)
+        self.edit('source/places.json', swap)
+        with self.assertRaisesRegex(ValueError, 'named source group'):
+            self.check()
+
+    def test_lost_core_polygon_is_rejected(self):
+        def remove(value):
+            import json
+            row = next(row for row in value if row['code'] == 'FRA')
+            field = json.loads(row['field']);field['outline']['coordinates'].pop()
+            row['field'] = json.dumps(field)
+        self.edit('source/places.json', remove)
+        with self.assertRaisesRegex(ValueError, 'named source group'):
+            self.check()
+
+    def test_total_question_count_is_not_iso_count(self):
+        self.edit('source/geography/coverage.json', lambda value: value.update(referenceCount=288))
+        with self.assertRaisesRegex(ValueError, 'Coverage count'):
+            self.check()
+
+
 if __name__ == '__main__':
     unittest.main()

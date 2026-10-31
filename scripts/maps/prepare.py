@@ -1,15 +1,18 @@
-"""Prepare explicit ISO-entry geometry from frozen sources and approved selections.
+"""Prepare ISO questions and approved named-region questions from frozen geometry.
 
-Requires pinned Shapely. Pending policy rows are rejected unless explicitly
-excluded for incomplete visual review; that review cannot be a complete package.
+Regional questions partition whole source polygons, never clipping coastlines.
 """
 import argparse
 import hashlib
 import json
 from pathlib import Path
+import sys
 from shapely import make_valid, union_all
 from shapely.geometry import shape, mapping, MultiPolygon
 from shapely.geometry.polygon import orient
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from regions import entries as regional_entries, polygon_fingerprints
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -26,6 +29,26 @@ def polygons(geometry):
     return []
 
 
+def joined(parts):
+    return parts[0] if len(parts) == 1 else MultiPolygon(parts)
+
+
+def grouped_indices(parts, groups):
+    assigned, indices = set(), []
+    for group in groups:
+        west, south, east, north = group['bounds']
+        current = [i for i, part in enumerate(parts)
+                   if west <= part.representative_point().x <= east
+                   and south <= part.representative_point().y <= north]
+        if not current or assigned.intersection(current):
+            raise ValueError(f'Empty or overlapping picture group {group}')
+        assigned.update(current)
+        indices.append(current)
+    if groups and len(assigned) != len(parts):
+        raise ValueError(f'Picture groups omit {len(parts)-len(assigned)} polygons')
+    return indices
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('sources', type=Path)
@@ -35,6 +58,8 @@ def main():
     coverage = read(ROOT / 'source/geography/coverage.json')
     selections = read(ROOT / 'source/geography/geometry-selections.json')
     picture_groups = read(ROOT / 'source/geography/picture-groups.json')
+    regional = read(ROOT / 'source/geography/regional-questions.json')
+    extra = regional_entries(regional, picture_groups)
     entries = coverage['entries']
     assert len(entries) == len({p['code'] for p in entries}) == coverage['referenceCount']
     assert set(selections) == {p['code'] for p in entries}
@@ -62,7 +87,34 @@ def main():
             raise ValueError(f'No source feature for {selection}')
         return matches
 
-    places, features, audits = [], [], []
+    places, features, audits, prepared_regions, partition_audit = [], [], [], [], []
+
+    def emit(entry, parts, field_parts, region, source, views=(), scope=None, repairs=(), context=None):
+        geometry, field_geometry = joined(parts), joined(field_parts)
+        if not geometry.is_valid or not field_geometry.is_valid:
+            raise ValueError(f'{entry["code"]}: invalid question geometry')
+        is_region = 'parentCode' in entry
+        place = dict(entry, region=region,
+                     rosters=['maps-named-regions-v1'] if is_region else ['iso-countries-territories-249'],
+                     geometry_source=source, review={'provisional_names': False,
+                     'authoritativeRegistryVerified': False if is_region else coverage['authoritativeRegistryVerified']})
+        if scope:
+            place['questionScope'] = scope
+        if source.get('answerNote'):
+            place['answerNote'] = source['answerNote']
+        if views:
+            place['pictureGroups'] = [dict(v['properties'], polygons=len(polygons(shape(v['geometry'])))) for v in views]
+        properties = {'code': entry['code'], 'name': entry['name']['en'], 'region': region,
+                      'pictureGroups': list(views), 'fieldOutline': mapping(field_geometry)}
+        if is_region:
+            properties.update(parentCode=entry['parentCode'], wholeQuestion=True, regionalContext=context)
+        places.append(place)
+        features.append({'type': 'Feature', 'properties': properties, 'geometry': mapping(geometry)})
+        audits.append({'code': entry['code'], 'polygons': len(parts), 'bounds': list(geometry.bounds),
+                       'valid': True, 'fieldPolygons': len(field_parts), 'fieldValid': True,
+                       'fieldHausdorffDegrees': geometry.hausdorff_distance(field_geometry),
+                       'repairs': list(repairs), 'selection': source})
+
     for entry in entries:
         code = entry['code']
         if code in pending:
@@ -88,63 +140,59 @@ def main():
         if not parts or not geometry.is_valid:
             raise ValueError(f'{code}: empty or invalid prepared geometry')
         parts = [orient(part, sign=-1) for part in parts]
-        geometry = parts[0] if len(parts) == 1 else MultiPolygon(parts)
-        # Keep small-island shape and topology. The maximum tolerance is about
-        # 2 km at the equator; small polygons use a much finer relative tolerance.
+        # Simplify the complete original once. Every child takes identical whole field
+        # polygons; it must not introduce another tolerance or fallback decision.
         field_parts = []
         for part in parts:
             x0, y0, x1, y1 = part.bounds
             tolerance = min(0.02, max(x1-x0, y1-y0) / 200)
             field_parts.append(orient(part.simplify(tolerance, preserve_topology=True), sign=-1))
-        field_geometry = field_parts[0] if len(field_parts) == 1 else MultiPolygon(field_parts)
-        if not field_geometry.is_valid:
-            # Keep exact source topology rather than silently repair a simplified result.
-            field_geometry = geometry
+        if not joined(field_parts).is_valid:
+            field_parts = parts
         region = included[0]['properties'].get('SUBREGION')
         if not region:
             raise ValueError(f'{code}: missing region')
-        place = dict(entry, region=region, rosters=['iso-countries-territories-249'],
-                     geometry_source=record, review={'provisional_names': False,
-                     'authoritativeRegistryVerified': coverage['authoritativeRegistryVerified']})
-        if record.get('answerNote'):
-            place['answerNote'] = record['answerNote']
-        views = []
-        assigned = set()
-        for group in picture_groups.get(code, []):
-            west, south, east, north = group['bounds']
-            indices = [i for i, part in enumerate(parts)
-                       if west <= part.representative_point().x <= east
-                       and south <= part.representative_point().y <= north]
-            if not indices or assigned.intersection(indices):
-                raise ValueError(f'{code}: empty or overlapping picture group {group}')
-            assigned.update(indices)
-            group_geometry = parts[indices[0]] if len(indices) == 1 else MultiPolygon([parts[i] for i in indices])
-            views.append({'type': 'Feature', 'properties': {'name': group['name']},
-                          'geometry': mapping(group_geometry)})
-        if views and len(assigned) != len(parts):
-            raise ValueError(f'{code}: picture groups omit {len(parts)-len(assigned)} polygons')
-        if views:
-            place['pictureGroups'] = [dict(v['properties'], polygons=len(polygons(shape(v['geometry'])))) for v in views]
-        places.append(place)
-        features.append({'type': 'Feature', 'properties': {'code': code, 'name': entry['name']['en'],
-                         'region': region, 'pictureGroups': views,
-                         'fieldOutline': mapping(field_geometry)}, 'geometry': mapping(geometry)})
-        audits.append({'code': code, 'includedFeatures': len(included), 'excludedFeatures': len(excluded),
-                       'polygons': len(parts), 'bounds': list(geometry.bounds), 'valid': geometry.is_valid,
-                       'fieldPolygons': len(polygons(field_geometry)), 'fieldValid': field_geometry.is_valid,
-                       'fieldHausdorffDegrees': geometry.hausdorff_distance(field_geometry),
-                       'repairs': repairs, 'selection': record})
+        groups = picture_groups.get(code, [])
+        indices = grouped_indices(parts, groups)
+        views = [{'type': 'Feature', 'properties': {'name': group['name']},
+                  'geometry': mapping(joined([parts[i] for i in members]))}
+                 for group, members in zip(groups, indices)]
+        if code in regional['parentGeometry']:
+            fingerprint = polygon_fingerprints(json.loads(json.dumps(mapping(joined(field_parts)))))
+            if fingerprint != regional['parentGeometry'][code]['polygons']:
+                raise ValueError(f'{code}: complete baseline field geometry changed')
+            partition_audit.append({'parentCode': code, 'sourcePolygons': len(parts),
+                                    'groups': [len(i) for i in indices],
+                                    'allPolygonsAssignedExactlyOnce': True,
+                                    'baselineFieldPolygonsUnchanged': True})
+        core = regional['coreGroups'].get(code)
+        if core is None:
+            emit(entry, parts, field_parts, region, record, views, repairs=repairs)
+        else:
+            members = indices[core]
+            emit(entry, [parts[i] for i in members], [field_parts[i] for i in members], region, record,
+                 scope={'kind': 'core-region', 'groupIndex': core, 'name': groups[core]['name']}, repairs=repairs)
+        for child in (r for r in extra if r['parentCode'] == code):
+            index = child['groupIndex']
+            members = indices[index]
+            source = {'parentCode': code, 'groupIndex': index, 'bounds': groups[index]['bounds'],
+                      'sourceSelection': record}
+            prepared_regions.append((child, [parts[i] for i in members], [field_parts[i] for i in members], source, mapping(joined(parts))))
+    for child, parts, field_parts, source, context in prepared_regions:
+        emit(child, parts, field_parts, child['regionHint']['en'], source, context=context)
+
     args.out.mkdir(parents=True, exist_ok=True)
     neutral = read(ROOT / 'source/geography/neutral-areas.json')
     neutral_features = [f for selection in neutral['areas'] for f in selected(selection)]
     outputs = {'places.json': places, 'places.geojson': {'type': 'FeatureCollection', 'features': features},
                'neutral-areas.geojson': {'type': 'FeatureCollection', 'features': neutral_features},
                'geometry-audit.json': {'complete': not pending, 'pending': pending, 'places': audits},
+               'regional-partition-audit.json': partition_audit,
                'sources.json': {key: {'file': path.name, 'sha256': hashlib.sha256(path.read_bytes()).hexdigest()}
                                 for key, path in files.items()}}
     for name, value in outputs.items():
         (args.out / name).write_text(json.dumps(value, ensure_ascii=False, separators=(',', ':')) + '\n')
-    print(f'Prepared {len(places)} geometries; {len(pending)} held pending an owner boundary decision.')
+    print(f'Prepared {len(places)} questions ({len(extra)} regional); {len(pending)} held pending policy.')
 
 
 if __name__ == '__main__':

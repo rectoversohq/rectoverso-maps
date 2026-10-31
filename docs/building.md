@@ -10,9 +10,9 @@ Follow the [README setup](../README.md#build-for-anki). Run commands from the re
 ANKI_PYTHON="$PWD/.venv/bin/python" ./scripts/build.sh /absolute/path/to/new-packages
 ```
 
-This creates `Maps-en-249.apkg`, `Cartes-fr-249.apkg`, one `.rectoverso.json` sidecar per package, and `evidence/anki-validation.json`. A directory that already exists, or one inside the checkout, is rejected. Build and Anki temporary files are placed beside the output packages.
+This creates `Maps-en-288.apkg`, `Cartes-fr-288.apkg`, one `.rectoverso.json` sidecar per package, and `evidence/anki-validation.json`. A directory that already exists, or one inside the checkout, is rejected. Build and Anki temporary files are placed beside the output packages.
 
-Each artifact contains 249 notes and cards. The builder combines shared names, GUIDs and place fields with language-specific templates, labels and boundary notes. It does not fetch data or change source files. Archive bytes can change between builds because Anki writes timestamps; compare content and identities, not whole-archive hashes, when checking a rebuild. Metadata hashes describe the exact candidate artifacts prepared for a release.
+Each candidate artifact contains 288 notes/cards: the 249 ISO baseline identities plus 39 explicitly named regions. The builder combines shared names, GUIDs and place fields with language-specific templates, labels and boundary notes. It does not fetch data or change source files. Archive bytes can change between builds because Anki writes timestamps; compare content and identities, not whole-archive hashes, when checking a rebuild. Metadata hashes describe the exact candidate artifacts prepared for a release.
 
 ## Check sources and identity preservation
 
@@ -32,8 +32,8 @@ The rendering tests exercise bounded process retries, timeout, partial-file isol
 After an independent package build, compare each language with its previous candidate:
 
 ```sh
-.venv/bin/python scripts/checks/validate-rebuild.py /path/to/previous/Maps-en-249.apkg /path/to/new/Maps-en-249.apkg /path/to/evidence/identity-en.json
-.venv/bin/python scripts/checks/validate-rebuild.py /path/to/previous/Cartes-fr-249.apkg /path/to/new/Cartes-fr-249.apkg /path/to/evidence/identity-fr.json
+.venv/bin/python scripts/checks/validate-rebuild.py /path/to/previous/Maps-en-288.apkg /path/to/new/Maps-en-288.apkg /path/to/evidence/identity-en.json
+.venv/bin/python scripts/checks/validate-rebuild.py /path/to/previous/Cartes-fr-288.apkg /path/to/new/Cartes-fr-288.apkg /path/to/evidence/identity-fr.json
 ```
 
 This checks source note GUIDs, deck/model IDs, field/template IDs, and an actual import over an existing collection with scheduled progress. Anki may assign a local deck ID on the first import; a subsequent import must preserve that local identity and progress. Both languages can coexist with independent reviews.
@@ -50,7 +50,7 @@ Use macOS with Swift's `swiftc`, AppKit and WebKit available, Node 22 or later w
 DRAWING_PYTHON="$PWD/.venv/bin/python" ./scripts/maps/regenerate.sh /absolute/path/to/natural-earth-cache /absolute/path/to/new-drawings
 ```
 
-The command fetches any missing checksum-pinned inputs, prepares geometry, runs `npm ci`, renders SVGs, compiles the PNG converter and compares all 249 SVGs, PNGs and place records against the stored source. Use a fresh output directory; it holds drawing outputs, compiler caches and temporary files. npm may contact its registry; set `npm_config_cache` if its cache should be on your data drive. Natural Earth downloads are cached in the first supplied directory.
+The command fetches any missing checksum-pinned inputs, prepares geometry, runs `npm ci`, renders SVGs, compiles the PNG converter and compares all 288 SVGs, PNGs and place records against the stored source. Use a fresh output directory; it holds drawing outputs, compiler caches and temporary files. npm may contact its registry; set `npm_config_cache` if its cache should be on your data drive. Natural Earth downloads are cached in the first supplied directory.
 
 PNG conversion gets at most three fresh processes, each with a 60-second limit. A failed attempt cannot leave a partial image accepted by the next one. Exhausted retries or a final byte difference fail the command. Exact PNG comparison needs the same macOS/WebKit environment; a different rendering environment may produce different bytes and requires investigation, not a silent reference replacement. Earlier WebKit snapshot failures were intermittent; recovery is bounded, not a claimed root-cause fix.
 
@@ -58,9 +58,9 @@ PNG conversion gets at most three fresh processes, each with a 60-second limit. 
 
 `rectoverso.json` uses `schemaVersion: 2`. Shared title, credits, coverage, source paths, image credits and version appear once. `languages.en` and `languages.fr` hold stable artifact IDs, package filenames/hashes/URLs and paths to localized definitions. `scripts/source_data.py` expands these to the per-package sidecars, including `language` and the common `deckID`.
 
-The published prerelease is [0.2.0-rc.2](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.2.0-rc.2), using the organized tool layout. Its tag identifies the approved source commit, and the release contains the exact English/French packages and sidecars. The hashes in rectoverso.json describe those archives; an independent rebuild can have different bytes while preserving content and identities. The published v0.2.0-rc.1 tag retains its original layout. Tags are not moved, and packages remain outside source Git. The original language working trees and histories remain preserved.
+The latest published prerelease remains [0.2.0-rc.2](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.2.0-rc.2), using the organized tool layout. Its tag identifies the approved source commit, and the release contains the exact English/French packages and sidecars. The metadata at that published tag describes the rc.2 archives. This working branch instead records its unpublished 288-card candidate; independent rebuilds can differ in bytes while preserving content/identities. The published v0.2.0-rc.1 tag retains its original layout. Tags are not moved, and packages remain outside source Git. The original language working trees and histories remain preserved.
 
-Deck-source CI is responsible for source checks, Anki checks and rebuild identities. The RectoVerso app repository is responsible for its own import/export compatibility and gallery integration. Its single-submodule migration is tracked in simonpinkas/RectoVerso#633; the source workflow is implemented here, with a separate explicit compatibility workflow in the app repository. Source CI is active on GitHub. The manual app workflow still needs default-branch registration; source CI does not upload packages or activate Apple asset packs. Anki uses these stored images; the app's Antarctica and dispersed-island live-globe limitations are separate and remain held.
+Deck-source CI is responsible for source checks, Anki checks and rebuild identities. The RectoVerso app repository is responsible for its own import/export compatibility and gallery integration. Its single-submodule migration is tracked in simonpinkas/RectoVerso#633; the source workflow is implemented here, with a separate explicit compatibility workflow in the app repository. Source CI is active on GitHub. The app workflow implementation is merged into the gallery feature; hosted manual availability waits for feature #616 to reach main; source CI does not upload packages or activate Apple asset packs. Anki uses these stored images; the app's Antarctica and dispersed-island live-globe limitations are separate and remain held.
 
 ## Gallery validation interface
 
@@ -78,10 +78,26 @@ Run the same pipeline locally with the environment from the README:
 .venv/bin/python scripts/ci.py --output /absolute/path/to/new-ci-output --base FULL_PREVIOUS_COMMIT_SHA
 ```
 
-The baseline must exist in the local Git history. CI uses the PR base or previous push commit. A first branch push or manual run without `base` records a null baseline: it certifies a rebuild only. For a manual update check, supply the previous approved source commit as `base`.
+The baseline must exist in the local Git history. CI uses the PR base or previous push commit. A first branch push or manual run without `base` records a null baseline: it skips only the commit-to-commit identity comparison; the pinned release upgrade still runs. For a manual update check, supply the previous approved source commit as `base`.
 
-The pipeline runs the coverage audit and source/rendering/identity tests, checks existing GUIDs and deck/model/field/template identities against the baseline without executing baseline code, builds both languages twice, validates both builds with Anki, and imports the independent rebuild over scheduled cards. Source additions are reported; removed languages/cards or changed identities fail and require an explicitly designed migration. The ordinary 249-place coverage rule still applies. This protects stable identities across commits; it does not certify every possible historical schema migration.
+The pipeline runs the coverage audit and source/rendering/identity tests, checks existing GUIDs and deck/model/field/template identities against the baseline without executing baseline code, builds both languages twice, validates both builds with Anki, and imports the independent rebuild over scheduled cards. Source additions are reported; removed languages/cards or changed identities fail and require an explicitly designed migration. The 249-code ISO baseline remains exact, with 39 supplementary named-region questions validated separately (288 total). This protects stable identities across commits; it does not certify every possible historical schema migration.
 
 In Actions, open the run and download `maps-anki-RUN_ID-ATTEMPT`. It contains the first build's two `.apkg` files and sidecars, Anki reports, logs, baseline comparison and `ci.json`. Evidence is retained for 14 days, including available failure logs. A missing or false `passed` in `ci.json` is not a pass. These are test artifacts, not published releases. CI archive hashes describe those new builds; the release metadata continues to describe the exact reviewed release batch.
 
 Actions is enabled for this public repository. In the repository settings, allow `actions/checkout`, `actions/setup-python` and `actions/upload-artifact`, and require the **Anki packages** status check in the default branch's ruleset after the first successful run. The workflow must reach the default branch before the manual Run workflow button is available. Ordinary contributions use a branch and PR in this repository. Map artwork changes still need full regeneration and human visual review; Anki CI does not certify map aesthetics or the app's live globe.
+
+## Regional candidate and additive upgrade
+
+This branch prepares unpublished 0.3.0-rc.1, 288 cards per language. Metadata distinguishes 249 ISO entities from 39 supplemental regions; the legacy answer field names remain for schema compatibility, while the template/card kind is **Map → Place**. Published rc.2 assets are untouched. `tests/test-regions.py` and deliberately damaged-source tests verify exact named-region assignments, missing/overlapping groups and rejection of fake ISO classification. The source CI runs these checks; no app-runtime change is required for the namespaced place codes.
+
+Use the approved old release and a new candidate to check a real additive upgrade (this is separate from two-build reproducibility):
+
+```sh
+.venv/bin/python scripts/checks/validate-upgrade.py /path/to/rc2/Maps-en-249.apkg /path/to/candidate/Maps-en-288.apkg /path/to/evidence/upgrade-en.json
+```
+
+Repeat for French. It imports the old package, schedules every existing card, imports the new package, and verifies all old card/note/deck identities and schedules, schema IDs, final count, media and rendering. Packages, caches and evidence stay outside Git. Full drawing regeneration and visual review remain required; source CI does not certify the live globe.
+
+CI also downloads the explicitly pinned rc.2 upgrade baseline with exact URL/size/SHA-256 checks, then exercises the additive upgrade in both languages. Downloads have bounded time/size and stay in the supplied external output. These packages are compatibility fixtures, not newly published artifacts.
+
+Anki may keep the old local template display name and retain unused old pictures when filenames collide. The upgrade check compares the new pictures actually referenced by notes, by their bytes, and the rendering schema; it also preserves every existing card’s FSRS memory.

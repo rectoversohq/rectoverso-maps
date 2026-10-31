@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       base:
-        description: Optional full baseline commit SHA (blank means rebuild only)
+        description: Optional full source baseline SHA (blank skips the commit comparison)
         type: string
         default: ''
 

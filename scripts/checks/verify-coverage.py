@@ -9,6 +9,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from source_data import inputs
+from regions import entries as regional_entries, verify_partition, NAMESPACE
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -40,16 +41,30 @@ def main():
             raise ValueError(f'ISO reference {key}: duplicate or malformed value')
     if coverage['referenceCount'] != len(official) or coverage['authoritativeRegistryVerified'] is not True:
         raise ValueError('Coverage count or verification status differs')
+    spec = read('source/geography/regional-questions.json')
+    regional = regional_entries(spec, read('source/geography/picture-groups.json'))
+    if (coverage.get('supplementaryEntries') != regional or spec['isoCount'] != len(official)
+            or coverage.get('supplementaryCount') != len(regional)
+            or coverage.get('totalCount') != len(official) + len(regional)):
+        raise ValueError('Supplementary coverage/count differs from approved regions')
+    extras = indexed(regional, 'regional questions')
+    expected_codes = official.keys() | extras.keys()
     sources = {
-        'coverage': coverage['entries'],
+        'coverage': coverage['entries'] + regional,
         'codebook': read('source/geography/codebook.json'),
         'places': read('source/places.json'),
     }
     for label, rows in sources.items():
         entries = indexed(rows, label)
-        if entries.keys() != official.keys():
+        if entries.keys() != expected_codes:
             raise ValueError(f'{label}: country roster differs from ISO reference')
         for code, row in entries.items():
+            if code in extras:
+                if row.get('codeNamespace') != NAMESPACE or any(k in row for k in ('alpha2', 'numeric', 'formalReferenceName')):
+                    raise ValueError(f'{label}: regional question pretends to be an ISO entry')
+                if any(row.get(k) != v for k, v in extras[code].items()):
+                    raise ValueError(f'{label}: {code} differs from approved regional source')
+                continue
             expected = official[code]
             if any(row[key] != expected[key] for key in ('alpha2', 'numeric')):
                 raise ValueError(f'{label}: {code} code differs')
@@ -61,7 +76,13 @@ def main():
                 raise ValueError(f'{label}: {code} name provenance is missing')
             if label == 'places' and row['review']['authoritativeRegistryVerified'] is not True:
                 raise ValueError(f'{label}: {code} verification status differs')
+    verify_partition(sources['places'], spec)
     metadata = read('rectoverso.json')
+    if (metadata['cards'] != len(expected_codes) or metadata['pictures'] != len(expected_codes)
+            or metadata['coverage'].get('totalCount') != len(expected_codes)
+            or metadata['coverage'].get('supplementaryCount') != len(extras)
+            or metadata['sourceFiles'].get('regionalQuestions') != 'source/geography/regional-questions.json'):
+        raise ValueError('Release metadata regional count or source differs')
     if metadata['coverage']['authoritativeRegistryVerified'] is not True or metadata['coverage']['referenceCount'] != len(official):
         raise ValueError('Release metadata verification status or count differs')
     if metadata['sourceFiles']['isoReference'] != evidence['referenceFile']:
@@ -82,7 +103,7 @@ def main():
         raise ValueError('Place pictures and image credits disagree')
     all_guids, model_ids, deck_ids, package_names = set(), set(), set(), set()
     for language, artifact in metadata['languages'].items():
-        verify_language(language, sources, coverage, official)
+        verify_language(language, sources, coverage, expected_codes)
         localized, notes, model, deck = inputs(language)
         guids = {note['guid'] for note in notes}
         if all_guids & guids or model['id'] in model_ids or deck['id'] in deck_ids:
@@ -97,18 +118,18 @@ def main():
             raise ValueError('Artifact URL differs from shared repository/tag')
         if localized['cards'] != len(notes) or deck['name'] != metadata['title'][language]:
             raise ValueError('Language card count or plain deck title differs')
-    print(f'{len(official)} ISO entries: codes, EN/FR short names and annotations agree; both languages have consistent answers, place fields and distinct identities.')
+    print(f'{len(official)} ISO entries + {len(extras)} regional questions: names, exact named-group geometry, both language answers and distinct identities verified.')
 
 
-def verify_language(language, sources, coverage, official):
+def verify_language(language, sources, coverage, expected_codes):
     metadata, notes, model, deck = inputs(language)
     by_guid = {note['guid']: note for note in notes}
-    if len(by_guid) != len(notes) or len(notes) != len(official):
+    if len(by_guid) != len(notes) or len(notes) != len(expected_codes):
         raise ValueError('Duplicate note GUIDs or wrong note count')
     answer_field = {'en': 'Country or territory', 'fr': 'Pays ou territoire'}[language]
     places = indexed(sources['places'], 'places')
     codebook = indexed(sources['codebook'], 'codebook')
-    for row in coverage['entries']:
+    for row in coverage['entries'] + coverage['supplementaryEntries']:
         code = row['code']
         if row['name'] != places[code]['name'] or row['name'] != codebook[code]['name']:
             raise ValueError(f'{code}: learner names disagree across source records')
