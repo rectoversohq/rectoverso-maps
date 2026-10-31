@@ -58,6 +58,10 @@ PNG conversion gets at most three fresh processes, each with a 60-second limit. 
 
 `rectoverso.json` uses `schemaVersion: 2`. Shared title, credits, coverage, source paths, image credits and version appear once. `languages.en` and `languages.fr` hold stable artifact IDs, package filenames/hashes/URLs and paths to localized definitions. `source_data.py` expands these to the per-package sidecars, including `language` and the common `deckID`.
 
-The current candidate is `0.2.0-rc.1`. Its metadata names the intended tag `v0.2.0-rc.1`; no tag, release, remote-checkout result or automated CI completion is implied. Packages belong on versioned releases, never in source Git. The original language working trees and Git histories were preserved separately before consolidation.
+The current candidate is `0.2.0-rc.1`. Its metadata names the intended tag `v0.2.0-rc.1`; prepared locally for the submodule; no remote tag, release, remote-checkout result or automated CI completion is implied. Packages belong on versioned releases, never in source Git. The original language working trees and Git histories were preserved separately before consolidation.
 
-Deck-source CI is responsible for source checks, Anki checks and rebuild identities. The RectoVerso app repository is responsible for its own import/export compatibility and gallery integration. Its single-submodule migration and both workflows remain pending. Anki uses these stored images; the app's Antarctica and dispersed-island live-globe limitations are separate and remain held.
+Deck-source CI is responsible for source checks, Anki checks and rebuild identities. The RectoVerso app repository is responsible for its own import/export compatibility and gallery integration. Its single-submodule migration is tracked in simonpinkas/RectoVerso#633; both workflows remain pending. Anki uses these stored images; the app's Antarctica and dispersed-island live-globe limitations are separate and remain held.
+
+## Gallery validation interface
+
+The app repository first verifies the submodule commit, version tag and clean working tree. It then calls `source_data.inputs(language)` in a separate Python process without writing files. The function returns JSON-serializable `(metadata, notes, model, deck)` values. Expanded metadata must exactly match the declared shared metadata and language entry. Note construction stays in this repository; the app does not duplicate geography logic.
