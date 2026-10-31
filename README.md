@@ -19,7 +19,7 @@ Choose either language, or install both. The two packages share their artwork an
 
 Coverage follows the 249 officially assigned ISO 3166-1 country and territory codes in the recorded reference. It includes uninhabited territories and is **not a list of 249 sovereign states**. Common learner names are separate from formal ISO names. [Read the coverage and boundary convention](docs/sources.md), including the neutral treatment of Kashmir and Abyei.
 
-**Release status:** `0.2.0-rc.2` is an unpublished review candidate using the organized source layout. Its package URLs are planned release destinations. Source changes and exact package checksums are reviewed through a pull request; package publication is a separate approval. The published `v0.2.0-rc.1` tag retains its original files. The [Anki CI workflow](docs/building.md#automated-checks) validates source branches and pull requests.
+**Release status:** [0.2.0-rc.2 is available as a prerelease](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.2.0-rc.2), with an English and a French Anki package. Download the `.apkg` for your language, or build it from source below. The release notes include exact checksums and validation details. The published version tags are immutable; this README update changes no deck content.
 
 ## Build for Anki
 
