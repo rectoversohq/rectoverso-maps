@@ -6,7 +6,7 @@ import sys
 import urllib.request
 
 destination=Path(sys.argv[1]);destination.mkdir(parents=True,exist_ok=True)
-expected=json.loads((Path(__file__).parent/'natural-earth-sha256.json').read_text())
+expected=json.loads((Path(__file__).resolve().parents[2]/'source/geography/natural-earth-sha256.json').read_text())
 for name,checksum in expected.items():
     path=destination/name
     if not path.exists():

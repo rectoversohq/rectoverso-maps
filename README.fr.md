@@ -19,7 +19,7 @@ Choisissez une langue ou installez les deux. Les paquets partagent leurs images 
 
 La sélection suit les 249 codes de pays et territoires officiellement attribués par l’ISO 3166-1 dans la référence conservée. Elle comprend des territoires inhabités : **ce n’est pas une liste de 249 États souverains**. Les noms usuels sont distincts des noms formels de l’ISO. [Lire la convention de couverture et de limites](docs/sources.fr.md), notamment le traitement neutre du Cachemire et d’Abyei.
 
-**État de la version :** `0.2.0-rc.1` est un candidat de revue non publié. Les URL de release dans les métadonnées sont des destinations prévues. Aucune release n’est encore téléchargeable ; la publication des sources et la CI de release restent à faire.
+**État de la version :** `0.2.0-rc.1` est un candidat de revue non publié. Les sources et l’étiquette sont publiées ; aucune release de paquets n’est encore téléchargeable. Cette branche réorganise les sources après l’étiquette initiale, qui conserve sa structure d’origine. Le [workflow de CI Anki](docs/building.fr.md#contrôles-automatiques) s’exécute sur les branches et pull requests. La publication des paquets reste soumise à une revue distincte.
 
 ## Construire pour Anki
 
@@ -27,7 +27,7 @@ La fabrication utilise les images déjà présentes dans ce dépôt. **Ni Node, 
 
 Prérequis : Git, Bash et **Python 3.14**, avec `venv` et `pip`. La procédure est testée sur macOS avec la bibliothèque Python d’Anki figée à **26.9.3**. Les autres systèmes n’ont pas été vérifiés. Anki desktop permet d’étudier le jeu obtenu, mais n’a pas besoin d’être lancé pendant sa fabrication.
 
-Une fois cette branche source publiée, clonez le dépôt et créez l’environnement. Si vous disposez déjà des sources, commencez par `cd` :
+Clonez le dépôt et créez l’environnement. Jusqu’à la fusion de la PR de réorganisation, exécutez `git switch codex/631-multilingual-source` après le clonage et l’entrée dans le dossier. Ces instructions décrivent cette révision ; les anciennes étiquettes conservent leur propre README. Si vous disposez déjà de ces sources, commencez par `cd` :
 
 ```sh
 git clone https://github.com/rectoversohq/rectoverso-maps.git
@@ -39,7 +39,7 @@ python3.14 -m venv .venv
 Construisez les deux langues dans un **nouveau dossier hors du dépôt**. Les SVG originaux occupent une place importante ; prévoyez de l’espace pour les sources, les paquets et les fichiers temporaires. Remplacez le chemin d’exemple par un chemin sur votre disque de données :
 
 ```sh
-ANKI_PYTHON="$PWD/.venv/bin/python" ./build.sh /chemin/absolu/vers/cartes-build
+ANKI_PYTHON="$PWD/.venv/bin/python" ./scripts/build.sh /chemin/absolu/vers/cartes-build
 ```
 
 La commande vérifie les sources, crée les deux fichiers `.apkg` et leurs métadonnées `.rectoverso.json`, puis importe chaque paquet avec la bibliothèque d’Anki. Elle contrôle le nombre de cartes, les rectos et versos rendus, les médias manquants, l’unicité des notes et la conservation des progrès lors d’un nouvel import. Les résultats sont enregistrés dans `evidence/anki-validation.json`, dans le dossier de sortie. Un contrôle échoué interrompt la commande avec une erreur ; gardez ses résultats pour le diagnostic et utilisez un nouveau dossier pour réessayer.
@@ -51,17 +51,27 @@ Ouvrez le `.apkg` de la langue choisie dans Anki desktop. Les fichiers `.rectove
 Les images, les données géographiques et les outils sont partagés. Les définitions françaises et anglaises vivent à côté :
 
 ```text
-rectoverso.json         Métadonnées communes, version et paquets par langue
+rectoverso.json          Métadonnées communes, version et paquets par langue
 source/
   places.json           Noms bilingues, GUID stables et géométrie des lieux
-  media/                249 cartes PNG prêtes à empaqueter
-  svg/                  Dessins vectoriels originaux
+  media/                Cartes PNG prêtes à empaqueter
   languages/en/         Jeu, type de note et traductions en anglais
   languages/fr/         Jeu, type de note et traductions en français
   style.css             Apparence Anki commune
-source_data.py          Compose les notes à partir des sources
-build.sh                Construit et valide les deux langues
+  geography/            Couverture, références et données cartographiques
+artwork/svg/            Dessins vectoriels originaux modifiables
+scripts/
+  build.sh              Construire et vérifier les deux langues
+  source_data.py        Composer les notes communes et localisées
+  ci.py                 Exécuter toute la suite CI Anki
+  checks/               Vérifier sources, paquets et identités
+  maps/                 Outils cartographiques et dépendances Node
+tests/                  Tests des sources, des identités et du rendu
+docs/                   Guides de fabrication et sources en deux langues
+.github/workflows/      Configuration de GitHub Actions
 ```
+
+Modifiez les contenus dans `source/`, les outils dans `scripts/` et leurs tests de régression dans `tests/`. La génération des cartes est facultative pour empaqueter les images stockées. Les résultats de fabrication et les caches restent hors du dépôt.
 
 La [référence de fabrication et de vérification](docs/building.fr.md) couvre les tests, la régénération des images, les identités et le schéma des métadonnées. Les [notes sur les sources et les limites](docs/sources.fr.md) expliquent les choix cartographiques et les crédits. Toute contribution doit préserver les identités des notes, jeux, modèles, champs et modèles de cartes ; discutez les changements de couverture, de noms et de limites avant de les modifier.
 

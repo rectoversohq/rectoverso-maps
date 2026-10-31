@@ -1,0 +1,59 @@
+name: Anki packages
+
+on:
+  pull_request:
+  push:
+    branches: ['**']
+  workflow_dispatch:
+    inputs:
+      base:
+        description: Optional full baseline commit SHA (blank means rebuild only)
+        type: string
+        default: ''
+
+permissions:
+  contents: read
+
+concurrency:
+  group: anki-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  anki:
+    name: Anki packages
+    runs-on: macos-26
+    timeout-minutes: 20
+    steps:
+      # checkout v7.0.1; setup-python v6; upload-artifact v4, immutable commit pins.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: '3.14.7'
+      - name: Install the pinned Anki environment
+        run: |
+          python -m venv "$RUNNER_TEMP/anki-venv"
+          "$RUNNER_TEMP/anki-venv/bin/python" -m pip install -r requirements.txt
+      - name: Check sources, build both languages and test Anki updates
+        env:
+          BASE: ${{ github.event.pull_request.base.sha || github.event.before || inputs.base }}
+        run: |
+          args=()
+          if [[ -n "$BASE" && "$BASE" != 0000000000000000000000000000000000000000 ]]; then
+            args+=(--base "$BASE")
+          fi
+          "$RUNNER_TEMP/anki-venv/bin/python" scripts/ci.py --output "$RUNNER_TEMP/maps-ci" "${args[@]}"
+      - name: Retain candidate packages and evidence, including failures
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: maps-anki-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/maps-ci/*.json
+            ${{ runner.temp }}/maps-ci/*.log
+            ${{ runner.temp }}/maps-ci/packages/
+          if-no-files-found: warn
+          compression-level: 0
+          retention-days: 14

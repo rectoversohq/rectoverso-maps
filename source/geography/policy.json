@@ -15,7 +15,7 @@
     {
       "scope": "Authoritative current codes and English/French short names",
       "url": "https://www.iso.org/obp/ui/#search/code/",
-      "snapshotFile": "source/iso-3166-1-reference.json",
+      "snapshotFile": "source/geography/iso-3166-1-reference.json",
       "snapshotSHA256": "450c741c64645a6beaa0c8e46b2649a9a666ae90189506d9002436432ea198f6",
       "verifiedAt": "2026-10-31T19:03:41Z"
     },

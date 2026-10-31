@@ -11,7 +11,7 @@ from shapely import make_valid, union_all
 from shapely.geometry import shape, mapping, MultiPolygon
 from shapely.geometry.polygon import orient
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[2]
 
 
 def read(path):
@@ -32,19 +32,19 @@ def main():
     parser.add_argument('out', type=Path)
     parser.add_argument('--exclude-pending', action='store_true')
     args = parser.parse_args()
-    coverage = read(ROOT / 'source/coverage.json')
-    selections = read(ROOT / 'source/geometry-selections.json')
-    picture_groups = read(ROOT / 'source/picture-groups.json')
+    coverage = read(ROOT / 'source/geography/coverage.json')
+    selections = read(ROOT / 'source/geography/geometry-selections.json')
+    picture_groups = read(ROOT / 'source/geography/picture-groups.json')
     entries = coverage['entries']
     assert len(entries) == len({p['code'] for p in entries}) == coverage['referenceCount']
     assert set(selections) == {p['code'] for p in entries}
     files = {name: args.sources / f'ne_10m_admin_0_{name}.geojson'
              for name in ('countries', 'map_units', 'disputed_areas')}
     files['minor_islands'] = args.sources / 'ne_10m_admin_0_scale_rank_minor_islands.geojson'
-    files['aadc_mcdonald'] = ROOT / 'source/geometry/aadc-mcdonald-2020.geojson'
+    files['aadc_mcdonald'] = ROOT / 'source/geography/supplements/aadc-mcdonald-2020.geojson'
     layers = {key: read(path)['features'] for key, path in files.items()}
-    expected = read(ROOT / 'natural-earth-sha256.json')
-    supplement = read(ROOT / 'source/geometry/provenance.json')
+    expected = read(ROOT / 'source/geography/natural-earth-sha256.json')
+    supplement = read(ROOT / 'source/geography/supplements/provenance.json')
     for key, path in files.items():
         digest = hashlib.sha256(path.read_bytes()).hexdigest()
         if key != 'aadc_mcdonald' and digest != expected[path.name]:
@@ -135,7 +135,7 @@ def main():
                        'fieldHausdorffDegrees': geometry.hausdorff_distance(field_geometry),
                        'repairs': repairs, 'selection': record})
     args.out.mkdir(parents=True, exist_ok=True)
-    neutral = read(ROOT / 'source/neutral-areas.json')
+    neutral = read(ROOT / 'source/geography/neutral-areas.json')
     neutral_features = [f for selection in neutral['areas'] for f in selected(selection)]
     outputs = {'places.json': places, 'places.geojson': {'type': 'FeatureCollection', 'features': features},
                'neutral-areas.geojson': {'type': 'FeatureCollection', 'features': neutral_features},

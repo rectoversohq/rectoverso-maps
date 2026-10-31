@@ -14,16 +14,16 @@ Upstream material retains its own license and attribution:
 - McDonald Islands coastline: Geoscience Australia / Australian Antarctic Data
   Centre, McDonald_Island_Coastline_2020, captured 2020-06-25, CC BY 4.0.
   https://data.aad.gov.au/docs/conditions-of-use
-  Source response, modifications and provenance: source/geometry/provenance.json.
+  Source response, modifications and provenance: source/geography/supplements/provenance.json.
 - Some common place names: Ultimate Geography 5.3, anki-geo contributors,
   public-domain text under the Unlicense.
   https://github.com/anki-geo/ultimate-geography/blob/v5.3/LICENSE.md
   No Ultimate Geography pictures are included.
 - ISO code and official-name reference: ISO's public Online Browsing Platform.
   The snapshot is reference material; this license does not claim ownership of
-  ISO's names, codes or registry. See source/iso-3166-1-reference.json.
+  ISO's names, codes or registry. See source/geography/iso-3166-1-reference.json.
 
 Per-picture attribution is recorded in rectoverso.json under imageCredits.
 No endorsement by ISO, the UN or the upstream authors is implied.
 Dependencies retain their own licenses. The pinned Python requirements and
-package-lock.json identify them; this license does not relicense dependencies.
+scripts/maps/package-lock.json identify them; this license does not relicense dependencies.
