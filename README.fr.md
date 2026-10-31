@@ -19,7 +19,7 @@ Choisissez une langue ou installez les deux. Les paquets partagent leurs images 
 
 La sélection suit les 249 codes de pays et territoires officiellement attribués par l’ISO 3166-1 dans la référence conservée. Elle comprend des territoires inhabités : **ce n’est pas une liste de 249 États souverains**. Les noms usuels sont distincts des noms formels de l’ISO. [Lire la convention de couverture et de limites](docs/sources.fr.md), notamment le traitement neutre du Cachemire et d’Abyei.
 
-**État de la version :** `0.2.0-rc.2` est un candidat de revue non publié, avec la structure organisée des sources. Les URL des paquets désignent les destinations de release prévues. Les modifications et empreintes exactes passent par une pull request ; la publication des paquets exige une approbation distincte. L’étiquette publiée `v0.2.0-rc.1` conserve ses fichiers d’origine. Le [workflow de CI Anki](docs/building.fr.md#contrôles-automatiques) vérifie les branches et pull requests.
+**État de la version :** [0.2.0-rc.2 est disponible en préversion](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.2.0-rc.2), avec un paquet Anki en français et un en anglais. Téléchargez le `.apkg` de votre langue ou construisez-le à partir des sources ci-dessous. Les notes de version donnent les empreintes exactes et les contrôles réalisés. Les étiquettes publiées sont immuables ; cette mise à jour du README ne change aucun contenu du jeu.
 
 ## Construire pour Anki
 
