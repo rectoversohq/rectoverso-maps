@@ -8,9 +8,12 @@ import shutil
 import tempfile
 import unittest
 from unittest.mock import patch
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 import source_data
 
-spec = importlib.util.spec_from_file_location('coverage_check', Path(__file__).with_name('verify-coverage.py'))
+spec = importlib.util.spec_from_file_location('coverage_check', Path(__file__).resolve().parents[1] / 'scripts/checks/verify-coverage.py')
 coverage = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(coverage)
 
@@ -20,13 +23,8 @@ class MultilingualSourceTests(unittest.TestCase):
         self.temporary = tempfile.TemporaryDirectory()
         self.addCleanup(self.temporary.cleanup)
         self.root = Path(self.temporary.name)
-        shutil.copytree(source_data.ROOT / 'source', self.root / 'source',
-                        ignore=shutil.ignore_patterns('media', 'svg', 'geometry'))
-        for name in ('media', 'svg', 'geometry'):
-            shutil.copytree(source_data.ROOT / 'source' / name, self.root / 'source' / name,
-                            copy_function=shutil.copyfile)
-        for name in ('codebook.json', 'rectoverso.json'):
-            shutil.copyfile(source_data.ROOT / name, self.root / name)
+        shutil.copytree(source_data.ROOT / 'source', self.root / 'source')
+        shutil.copyfile(source_data.ROOT / 'rectoverso.json', self.root / 'rectoverso.json')
         self.addCleanup(patch.stopall)
         patch.object(source_data, 'ROOT', self.root).start()
         patch.object(coverage, 'ROOT', self.root).start()
@@ -42,7 +40,7 @@ class MultilingualSourceTests(unittest.TestCase):
             coverage.main()
 
     def test_missing_country_is_rejected(self):
-        self.edit('source/coverage.json', lambda value: value['entries'].pop())
+        self.edit('source/geography/coverage.json', lambda value: value['entries'].pop())
         with self.assertRaisesRegex(ValueError, 'roster'):
             self.check()
 

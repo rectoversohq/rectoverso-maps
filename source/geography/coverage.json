@@ -5493,7 +5493,7 @@
     "filter": "Officially assigned codes",
     "verifiedAt": "2026-10-31T19:03:41Z",
     "nameKind": "English and French short names as displayed by ISO OBP, including articles and annotations; not full state names",
-    "referenceFile": "source/iso-3166-1-reference.json",
+    "referenceFile": "source/geography/iso-3166-1-reference.json",
     "referenceSHA256": "450c741c64645a6beaa0c8e46b2649a9a666ae90189506d9002436432ea198f6",
     "tableEvidenceSHA256": "d1a6c8f99ba73ba76e0f140ad8878bfd071854b94c280120f86cfc41360c26c6"
   }

@@ -19,7 +19,7 @@ Choose either language, or install both. The two packages share their artwork an
 
 Coverage follows the 249 officially assigned ISO 3166-1 country and territory codes in the recorded reference. It includes uninhabited territories and is **not a list of 249 sovereign states**. Common learner names are separate from formal ISO names. [Read the coverage and boundary convention](docs/sources.md), including the neutral treatment of Kashmir and Abyei.
 
-**Release status:** `0.2.0-rc.1` is an unpublished review candidate. The release URLs in its metadata are planned destinations. There is no downloadable release yet; source publication remains pending. The [Anki CI workflow](docs/building.md#automated-checks) is prepared; its first GitHub run awaits publication.
+**Release status:** `0.2.0-rc.1` is an unpublished review candidate. Source and tag are published; no package release is downloadable yet. This branch reorganizes the source after the original tag, which retains its original layout. The [Anki CI workflow](docs/building.md#automated-checks) runs on source branches and pull requests. Release publication remains separately reviewed.
 
 ## Build for Anki
 
@@ -27,7 +27,7 @@ The package build uses the pictures already in this repository. **You do not nee
 
 Requirements: Git, Bash and **Python 3.14** with `venv` and `pip`. The documented build is tested on macOS with Anki's pinned Python library, **26.9.3**. Other operating systems have not been verified. Anki desktop is needed to study the resulting deck, but does not need to be running to build it.
 
-Once this source branch is published, clone the repository and create the environment. If you already have the source checkout, start with `cd`:
+Clone the repository and create the environment. Until the layout PR is merged, run `git switch codex/631-multilingual-source` after cloning and entering the directory. These instructions describe this revision; older tags include their own README. If you already have this source checkout, start with `cd`:
 
 ```sh
 git clone https://github.com/rectoversohq/rectoverso-maps.git
@@ -39,7 +39,7 @@ python3.14 -m venv .venv
 Build both languages into a **new directory outside the checkout**. The source tree includes large SVG originals; use a disk with room for the checkout, packages and temporary build files. Replace the example output path with one on your data drive:
 
 ```sh
-ANKI_PYTHON="$PWD/.venv/bin/python" ./build.sh /absolute/path/to/maps-build
+ANKI_PYTHON="$PWD/.venv/bin/python" ./scripts/build.sh /absolute/path/to/maps-build
 ```
 
 The command checks the source, creates both `.apkg` files and their `.rectoverso.json` metadata, then imports each package using Anki's own library. It checks card counts, rendered fronts and backs, missing media, unique note IDs and review preservation on repeat import. Results are saved in `evidence/anki-validation.json` inside the output directory. A failed check exits with an error; keep that output for diagnosis and use a fresh directory when retrying.
@@ -51,17 +51,27 @@ Open the `.apkg` for the language you want in Anki desktop. The `.rectoverso.jso
 Artwork, geographic data and the build tools live once. English and French definitions live beside them:
 
 ```text
-rectoverso.json         Shared metadata, version and language artifacts
+rectoverso.json          Shared metadata, version and language artifacts
 source/
   places.json           Bilingual names, stable GUIDs and place geometry
-  media/                249 ready-to-package PNG maps
-  svg/                  Original vector drawings
+  media/                Ready-to-package PNG maps
   languages/en/         English deck, note type and translations
   languages/fr/         French deck, note type and translations
   style.css             Shared Anki card appearance
-source_data.py          Composes notes from shared and localized inputs
-build.sh                Builds and validates both language packages
+  geography/            Coverage, references and map-generation inputs
+artwork/svg/            Editable vector originals
+scripts/
+  build.sh              Build and validate both language packages
+  source_data.py        Compose notes from shared and localized inputs
+  ci.py                 Run the complete Anki CI pipeline
+  checks/               Source, package and identity validators
+  maps/                 Map-generation tools and Node dependencies
+tests/                  Source, identity and renderer regression tests
+docs/                   English and French build/source guides
+.github/workflows/      GitHub Actions configuration
 ```
+
+Edit deck content in `source/`; maintain tools in `scripts/` and their regression cases in `tests/`. Map generation is optional when packaging the stored pictures. Build outputs and caches stay outside the checkout.
 
 [Build and verification reference](docs/building.md) covers source tests, rebuilding pictures, identities and the metadata schema. [Source and boundary notes](docs/sources.md) explain the map choices and attribution. Contributions should preserve stable note, deck, model, field and template IDs; discuss coverage, names and boundary changes before editing them.
 

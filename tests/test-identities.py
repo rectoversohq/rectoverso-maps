@@ -4,7 +4,7 @@ import importlib.util
 from pathlib import Path
 import unittest
 
-spec = importlib.util.spec_from_file_location('identities', Path(__file__).with_name('check-identities.py'))
+spec = importlib.util.spec_from_file_location('identities', Path(__file__).resolve().parents[1] / 'scripts/checks/check-identities.py')
 identities = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(identities)
 

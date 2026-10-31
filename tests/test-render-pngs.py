@@ -8,7 +8,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-spec = importlib.util.spec_from_file_location('render_pngs', Path(__file__).with_name('render-pngs.py'))
+spec = importlib.util.spec_from_file_location('render_pngs', Path(__file__).resolve().parents[1] / 'scripts/maps/render-pngs.py')
 renderer = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(renderer)
 

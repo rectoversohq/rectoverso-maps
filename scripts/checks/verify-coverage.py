@@ -2,12 +2,15 @@
 
 This checks consistency with the dated snapshot, not live registry freshness.
 """
-from source_data import inputs
 import hashlib
 import json
 from pathlib import Path
+import sys
 
-ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from source_data import inputs
+
+ROOT = Path(__file__).resolve().parents[2]
 
 
 def read(name):
@@ -22,7 +25,7 @@ def indexed(rows, label):
 
 
 def main():
-    coverage = read('source/coverage.json')
+    coverage = read('source/geography/coverage.json')
     evidence = coverage['registryVerification']
     reference_path = ROOT / evidence['referenceFile']
     if hashlib.sha256(reference_path.read_bytes()).hexdigest() != evidence['referenceSHA256']:
@@ -39,7 +42,7 @@ def main():
         raise ValueError('Coverage count or verification status differs')
     sources = {
         'coverage': coverage['entries'],
-        'codebook': read('codebook.json'),
+        'codebook': read('source/geography/codebook.json'),
         'places': read('source/places.json'),
     }
     for label, rows in sources.items():

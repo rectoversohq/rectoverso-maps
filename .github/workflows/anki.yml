@@ -44,7 +44,7 @@ jobs:
           if [[ -n "$BASE" && "$BASE" != 0000000000000000000000000000000000000000 ]]; then
             args+=(--base "$BASE")
           fi
-          "$RUNNER_TEMP/anki-venv/bin/python" ci.py --output "$RUNNER_TEMP/maps-ci" "${args[@]}"
+          "$RUNNER_TEMP/anki-venv/bin/python" scripts/ci.py --output "$RUNNER_TEMP/maps-ci" "${args[@]}"
       - name: Retain candidate packages and evidence, including failures
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02

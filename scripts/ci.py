@@ -7,7 +7,7 @@ import platform
 import subprocess
 import sys
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 
 
 def main():
@@ -36,17 +36,20 @@ def main():
         print(f'{name}: passed', flush=True)
 
     try:
-        for name in ('verify-coverage', 'test-source', 'test-render-pngs', 'test-identities'):
-            run(name, sys.executable, '-B', str(ROOT / (name + '.py')))
+        for name, path in [('verify-coverage', 'scripts/checks/verify-coverage.py'),
+                           ('test-source', 'tests/test-source.py'),
+                           ('test-render-pngs', 'tests/test-render-pngs.py'),
+                           ('test-identities', 'tests/test-identities.py')]:
+            run(name, sys.executable, '-B', str(ROOT / path))
         if args.base:
-            run('base-identities', sys.executable, '-B', str(ROOT / 'check-identities.py'),
+            run('base-identities', sys.executable, '-B', str(ROOT / 'scripts/checks/check-identities.py'),
                 args.base, str(out / 'base-identities.json'))
         for name in ('packages', 'rebuilt'):
-            run(name, 'bash', str(ROOT / 'build.sh'), str(out / name))
+            run(name, 'bash', str(ROOT / 'scripts/build.sh'), str(out / name))
         meta = json.loads((ROOT / 'rectoverso.json').read_text())
         for language, artifact in meta['languages'].items():
             filename = artifact['package']['file']
-            run('rebuild-' + language, sys.executable, str(ROOT / 'validate-rebuild.py'),
+            run('rebuild-' + language, sys.executable, str(ROOT / 'scripts/checks/validate-rebuild.py'),
                 str(out / 'packages' / filename), str(out / 'rebuilt' / filename),
                 str(out / ('rebuild-' + language + '.json')))
         report['passed'] = True

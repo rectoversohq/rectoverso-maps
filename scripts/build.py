@@ -9,7 +9,7 @@ from anki.collection import Collection, ExportAnkiPackageOptions
 from anki.decks import DeckId
 from source_data import inputs, read
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)

@@ -13,4 +13,4 @@ python3 "$here/fetch-sources.py" "$sources"
 node "$here/render.mjs" "$out/prepared/places.geojson" "$out/prepared/places.json" "$sources/ne_50m_admin_0_countries.geojson" "$out/drawn" "$out/prepared/neutral-areas.geojson"
 TMPDIR="$out/tmp" swiftc -module-cache-path "$out/swift-cache" "$here/svg-to-png.swift" -o "$out/svg-to-png"
 TMPDIR="$out/tmp" python3 "$here/render-pngs.py" "$out/svg-to-png" "$out/drawn" 900
-python3 "$here/verify-drawings.py" "$out/drawn"
+python3 "$here/../checks/verify-drawings.py" "$out/drawn"

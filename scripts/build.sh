@@ -2,11 +2,12 @@
 # Build and validate both language artifacts from shared source.
 set -euo pipefail
 here=$(cd "$(dirname "$0")" && pwd)
+root=$(cd "$here/.." && pwd)
 out=${1:?Supply a new output directory outside the checkout}
 python=${ANKI_PYTHON:-python3}
-"$python" "$here/verify-coverage.py"
+"$python" "$here/checks/verify-coverage.py"
 # Preflight every destination before writing either package.
-"$python" - "$here" "$out" <<'CHECK'
+"$python" - "$root" "$out" <<'CHECK'
 import json, sys
 from pathlib import Path
 root, out = map(lambda p: Path(p).resolve(), sys.argv[1:])
@@ -17,10 +18,10 @@ mkdir -p "$out"
 out=$(cd "$out" && pwd)
 while IFS=$'\t' read -r language file; do
     "$python" "$here/build.py" --language "$language" --out "$out/$file"
-done < <("$python" - "$here/rectoverso.json" <<'LANGUAGES'
+done < <("$python" - "$root/rectoverso.json" <<'LANGUAGES'
 import json, sys
 for language, artifact in json.load(open(sys.argv[1]))['languages'].items():
     print(language + '\t' + artifact['package']['file'])
 LANGUAGES
 )
-"$python" "$here/validate-anki.py" --output "$out/evidence" "$out/"*.apkg
+"$python" "$here/checks/validate-anki.py" --output "$out/evidence" "$out/"*.apkg
