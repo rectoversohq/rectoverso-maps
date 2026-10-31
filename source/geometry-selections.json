@@ -1,0 +1,2787 @@
+{
+  "ABW": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Aruba"
+      }
+    ],
+    "exclude": []
+  },
+  "AFG": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Afghanistan"
+      }
+    ],
+    "exclude": []
+  },
+  "AGO": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Angola"
+      }
+    ],
+    "exclude": []
+  },
+  "AIA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Anguilla"
+      }
+    ],
+    "exclude": []
+  },
+  "ALA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Aland"
+      }
+    ],
+    "exclude": []
+  },
+  "ALB": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Albania"
+      }
+    ],
+    "exclude": []
+  },
+  "AND": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Andorra"
+      }
+    ],
+    "exclude": []
+  },
+  "ARE": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "United Arab Emirates"
+      }
+    ],
+    "exclude": []
+  },
+  "ARG": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Argentina"
+      }
+    ],
+    "exclude": []
+  },
+  "ARM": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Armenia"
+      }
+    ],
+    "exclude": []
+  },
+  "ASM": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "American Samoa"
+      }
+    ],
+    "exclude": []
+  },
+  "ATA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "ATA"
+      }
+    ],
+    "exclude": []
+  },
+  "ATF": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "ATF"
+      },
+      {
+        "layer": "minor_islands",
+        "key": "sr_adm0_a3",
+        "value": "ATF"
+      }
+    ],
+    "exclude": []
+  },
+  "ATG": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Antigua and Barbuda"
+      }
+    ],
+    "exclude": []
+  },
+  "AUS": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Australia"
+      },
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "CSI"
+      },
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "ATC"
+      }
+    ],
+    "exclude": []
+  },
+  "AUT": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Austria"
+      }
+    ],
+    "exclude": []
+  },
+  "AZE": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Azerbaijan"
+      }
+    ],
+    "exclude": []
+  },
+  "BDI": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Burundi"
+      }
+    ],
+    "exclude": []
+  },
+  "BEL": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Belgium"
+      }
+    ],
+    "exclude": []
+  },
+  "BEN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Benin"
+      }
+    ],
+    "exclude": []
+  },
+  "BES": {
+    "include": [
+      {
+        "layer": "map_units",
+        "key": "GU_A3",
+        "value": "NLY"
+      }
+    ],
+    "exclude": []
+  },
+  "BFA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Burkina Faso"
+      }
+    ],
+    "exclude": []
+  },
+  "BGD": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Bangladesh"
+      }
+    ],
+    "exclude": []
+  },
+  "BGR": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Bulgaria"
+      }
+    ],
+    "exclude": []
+  },
+  "BHR": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Bahrain"
+      }
+    ],
+    "exclude": []
+  },
+  "BHS": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "The Bahamas"
+      }
+    ],
+    "exclude": []
+  },
+  "BIH": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Bosnia and Herzegovina"
+      }
+    ],
+    "exclude": []
+  },
+  "BLM": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "BLM"
+      }
+    ],
+    "exclude": []
+  },
+  "BLR": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Belarus"
+      }
+    ],
+    "exclude": []
+  },
+  "BLZ": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Belize"
+      }
+    ],
+    "exclude": []
+  },
+  "BMU": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Bermuda"
+      }
+    ],
+    "exclude": []
+  },
+  "BOL": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Bolivia"
+      }
+    ],
+    "exclude": []
+  },
+  "BRA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Brazil"
+      }
+    ],
+    "exclude": []
+  },
+  "BRB": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Barbados"
+      }
+    ],
+    "exclude": []
+  },
+  "BRN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Brunei"
+      }
+    ],
+    "exclude": []
+  },
+  "BTN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Bhutan"
+      }
+    ],
+    "exclude": []
+  },
+  "BVT": {
+    "include": [
+      {
+        "layer": "map_units",
+        "key": "GU_A3",
+        "value": "BVT"
+      }
+    ],
+    "exclude": []
+  },
+  "BWA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Botswana"
+      }
+    ],
+    "exclude": []
+  },
+  "CAF": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Central African Republic"
+      }
+    ],
+    "exclude": []
+  },
+  "CAN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Canada"
+      }
+    ],
+    "exclude": []
+  },
+  "CCK": {
+    "include": [
+      {
+        "layer": "map_units",
+        "key": "GU_A3",
+        "value": "CCK"
+      }
+    ],
+    "exclude": []
+  },
+  "CHE": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Switzerland"
+      }
+    ],
+    "exclude": []
+  },
+  "CHL": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Chile"
+      }
+    ],
+    "exclude": []
+  },
+  "CHN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "China"
+      }
+    ],
+    "exclude": [
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Jammu and Kashmir"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Aksai Chin"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Shaksam Valley"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Gilgit-Baltistan"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Azad Kashmir"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Demchok"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Siachen Glacier"
+      }
+    ],
+    "answerNote": {
+      "en": "Areas of the Kashmir dispute are shown as neutral context with dashed boundaries; they are not assigned to a claimant in this deck. The final status of Jammu and Kashmir has not been agreed upon by the parties.",
+      "fr": "Les zones du différend du Cachemire apparaissent en contexte neutre, avec des limites en pointillés ; ce jeu ne les attribue à aucune partie. Les parties ne se sont pas accordées sur le statut définitif du Jammu-et-Cachemire."
+    }
+  },
+  "CIV": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Ivory Coast"
+      }
+    ],
+    "exclude": []
+  },
+  "CMR": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Cameroon"
+      }
+    ],
+    "exclude": []
+  },
+  "COD": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Democratic Republic of the Congo"
+      }
+    ],
+    "exclude": []
+  },
+  "COG": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Republic of the Congo"
+      }
+    ],
+    "exclude": []
+  },
+  "COK": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Cook Islands"
+      }
+    ],
+    "exclude": []
+  },
+  "COL": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Colombia"
+      }
+    ],
+    "exclude": []
+  },
+  "COM": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Comoros"
+      }
+    ],
+    "exclude": []
+  },
+  "CPV": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Cabo Verde"
+      }
+    ],
+    "exclude": []
+  },
+  "CRI": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Costa Rica"
+      }
+    ],
+    "exclude": []
+  },
+  "CUB": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Cuba"
+      },
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "USG"
+      }
+    ],
+    "exclude": []
+  },
+  "CUW": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Curaçao"
+      }
+    ],
+    "exclude": []
+  },
+  "CXR": {
+    "include": [
+      {
+        "layer": "map_units",
+        "key": "GU_A3",
+        "value": "CXR"
+      }
+    ],
+    "exclude": []
+  },
+  "CYM": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Cayman Islands"
+      }
+    ],
+    "exclude": []
+  },
+  "CYP": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Cyprus"
+      },
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "CYN"
+      },
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "CNM"
+      }
+    ],
+    "exclude": [],
+    "answerNote": {
+      "en": "The outline includes northern Cyprus and excludes the British Sovereign Base Areas of Akrotiri and Dhekelia.",
+      "fr": "Le contour comprend le nord de Chypre et exclut les zones de souveraineté britanniques d’Akrotiri et de Dhekelia."
+    }
+  },
+  "CZE": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Czechia"
+      }
+    ],
+    "exclude": []
+  },
+  "DEU": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Germany"
+      }
+    ],
+    "exclude": []
+  },
+  "DJI": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Djibouti"
+      }
+    ],
+    "exclude": []
+  },
+  "DMA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Dominica"
+      }
+    ],
+    "exclude": []
+  },
+  "DNK": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Denmark"
+      }
+    ],
+    "exclude": []
+  },
+  "DOM": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Dominican Republic"
+      }
+    ],
+    "exclude": []
+  },
+  "DZA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Algeria"
+      }
+    ],
+    "exclude": []
+  },
+  "ECU": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Ecuador"
+      }
+    ],
+    "exclude": []
+  },
+  "EGY": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Egypt"
+      }
+    ],
+    "exclude": []
+  },
+  "ERI": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Eritrea"
+      }
+    ],
+    "exclude": []
+  },
+  "ESH": {
+    "include": [
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "W. Sahara"
+      }
+    ],
+    "exclude": [],
+    "answerNote": {
+      "en": "The geographic territory of Western Sahara is shown in full, on both sides of the berm. The outline does not determine sovereignty.",
+      "fr": "Le territoire géographique du Sahara occidental est représenté dans son ensemble, de part et d’autre du mur de sable. Le contour ne détermine pas la souveraineté."
+    }
+  },
+  "ESP": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Spain"
+      }
+    ],
+    "exclude": []
+  },
+  "EST": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Estonia"
+      }
+    ],
+    "exclude": []
+  },
+  "ETH": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Ethiopia"
+      }
+    ],
+    "exclude": []
+  },
+  "FIN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Finland"
+      }
+    ],
+    "exclude": []
+  },
+  "FJI": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Fiji"
+      }
+    ],
+    "exclude": []
+  },
+  "FLK": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Falkland Islands"
+      }
+    ],
+    "exclude": []
+  },
+  "FRA": {
+    "include": [
+      {
+        "layer": "map_units",
+        "key": "GU_A3",
+        "value": "FXX"
+      },
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "CLP"
+      }
+    ],
+    "exclude": []
+  },
+  "FRO": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Faroe Islands"
+      }
+    ],
+    "exclude": []
+  },
+  "FSM": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Federated States of Micronesia"
+      }
+    ],
+    "exclude": []
+  },
+  "GAB": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Gabon"
+      }
+    ],
+    "exclude": []
+  },
+  "GBR": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "United Kingdom"
+      }
+    ],
+    "exclude": []
+  },
+  "GEO": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Georgia"
+      }
+    ],
+    "exclude": []
+  },
+  "GGY": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Guernsey"
+      }
+    ],
+    "exclude": []
+  },
+  "GHA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Ghana"
+      }
+    ],
+    "exclude": []
+  },
+  "GIB": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Gibraltar"
+      }
+    ],
+    "exclude": []
+  },
+  "GIN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Guinea"
+      }
+    ],
+    "exclude": []
+  },
+  "GLP": {
+    "include": [
+      {
+        "layer": "map_units",
+        "key": "GU_A3",
+        "value": "GLP"
+      }
+    ],
+    "exclude": []
+  },
+  "GMB": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Gambia"
+      }
+    ],
+    "exclude": []
+  },
+  "GNB": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Guinea-Bissau"
+      }
+    ],
+    "exclude": []
+  },
+  "GNQ": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Equatorial Guinea"
+      }
+    ],
+    "exclude": []
+  },
+  "GRC": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Greece"
+      }
+    ],
+    "exclude": []
+  },
+  "GRD": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Grenada"
+      }
+    ],
+    "exclude": []
+  },
+  "GRL": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Greenland"
+      }
+    ],
+    "exclude": []
+  },
+  "GTM": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Guatemala"
+      }
+    ],
+    "exclude": []
+  },
+  "GUF": {
+    "include": [
+      {
+        "layer": "map_units",
+        "key": "GU_A3",
+        "value": "GUF"
+      }
+    ],
+    "exclude": []
+  },
+  "GUM": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Guam"
+      }
+    ],
+    "exclude": []
+  },
+  "GUY": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Guyana"
+      }
+    ],
+    "exclude": []
+  },
+  "HKG": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Hong Kong S.A.R."
+      }
+    ],
+    "exclude": []
+  },
+  "HMD": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "HMD"
+      },
+      {
+        "layer": "aadc_mcdonald",
+        "key": "metadata_id",
+        "value": "McDonald_Island_Coastline_2020"
+      },
+      {
+        "layer": "minor_islands",
+        "key": "sr_adm0_a3",
+        "value": "HMD"
+      }
+    ],
+    "exclude": []
+  },
+  "HND": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Honduras"
+      }
+    ],
+    "exclude": []
+  },
+  "HRV": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Croatia"
+      }
+    ],
+    "exclude": []
+  },
+  "HTI": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Haiti"
+      }
+    ],
+    "exclude": []
+  },
+  "HUN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Hungary"
+      }
+    ],
+    "exclude": []
+  },
+  "IDN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Indonesia"
+      }
+    ],
+    "exclude": []
+  },
+  "IMN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Isle of Man"
+      }
+    ],
+    "exclude": []
+  },
+  "IND": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "India"
+      }
+    ],
+    "exclude": [
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Jammu and Kashmir"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Aksai Chin"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Shaksam Valley"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Gilgit-Baltistan"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Azad Kashmir"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Demchok"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Siachen Glacier"
+      }
+    ],
+    "answerNote": {
+      "en": "Areas of the Kashmir dispute are shown as neutral context with dashed boundaries; they are not assigned to a claimant in this deck. The final status of Jammu and Kashmir has not been agreed upon by the parties.",
+      "fr": "Les zones du différend du Cachemire apparaissent en contexte neutre, avec des limites en pointillés ; ce jeu ne les attribue à aucune partie. Les parties ne se sont pas accordées sur le statut définitif du Jammu-et-Cachemire."
+    }
+  },
+  "IOT": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "IOT"
+      }
+    ],
+    "exclude": []
+  },
+  "IRL": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Ireland"
+      }
+    ],
+    "exclude": []
+  },
+  "IRN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Iran"
+      }
+    ],
+    "exclude": []
+  },
+  "IRQ": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Iraq"
+      }
+    ],
+    "exclude": []
+  },
+  "ISL": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Iceland"
+      }
+    ],
+    "exclude": []
+  },
+  "ISR": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Israel"
+      }
+    ],
+    "exclude": [
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Golan Heights"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "East Jerusalem"
+      }
+    ]
+  },
+  "ITA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Italy"
+      }
+    ],
+    "exclude": []
+  },
+  "JAM": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Jamaica"
+      }
+    ],
+    "exclude": []
+  },
+  "JEY": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Jersey"
+      }
+    ],
+    "exclude": []
+  },
+  "JOR": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Jordan"
+      }
+    ],
+    "exclude": []
+  },
+  "JPN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Japan"
+      }
+    ],
+    "exclude": []
+  },
+  "KAZ": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Kazakhstan"
+      },
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "KAB"
+      }
+    ],
+    "exclude": []
+  },
+  "KEN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Kenya"
+      }
+    ],
+    "exclude": []
+  },
+  "KGZ": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Kyrgyzstan"
+      }
+    ],
+    "exclude": []
+  },
+  "KHM": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Cambodia"
+      }
+    ],
+    "exclude": []
+  },
+  "KIR": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Kiribati"
+      }
+    ],
+    "exclude": []
+  },
+  "KNA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Saint Kitts and Nevis"
+      }
+    ],
+    "exclude": []
+  },
+  "KOR": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "South Korea"
+      }
+    ],
+    "exclude": []
+  },
+  "KWT": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Kuwait"
+      }
+    ],
+    "exclude": []
+  },
+  "LAO": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Laos"
+      }
+    ],
+    "exclude": []
+  },
+  "LBN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Lebanon"
+      }
+    ],
+    "exclude": []
+  },
+  "LBR": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Liberia"
+      }
+    ],
+    "exclude": []
+  },
+  "LBY": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Libya"
+      }
+    ],
+    "exclude": []
+  },
+  "LCA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Saint Lucia"
+      }
+    ],
+    "exclude": []
+  },
+  "LIE": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Liechtenstein"
+      }
+    ],
+    "exclude": []
+  },
+  "LKA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Sri Lanka"
+      }
+    ],
+    "exclude": []
+  },
+  "LSO": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Lesotho"
+      }
+    ],
+    "exclude": []
+  },
+  "LTU": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Lithuania"
+      }
+    ],
+    "exclude": []
+  },
+  "LUX": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Luxembourg"
+      }
+    ],
+    "exclude": []
+  },
+  "LVA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Latvia"
+      }
+    ],
+    "exclude": []
+  },
+  "MAC": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Macao S.A.R"
+      }
+    ],
+    "exclude": []
+  },
+  "MAF": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Saint Martin"
+      }
+    ],
+    "exclude": []
+  },
+  "MAR": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Morocco"
+      }
+    ],
+    "exclude": [
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "W. Sahara"
+      }
+    ]
+  },
+  "MCO": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Monaco"
+      }
+    ],
+    "exclude": []
+  },
+  "MDA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Moldova"
+      }
+    ],
+    "exclude": []
+  },
+  "MDG": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Madagascar"
+      }
+    ],
+    "exclude": []
+  },
+  "MDV": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Maldives"
+      }
+    ],
+    "exclude": []
+  },
+  "MEX": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Mexico"
+      }
+    ],
+    "exclude": []
+  },
+  "MHL": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Marshall Islands"
+      }
+    ],
+    "exclude": []
+  },
+  "MKD": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "North Macedonia"
+      }
+    ],
+    "exclude": []
+  },
+  "MLI": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Mali"
+      }
+    ],
+    "exclude": []
+  },
+  "MLT": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Malta"
+      }
+    ],
+    "exclude": []
+  },
+  "MMR": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Myanmar"
+      }
+    ],
+    "exclude": []
+  },
+  "MNE": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Montenegro"
+      }
+    ],
+    "exclude": []
+  },
+  "MNG": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Mongolia"
+      }
+    ],
+    "exclude": []
+  },
+  "MNP": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Northern Mariana Islands"
+      }
+    ],
+    "exclude": []
+  },
+  "MOZ": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Mozambique"
+      }
+    ],
+    "exclude": []
+  },
+  "MRT": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Mauritania"
+      }
+    ],
+    "exclude": []
+  },
+  "MSR": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "MSR"
+      }
+    ],
+    "exclude": []
+  },
+  "MTQ": {
+    "include": [
+      {
+        "layer": "map_units",
+        "key": "GU_A3",
+        "value": "MTQ"
+      }
+    ],
+    "exclude": []
+  },
+  "MUS": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Mauritius"
+      }
+    ],
+    "exclude": []
+  },
+  "MWI": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Malawi"
+      }
+    ],
+    "exclude": []
+  },
+  "MYS": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Malaysia"
+      }
+    ],
+    "exclude": []
+  },
+  "MYT": {
+    "include": [
+      {
+        "layer": "map_units",
+        "key": "GU_A3",
+        "value": "MYT"
+      }
+    ],
+    "exclude": []
+  },
+  "NAM": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Namibia"
+      }
+    ],
+    "exclude": []
+  },
+  "NCL": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "New Caledonia"
+      }
+    ],
+    "exclude": []
+  },
+  "NER": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Niger"
+      }
+    ],
+    "exclude": []
+  },
+  "NFK": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "NFK"
+      },
+      {
+        "layer": "minor_islands",
+        "key": "sr_adm0_a3",
+        "value": "NFK"
+      }
+    ],
+    "exclude": []
+  },
+  "NGA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Nigeria"
+      }
+    ],
+    "exclude": []
+  },
+  "NIC": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Nicaragua"
+      }
+    ],
+    "exclude": []
+  },
+  "NIU": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Niue"
+      }
+    ],
+    "exclude": []
+  },
+  "NLD": {
+    "include": [
+      {
+        "layer": "map_units",
+        "key": "GU_A3",
+        "value": "NLX"
+      }
+    ],
+    "exclude": []
+  },
+  "NOR": {
+    "include": [
+      {
+        "layer": "map_units",
+        "key": "GU_A3",
+        "value": "NOW"
+      }
+    ],
+    "exclude": []
+  },
+  "NPL": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Nepal"
+      }
+    ],
+    "exclude": []
+  },
+  "NRU": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Nauru"
+      }
+    ],
+    "exclude": []
+  },
+  "NZL": {
+    "include": [
+      {
+        "layer": "map_units",
+        "key": "GU_A3",
+        "value": "NZL"
+      }
+    ],
+    "exclude": []
+  },
+  "OMN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Oman"
+      }
+    ],
+    "exclude": []
+  },
+  "PAK": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Pakistan"
+      }
+    ],
+    "exclude": [
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Jammu and Kashmir"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Aksai Chin"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Shaksam Valley"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Gilgit-Baltistan"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Azad Kashmir"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Demchok"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Siachen Glacier"
+      }
+    ],
+    "answerNote": {
+      "en": "Areas of the Kashmir dispute are shown as neutral context with dashed boundaries; they are not assigned to a claimant in this deck. The final status of Jammu and Kashmir has not been agreed upon by the parties.",
+      "fr": "Les zones du différend du Cachemire apparaissent en contexte neutre, avec des limites en pointillés ; ce jeu ne les attribue à aucune partie. Les parties ne se sont pas accordées sur le statut définitif du Jammu-et-Cachemire."
+    }
+  },
+  "PAN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Panama"
+      }
+    ],
+    "exclude": []
+  },
+  "PCN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "PCN"
+      },
+      {
+        "layer": "minor_islands",
+        "key": "sr_adm0_a3",
+        "value": "PCN"
+      }
+    ],
+    "exclude": []
+  },
+  "PER": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Peru"
+      }
+    ],
+    "exclude": []
+  },
+  "PHL": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Philippines"
+      }
+    ],
+    "exclude": []
+  },
+  "PLW": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Palau"
+      }
+    ],
+    "exclude": []
+  },
+  "PNG": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Papua New Guinea"
+      }
+    ],
+    "exclude": []
+  },
+  "POL": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Poland"
+      }
+    ],
+    "exclude": []
+  },
+  "PRI": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Puerto Rico"
+      }
+    ],
+    "exclude": []
+  },
+  "PRK": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "North Korea"
+      }
+    ],
+    "exclude": []
+  },
+  "PRT": {
+    "include": [
+      {
+        "layer": "map_units",
+        "key": "GU_A3",
+        "value": "PRX"
+      },
+      {
+        "layer": "map_units",
+        "key": "GU_A3",
+        "value": "PAZ"
+      },
+      {
+        "layer": "map_units",
+        "key": "GU_A3",
+        "value": "PMD"
+      }
+    ],
+    "exclude": []
+  },
+  "PRY": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Paraguay"
+      }
+    ],
+    "exclude": []
+  },
+  "PSE": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Palestine"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "East Jerusalem"
+      }
+    ],
+    "exclude": []
+  },
+  "PYF": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "French Polynesia"
+      }
+    ],
+    "exclude": []
+  },
+  "QAT": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Qatar"
+      }
+    ],
+    "exclude": []
+  },
+  "REU": {
+    "include": [
+      {
+        "layer": "map_units",
+        "key": "GU_A3",
+        "value": "REU"
+      }
+    ],
+    "exclude": []
+  },
+  "ROU": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Romania"
+      }
+    ],
+    "exclude": []
+  },
+  "RUS": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Russia"
+      }
+    ],
+    "exclude": [
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Crimea"
+      }
+    ]
+  },
+  "RWA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Rwanda"
+      }
+    ],
+    "exclude": []
+  },
+  "SAU": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Saudi Arabia"
+      }
+    ],
+    "exclude": []
+  },
+  "SDN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Sudan"
+      }
+    ],
+    "exclude": [
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Abyei"
+      }
+    ],
+    "answerNote": {
+      "en": "Abyei appears as neutral context with a dashed boundary. Its final status has not yet been determined.",
+      "fr": "Abyei apparaît en contexte neutre, avec une limite en pointillés. Son statut définitif n’a pas encore été déterminé."
+    }
+  },
+  "SEN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Senegal"
+      }
+    ],
+    "exclude": []
+  },
+  "SGP": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Singapore"
+      }
+    ],
+    "exclude": []
+  },
+  "SGS": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "SGS"
+      },
+      {
+        "layer": "minor_islands",
+        "key": "sr_adm0_a3",
+        "value": "SGS"
+      }
+    ],
+    "exclude": []
+  },
+  "SHN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "SHN"
+      },
+      {
+        "layer": "minor_islands",
+        "key": "sr_adm0_a3",
+        "value": "SHN"
+      }
+    ],
+    "exclude": []
+  },
+  "SJM": {
+    "include": [
+      {
+        "layer": "map_units",
+        "key": "GU_A3",
+        "value": "NSV"
+      },
+      {
+        "layer": "map_units",
+        "key": "GU_A3",
+        "value": "NJM"
+      }
+    ],
+    "exclude": []
+  },
+  "SLB": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Solomon Islands"
+      }
+    ],
+    "exclude": []
+  },
+  "SLE": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Sierra Leone"
+      }
+    ],
+    "exclude": []
+  },
+  "SLV": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "El Salvador"
+      }
+    ],
+    "exclude": []
+  },
+  "SMR": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "San Marino"
+      }
+    ],
+    "exclude": []
+  },
+  "SOM": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Somalia"
+      },
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "SOL"
+      }
+    ],
+    "exclude": []
+  },
+  "SPM": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "SPM"
+      }
+    ],
+    "exclude": []
+  },
+  "SRB": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Republic of Serbia"
+      },
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "KOS"
+      }
+    ],
+    "exclude": [],
+    "answerNote": {
+      "en": "Kosovo is shown within this outline under the convention used for this deck, referring to United Nations Security Council resolution 1244 (1999). This does not assert agreement on its status.",
+      "fr": "Le Kosovo figure dans ce contour selon la convention de ce jeu, en référence à la résolution 1244 (1999) du Conseil de sécurité des Nations unies. Cette représentation ne suppose pas un accord sur son statut."
+    }
+  },
+  "SSD": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "South Sudan"
+      }
+    ],
+    "exclude": [
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Abyei"
+      }
+    ],
+    "answerNote": {
+      "en": "Abyei appears as neutral context with a dashed boundary. Its final status has not yet been determined.",
+      "fr": "Abyei apparaît en contexte neutre, avec une limite en pointillés. Son statut définitif n’a pas encore été déterminé."
+    }
+  },
+  "STP": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "São Tomé and Principe"
+      }
+    ],
+    "exclude": []
+  },
+  "SUR": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Suriname"
+      }
+    ],
+    "exclude": []
+  },
+  "SVK": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Slovakia"
+      }
+    ],
+    "exclude": []
+  },
+  "SVN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Slovenia"
+      }
+    ],
+    "exclude": []
+  },
+  "SWE": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Sweden"
+      }
+    ],
+    "exclude": []
+  },
+  "SWZ": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "eSwatini"
+      }
+    ],
+    "exclude": []
+  },
+  "SXM": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Sint Maarten"
+      }
+    ],
+    "exclude": []
+  },
+  "SYC": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Seychelles"
+      }
+    ],
+    "exclude": []
+  },
+  "SYR": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Syria"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Golan Heights"
+      }
+    ],
+    "exclude": []
+  },
+  "TCA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Turks and Caicos Islands"
+      }
+    ],
+    "exclude": []
+  },
+  "TCD": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Chad"
+      }
+    ],
+    "exclude": []
+  },
+  "TGO": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Togo"
+      }
+    ],
+    "exclude": []
+  },
+  "THA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Thailand"
+      }
+    ],
+    "exclude": []
+  },
+  "TJK": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Tajikistan"
+      }
+    ],
+    "exclude": []
+  },
+  "TKL": {
+    "include": [
+      {
+        "layer": "map_units",
+        "key": "GU_A3",
+        "value": "TKL"
+      },
+      {
+        "layer": "minor_islands",
+        "key": "sr_gu_a3",
+        "value": "TKL"
+      }
+    ],
+    "exclude": []
+  },
+  "TKM": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Turkmenistan"
+      }
+    ],
+    "exclude": []
+  },
+  "TLS": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "East Timor"
+      }
+    ],
+    "exclude": []
+  },
+  "TON": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Tonga"
+      }
+    ],
+    "exclude": []
+  },
+  "TTO": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Trinidad and Tobago"
+      }
+    ],
+    "exclude": []
+  },
+  "TUN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Tunisia"
+      }
+    ],
+    "exclude": []
+  },
+  "TUR": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Turkey"
+      }
+    ],
+    "exclude": []
+  },
+  "TUV": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Tuvalu"
+      }
+    ],
+    "exclude": []
+  },
+  "TWN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Taiwan"
+      }
+    ],
+    "exclude": []
+  },
+  "TZA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "United Republic of Tanzania"
+      }
+    ],
+    "exclude": []
+  },
+  "UGA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Uganda"
+      }
+    ],
+    "exclude": []
+  },
+  "UKR": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Ukraine"
+      },
+      {
+        "layer": "disputed_areas",
+        "key": "BRK_NAME",
+        "value": "Crimea"
+      }
+    ],
+    "exclude": []
+  },
+  "UMI": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADM0_A3",
+        "value": "UMI"
+      },
+      {
+        "layer": "minor_islands",
+        "key": "sr_adm0_a3",
+        "value": "UMI"
+      }
+    ],
+    "exclude": []
+  },
+  "URY": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Uruguay"
+      }
+    ],
+    "exclude": []
+  },
+  "USA": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "United States of America"
+      }
+    ],
+    "exclude": []
+  },
+  "UZB": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Uzbekistan"
+      }
+    ],
+    "exclude": []
+  },
+  "VAT": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Vatican"
+      }
+    ],
+    "exclude": []
+  },
+  "VCT": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Saint Vincent and the Grenadines"
+      }
+    ],
+    "exclude": []
+  },
+  "VEN": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Venezuela"
+      }
+    ],
+    "exclude": []
+  },
+  "VGB": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "British Virgin Islands"
+      }
+    ],
+    "exclude": []
+  },
+  "VIR": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "United States Virgin Islands"
+      }
+    ],
+    "exclude": []
+  },
+  "VNM": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Vietnam"
+      }
+    ],
+    "exclude": []
+  },
+  "VUT": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Vanuatu"
+      }
+    ],
+    "exclude": []
+  },
+  "WLF": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Wallis and Futuna"
+      }
+    ],
+    "exclude": []
+  },
+  "WSM": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Samoa"
+      }
+    ],
+    "exclude": []
+  },
+  "YEM": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Yemen"
+      }
+    ],
+    "exclude": []
+  },
+  "ZAF": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "South Africa"
+      }
+    ],
+    "exclude": []
+  },
+  "ZMB": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Zambia"
+      }
+    ],
+    "exclude": []
+  },
+  "ZWE": {
+    "include": [
+      {
+        "layer": "countries",
+        "key": "ADMIN",
+        "value": "Zimbabwe"
+      }
+    ],
+    "exclude": []
+  }
+}

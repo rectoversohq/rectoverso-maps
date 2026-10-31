@@ -1,0 +1,14 @@
+{
+  "file": "aadc-mcdonald-2020.geojson",
+  "sha256": "fb1f55e08ad3a24073817c406dffba51a4b931504d498ed013c92bd5c6eceae9",
+  "source": "Geoscience Australia / Australian Antarctic Data Centre",
+  "dataset": "McDonald_Island_Coastline_2020",
+  "captureDate": "2020-06-25",
+  "retrieved": "2026-10-31",
+  "requestURL": "https://data.aad.gov.au/geoserver/Mapping/ows?outputFormat=application%2Fjson&request=GetFeature&service=WFS&typeName=Mapping%3Ahimi_coastline_py&version=1.0.0&srsName=EPSG%3A4326&bbox=72.5%2C-53.12%2C72.7%2C-52.95%2CEPSG%3A4326",
+  "license": "CC-BY-4.0",
+  "licenseURL": "https://data.aad.gov.au/docs/conditions-of-use",
+  "sourcePage": "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/mapping/",
+  "features": 75,
+  "modifications": "Projected to WGS84 by the public WFS; selected within bounding box72.5,-53.12,72.7,-52.95. Geometry is unioned and simplified only during deck preparation/rendering."
+}

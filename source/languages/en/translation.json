@@ -1,0 +1,23 @@
+{
+  "fields": {
+    "answer": "Country or territory",
+    "picture": "Map",
+    "place": "RectoVerso place",
+    "boundary": "Boundary note"
+  },
+  "pictureAlt": "A country or territory highlighted in gold.",
+  "tags": [
+    "language::en",
+    "RectoVerso::Maps"
+  ],
+  "boundaryNotes": {
+    "CHN": "Areas of the Kashmir dispute are shown as neutral context with dashed boundaries; they are not assigned to a claimant in this deck. The final status of Jammu and Kashmir has not been agreed upon by the parties.",
+    "CYP": "The outline includes northern Cyprus and excludes the British Sovereign Base Areas of Akrotiri and Dhekelia.",
+    "ESH": "The geographic territory of Western Sahara is shown in full, on both sides of the berm. The outline does not determine sovereignty.",
+    "IND": "Areas of the Kashmir dispute are shown as neutral context with dashed boundaries; they are not assigned to a claimant in this deck. The final status of Jammu and Kashmir has not been agreed upon by the parties.",
+    "PAK": "Areas of the Kashmir dispute are shown as neutral context with dashed boundaries; they are not assigned to a claimant in this deck. The final status of Jammu and Kashmir has not been agreed upon by the parties.",
+    "SDN": "Abyei appears as neutral context with a dashed boundary. Its final status has not yet been determined.",
+    "SRB": "Kosovo is shown within this outline under the convention used for this deck, referring to United Nations Security Council resolution 1244 (1999). This does not assert agreement on its status.",
+    "SSD": "Abyei appears as neutral context with a dashed boundary. Its final status has not yet been determined."
+  }
+}

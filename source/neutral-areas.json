@@ -1,0 +1,50 @@
+{
+  "approved": "2026-10-31",
+  "convention": "neutral-context-dashed-boundaries",
+  "areas": [
+    {
+      "layer": "disputed_areas",
+      "key": "BRK_NAME",
+      "value": "Jammu and Kashmir"
+    },
+    {
+      "layer": "disputed_areas",
+      "key": "BRK_NAME",
+      "value": "Aksai Chin"
+    },
+    {
+      "layer": "disputed_areas",
+      "key": "BRK_NAME",
+      "value": "Shaksam Valley"
+    },
+    {
+      "layer": "disputed_areas",
+      "key": "BRK_NAME",
+      "value": "Gilgit-Baltistan"
+    },
+    {
+      "layer": "disputed_areas",
+      "key": "BRK_NAME",
+      "value": "Azad Kashmir"
+    },
+    {
+      "layer": "disputed_areas",
+      "key": "BRK_NAME",
+      "value": "Demchok"
+    },
+    {
+      "layer": "disputed_areas",
+      "key": "BRK_NAME",
+      "value": "Siachen Glacier"
+    },
+    {
+      "layer": "disputed_areas",
+      "key": "BRK_NAME",
+      "value": "Abyei"
+    }
+  ],
+  "sources": [
+    "https://www.un.org/geospatial/file/5098/download?token=H0MU7ZM0",
+    "https://digitallibrary.un.org/record/4102065/files/S_2026_58-EN.pdf"
+  ]
+}

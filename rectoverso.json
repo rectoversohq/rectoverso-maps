@@ -1,0 +1,5130 @@
+{
+  "id": "rectoverso-maps",
+  "version": "0.2.0-rc.1",
+  "status": "review-candidate",
+  "title": {
+    "en": "Maps",
+    "fr": "Cartes"
+  },
+  "subject": {
+    "en": "Geography",
+    "fr": "Géographie"
+  },
+  "license": "CC-BY-4.0",
+  "credits": {
+    "en": "Maps drawn by Simon Pinkas from Natural Earth v5.1.2 (public domain), with McDonald Islands coastline from Geoscience Australia / Australian Antarctic Data Centre, 2020 (CC BY 4.0). Common place names adapted in part from Ultimate Geography 5.3, by the anki-geo contributors (text public domain). No Ultimate Geography pictures are included. © Simon Pinkas. Deck: CC BY 4.0.",
+    "fr": "Cartes dessinées par Simon Pinkas à partir de Natural Earth v5.1.2 (domaine public), avec le littoral des îles McDonald de Geoscience Australia / Australian Antarctic Data Centre, 2020 (CC BY 4.0). Noms usuels adaptés en partie d’Ultimate Geography 5.3, par les contributeurs d’anki-geo (texte dans le domaine public). Aucune image d’Ultimate Geography n’est incluse. © Simon Pinkas. Jeu : CC BY 4.0."
+  },
+  "roster": "iso-countries-territories-249",
+  "cards": 249,
+  "sounds": 0,
+  "pictures": 249,
+  "cardKinds": [
+    {
+      "en": "Map → Country or territory",
+      "fr": "Carte → Pays ou territoire"
+    }
+  ],
+  "coverCode": "ITA",
+  "source": [
+    {
+      "name": "Natural Earth",
+      "version": "5.1.2",
+      "license": "Public domain",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/"
+    },
+    {
+      "name": "Ultimate Geography",
+      "version": "5.3",
+      "license": "Unlicense (text only)",
+      "url": "https://github.com/anki-geo/ultimate-geography/blob/v5.3/LICENSE.md"
+    },
+    {
+      "name": "Geoscience Australia / Australian Antarctic Data Centre",
+      "version": "McDonald_Island_Coastline_2020, captured 2020-06-25",
+      "license": "CC-BY-4.0",
+      "url": "https://data.aad.gov.au/docs/conditions-of-use"
+    }
+  ],
+  "imageCredits": [
+    {
+      "file": "rv-map-abw.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ABW",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Aruba"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-afg.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "AFG",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Afghanistan"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-ago.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "AGO",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Angola"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-aia.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "AIA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Anguilla"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-ala.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ALA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Aland"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-alb.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ALB",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Albania"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-and.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "AND",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Andorra"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-are.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ARE",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "United Arab Emirates"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-arg.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ARG",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Argentina"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-arm.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ARM",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Armenia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-asm.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ASM",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "American Samoa"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-ata.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ATA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "ATA"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-atf.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ATF",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "whole-place-with-component-insets",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "ATF"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "ATF"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-atg.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ATG",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Antigua and Barbuda"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-aus.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "AUS",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Australia"
+          },
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "CSI"
+          },
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "ATC"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-aut.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "AUT",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Austria"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-aze.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "AZE",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Azerbaijan"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-bdi.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BDI",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Burundi"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-bel.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BEL",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Belgium"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-ben.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BEN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Benin"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-bes.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BES",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "whole-place-with-component-insets",
+      "geometry": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "NLY"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-bfa.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BFA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Burkina Faso"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-bgd.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BGD",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Bangladesh"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-bgr.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BGR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Bulgaria"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-bhr.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BHR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Bahrain"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-bhs.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BHS",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "The Bahamas"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-bih.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BIH",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Bosnia and Herzegovina"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-blm.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BLM",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "BLM"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-blr.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BLR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Belarus"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-blz.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BLZ",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Belize"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-bmu.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BMU",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Bermuda"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-bol.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BOL",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Bolivia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-bra.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BRA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Brazil"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-brb.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BRB",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Barbados"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-brn.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BRN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Brunei"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-btn.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BTN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Bhutan"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-bvt.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BVT",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "BVT"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-bwa.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "BWA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Botswana"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-caf.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "CAF",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Central African Republic"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-can.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "CAN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Canada"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-cck.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "CCK",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "CCK"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-che.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "CHE",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Switzerland"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-chl.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "CHL",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Chile"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-chn.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "CHN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "China"
+          }
+        ],
+        "exclude": [
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Jammu and Kashmir"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Aksai Chin"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Shaksam Valley"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Gilgit-Baltistan"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Azad Kashmir"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Demchok"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Siachen Glacier"
+          }
+        ],
+        "answerNote": {
+          "en": "Areas of the Kashmir dispute are shown as neutral context with dashed boundaries; they are not assigned to a claimant in this deck. The final status of Jammu and Kashmir has not been agreed upon by the parties.",
+          "fr": "Les zones du différend du Cachemire apparaissent en contexte neutre, avec des limites en pointillés ; ce jeu ne les attribue à aucune partie. Les parties ne se sont pas accordées sur le statut définitif du Jammu-et-Cachemire."
+        }
+      }
+    },
+    {
+      "file": "rv-map-civ.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "CIV",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Ivory Coast"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-cmr.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "CMR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Cameroon"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-cod.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "COD",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Democratic Republic of the Congo"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-cog.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "COG",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Republic of the Congo"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-cok.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "COK",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Cook Islands"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-col.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "COL",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Colombia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-com.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "COM",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Comoros"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-cpv.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "CPV",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Cabo Verde"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-cri.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "CRI",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Costa Rica"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-cub.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "CUB",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Cuba"
+          },
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "USG"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-cuw.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "CUW",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Curaçao"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-cxr.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "CXR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "CXR"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-cym.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "CYM",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Cayman Islands"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-cyp.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "CYP",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Cyprus"
+          },
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "CYN"
+          },
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "CNM"
+          }
+        ],
+        "exclude": [],
+        "answerNote": {
+          "en": "The outline includes northern Cyprus and excludes the British Sovereign Base Areas of Akrotiri and Dhekelia.",
+          "fr": "Le contour comprend le nord de Chypre et exclut les zones de souveraineté britanniques d’Akrotiri et de Dhekelia."
+        }
+      }
+    },
+    {
+      "file": "rv-map-cze.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "CZE",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Czechia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-deu.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "DEU",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Germany"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-dji.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "DJI",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Djibouti"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-dma.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "DMA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Dominica"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-dnk.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "DNK",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Denmark"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-dom.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "DOM",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Dominican Republic"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-dza.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "DZA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Algeria"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-ecu.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ECU",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Ecuador"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-egy.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "EGY",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Egypt"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-eri.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ERI",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Eritrea"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-esh.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ESH",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "W. Sahara"
+          }
+        ],
+        "exclude": [],
+        "answerNote": {
+          "en": "The geographic territory of Western Sahara is shown in full, on both sides of the berm. The outline does not determine sovereignty.",
+          "fr": "Le territoire géographique du Sahara occidental est représenté dans son ensemble, de part et d’autre du mur de sable. Le contour ne détermine pas la souveraineté."
+        }
+      }
+    },
+    {
+      "file": "rv-map-esp.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ESP",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Spain"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-est.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "EST",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Estonia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-eth.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ETH",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Ethiopia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-fin.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "FIN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Finland"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-fji.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "FJI",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "whole-place",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Fiji"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-flk.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "FLK",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Falkland Islands"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-fra.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "FRA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "whole-place-with-component-insets",
+      "geometry": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "FXX"
+          },
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "CLP"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-fro.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "FRO",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Faroe Islands"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-fsm.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "FSM",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "whole-place",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Federated States of Micronesia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-gab.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "GAB",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Gabon"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-gbr.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "GBR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "United Kingdom"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-geo.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "GEO",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Georgia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-ggy.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "GGY",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Guernsey"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-gha.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "GHA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Ghana"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-gib.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "GIB",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Gibraltar"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-gin.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "GIN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Guinea"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-glp.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "GLP",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "GLP"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-gmb.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "GMB",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Gambia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-gnb.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "GNB",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Guinea-Bissau"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-gnq.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "GNQ",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Equatorial Guinea"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-grc.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "GRC",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Greece"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-grd.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "GRD",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Grenada"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-grl.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "GRL",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Greenland"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-gtm.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "GTM",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Guatemala"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-guf.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "GUF",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "GUF"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-gum.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "GUM",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Guam"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-guy.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "GUY",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Guyana"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-hkg.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "HKG",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Hong Kong S.A.R."
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-hmd.png",
+      "source": "Natural Earth v5.1.2; Geoscience Australia / AADC McDonald_Island_Coastline_2020 (CC BY 4.0)",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "HMD",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "whole-place-with-component-insets",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "HMD"
+          },
+          {
+            "layer": "aadc_mcdonald",
+            "key": "metadata_id",
+            "value": "McDonald_Island_Coastline_2020"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "HMD"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-hnd.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "HND",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Honduras"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-hrv.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "HRV",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Croatia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-hti.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "HTI",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Haiti"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-hun.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "HUN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Hungary"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-idn.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "IDN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "whole-place",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Indonesia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-imn.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "IMN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Isle of Man"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-ind.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "IND",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "India"
+          }
+        ],
+        "exclude": [
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Jammu and Kashmir"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Aksai Chin"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Shaksam Valley"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Gilgit-Baltistan"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Azad Kashmir"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Demchok"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Siachen Glacier"
+          }
+        ],
+        "answerNote": {
+          "en": "Areas of the Kashmir dispute are shown as neutral context with dashed boundaries; they are not assigned to a claimant in this deck. The final status of Jammu and Kashmir has not been agreed upon by the parties.",
+          "fr": "Les zones du différend du Cachemire apparaissent en contexte neutre, avec des limites en pointillés ; ce jeu ne les attribue à aucune partie. Les parties ne se sont pas accordées sur le statut définitif du Jammu-et-Cachemire."
+        }
+      }
+    },
+    {
+      "file": "rv-map-iot.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "IOT",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "IOT"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-irl.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "IRL",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Ireland"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-irn.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "IRN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Iran"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-irq.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "IRQ",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Iraq"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-isl.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ISL",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Iceland"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-isr.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ISR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Israel"
+          }
+        ],
+        "exclude": [
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Golan Heights"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "East Jerusalem"
+          }
+        ]
+      }
+    },
+    {
+      "file": "rv-map-ita.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ITA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Italy"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-jam.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "JAM",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Jamaica"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-jey.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "JEY",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Jersey"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-jor.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "JOR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Jordan"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-jpn.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "JPN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Japan"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-kaz.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "KAZ",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Kazakhstan"
+          },
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "KAB"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-ken.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "KEN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Kenya"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-kgz.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "KGZ",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Kyrgyzstan"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-khm.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "KHM",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Cambodia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-kir.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "KIR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "whole-place",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Kiribati"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-kna.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "KNA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Saint Kitts and Nevis"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-kor.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "KOR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "South Korea"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-kwt.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "KWT",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Kuwait"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-lao.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "LAO",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Laos"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-lbn.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "LBN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Lebanon"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-lbr.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "LBR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Liberia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-lby.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "LBY",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Libya"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-lca.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "LCA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Saint Lucia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-lie.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "LIE",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Liechtenstein"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-lka.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "LKA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Sri Lanka"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-lso.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "LSO",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Lesotho"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-ltu.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "LTU",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Lithuania"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-lux.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "LUX",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Luxembourg"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-lva.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "LVA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Latvia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-mac.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAC",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Macao S.A.R"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-maf.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAF",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Saint Martin"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-mar.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Morocco"
+          }
+        ],
+        "exclude": [
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "W. Sahara"
+          }
+        ]
+      }
+    },
+    {
+      "file": "rv-map-mco.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MCO",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Monaco"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-mda.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MDA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Moldova"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-mdg.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MDG",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Madagascar"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-mdv.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MDV",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Maldives"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-mex.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MEX",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Mexico"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-mhl.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MHL",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Marshall Islands"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-mkd.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MKD",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "North Macedonia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-mli.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MLI",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Mali"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-mlt.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MLT",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Malta"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-mmr.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MMR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Myanmar"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-mne.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MNE",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Montenegro"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-mng.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MNG",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Mongolia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-mnp.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MNP",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Northern Mariana Islands"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-moz.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MOZ",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Mozambique"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-mrt.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MRT",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Mauritania"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-msr.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MSR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "MSR"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-mtq.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MTQ",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "MTQ"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-mus.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MUS",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Mauritius"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-mwi.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MWI",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Malawi"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-mys.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MYS",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Malaysia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-myt.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MYT",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "MYT"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-nam.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "NAM",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Namibia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-ncl.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "NCL",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "New Caledonia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-ner.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "NER",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Niger"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-nfk.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "NFK",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "NFK"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "NFK"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-nga.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "NGA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Nigeria"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-nic.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "NIC",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Nicaragua"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-niu.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "NIU",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Niue"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-nld.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "NLD",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "NLX"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-nor.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "NOR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "NOW"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-npl.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "NPL",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Nepal"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-nru.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "NRU",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Nauru"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-nzl.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "NZL",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "NZL"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-omn.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "OMN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Oman"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-pak.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "PAK",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Pakistan"
+          }
+        ],
+        "exclude": [
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Jammu and Kashmir"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Aksai Chin"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Shaksam Valley"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Gilgit-Baltistan"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Azad Kashmir"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Demchok"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Siachen Glacier"
+          }
+        ],
+        "answerNote": {
+          "en": "Areas of the Kashmir dispute are shown as neutral context with dashed boundaries; they are not assigned to a claimant in this deck. The final status of Jammu and Kashmir has not been agreed upon by the parties.",
+          "fr": "Les zones du différend du Cachemire apparaissent en contexte neutre, avec des limites en pointillés ; ce jeu ne les attribue à aucune partie. Les parties ne se sont pas accordées sur le statut définitif du Jammu-et-Cachemire."
+        }
+      }
+    },
+    {
+      "file": "rv-map-pan.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "PAN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Panama"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-pcn.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "PCN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "whole-place-with-component-insets",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "PCN"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "PCN"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-per.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "PER",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Peru"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-phl.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "PHL",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Philippines"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-plw.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "PLW",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Palau"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-png.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "PNG",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Papua New Guinea"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-pol.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "POL",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Poland"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-pri.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "PRI",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Puerto Rico"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-prk.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "PRK",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "North Korea"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-prt.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "PRT",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "whole-place-with-component-insets",
+      "geometry": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "PRX"
+          },
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "PAZ"
+          },
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "PMD"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-pry.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "PRY",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Paraguay"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-pse.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "PSE",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Palestine"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "East Jerusalem"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-pyf.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "PYF",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "French Polynesia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-qat.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "QAT",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Qatar"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-reu.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "REU",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "REU"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-rou.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ROU",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Romania"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-rus.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "RUS",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "whole-place",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Russia"
+          }
+        ],
+        "exclude": [
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Crimea"
+          }
+        ]
+      }
+    },
+    {
+      "file": "rv-map-rwa.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "RWA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Rwanda"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-sau.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SAU",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Saudi Arabia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-sdn.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SDN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Sudan"
+          }
+        ],
+        "exclude": [
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Abyei"
+          }
+        ],
+        "answerNote": {
+          "en": "Abyei appears as neutral context with a dashed boundary. Its final status has not yet been determined.",
+          "fr": "Abyei apparaît en contexte neutre, avec une limite en pointillés. Son statut définitif n’a pas encore été déterminé."
+        }
+      }
+    },
+    {
+      "file": "rv-map-sen.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SEN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Senegal"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-sgp.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SGP",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Singapore"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-sgs.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SGS",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "whole-place-with-component-insets",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "SGS"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "SGS"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-shn.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SHN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "whole-place-with-component-insets",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "SHN"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "SHN"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-sjm.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SJM",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "whole-place-with-component-insets",
+      "geometry": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "NSV"
+          },
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "NJM"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-slb.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SLB",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Solomon Islands"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-sle.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SLE",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Sierra Leone"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-slv.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SLV",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "El Salvador"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-smr.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SMR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "San Marino"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-som.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SOM",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Somalia"
+          },
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "SOL"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-spm.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SPM",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "SPM"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-srb.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SRB",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Republic of Serbia"
+          },
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "KOS"
+          }
+        ],
+        "exclude": [],
+        "answerNote": {
+          "en": "Kosovo is shown within this outline under the convention used for this deck, referring to United Nations Security Council resolution 1244 (1999). This does not assert agreement on its status.",
+          "fr": "Le Kosovo figure dans ce contour selon la convention de ce jeu, en référence à la résolution 1244 (1999) du Conseil de sécurité des Nations unies. Cette représentation ne suppose pas un accord sur son statut."
+        }
+      }
+    },
+    {
+      "file": "rv-map-ssd.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SSD",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "South Sudan"
+          }
+        ],
+        "exclude": [
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Abyei"
+          }
+        ],
+        "answerNote": {
+          "en": "Abyei appears as neutral context with a dashed boundary. Its final status has not yet been determined.",
+          "fr": "Abyei apparaît en contexte neutre, avec une limite en pointillés. Son statut définitif n’a pas encore été déterminé."
+        }
+      }
+    },
+    {
+      "file": "rv-map-stp.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "STP",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "São Tomé and Principe"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-sur.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SUR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Suriname"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-svk.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SVK",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Slovakia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-svn.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SVN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Slovenia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-swe.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SWE",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Sweden"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-swz.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SWZ",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "eSwatini"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-sxm.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SXM",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Sint Maarten"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-syc.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SYC",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Seychelles"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-syr.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "SYR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Syria"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Golan Heights"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-tca.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "TCA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Turks and Caicos Islands"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-tcd.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "TCD",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Chad"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-tgo.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "TGO",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Togo"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-tha.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "THA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Thailand"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-tjk.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "TJK",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Tajikistan"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-tkl.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "TKL",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "whole-place-with-component-insets",
+      "geometry": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "TKL"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_gu_a3",
+            "value": "TKL"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-tkm.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "TKM",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Turkmenistan"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-tls.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "TLS",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "East Timor"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-ton.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "TON",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Tonga"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-tto.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "TTO",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Trinidad and Tobago"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-tun.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "TUN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Tunisia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-tur.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "TUR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Turkey"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-tuv.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "TUV",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Tuvalu"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-twn.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "TWN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Taiwan"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-tza.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "TZA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "United Republic of Tanzania"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-uga.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "UGA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Uganda"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-ukr.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "UKR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Ukraine"
+          },
+          {
+            "layer": "disputed_areas",
+            "key": "BRK_NAME",
+            "value": "Crimea"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-umi.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "UMI",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "whole-place-with-component-insets",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "UMI"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "UMI"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-ury.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "URY",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Uruguay"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-usa.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "USA",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "United States of America"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-uzb.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "UZB",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Uzbekistan"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-vat.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "VAT",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Vatican"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-vct.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "VCT",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Saint Vincent and the Grenadines"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-ven.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "VEN",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Venezuela"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-vgb.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "VGB",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "British Virgin Islands"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-vir.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "VIR",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "United States Virgin Islands"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-vnm.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "VNM",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Vietnam"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-vut.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "VUT",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Vanuatu"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-wlf.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "WLF",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Wallis and Futuna"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-wsm.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "WSM",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Samoa"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-yem.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "YEM",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Yemen"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-zaf.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ZAF",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "South Africa"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-zmb.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ZMB",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Zambia"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    {
+      "file": "rv-map-zwe.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "ZWE",
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "pictureFocus": "primary-and-nearby",
+      "geometry": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADMIN",
+            "value": "Zimbabwe"
+          }
+        ],
+        "exclude": []
+      }
+    }
+  ],
+  "repository": "https://github.com/rectoversohq/rectoverso-maps",
+  "releaseTag": "v0.2.0-rc.1",
+  "sourceFiles": {
+    "pictures": "source/media",
+    "originals": "source/svg",
+    "places": "source/places.json",
+    "coverage": "source/coverage.json",
+    "geometrySelections": "source/geometry-selections.json",
+    "neutralAreas": "source/neutral-areas.json",
+    "pictureGroups": "source/picture-groups.json",
+    "supplement": "source/geometry/provenance.json",
+    "policy": "source/policy.json",
+    "isoReference": "source/iso-3166-1-reference.json",
+    "style": "source/style.css"
+  },
+  "coverage": {
+    "file": "source/coverage.json",
+    "referenceCount": 249,
+    "authoritativeRegistryVerified": true,
+    "boundaryConvention": "UN-territorial-with-neutral-undetermined-areas",
+    "formalNames": "ISO OBP English/French short names, directly verified; see source/coverage.json for the dated reference and annotations"
+  },
+  "schemaVersion": 2,
+  "languages": {
+    "en": {
+      "id": "rectoverso-maps-en",
+      "package": {
+        "file": "Maps-en-249.apkg",
+        "bytes": 69301889,
+        "sha256": "c0b11d0b0ada65d5880d7d39585e07f0c4226ebf1a7b26317c5e8bb718a95bdb",
+        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.2.0-rc.1/Maps-en-249.apkg"
+      },
+      "sourceFiles": {
+        "deck": "source/languages/en/deck.json",
+        "noteType": "source/languages/en/note-type.json",
+        "translation": "source/languages/en/translation.json"
+      }
+    },
+    "fr": {
+      "id": "rectoverso-maps-fr",
+      "package": {
+        "file": "Cartes-fr-249.apkg",
+        "bytes": 69301436,
+        "sha256": "1eb000aa1fb13c118b7ed333216c664a3d277a5d9f1944c86dea035f5226ba6a",
+        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.2.0-rc.1/Cartes-fr-249.apkg"
+      },
+      "sourceFiles": {
+        "deck": "source/languages/fr/deck.json",
+        "noteType": "source/languages/fr/note-type.json",
+        "translation": "source/languages/fr/translation.json"
+      }
+    }
+  }
+}

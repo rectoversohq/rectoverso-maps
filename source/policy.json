@@ -1,0 +1,88 @@
+{
+  "approved": "2026-10-31",
+  "coverage": "All officially assigned ISO 3166-1 countries and territories; 249 entries directly verified against the ISO OBP registry",
+  "names": "Common learner EN/FR names with formal reference metadata",
+  "boundaries": "UN-informed territorial house convention; not UN or ISO endorsement",
+  "neutralUndeterminedAreas": [
+    "Kashmir: IND, PAK, CHN",
+    "Abyei: SDN, SSD"
+  ],
+  "sources": [
+    {
+      "scope": "Coverage definition",
+      "url": "https://www.iso.org/iso-3166-country-codes.html"
+    },
+    {
+      "scope": "Authoritative current codes and English/French short names",
+      "url": "https://www.iso.org/obp/ui/#search/code/",
+      "snapshotFile": "source/iso-3166-1-reference.json",
+      "snapshotSHA256": "450c741c64645a6beaa0c8e46b2649a9a666ae90189506d9002436432ea198f6",
+      "verifiedAt": "2026-10-31T19:03:41Z"
+    },
+    {
+      "scope": "Historical secondary coverage cross-check",
+      "url": "https://edm.gv.at/edm_portal/redaList.do?seqCode=na2skv6322qsqu&show=all&ubastyle_lang=en&ubastyle_nav=false",
+      "snapshotSHA256": "dba9992228a680f8a2d9d1f42dc8a78b93319a82305fcff634147166caae7e16",
+      "snapshotFormat": "CSV export",
+      "snapshotDate": "2026-10-31"
+    },
+    {
+      "scope": "Historical secondary UN M49 comparison; superseded by direct ISO short-name verification",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "snapshotSHA256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+      "snapshotDate": "2026-10-31"
+    },
+    {
+      "scope": "Natural Earth default boundary convention",
+      "url": "https://www.naturalearthdata.com/about/disputed-boundaries-policy/"
+    },
+    {
+      "scope": "Serbia/Kosovo; UNSCR 1244",
+      "url": "https://unstats.un.org/unsd/methodology/m49/"
+    },
+    {
+      "scope": "Cyprus",
+      "url": "https://www.refworld.org/legal/resolution/unsc/1983/8954"
+    },
+    {
+      "scope": "Cyprus sovereign bases, Treaty Article 1",
+      "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20382/v382.pdf"
+    },
+    {
+      "scope": "Georgia",
+      "url": "https://mandates.un.org/mandate/S/RES/1808%282008%29"
+    },
+    {
+      "scope": "Moldova",
+      "url": "https://www.un.org/sg/en/content/sg/press-events/2022-05-09/secretary-generals-remarks-the-media-chisinau-moldova"
+    },
+    {
+      "scope": "Somalia",
+      "url": "https://digitallibrary.un.org/record/4096834/files/S_RES_2809_%282025%29-EN.pdf"
+    },
+    {
+      "scope": "Ukraine",
+      "url": "https://digitallibrary.un.org/record/3990673/files/A_RES_ES-11_4-EN.pdf"
+    },
+    {
+      "scope": "Western Sahara territory",
+      "url": "https://digitallibrary.un.org/record/4090957/files/S_2025_612-FR.pdf"
+    },
+    {
+      "scope": "Kashmir undetermined status; UNMOGIP map 3828 Rev26 March2024",
+      "url": "https://www.un.org/geospatial/file/5098/download?token=H0MU7ZM0"
+    },
+    {
+      "scope": "Abyei undetermined status; UNMISS January2026 map",
+      "url": "https://digitallibrary.un.org/record/4102065/files/S_2026_58-EN.pdf"
+    },
+    {
+      "scope": "Golan Heights",
+      "url": "https://www.un.org/unispal/document/auto-insert-180751/"
+    },
+    {
+      "scope": "Palestinian territory including East Jerusalem",
+      "url": "https://www.un.org/unispal/permanent-status-issues/"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "fields": {
+    "answer": "Pays ou territoire",
+    "picture": "Carte",
+    "place": "RectoVerso place",
+    "boundary": "Note sur les limites"
+  },
+  "pictureAlt": "Un pays ou territoire en surbrillance dorée.",
+  "tags": [
+    "language::fr",
+    "RectoVerso::Maps"
+  ],
+  "boundaryNotes": {
+    "CHN": "Les zones du différend du Cachemire apparaissent en contexte neutre, avec des limites en pointillés ; ce jeu ne les attribue à aucune partie. Les parties ne se sont pas accordées sur le statut définitif du Jammu-et-Cachemire.",
+    "CYP": "Le contour comprend le nord de Chypre et exclut les zones de souveraineté britanniques d’Akrotiri et de Dhekelia.",
+    "ESH": "Le territoire géographique du Sahara occidental est représenté dans son ensemble, de part et d’autre du mur de sable. Le contour ne détermine pas la souveraineté.",
+    "IND": "Les zones du différend du Cachemire apparaissent en contexte neutre, avec des limites en pointillés ; ce jeu ne les attribue à aucune partie. Les parties ne se sont pas accordées sur le statut définitif du Jammu-et-Cachemire.",
+    "PAK": "Les zones du différend du Cachemire apparaissent en contexte neutre, avec des limites en pointillés ; ce jeu ne les attribue à aucune partie. Les parties ne se sont pas accordées sur le statut définitif du Jammu-et-Cachemire.",
+    "SDN": "Abyei apparaît en contexte neutre, avec une limite en pointillés. Son statut définitif n’a pas encore été déterminé.",
+    "SRB": "Le Kosovo figure dans ce contour selon la convention de ce jeu, en référence à la résolution 1244 (1999) du Conseil de sécurité des Nations unies. Cette représentation ne suppose pas un accord sur son statut.",
+    "SSD": "Abyei apparaît en contexte neutre, avec une limite en pointillés. Son statut définitif n’a pas encore été déterminé."
+  }
+}

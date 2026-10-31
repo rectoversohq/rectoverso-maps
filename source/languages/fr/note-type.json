@@ -1,0 +1,24 @@
+{
+  "id": 1800000631002,
+  "name": "RectoVerso Maps FR",
+  "fields": [
+    "Pays ou territoire",
+    "Carte",
+    "RectoVerso place",
+    "Note sur les limites"
+  ],
+  "templates": [
+    {
+      "name": "Carte → Pays ou territoire",
+      "qfmt": "{{Carte}}",
+      "afmt": "{{FrontSide}}<hr id=\"answer\"><div class=\"answer\">{{Pays ou territoire}}</div>{{#Note sur les limites}}<div class=\"boundary-note\">{{Note sur les limites}}</div>{{/Note sur les limites}}",
+      "id": 7755391580088409756
+    }
+  ],
+  "fieldIDs": {
+    "Pays ou territoire": -138338067345376319,
+    "Carte": -2411086927286484763,
+    "RectoVerso place": -2065092899215387258,
+    "Note sur les limites": 1800000631102
+  }
+}

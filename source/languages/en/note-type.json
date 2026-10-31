@@ -1,0 +1,24 @@
+{
+  "id": 1800000631001,
+  "name": "RectoVerso Maps EN",
+  "fields": [
+    "Country or territory",
+    "Map",
+    "RectoVerso place",
+    "Boundary note"
+  ],
+  "templates": [
+    {
+      "name": "Map → Country or territory",
+      "qfmt": "{{Map}}",
+      "afmt": "{{FrontSide}}<hr id=\"answer\"><div class=\"answer\">{{Country or territory}}</div>{{#Boundary note}}<div class=\"boundary-note\">{{Boundary note}}</div>{{/Boundary note}}",
+      "id": -6780128599491772189
+    }
+  ],
+  "fieldIDs": {
+    "Country or territory": 7077158423735342665,
+    "Map": 6903151940522739599,
+    "RectoVerso place": -5993031168503139680,
+    "Boundary note": 1800000631101
+  }
+}

@@ -1,0 +1,7522 @@
+[
+  {
+    "code": "ABW",
+    "alpha2": "AW",
+    "numeric": "533",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Aruba",
+      "fr": "Aruba"
+    },
+    "formalReferenceName": {
+      "en": "Aruba",
+      "fr": "Aruba"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Aruba"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "AFG",
+    "alpha2": "AF",
+    "numeric": "004",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Afghanistan",
+      "fr": "Afghanistan"
+    },
+    "formalReferenceName": {
+      "en": "Afghanistan",
+      "fr": "Afghanistan (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Afghanistan"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "AGO",
+    "alpha2": "AO",
+    "numeric": "024",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Angola",
+      "fr": "Angola"
+    },
+    "formalReferenceName": {
+      "en": "Angola",
+      "fr": "Angola (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Angola"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "AIA",
+    "alpha2": "AI",
+    "numeric": "660",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Anguilla",
+      "fr": "Anguilla"
+    },
+    "formalReferenceName": {
+      "en": "Anguilla",
+      "fr": "Anguilla"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Anguilla"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "ALA",
+    "alpha2": "AX",
+    "numeric": "248",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Åland Islands",
+      "fr": "Åland"
+    },
+    "formalReferenceName": {
+      "en": "Åland Islands",
+      "fr": "Åland(les Îles)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Aland"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "ALB",
+    "alpha2": "AL",
+    "numeric": "008",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Albania",
+      "fr": "Albanie"
+    },
+    "formalReferenceName": {
+      "en": "Albania",
+      "fr": "Albanie (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Albania"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "AND",
+    "alpha2": "AD",
+    "numeric": "020",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Andorra",
+      "fr": "Andorre"
+    },
+    "formalReferenceName": {
+      "en": "Andorra",
+      "fr": "Andorre (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Andorra"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "ARE",
+    "alpha2": "AE",
+    "numeric": "784",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "United Arab Emirates",
+      "fr": "Émirats arabes unis"
+    },
+    "formalReferenceName": {
+      "en": "United Arab Emirates (the)",
+      "fr": "Émirats arabes unis (les)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "United Arab Emirates"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "ARG",
+    "alpha2": "AR",
+    "numeric": "032",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Argentina",
+      "fr": "Argentine"
+    },
+    "formalReferenceName": {
+      "en": "Argentina",
+      "fr": "Argentine (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Argentina"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "ARM",
+    "alpha2": "AM",
+    "numeric": "051",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Armenia",
+      "fr": "Arménie"
+    },
+    "formalReferenceName": {
+      "en": "Armenia",
+      "fr": "Arménie (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Armenia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "ASM",
+    "alpha2": "AS",
+    "numeric": "016",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "American Samoa",
+      "fr": "Samoa américaines"
+    },
+    "formalReferenceName": {
+      "en": "American Samoa",
+      "fr": "Samoa américaines (les)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "American Samoa"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "ATA",
+    "alpha2": "AQ",
+    "numeric": "010",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Antarctica",
+      "fr": "Antarctique"
+    },
+    "formalReferenceName": {
+      "en": "Antarctica",
+      "fr": "Antarctique (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "ATA"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "ATF",
+    "alpha2": "TF",
+    "numeric": "260",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "French Southern Territories",
+      "fr": "Terres australes françaises"
+    },
+    "formalReferenceName": {
+      "en": "French Southern Territories (the)",
+      "fr": "Terres australes françaises (les)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "ATF"
+        },
+        {
+          "layer": "minor_islands",
+          "key": "sr_adm0_a3",
+          "value": "ATF"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "whole-place-with-component-insets"
+  },
+  {
+    "code": "ATG",
+    "alpha2": "AG",
+    "numeric": "028",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Antigua and Barbuda",
+      "fr": "Antigua-et-Barbuda"
+    },
+    "formalReferenceName": {
+      "en": "Antigua and Barbuda",
+      "fr": "Antigua-et-Barbuda"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Antigua and Barbuda"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "AUS",
+    "alpha2": "AU",
+    "numeric": "036",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Australia",
+      "fr": "Australie"
+    },
+    "formalReferenceName": {
+      "en": "Australia",
+      "fr": "Australie (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Australia"
+        },
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "CSI"
+        },
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "ATC"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "AUT",
+    "alpha2": "AT",
+    "numeric": "040",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Austria",
+      "fr": "Autriche"
+    },
+    "formalReferenceName": {
+      "en": "Austria",
+      "fr": "Autriche (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Austria"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "AZE",
+    "alpha2": "AZ",
+    "numeric": "031",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Azerbaijan",
+      "fr": "Azerbaïdjan"
+    },
+    "formalReferenceName": {
+      "en": "Azerbaijan",
+      "fr": "Azerbaïdjan (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Azerbaijan"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "BDI",
+    "alpha2": "BI",
+    "numeric": "108",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Burundi",
+      "fr": "Burundi"
+    },
+    "formalReferenceName": {
+      "en": "Burundi",
+      "fr": "Burundi (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Burundi"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "BEL",
+    "alpha2": "BE",
+    "numeric": "056",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Belgium",
+      "fr": "Belgique"
+    },
+    "formalReferenceName": {
+      "en": "Belgium",
+      "fr": "Belgique (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Belgium"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "BEN",
+    "alpha2": "BJ",
+    "numeric": "204",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Benin",
+      "fr": "Bénin"
+    },
+    "formalReferenceName": {
+      "en": "Benin",
+      "fr": "Bénin (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Benin"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "BES",
+    "alpha2": "BQ",
+    "numeric": "535",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Bonaire, Sint Eustatius and Saba",
+      "fr": "Bonaire, Saint-Eustache et Saba"
+    },
+    "formalReferenceName": {
+      "en": "Bonaire, Sint Eustatius and Saba",
+      "fr": "Bonaire, Saint-Eustache et Saba"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "map_units",
+          "key": "GU_A3",
+          "value": "NLY"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "whole-place-with-component-insets"
+  },
+  {
+    "code": "BFA",
+    "alpha2": "BF",
+    "numeric": "854",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Burkina Faso",
+      "fr": "Burkina Faso"
+    },
+    "formalReferenceName": {
+      "en": "Burkina Faso",
+      "fr": "Burkina Faso (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Burkina Faso"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "BGD",
+    "alpha2": "BD",
+    "numeric": "050",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Bangladesh",
+      "fr": "Bangladesh"
+    },
+    "formalReferenceName": {
+      "en": "Bangladesh",
+      "fr": "Bangladesh (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Bangladesh"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "BGR",
+    "alpha2": "BG",
+    "numeric": "100",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Bulgaria",
+      "fr": "Bulgarie"
+    },
+    "formalReferenceName": {
+      "en": "Bulgaria",
+      "fr": "Bulgarie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Bulgaria"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "BHR",
+    "alpha2": "BH",
+    "numeric": "048",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Bahrain",
+      "fr": "Bahreïn"
+    },
+    "formalReferenceName": {
+      "en": "Bahrain",
+      "fr": "Bahreïn"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Bahrain"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "BHS",
+    "alpha2": "BS",
+    "numeric": "044",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "The Bahamas",
+      "fr": "Bahamas"
+    },
+    "formalReferenceName": {
+      "en": "Bahamas (The)",
+      "fr": "Bahamas (Les)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "The Bahamas"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "BIH",
+    "alpha2": "BA",
+    "numeric": "070",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Bosnia and Herzegovina",
+      "fr": "Bosnie-Herzégovine"
+    },
+    "formalReferenceName": {
+      "en": "Bosnia and Herzegovina",
+      "fr": "Bosnie-Herzégovine (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Bosnia and Herzegovina"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "BLM",
+    "alpha2": "BL",
+    "numeric": "652",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Saint Barthélemy",
+      "fr": "Saint-Barthélemy"
+    },
+    "formalReferenceName": {
+      "en": "Saint Barthélemy",
+      "fr": "Saint-Barthélemy"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "BLM"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "BLR",
+    "alpha2": "BY",
+    "numeric": "112",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Belarus",
+      "fr": "Biélorussie"
+    },
+    "formalReferenceName": {
+      "en": "Belarus",
+      "fr": "Bélarus (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Belarus"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "BLZ",
+    "alpha2": "BZ",
+    "numeric": "084",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Belize",
+      "fr": "Belize"
+    },
+    "formalReferenceName": {
+      "en": "Belize",
+      "fr": "Belize (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Belize"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "BMU",
+    "alpha2": "BM",
+    "numeric": "060",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Bermuda",
+      "fr": "Bermudes"
+    },
+    "formalReferenceName": {
+      "en": "Bermuda",
+      "fr": "Bermudes (les)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Bermuda"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "BOL",
+    "alpha2": "BO",
+    "numeric": "068",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Bolivia",
+      "fr": "Bolivie"
+    },
+    "formalReferenceName": {
+      "en": "Bolivia (Plurinational State of)",
+      "fr": "Bolivie (État plurinational de)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Bolivia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "BRA",
+    "alpha2": "BR",
+    "numeric": "076",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Brazil",
+      "fr": "Brésil"
+    },
+    "formalReferenceName": {
+      "en": "Brazil",
+      "fr": "Brésil (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Brazil"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "BRB",
+    "alpha2": "BB",
+    "numeric": "052",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Barbados",
+      "fr": "Barbade"
+    },
+    "formalReferenceName": {
+      "en": "Barbados",
+      "fr": "Barbade (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Barbados"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "BRN",
+    "alpha2": "BN",
+    "numeric": "096",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Brunei",
+      "fr": "Brunei"
+    },
+    "formalReferenceName": {
+      "en": "Brunei Darussalam",
+      "fr": "Brunéi Darussalam (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Brunei"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "BTN",
+    "alpha2": "BT",
+    "numeric": "064",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Bhutan",
+      "fr": "Bhoutan"
+    },
+    "formalReferenceName": {
+      "en": "Bhutan",
+      "fr": "Bhoutan (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Bhutan"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "BVT",
+    "alpha2": "BV",
+    "numeric": "074",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Bouvet Island",
+      "fr": "Île Bouvet"
+    },
+    "formalReferenceName": {
+      "en": "Bouvet Island",
+      "fr": "Bouvet (l'Île)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "map_units",
+          "key": "GU_A3",
+          "value": "BVT"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "BWA",
+    "alpha2": "BW",
+    "numeric": "072",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Botswana",
+      "fr": "Botswana"
+    },
+    "formalReferenceName": {
+      "en": "Botswana",
+      "fr": "Botswana (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Botswana"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "CAF",
+    "alpha2": "CF",
+    "numeric": "140",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Central African Republic",
+      "fr": "République centrafricaine"
+    },
+    "formalReferenceName": {
+      "en": "Central African Republic (the)",
+      "fr": "République centrafricaine (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Central African Republic"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "CAN",
+    "alpha2": "CA",
+    "numeric": "124",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Canada",
+      "fr": "Canada"
+    },
+    "formalReferenceName": {
+      "en": "Canada",
+      "fr": "Canada (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Canada"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "CCK",
+    "alpha2": "CC",
+    "numeric": "166",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Cocos (Keeling) Islands",
+      "fr": "Îles Cocos (Keeling)"
+    },
+    "formalReferenceName": {
+      "en": "Cocos (Keeling) Islands (the)",
+      "fr": "Cocos (les Îles)/ Keeling (les Îles)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "map_units",
+          "key": "GU_A3",
+          "value": "CCK"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "CHE",
+    "alpha2": "CH",
+    "numeric": "756",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Switzerland",
+      "fr": "Suisse"
+    },
+    "formalReferenceName": {
+      "en": "Switzerland",
+      "fr": "Suisse (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Switzerland"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "CHL",
+    "alpha2": "CL",
+    "numeric": "152",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Chile",
+      "fr": "Chili"
+    },
+    "formalReferenceName": {
+      "en": "Chile",
+      "fr": "Chili (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Chile"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "CHN",
+    "alpha2": "CN",
+    "numeric": "156",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "China",
+      "fr": "Chine"
+    },
+    "formalReferenceName": {
+      "en": "China",
+      "fr": "Chine (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "China"
+        }
+      ],
+      "exclude": [
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Jammu and Kashmir"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Aksai Chin"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Shaksam Valley"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Gilgit-Baltistan"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Azad Kashmir"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Demchok"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Siachen Glacier"
+        }
+      ],
+      "answerNote": {
+        "en": "Areas of the Kashmir dispute are shown as neutral context with dashed boundaries; they are not assigned to a claimant in this deck. The final status of Jammu and Kashmir has not been agreed upon by the parties.",
+        "fr": "Les zones du différend du Cachemire apparaissent en contexte neutre, avec des limites en pointillés ; ce jeu ne les attribue à aucune partie. Les parties ne se sont pas accordées sur le statut définitif du Jammu-et-Cachemire."
+      }
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "CIV",
+    "alpha2": "CI",
+    "numeric": "384",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Ivory Coast",
+      "fr": "Côte d'Ivoire"
+    },
+    "formalReferenceName": {
+      "en": "Côte d'Ivoire",
+      "fr": "Côte d'Ivoire (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Ivory Coast"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "CMR",
+    "alpha2": "CM",
+    "numeric": "120",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Cameroon",
+      "fr": "Cameroun"
+    },
+    "formalReferenceName": {
+      "en": "Cameroon",
+      "fr": "Cameroun (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Cameroon"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "COD",
+    "alpha2": "CD",
+    "numeric": "180",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Democratic Republic of the Congo",
+      "fr": "République démocratique du Congo"
+    },
+    "formalReferenceName": {
+      "en": "Congo (the Democratic Republic of the)",
+      "fr": "Congo (la République démocratique du)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Democratic Republic of the Congo"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "COG",
+    "alpha2": "CG",
+    "numeric": "178",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Republic of the Congo",
+      "fr": "République du Congo"
+    },
+    "formalReferenceName": {
+      "en": "Congo (the)",
+      "fr": "Congo (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Republic of the Congo"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "COK",
+    "alpha2": "CK",
+    "numeric": "184",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Cook Islands",
+      "fr": "Îles Cook"
+    },
+    "formalReferenceName": {
+      "en": "Cook Islands (the)",
+      "fr": "Cook (les Îles)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Cook Islands"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "COL",
+    "alpha2": "CO",
+    "numeric": "170",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Colombia",
+      "fr": "Colombie"
+    },
+    "formalReferenceName": {
+      "en": "Colombia",
+      "fr": "Colombie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Colombia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "COM",
+    "alpha2": "KM",
+    "numeric": "174",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Comoros",
+      "fr": "Comores"
+    },
+    "formalReferenceName": {
+      "en": "Comoros (the)",
+      "fr": "Comores (les)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Comoros"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "CPV",
+    "alpha2": "CV",
+    "numeric": "132",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Cape Verde",
+      "fr": "Cap-Vert"
+    },
+    "formalReferenceName": {
+      "en": "Cabo Verde",
+      "fr": "Cabo Verde"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Cabo Verde"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "CRI",
+    "alpha2": "CR",
+    "numeric": "188",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Costa Rica",
+      "fr": "Costa Rica"
+    },
+    "formalReferenceName": {
+      "en": "Costa Rica",
+      "fr": "Costa Rica (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Costa Rica"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "CUB",
+    "alpha2": "CU",
+    "numeric": "192",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Cuba",
+      "fr": "Cuba"
+    },
+    "formalReferenceName": {
+      "en": "Cuba",
+      "fr": "Cuba"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Cuba"
+        },
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "USG"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "CUW",
+    "alpha2": "CW",
+    "numeric": "531",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Curaçao",
+      "fr": "Curaçao"
+    },
+    "formalReferenceName": {
+      "en": "Curaçao",
+      "fr": "Curaçao"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Curaçao"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "CXR",
+    "alpha2": "CX",
+    "numeric": "162",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Christmas Island",
+      "fr": "Île Christmas"
+    },
+    "formalReferenceName": {
+      "en": "Christmas Island",
+      "fr": "Christmas (l'Île)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "map_units",
+          "key": "GU_A3",
+          "value": "CXR"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "CYM",
+    "alpha2": "KY",
+    "numeric": "136",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Cayman Islands",
+      "fr": "Îles Caïmans"
+    },
+    "formalReferenceName": {
+      "en": "Cayman Islands (the)",
+      "fr": "Caïmans (les Îles)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Cayman Islands"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "CYP",
+    "alpha2": "CY",
+    "numeric": "196",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Cyprus",
+      "fr": "Chypre"
+    },
+    "formalReferenceName": {
+      "en": "Cyprus",
+      "fr": "Chypre"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Cyprus"
+        },
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "CYN"
+        },
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "CNM"
+        }
+      ],
+      "exclude": [],
+      "answerNote": {
+        "en": "The outline includes northern Cyprus and excludes the British Sovereign Base Areas of Akrotiri and Dhekelia.",
+        "fr": "Le contour comprend le nord de Chypre et exclut les zones de souveraineté britanniques d’Akrotiri et de Dhekelia."
+      }
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "CZE",
+    "alpha2": "CZ",
+    "numeric": "203",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Czech Republic",
+      "fr": "Tchéquie"
+    },
+    "formalReferenceName": {
+      "en": "Czechia",
+      "fr": "Tchéquie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Czechia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "DEU",
+    "alpha2": "DE",
+    "numeric": "276",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Germany",
+      "fr": "Allemagne"
+    },
+    "formalReferenceName": {
+      "en": "Germany",
+      "fr": "Allemagne (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Germany"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "DJI",
+    "alpha2": "DJ",
+    "numeric": "262",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Djibouti",
+      "fr": "Djibouti"
+    },
+    "formalReferenceName": {
+      "en": "Djibouti",
+      "fr": "Djibouti"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Djibouti"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "DMA",
+    "alpha2": "DM",
+    "numeric": "212",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Dominica",
+      "fr": "Dominique"
+    },
+    "formalReferenceName": {
+      "en": "Dominica",
+      "fr": "Dominique (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Dominica"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "DNK",
+    "alpha2": "DK",
+    "numeric": "208",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Denmark",
+      "fr": "Danemark"
+    },
+    "formalReferenceName": {
+      "en": "Denmark",
+      "fr": "Danemark (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Denmark"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "DOM",
+    "alpha2": "DO",
+    "numeric": "214",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Dominican Republic",
+      "fr": "République dominicaine"
+    },
+    "formalReferenceName": {
+      "en": "Dominican Republic (the)",
+      "fr": "dominicaine (la République)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Dominican Republic"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "DZA",
+    "alpha2": "DZ",
+    "numeric": "012",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Algeria",
+      "fr": "Algérie"
+    },
+    "formalReferenceName": {
+      "en": "Algeria",
+      "fr": "Algérie (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Algeria"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "ECU",
+    "alpha2": "EC",
+    "numeric": "218",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Ecuador",
+      "fr": "Équateur"
+    },
+    "formalReferenceName": {
+      "en": "Ecuador",
+      "fr": "Équateur (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Ecuador"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "EGY",
+    "alpha2": "EG",
+    "numeric": "818",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Egypt",
+      "fr": "Égypte"
+    },
+    "formalReferenceName": {
+      "en": "Egypt",
+      "fr": "Égypte (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Egypt"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "ERI",
+    "alpha2": "ER",
+    "numeric": "232",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Eritrea",
+      "fr": "Érythrée"
+    },
+    "formalReferenceName": {
+      "en": "Eritrea",
+      "fr": "Érythrée (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Eritrea"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "ESH",
+    "alpha2": "EH",
+    "numeric": "732",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Western Sahara",
+      "fr": "Sahara occidental"
+    },
+    "formalReferenceName": {
+      "en": "Western Sahara*",
+      "fr": "Sahara occidental (le)*"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "W. Sahara"
+        }
+      ],
+      "exclude": [],
+      "answerNote": {
+        "en": "The geographic territory of Western Sahara is shown in full, on both sides of the berm. The outline does not determine sovereignty.",
+        "fr": "Le territoire géographique du Sahara occidental est représenté dans son ensemble, de part et d’autre du mur de sable. Le contour ne détermine pas la souveraineté."
+      }
+    },
+    "pictureFocus": "primary-and-nearby",
+    "formalReferenceNote": {
+      "en": "The asterisk marks a provisional name in ISO. The learner name omits the annotation.",
+      "fr": "L’astérisque indique un nom provisoire dans l’ISO. Le nom destiné à l’apprentissage omet cette annotation."
+    }
+  },
+  {
+    "code": "ESP",
+    "alpha2": "ES",
+    "numeric": "724",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Spain",
+      "fr": "Espagne"
+    },
+    "formalReferenceName": {
+      "en": "Spain",
+      "fr": "Espagne (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Spain"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "EST",
+    "alpha2": "EE",
+    "numeric": "233",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Estonia",
+      "fr": "Estonie"
+    },
+    "formalReferenceName": {
+      "en": "Estonia",
+      "fr": "Estonie (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Estonia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "ETH",
+    "alpha2": "ET",
+    "numeric": "231",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Ethiopia",
+      "fr": "Éthiopie"
+    },
+    "formalReferenceName": {
+      "en": "Ethiopia",
+      "fr": "Éthiopie (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Ethiopia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "FIN",
+    "alpha2": "FI",
+    "numeric": "246",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Finland",
+      "fr": "Finlande"
+    },
+    "formalReferenceName": {
+      "en": "Finland",
+      "fr": "Finlande (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Finland"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "FJI",
+    "alpha2": "FJ",
+    "numeric": "242",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Fiji",
+      "fr": "Fidji"
+    },
+    "formalReferenceName": {
+      "en": "Fiji",
+      "fr": "Fidji (les)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Fiji"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "whole-place"
+  },
+  {
+    "code": "FLK",
+    "alpha2": "FK",
+    "numeric": "238",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Falkland Islands",
+      "fr": "Îles Malouines"
+    },
+    "formalReferenceName": {
+      "en": "Falkland Islands (the) [Malvinas]",
+      "fr": "Falkland (les Îles)/Malouines (les Îles)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Falkland Islands"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "FRA",
+    "alpha2": "FR",
+    "numeric": "250",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "France",
+      "fr": "France"
+    },
+    "formalReferenceName": {
+      "en": "France",
+      "fr": "France (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "map_units",
+          "key": "GU_A3",
+          "value": "FXX"
+        },
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "CLP"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "whole-place-with-component-insets"
+  },
+  {
+    "code": "FRO",
+    "alpha2": "FO",
+    "numeric": "234",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Faroe Islands",
+      "fr": "Îles Féroé"
+    },
+    "formalReferenceName": {
+      "en": "Faroe Islands (the)",
+      "fr": "Féroé (les Îles)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Faroe Islands"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "FSM",
+    "alpha2": "FM",
+    "numeric": "583",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Federated States of Micronesia",
+      "fr": "États fédérés de Micronésie"
+    },
+    "formalReferenceName": {
+      "en": "Micronesia (Federated States of)",
+      "fr": "Micronésie (États fédérés de)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Federated States of Micronesia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "whole-place"
+  },
+  {
+    "code": "GAB",
+    "alpha2": "GA",
+    "numeric": "266",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Gabon",
+      "fr": "Gabon"
+    },
+    "formalReferenceName": {
+      "en": "Gabon",
+      "fr": "Gabon (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Gabon"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "GBR",
+    "alpha2": "GB",
+    "numeric": "826",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "United Kingdom",
+      "fr": "Royaume-Uni"
+    },
+    "formalReferenceName": {
+      "en": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "fr": "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "United Kingdom"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "GEO",
+    "alpha2": "GE",
+    "numeric": "268",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Georgia",
+      "fr": "Géorgie"
+    },
+    "formalReferenceName": {
+      "en": "Georgia",
+      "fr": "Géorgie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Georgia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "GGY",
+    "alpha2": "GG",
+    "numeric": "831",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Guernsey",
+      "fr": "Guernesey"
+    },
+    "formalReferenceName": {
+      "en": "Guernsey",
+      "fr": "Guernesey"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Guernsey"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "GHA",
+    "alpha2": "GH",
+    "numeric": "288",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Ghana",
+      "fr": "Ghana"
+    },
+    "formalReferenceName": {
+      "en": "Ghana",
+      "fr": "Ghana (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Ghana"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "GIB",
+    "alpha2": "GI",
+    "numeric": "292",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Gibraltar",
+      "fr": "Gibraltar"
+    },
+    "formalReferenceName": {
+      "en": "Gibraltar",
+      "fr": "Gibraltar"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Gibraltar"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "GIN",
+    "alpha2": "GN",
+    "numeric": "324",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Guinea",
+      "fr": "Guinée"
+    },
+    "formalReferenceName": {
+      "en": "Guinea",
+      "fr": "Guinée (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Guinea"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "GLP",
+    "alpha2": "GP",
+    "numeric": "312",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Guadeloupe",
+      "fr": "Guadeloupe"
+    },
+    "formalReferenceName": {
+      "en": "Guadeloupe",
+      "fr": "Guadeloupe (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "map_units",
+          "key": "GU_A3",
+          "value": "GLP"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "GMB",
+    "alpha2": "GM",
+    "numeric": "270",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "The Gambia",
+      "fr": "Gambie"
+    },
+    "formalReferenceName": {
+      "en": "Gambia (the)",
+      "fr": "Gambie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Gambia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "GNB",
+    "alpha2": "GW",
+    "numeric": "624",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Guinea-Bissau",
+      "fr": "Guinée-Bissau"
+    },
+    "formalReferenceName": {
+      "en": "Guinea-Bissau",
+      "fr": "Guinée-Bissau (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Guinea-Bissau"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "GNQ",
+    "alpha2": "GQ",
+    "numeric": "226",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Equatorial Guinea",
+      "fr": "Guinée équatoriale"
+    },
+    "formalReferenceName": {
+      "en": "Equatorial Guinea",
+      "fr": "Guinée équatoriale (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Equatorial Guinea"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "GRC",
+    "alpha2": "GR",
+    "numeric": "300",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Greece",
+      "fr": "Grèce"
+    },
+    "formalReferenceName": {
+      "en": "Greece",
+      "fr": "Grèce (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Greece"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "GRD",
+    "alpha2": "GD",
+    "numeric": "308",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Grenada",
+      "fr": "Grenade"
+    },
+    "formalReferenceName": {
+      "en": "Grenada",
+      "fr": "Grenade (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Grenada"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "GRL",
+    "alpha2": "GL",
+    "numeric": "304",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Greenland",
+      "fr": "Groenland"
+    },
+    "formalReferenceName": {
+      "en": "Greenland",
+      "fr": "Groenland (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Greenland"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "GTM",
+    "alpha2": "GT",
+    "numeric": "320",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Guatemala",
+      "fr": "Guatemala"
+    },
+    "formalReferenceName": {
+      "en": "Guatemala",
+      "fr": "Guatemala (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Guatemala"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "GUF",
+    "alpha2": "GF",
+    "numeric": "254",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "French Guiana",
+      "fr": "Guyane"
+    },
+    "formalReferenceName": {
+      "en": "French Guiana",
+      "fr": "Guyane française (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "map_units",
+          "key": "GU_A3",
+          "value": "GUF"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "GUM",
+    "alpha2": "GU",
+    "numeric": "316",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Guam",
+      "fr": "Guam"
+    },
+    "formalReferenceName": {
+      "en": "Guam",
+      "fr": "Guam"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Guam"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "GUY",
+    "alpha2": "GY",
+    "numeric": "328",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Guyana",
+      "fr": "Guyana"
+    },
+    "formalReferenceName": {
+      "en": "Guyana",
+      "fr": "Guyana (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Guyana"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "HKG",
+    "alpha2": "HK",
+    "numeric": "344",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Hong Kong",
+      "fr": "Hong Kong"
+    },
+    "formalReferenceName": {
+      "en": "Hong Kong",
+      "fr": "Hong Kong"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Hong Kong S.A.R."
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "HMD",
+    "alpha2": "HM",
+    "numeric": "334",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Heard Island and McDonald Islands",
+      "fr": "Îles Heard et McDonald"
+    },
+    "formalReferenceName": {
+      "en": "Heard Island and McDonald Islands",
+      "fr": "Heard-et-Îles MacDonald (l'Île)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "HMD"
+        },
+        {
+          "layer": "aadc_mcdonald",
+          "key": "metadata_id",
+          "value": "McDonald_Island_Coastline_2020"
+        },
+        {
+          "layer": "minor_islands",
+          "key": "sr_adm0_a3",
+          "value": "HMD"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "whole-place-with-component-insets"
+  },
+  {
+    "code": "HND",
+    "alpha2": "HN",
+    "numeric": "340",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Honduras",
+      "fr": "Honduras"
+    },
+    "formalReferenceName": {
+      "en": "Honduras",
+      "fr": "Honduras (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Honduras"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "HRV",
+    "alpha2": "HR",
+    "numeric": "191",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Croatia",
+      "fr": "Croatie"
+    },
+    "formalReferenceName": {
+      "en": "Croatia",
+      "fr": "Croatie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Croatia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "HTI",
+    "alpha2": "HT",
+    "numeric": "332",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Haiti",
+      "fr": "Haïti"
+    },
+    "formalReferenceName": {
+      "en": "Haiti",
+      "fr": "Haïti"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Haiti"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "HUN",
+    "alpha2": "HU",
+    "numeric": "348",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Hungary",
+      "fr": "Hongrie"
+    },
+    "formalReferenceName": {
+      "en": "Hungary",
+      "fr": "Hongrie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Hungary"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "IDN",
+    "alpha2": "ID",
+    "numeric": "360",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Indonesia",
+      "fr": "Indonésie"
+    },
+    "formalReferenceName": {
+      "en": "Indonesia",
+      "fr": "Indonésie (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Indonesia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "whole-place"
+  },
+  {
+    "code": "IMN",
+    "alpha2": "IM",
+    "numeric": "833",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Isle of Man",
+      "fr": "Île de Man"
+    },
+    "formalReferenceName": {
+      "en": "Isle of Man",
+      "fr": "Île de Man"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Isle of Man"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "IND",
+    "alpha2": "IN",
+    "numeric": "356",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "India",
+      "fr": "Inde"
+    },
+    "formalReferenceName": {
+      "en": "India",
+      "fr": "Inde (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "India"
+        }
+      ],
+      "exclude": [
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Jammu and Kashmir"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Aksai Chin"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Shaksam Valley"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Gilgit-Baltistan"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Azad Kashmir"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Demchok"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Siachen Glacier"
+        }
+      ],
+      "answerNote": {
+        "en": "Areas of the Kashmir dispute are shown as neutral context with dashed boundaries; they are not assigned to a claimant in this deck. The final status of Jammu and Kashmir has not been agreed upon by the parties.",
+        "fr": "Les zones du différend du Cachemire apparaissent en contexte neutre, avec des limites en pointillés ; ce jeu ne les attribue à aucune partie. Les parties ne se sont pas accordées sur le statut définitif du Jammu-et-Cachemire."
+      }
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "IOT",
+    "alpha2": "IO",
+    "numeric": "086",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "British Indian Ocean Territory",
+      "fr": "Territoire britannique de l’océan Indien"
+    },
+    "formalReferenceName": {
+      "en": "British Indian Ocean Territory (the)",
+      "fr": "Indien (le Territoire britannique de l'océan)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "IOT"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "IRL",
+    "alpha2": "IE",
+    "numeric": "372",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Ireland",
+      "fr": "Irlande"
+    },
+    "formalReferenceName": {
+      "en": "Ireland",
+      "fr": "Irlande (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Ireland"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "IRN",
+    "alpha2": "IR",
+    "numeric": "364",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Iran",
+      "fr": "Iran"
+    },
+    "formalReferenceName": {
+      "en": "Iran (Islamic Republic of)",
+      "fr": "Iran (République Islamique d')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Iran"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "IRQ",
+    "alpha2": "IQ",
+    "numeric": "368",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Iraq",
+      "fr": "Irak"
+    },
+    "formalReferenceName": {
+      "en": "Iraq",
+      "fr": "Iraq (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Iraq"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "ISL",
+    "alpha2": "IS",
+    "numeric": "352",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Iceland",
+      "fr": "Islande"
+    },
+    "formalReferenceName": {
+      "en": "Iceland",
+      "fr": "Islande (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Iceland"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "ISR",
+    "alpha2": "IL",
+    "numeric": "376",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Israel",
+      "fr": "Israël"
+    },
+    "formalReferenceName": {
+      "en": "Israel",
+      "fr": "Israël"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Israel"
+        }
+      ],
+      "exclude": [
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Golan Heights"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "East Jerusalem"
+        }
+      ]
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "ITA",
+    "alpha2": "IT",
+    "numeric": "380",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Italy",
+      "fr": "Italie"
+    },
+    "formalReferenceName": {
+      "en": "Italy",
+      "fr": "Italie (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Italy"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "JAM",
+    "alpha2": "JM",
+    "numeric": "388",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Jamaica",
+      "fr": "Jamaïque"
+    },
+    "formalReferenceName": {
+      "en": "Jamaica",
+      "fr": "Jamaïque (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Jamaica"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "JEY",
+    "alpha2": "JE",
+    "numeric": "832",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Jersey",
+      "fr": "Jersey"
+    },
+    "formalReferenceName": {
+      "en": "Jersey",
+      "fr": "Jersey"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Jersey"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "JOR",
+    "alpha2": "JO",
+    "numeric": "400",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Jordan",
+      "fr": "Jordanie"
+    },
+    "formalReferenceName": {
+      "en": "Jordan",
+      "fr": "Jordanie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Jordan"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "JPN",
+    "alpha2": "JP",
+    "numeric": "392",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Japan",
+      "fr": "Japon"
+    },
+    "formalReferenceName": {
+      "en": "Japan",
+      "fr": "Japon (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Japan"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "KAZ",
+    "alpha2": "KZ",
+    "numeric": "398",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Kazakhstan",
+      "fr": "Kazakhstan"
+    },
+    "formalReferenceName": {
+      "en": "Kazakhstan",
+      "fr": "Kazakhstan (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Kazakhstan"
+        },
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "KAB"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "KEN",
+    "alpha2": "KE",
+    "numeric": "404",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Kenya",
+      "fr": "Kenya"
+    },
+    "formalReferenceName": {
+      "en": "Kenya",
+      "fr": "Kenya (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Kenya"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "KGZ",
+    "alpha2": "KG",
+    "numeric": "417",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Kyrgyzstan",
+      "fr": "Kirghizistan"
+    },
+    "formalReferenceName": {
+      "en": "Kyrgyzstan",
+      "fr": "Kirghizistan (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Kyrgyzstan"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "KHM",
+    "alpha2": "KH",
+    "numeric": "116",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Cambodia",
+      "fr": "Cambodge"
+    },
+    "formalReferenceName": {
+      "en": "Cambodia",
+      "fr": "Cambodge (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Cambodia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "KIR",
+    "alpha2": "KI",
+    "numeric": "296",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Kiribati",
+      "fr": "Kiribati"
+    },
+    "formalReferenceName": {
+      "en": "Kiribati",
+      "fr": "Kiribati"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Kiribati"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "whole-place"
+  },
+  {
+    "code": "KNA",
+    "alpha2": "KN",
+    "numeric": "659",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Saint Kitts and Nevis",
+      "fr": "Saint-Christophe-et-Niévès"
+    },
+    "formalReferenceName": {
+      "en": "Saint Kitts and Nevis",
+      "fr": "Saint-Kitts-et-Nevis"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Saint Kitts and Nevis"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "KOR",
+    "alpha2": "KR",
+    "numeric": "410",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "South Korea",
+      "fr": "Corée du Sud"
+    },
+    "formalReferenceName": {
+      "en": "Korea (the Republic of)",
+      "fr": "Corée (la République de)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "South Korea"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "KWT",
+    "alpha2": "KW",
+    "numeric": "414",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Kuwait",
+      "fr": "Koweït"
+    },
+    "formalReferenceName": {
+      "en": "Kuwait",
+      "fr": "Koweït (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Kuwait"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "LAO",
+    "alpha2": "LA",
+    "numeric": "418",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Laos",
+      "fr": "Laos"
+    },
+    "formalReferenceName": {
+      "en": "Lao People's Democratic Republic (the)",
+      "fr": "Lao (la République démocratique populaire)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Laos"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "LBN",
+    "alpha2": "LB",
+    "numeric": "422",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Lebanon",
+      "fr": "Liban"
+    },
+    "formalReferenceName": {
+      "en": "Lebanon",
+      "fr": "Liban (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Lebanon"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "LBR",
+    "alpha2": "LR",
+    "numeric": "430",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Liberia",
+      "fr": "Liberia"
+    },
+    "formalReferenceName": {
+      "en": "Liberia",
+      "fr": "Libéria (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Liberia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "LBY",
+    "alpha2": "LY",
+    "numeric": "434",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Libya",
+      "fr": "Libye"
+    },
+    "formalReferenceName": {
+      "en": "Libya",
+      "fr": "Libye (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Libya"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "LCA",
+    "alpha2": "LC",
+    "numeric": "662",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Saint Lucia",
+      "fr": "Sainte-Lucie"
+    },
+    "formalReferenceName": {
+      "en": "Saint Lucia",
+      "fr": "Sainte-Lucie"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Saint Lucia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "LIE",
+    "alpha2": "LI",
+    "numeric": "438",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Liechtenstein",
+      "fr": "Liechtenstein"
+    },
+    "formalReferenceName": {
+      "en": "Liechtenstein",
+      "fr": "Liechtenstein (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Liechtenstein"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "LKA",
+    "alpha2": "LK",
+    "numeric": "144",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Sri Lanka",
+      "fr": "Sri Lanka"
+    },
+    "formalReferenceName": {
+      "en": "Sri Lanka",
+      "fr": "Sri Lanka"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Sri Lanka"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "LSO",
+    "alpha2": "LS",
+    "numeric": "426",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Lesotho",
+      "fr": "Lesotho"
+    },
+    "formalReferenceName": {
+      "en": "Lesotho",
+      "fr": "Lesotho (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Lesotho"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "LTU",
+    "alpha2": "LT",
+    "numeric": "440",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Lithuania",
+      "fr": "Lituanie"
+    },
+    "formalReferenceName": {
+      "en": "Lithuania",
+      "fr": "Lituanie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Lithuania"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "LUX",
+    "alpha2": "LU",
+    "numeric": "442",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Luxembourg",
+      "fr": "Luxembourg"
+    },
+    "formalReferenceName": {
+      "en": "Luxembourg",
+      "fr": "Luxembourg (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Luxembourg"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "LVA",
+    "alpha2": "LV",
+    "numeric": "428",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Latvia",
+      "fr": "Lettonie"
+    },
+    "formalReferenceName": {
+      "en": "Latvia",
+      "fr": "Lettonie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Latvia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MAC",
+    "alpha2": "MO",
+    "numeric": "446",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Macau",
+      "fr": "Macao"
+    },
+    "formalReferenceName": {
+      "en": "Macao",
+      "fr": "Macao"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Macao S.A.R"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MAF",
+    "alpha2": "MF",
+    "numeric": "663",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Saint Martin",
+      "fr": "Saint-Martin (Antilles françaises)"
+    },
+    "formalReferenceName": {
+      "en": "Saint Martin (French part)",
+      "fr": "Saint-Martin (partie française)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Saint Martin"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MAR",
+    "alpha2": "MA",
+    "numeric": "504",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Morocco",
+      "fr": "Maroc"
+    },
+    "formalReferenceName": {
+      "en": "Morocco",
+      "fr": "Maroc (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Morocco"
+        }
+      ],
+      "exclude": [
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "W. Sahara"
+        }
+      ]
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MCO",
+    "alpha2": "MC",
+    "numeric": "492",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Monaco",
+      "fr": "Monaco"
+    },
+    "formalReferenceName": {
+      "en": "Monaco",
+      "fr": "Monaco"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Monaco"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MDA",
+    "alpha2": "MD",
+    "numeric": "498",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Moldova",
+      "fr": "Moldavie"
+    },
+    "formalReferenceName": {
+      "en": "Moldova (the Republic of)",
+      "fr": "Moldova (la République de)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Moldova"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MDG",
+    "alpha2": "MG",
+    "numeric": "450",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Madagascar",
+      "fr": "Madagascar"
+    },
+    "formalReferenceName": {
+      "en": "Madagascar",
+      "fr": "Madagascar"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Madagascar"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MDV",
+    "alpha2": "MV",
+    "numeric": "462",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Maldives",
+      "fr": "Maldives"
+    },
+    "formalReferenceName": {
+      "en": "Maldives",
+      "fr": "Maldives (les)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Maldives"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MEX",
+    "alpha2": "MX",
+    "numeric": "484",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Mexico",
+      "fr": "Mexique"
+    },
+    "formalReferenceName": {
+      "en": "Mexico",
+      "fr": "Mexique (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Mexico"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MHL",
+    "alpha2": "MH",
+    "numeric": "584",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Marshall Islands",
+      "fr": "Îles Marshall"
+    },
+    "formalReferenceName": {
+      "en": "Marshall Islands (the)",
+      "fr": "Marshall (les Îles)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Marshall Islands"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MKD",
+    "alpha2": "MK",
+    "numeric": "807",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "North Macedonia",
+      "fr": "Macédoine du Nord"
+    },
+    "formalReferenceName": {
+      "en": "North Macedonia",
+      "fr": "Macédoine du Nord (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "North Macedonia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MLI",
+    "alpha2": "ML",
+    "numeric": "466",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Mali",
+      "fr": "Mali"
+    },
+    "formalReferenceName": {
+      "en": "Mali",
+      "fr": "Mali (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Mali"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MLT",
+    "alpha2": "MT",
+    "numeric": "470",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Malta",
+      "fr": "Malte"
+    },
+    "formalReferenceName": {
+      "en": "Malta",
+      "fr": "Malte"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Malta"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MMR",
+    "alpha2": "MM",
+    "numeric": "104",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Myanmar",
+      "fr": "Birmanie"
+    },
+    "formalReferenceName": {
+      "en": "Myanmar",
+      "fr": "Myanmar (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Myanmar"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MNE",
+    "alpha2": "ME",
+    "numeric": "499",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Montenegro",
+      "fr": "Monténégro"
+    },
+    "formalReferenceName": {
+      "en": "Montenegro",
+      "fr": "Monténégro (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Montenegro"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MNG",
+    "alpha2": "MN",
+    "numeric": "496",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Mongolia",
+      "fr": "Mongolie"
+    },
+    "formalReferenceName": {
+      "en": "Mongolia",
+      "fr": "Mongolie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Mongolia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MNP",
+    "alpha2": "MP",
+    "numeric": "580",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Northern Mariana Islands",
+      "fr": "Îles Mariannes du Nord"
+    },
+    "formalReferenceName": {
+      "en": "Northern Mariana Islands (the)",
+      "fr": "Mariannes du Nord (les Îles)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Northern Mariana Islands"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MOZ",
+    "alpha2": "MZ",
+    "numeric": "508",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Mozambique",
+      "fr": "Mozambique"
+    },
+    "formalReferenceName": {
+      "en": "Mozambique",
+      "fr": "Mozambique (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Mozambique"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MRT",
+    "alpha2": "MR",
+    "numeric": "478",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Mauritania",
+      "fr": "Mauritanie"
+    },
+    "formalReferenceName": {
+      "en": "Mauritania",
+      "fr": "Mauritanie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Mauritania"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MSR",
+    "alpha2": "MS",
+    "numeric": "500",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Montserrat",
+      "fr": "Montserrat"
+    },
+    "formalReferenceName": {
+      "en": "Montserrat",
+      "fr": "Montserrat"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "MSR"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MTQ",
+    "alpha2": "MQ",
+    "numeric": "474",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Martinique",
+      "fr": "Martinique"
+    },
+    "formalReferenceName": {
+      "en": "Martinique",
+      "fr": "Martinique (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "map_units",
+          "key": "GU_A3",
+          "value": "MTQ"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MUS",
+    "alpha2": "MU",
+    "numeric": "480",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Mauritius",
+      "fr": "Maurice"
+    },
+    "formalReferenceName": {
+      "en": "Mauritius",
+      "fr": "Maurice"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Mauritius"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MWI",
+    "alpha2": "MW",
+    "numeric": "454",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Malawi",
+      "fr": "Malawi"
+    },
+    "formalReferenceName": {
+      "en": "Malawi",
+      "fr": "Malawi (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Malawi"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MYS",
+    "alpha2": "MY",
+    "numeric": "458",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Malaysia",
+      "fr": "Malaisie"
+    },
+    "formalReferenceName": {
+      "en": "Malaysia",
+      "fr": "Malaisie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Malaysia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MYT",
+    "alpha2": "YT",
+    "numeric": "175",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Mayotte",
+      "fr": "Mayotte"
+    },
+    "formalReferenceName": {
+      "en": "Mayotte",
+      "fr": "Mayotte"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "map_units",
+          "key": "GU_A3",
+          "value": "MYT"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "NAM",
+    "alpha2": "NA",
+    "numeric": "516",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Namibia",
+      "fr": "Namibie"
+    },
+    "formalReferenceName": {
+      "en": "Namibia",
+      "fr": "Namibie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Namibia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "NCL",
+    "alpha2": "NC",
+    "numeric": "540",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "New Caledonia",
+      "fr": "Nouvelle-Calédonie"
+    },
+    "formalReferenceName": {
+      "en": "New Caledonia",
+      "fr": "Nouvelle-Calédonie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "New Caledonia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "NER",
+    "alpha2": "NE",
+    "numeric": "562",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Niger",
+      "fr": "Niger"
+    },
+    "formalReferenceName": {
+      "en": "Niger (the)",
+      "fr": "Niger (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Niger"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "NFK",
+    "alpha2": "NF",
+    "numeric": "574",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Norfolk Island",
+      "fr": "Île Norfolk"
+    },
+    "formalReferenceName": {
+      "en": "Norfolk Island",
+      "fr": "Norfolk (l'Île)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "NFK"
+        },
+        {
+          "layer": "minor_islands",
+          "key": "sr_adm0_a3",
+          "value": "NFK"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "NGA",
+    "alpha2": "NG",
+    "numeric": "566",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Nigeria",
+      "fr": "Nigeria"
+    },
+    "formalReferenceName": {
+      "en": "Nigeria",
+      "fr": "Nigéria (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Nigeria"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "NIC",
+    "alpha2": "NI",
+    "numeric": "558",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Nicaragua",
+      "fr": "Nicaragua"
+    },
+    "formalReferenceName": {
+      "en": "Nicaragua",
+      "fr": "Nicaragua (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Nicaragua"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "NIU",
+    "alpha2": "NU",
+    "numeric": "570",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Niue",
+      "fr": "Niue"
+    },
+    "formalReferenceName": {
+      "en": "Niue",
+      "fr": "Niue"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Niue"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "NLD",
+    "alpha2": "NL",
+    "numeric": "528",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Netherlands",
+      "fr": "Pays-Bas"
+    },
+    "formalReferenceName": {
+      "en": "Netherlands (Kingdom of the)",
+      "fr": "Pays-Bas (Royaume des)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "map_units",
+          "key": "GU_A3",
+          "value": "NLX"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "NOR",
+    "alpha2": "NO",
+    "numeric": "578",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Norway",
+      "fr": "Norvège"
+    },
+    "formalReferenceName": {
+      "en": "Norway",
+      "fr": "Norvège (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "map_units",
+          "key": "GU_A3",
+          "value": "NOW"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "NPL",
+    "alpha2": "NP",
+    "numeric": "524",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Nepal",
+      "fr": "Népal"
+    },
+    "formalReferenceName": {
+      "en": "Nepal",
+      "fr": "Népal (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Nepal"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "NRU",
+    "alpha2": "NR",
+    "numeric": "520",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Nauru",
+      "fr": "Nauru"
+    },
+    "formalReferenceName": {
+      "en": "Naoero",
+      "fr": "Naoero"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Nauru"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "NZL",
+    "alpha2": "NZ",
+    "numeric": "554",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "New Zealand",
+      "fr": "Nouvelle-Zélande"
+    },
+    "formalReferenceName": {
+      "en": "New Zealand",
+      "fr": "Nouvelle-Zélande (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "map_units",
+          "key": "GU_A3",
+          "value": "NZL"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "OMN",
+    "alpha2": "OM",
+    "numeric": "512",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Oman",
+      "fr": "Oman"
+    },
+    "formalReferenceName": {
+      "en": "Oman",
+      "fr": "Oman"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Oman"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "PAK",
+    "alpha2": "PK",
+    "numeric": "586",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Pakistan",
+      "fr": "Pakistan"
+    },
+    "formalReferenceName": {
+      "en": "Pakistan",
+      "fr": "Pakistan (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Pakistan"
+        }
+      ],
+      "exclude": [
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Jammu and Kashmir"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Aksai Chin"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Shaksam Valley"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Gilgit-Baltistan"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Azad Kashmir"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Demchok"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Siachen Glacier"
+        }
+      ],
+      "answerNote": {
+        "en": "Areas of the Kashmir dispute are shown as neutral context with dashed boundaries; they are not assigned to a claimant in this deck. The final status of Jammu and Kashmir has not been agreed upon by the parties.",
+        "fr": "Les zones du différend du Cachemire apparaissent en contexte neutre, avec des limites en pointillés ; ce jeu ne les attribue à aucune partie. Les parties ne se sont pas accordées sur le statut définitif du Jammu-et-Cachemire."
+      }
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "PAN",
+    "alpha2": "PA",
+    "numeric": "591",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Panama",
+      "fr": "Panama"
+    },
+    "formalReferenceName": {
+      "en": "Panama",
+      "fr": "Panama (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Panama"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "PCN",
+    "alpha2": "PN",
+    "numeric": "612",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Pitcairn Islands",
+      "fr": "Îles Pitcairn"
+    },
+    "formalReferenceName": {
+      "en": "Pitcairn",
+      "fr": "Pitcairn"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "PCN"
+        },
+        {
+          "layer": "minor_islands",
+          "key": "sr_adm0_a3",
+          "value": "PCN"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "whole-place-with-component-insets"
+  },
+  {
+    "code": "PER",
+    "alpha2": "PE",
+    "numeric": "604",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Peru",
+      "fr": "Pérou"
+    },
+    "formalReferenceName": {
+      "en": "Peru",
+      "fr": "Pérou (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Peru"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "PHL",
+    "alpha2": "PH",
+    "numeric": "608",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Philippines",
+      "fr": "Philippines"
+    },
+    "formalReferenceName": {
+      "en": "Philippines (the)",
+      "fr": "Philippines (les)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Philippines"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "PLW",
+    "alpha2": "PW",
+    "numeric": "585",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Palau",
+      "fr": "Palaos"
+    },
+    "formalReferenceName": {
+      "en": "Palau",
+      "fr": "Palaos (les)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Palau"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "PNG",
+    "alpha2": "PG",
+    "numeric": "598",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Papua New Guinea",
+      "fr": "Papouasie-Nouvelle-Guinée"
+    },
+    "formalReferenceName": {
+      "en": "Papua New Guinea",
+      "fr": "Papouasie-Nouvelle-Guinée (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Papua New Guinea"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "POL",
+    "alpha2": "PL",
+    "numeric": "616",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Poland",
+      "fr": "Pologne"
+    },
+    "formalReferenceName": {
+      "en": "Poland",
+      "fr": "Pologne (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Poland"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "PRI",
+    "alpha2": "PR",
+    "numeric": "630",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Puerto Rico",
+      "fr": "Porto Rico"
+    },
+    "formalReferenceName": {
+      "en": "Puerto Rico",
+      "fr": "Porto Rico"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Puerto Rico"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "PRK",
+    "alpha2": "KP",
+    "numeric": "408",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "North Korea",
+      "fr": "Corée du Nord"
+    },
+    "formalReferenceName": {
+      "en": "Korea (the Democratic People's Republic of)",
+      "fr": "Corée (la République populaire démocratique de)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "North Korea"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "PRT",
+    "alpha2": "PT",
+    "numeric": "620",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Portugal",
+      "fr": "Portugal"
+    },
+    "formalReferenceName": {
+      "en": "Portugal",
+      "fr": "Portugal (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "map_units",
+          "key": "GU_A3",
+          "value": "PRX"
+        },
+        {
+          "layer": "map_units",
+          "key": "GU_A3",
+          "value": "PAZ"
+        },
+        {
+          "layer": "map_units",
+          "key": "GU_A3",
+          "value": "PMD"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "whole-place-with-component-insets"
+  },
+  {
+    "code": "PRY",
+    "alpha2": "PY",
+    "numeric": "600",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Paraguay",
+      "fr": "Paraguay"
+    },
+    "formalReferenceName": {
+      "en": "Paraguay",
+      "fr": "Paraguay (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Paraguay"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "PSE",
+    "alpha2": "PS",
+    "numeric": "275",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Palestine",
+      "fr": "Palestine"
+    },
+    "formalReferenceName": {
+      "en": "Palestine, State of",
+      "fr": "Palestine, État de"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Palestine"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "East Jerusalem"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "PYF",
+    "alpha2": "PF",
+    "numeric": "258",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "French Polynesia",
+      "fr": "Polynésie française"
+    },
+    "formalReferenceName": {
+      "en": "French Polynesia",
+      "fr": "Polynésie française (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "French Polynesia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "QAT",
+    "alpha2": "QA",
+    "numeric": "634",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Qatar",
+      "fr": "Qatar"
+    },
+    "formalReferenceName": {
+      "en": "Qatar",
+      "fr": "Qatar (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Qatar"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "REU",
+    "alpha2": "RE",
+    "numeric": "638",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Réunion",
+      "fr": "La Réunion"
+    },
+    "formalReferenceName": {
+      "en": "Réunion",
+      "fr": "Réunion (La)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "map_units",
+          "key": "GU_A3",
+          "value": "REU"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "ROU",
+    "alpha2": "RO",
+    "numeric": "642",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Romania",
+      "fr": "Roumanie"
+    },
+    "formalReferenceName": {
+      "en": "Romania",
+      "fr": "Roumanie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Romania"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "RUS",
+    "alpha2": "RU",
+    "numeric": "643",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Russia",
+      "fr": "Russie"
+    },
+    "formalReferenceName": {
+      "en": "Russian Federation (the)",
+      "fr": "Russie (la Fédération de)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Russia"
+        }
+      ],
+      "exclude": [
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Crimea"
+        }
+      ]
+    },
+    "pictureFocus": "whole-place"
+  },
+  {
+    "code": "RWA",
+    "alpha2": "RW",
+    "numeric": "646",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Rwanda",
+      "fr": "Rwanda"
+    },
+    "formalReferenceName": {
+      "en": "Rwanda",
+      "fr": "Rwanda (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Rwanda"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "SAU",
+    "alpha2": "SA",
+    "numeric": "682",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Saudi Arabia",
+      "fr": "Arabie saoudite"
+    },
+    "formalReferenceName": {
+      "en": "Saudi Arabia",
+      "fr": "Arabie saoudite (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Saudi Arabia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "SDN",
+    "alpha2": "SD",
+    "numeric": "729",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Sudan",
+      "fr": "Soudan"
+    },
+    "formalReferenceName": {
+      "en": "Sudan (the)",
+      "fr": "Soudan (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Sudan"
+        }
+      ],
+      "exclude": [
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Abyei"
+        }
+      ],
+      "answerNote": {
+        "en": "Abyei appears as neutral context with a dashed boundary. Its final status has not yet been determined.",
+        "fr": "Abyei apparaît en contexte neutre, avec une limite en pointillés. Son statut définitif n’a pas encore été déterminé."
+      }
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "SEN",
+    "alpha2": "SN",
+    "numeric": "686",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Senegal",
+      "fr": "Sénégal"
+    },
+    "formalReferenceName": {
+      "en": "Senegal",
+      "fr": "Sénégal (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Senegal"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "SGP",
+    "alpha2": "SG",
+    "numeric": "702",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Singapore",
+      "fr": "Singapour"
+    },
+    "formalReferenceName": {
+      "en": "Singapore",
+      "fr": "Singapour"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Singapore"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "SGS",
+    "alpha2": "GS",
+    "numeric": "239",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "South Georgia and the South Sandwich Islands",
+      "fr": "Géorgie du Sud-et-les Îles Sandwich du Sud"
+    },
+    "formalReferenceName": {
+      "en": "South Georgia and the South Sandwich Islands",
+      "fr": "Géorgie du Sud-et-les Îles Sandwich du Sud (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "SGS"
+        },
+        {
+          "layer": "minor_islands",
+          "key": "sr_adm0_a3",
+          "value": "SGS"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "whole-place-with-component-insets"
+  },
+  {
+    "code": "SHN",
+    "alpha2": "SH",
+    "numeric": "654",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Saint Helena, Ascension and Tristan da Cunha",
+      "fr": "Sainte-Hélène, Ascension et Tristan da Cunha"
+    },
+    "formalReferenceName": {
+      "en": "Saint Helena, Ascension and Tristan da Cunha",
+      "fr": "Sainte-Hélène, Ascension et Tristan da Cunha"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "SHN"
+        },
+        {
+          "layer": "minor_islands",
+          "key": "sr_adm0_a3",
+          "value": "SHN"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "whole-place-with-component-insets"
+  },
+  {
+    "code": "SJM",
+    "alpha2": "SJ",
+    "numeric": "744",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Svalbard and Jan Mayen",
+      "fr": "Svalbard et Jan Mayen"
+    },
+    "formalReferenceName": {
+      "en": "Svalbard and Jan Mayen",
+      "fr": "Svalbard et l'Île Jan Mayen (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "map_units",
+          "key": "GU_A3",
+          "value": "NSV"
+        },
+        {
+          "layer": "map_units",
+          "key": "GU_A3",
+          "value": "NJM"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "whole-place-with-component-insets"
+  },
+  {
+    "code": "SLB",
+    "alpha2": "SB",
+    "numeric": "090",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Solomon Islands",
+      "fr": "Îles Salomon"
+    },
+    "formalReferenceName": {
+      "en": "Solomon Islands",
+      "fr": "Salomon (les Îles)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Solomon Islands"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "SLE",
+    "alpha2": "SL",
+    "numeric": "694",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Sierra Leone",
+      "fr": "Sierra Leone"
+    },
+    "formalReferenceName": {
+      "en": "Sierra Leone",
+      "fr": "Sierra Leone (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Sierra Leone"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "SLV",
+    "alpha2": "SV",
+    "numeric": "222",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "El Salvador",
+      "fr": "Salvador"
+    },
+    "formalReferenceName": {
+      "en": "El Salvador",
+      "fr": "El Salvador"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "El Salvador"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "SMR",
+    "alpha2": "SM",
+    "numeric": "674",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "San Marino",
+      "fr": "Saint-Marin"
+    },
+    "formalReferenceName": {
+      "en": "San Marino",
+      "fr": "Saint-Marin"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "San Marino"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "SOM",
+    "alpha2": "SO",
+    "numeric": "706",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Somalia",
+      "fr": "Somalie"
+    },
+    "formalReferenceName": {
+      "en": "Somalia",
+      "fr": "Somalie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Somalia"
+        },
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "SOL"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "SPM",
+    "alpha2": "PM",
+    "numeric": "666",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Saint Pierre and Miquelon",
+      "fr": "Saint-Pierre-et-Miquelon"
+    },
+    "formalReferenceName": {
+      "en": "Saint Pierre and Miquelon",
+      "fr": "Saint-Pierre-et-Miquelon"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "SPM"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "SRB",
+    "alpha2": "RS",
+    "numeric": "688",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Serbia",
+      "fr": "Serbie"
+    },
+    "formalReferenceName": {
+      "en": "Serbia",
+      "fr": "Serbie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Republic of Serbia"
+        },
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "KOS"
+        }
+      ],
+      "exclude": [],
+      "answerNote": {
+        "en": "Kosovo is shown within this outline under the convention used for this deck, referring to United Nations Security Council resolution 1244 (1999). This does not assert agreement on its status.",
+        "fr": "Le Kosovo figure dans ce contour selon la convention de ce jeu, en référence à la résolution 1244 (1999) du Conseil de sécurité des Nations unies. Cette représentation ne suppose pas un accord sur son statut."
+      }
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "SSD",
+    "alpha2": "SS",
+    "numeric": "728",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "South Sudan",
+      "fr": "Soudan du Sud"
+    },
+    "formalReferenceName": {
+      "en": "South Sudan",
+      "fr": "Soudan du Sud (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "South Sudan"
+        }
+      ],
+      "exclude": [
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Abyei"
+        }
+      ],
+      "answerNote": {
+        "en": "Abyei appears as neutral context with a dashed boundary. Its final status has not yet been determined.",
+        "fr": "Abyei apparaît en contexte neutre, avec une limite en pointillés. Son statut définitif n’a pas encore été déterminé."
+      }
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "STP",
+    "alpha2": "ST",
+    "numeric": "678",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "São Tomé and Príncipe",
+      "fr": "Sao Tomé-et-Principe"
+    },
+    "formalReferenceName": {
+      "en": "Sao Tome and Principe",
+      "fr": "Sao Tomé-et-Principe"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "São Tomé and Principe"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "SUR",
+    "alpha2": "SR",
+    "numeric": "740",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Suriname",
+      "fr": "Suriname"
+    },
+    "formalReferenceName": {
+      "en": "Suriname",
+      "fr": "Suriname (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Suriname"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "SVK",
+    "alpha2": "SK",
+    "numeric": "703",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Slovakia",
+      "fr": "Slovaquie"
+    },
+    "formalReferenceName": {
+      "en": "Slovakia",
+      "fr": "Slovaquie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Slovakia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "SVN",
+    "alpha2": "SI",
+    "numeric": "705",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Slovenia",
+      "fr": "Slovénie"
+    },
+    "formalReferenceName": {
+      "en": "Slovenia",
+      "fr": "Slovénie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Slovenia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "SWE",
+    "alpha2": "SE",
+    "numeric": "752",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Sweden",
+      "fr": "Suède"
+    },
+    "formalReferenceName": {
+      "en": "Sweden",
+      "fr": "Suède (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Sweden"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "SWZ",
+    "alpha2": "SZ",
+    "numeric": "748",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Eswatini",
+      "fr": "Eswatini"
+    },
+    "formalReferenceName": {
+      "en": "Eswatini",
+      "fr": "Eswatini (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "eSwatini"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "SXM",
+    "alpha2": "SX",
+    "numeric": "534",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Sint Maarten",
+      "fr": "Saint-Martin (royaume des Pays-Bas)"
+    },
+    "formalReferenceName": {
+      "en": "Sint Maarten (Dutch part)",
+      "fr": "Saint-Martin (partie néerlandaise)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Sint Maarten"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "SYC",
+    "alpha2": "SC",
+    "numeric": "690",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Seychelles",
+      "fr": "Seychelles"
+    },
+    "formalReferenceName": {
+      "en": "Seychelles",
+      "fr": "Seychelles (les)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Seychelles"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "SYR",
+    "alpha2": "SY",
+    "numeric": "760",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Syria",
+      "fr": "Syrie"
+    },
+    "formalReferenceName": {
+      "en": "Syrian Arab Republic (the)",
+      "fr": "République arabe syrienne (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Syria"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Golan Heights"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "TCA",
+    "alpha2": "TC",
+    "numeric": "796",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Turks and Caicos Islands",
+      "fr": "Îles Turques-et-Caïques"
+    },
+    "formalReferenceName": {
+      "en": "Turks and Caicos Islands (the)",
+      "fr": "Turks-et-Caïcos (les Îles)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Turks and Caicos Islands"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "TCD",
+    "alpha2": "TD",
+    "numeric": "148",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Chad",
+      "fr": "Tchad"
+    },
+    "formalReferenceName": {
+      "en": "Chad",
+      "fr": "Tchad (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Chad"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "TGO",
+    "alpha2": "TG",
+    "numeric": "768",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Togo",
+      "fr": "Togo"
+    },
+    "formalReferenceName": {
+      "en": "Togo",
+      "fr": "Togo (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Togo"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "THA",
+    "alpha2": "TH",
+    "numeric": "764",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Thailand",
+      "fr": "Thaïlande"
+    },
+    "formalReferenceName": {
+      "en": "Thailand",
+      "fr": "Thaïlande (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Thailand"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "TJK",
+    "alpha2": "TJ",
+    "numeric": "762",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Tajikistan",
+      "fr": "Tadjikistan"
+    },
+    "formalReferenceName": {
+      "en": "Tajikistan",
+      "fr": "Tadjikistan (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Tajikistan"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "TKL",
+    "alpha2": "TK",
+    "numeric": "772",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Tokelau",
+      "fr": "Tokelau"
+    },
+    "formalReferenceName": {
+      "en": "Tokelau",
+      "fr": "Tokelau (les)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "map_units",
+          "key": "GU_A3",
+          "value": "TKL"
+        },
+        {
+          "layer": "minor_islands",
+          "key": "sr_gu_a3",
+          "value": "TKL"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "whole-place-with-component-insets"
+  },
+  {
+    "code": "TKM",
+    "alpha2": "TM",
+    "numeric": "795",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Turkmenistan",
+      "fr": "Turkménistan"
+    },
+    "formalReferenceName": {
+      "en": "Turkmenistan",
+      "fr": "Turkménistan (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Turkmenistan"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "TLS",
+    "alpha2": "TL",
+    "numeric": "626",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Timor-Leste",
+      "fr": "Timor oriental"
+    },
+    "formalReferenceName": {
+      "en": "Timor-Leste",
+      "fr": "Timor-Leste (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "East Timor"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "TON",
+    "alpha2": "TO",
+    "numeric": "776",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Tonga",
+      "fr": "Tonga"
+    },
+    "formalReferenceName": {
+      "en": "Tonga",
+      "fr": "Tonga (les)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Tonga"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "TTO",
+    "alpha2": "TT",
+    "numeric": "780",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Trinidad and Tobago",
+      "fr": "Trinité-et-Tobago"
+    },
+    "formalReferenceName": {
+      "en": "Trinidad and Tobago",
+      "fr": "Trinité-et-Tobago (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Trinidad and Tobago"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "TUN",
+    "alpha2": "TN",
+    "numeric": "788",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Tunisia",
+      "fr": "Tunisie"
+    },
+    "formalReferenceName": {
+      "en": "Tunisia",
+      "fr": "Tunisie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Tunisia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "TUR",
+    "alpha2": "TR",
+    "numeric": "792",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Turkey",
+      "fr": "Turquie"
+    },
+    "formalReferenceName": {
+      "en": "Türkiye",
+      "fr": "Türkiye (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Turkey"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "TUV",
+    "alpha2": "TV",
+    "numeric": "798",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Tuvalu",
+      "fr": "Tuvalu"
+    },
+    "formalReferenceName": {
+      "en": "Tuvalu",
+      "fr": "Tuvalu (les)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Tuvalu"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "TWN",
+    "alpha2": "TW",
+    "numeric": "158",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Taiwan",
+      "fr": "Taïwan"
+    },
+    "formalReferenceName": {
+      "en": "Taiwan (Province of China)",
+      "fr": "Taïwan (Province de Chine)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Taiwan"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "TZA",
+    "alpha2": "TZ",
+    "numeric": "834",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Tanzania",
+      "fr": "Tanzanie"
+    },
+    "formalReferenceName": {
+      "en": "Tanzania, the United Republic of",
+      "fr": "Tanzanie (la République-Unie de)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "United Republic of Tanzania"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "UGA",
+    "alpha2": "UG",
+    "numeric": "800",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Uganda",
+      "fr": "Ouganda"
+    },
+    "formalReferenceName": {
+      "en": "Uganda",
+      "fr": "Ouganda (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Uganda"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "UKR",
+    "alpha2": "UA",
+    "numeric": "804",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Ukraine",
+      "fr": "Ukraine"
+    },
+    "formalReferenceName": {
+      "en": "Ukraine",
+      "fr": "Ukraine (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Ukraine"
+        },
+        {
+          "layer": "disputed_areas",
+          "key": "BRK_NAME",
+          "value": "Crimea"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "UMI",
+    "alpha2": "UM",
+    "numeric": "581",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "United States Minor Outlying Islands",
+      "fr": "Îles mineures éloignées des États-Unis"
+    },
+    "formalReferenceName": {
+      "en": "United States Minor Outlying Islands (the)",
+      "fr": "Îles mineures éloignées des États-Unis (les)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADM0_A3",
+          "value": "UMI"
+        },
+        {
+          "layer": "minor_islands",
+          "key": "sr_adm0_a3",
+          "value": "UMI"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "whole-place-with-component-insets"
+  },
+  {
+    "code": "URY",
+    "alpha2": "UY",
+    "numeric": "858",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Uruguay",
+      "fr": "Uruguay"
+    },
+    "formalReferenceName": {
+      "en": "Uruguay",
+      "fr": "Uruguay (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Uruguay"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "USA",
+    "alpha2": "US",
+    "numeric": "840",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "United States of America",
+      "fr": "États-Unis"
+    },
+    "formalReferenceName": {
+      "en": "United States of America (the)",
+      "fr": "États-Unis d'Amérique (les)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "United States of America"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "UZB",
+    "alpha2": "UZ",
+    "numeric": "860",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Uzbekistan",
+      "fr": "Ouzbékistan"
+    },
+    "formalReferenceName": {
+      "en": "Uzbekistan",
+      "fr": "Ouzbékistan (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Uzbekistan"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "VAT",
+    "alpha2": "VA",
+    "numeric": "336",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Vatican City",
+      "fr": "Cité du Vatican"
+    },
+    "formalReferenceName": {
+      "en": "Holy See (the)",
+      "fr": "Saint-Siège (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Vatican"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "VCT",
+    "alpha2": "VC",
+    "numeric": "670",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Saint Vincent and the Grenadines",
+      "fr": "Saint-Vincent-et-les-Grenadines"
+    },
+    "formalReferenceName": {
+      "en": "Saint Vincent and the Grenadines",
+      "fr": "Saint-Vincent-et-les Grenadines"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Saint Vincent and the Grenadines"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "VEN",
+    "alpha2": "VE",
+    "numeric": "862",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Venezuela",
+      "fr": "Venezuela"
+    },
+    "formalReferenceName": {
+      "en": "Venezuela (Bolivarian Republic of)",
+      "fr": "Venezuela (République bolivarienne du)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Venezuela"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "VGB",
+    "alpha2": "VG",
+    "numeric": "092",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "British Virgin Islands",
+      "fr": "Îles Vierges britanniques"
+    },
+    "formalReferenceName": {
+      "en": "Virgin Islands (British)",
+      "fr": "Vierges britanniques (les Îles)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "British Virgin Islands"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "VIR",
+    "alpha2": "VI",
+    "numeric": "850",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "United States Virgin Islands",
+      "fr": "Îles Vierges des États-Unis"
+    },
+    "formalReferenceName": {
+      "en": "Virgin Islands (U.S.)",
+      "fr": "Vierges des États-Unis (les Îles)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "United States Virgin Islands"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "VNM",
+    "alpha2": "VN",
+    "numeric": "704",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Vietnam",
+      "fr": "Viêt Nam"
+    },
+    "formalReferenceName": {
+      "en": "Viet Nam",
+      "fr": "Viet Nam (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Vietnam"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "VUT",
+    "alpha2": "VU",
+    "numeric": "548",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Vanuatu",
+      "fr": "Vanuatu"
+    },
+    "formalReferenceName": {
+      "en": "Vanuatu",
+      "fr": "Vanuatu (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Vanuatu"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "WLF",
+    "alpha2": "WF",
+    "numeric": "876",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Wallis and Futuna",
+      "fr": "Wallis-et-Futuna"
+    },
+    "formalReferenceName": {
+      "en": "Wallis and Futuna",
+      "fr": "Wallis-et-Futuna"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Wallis and Futuna"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "WSM",
+    "alpha2": "WS",
+    "numeric": "882",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Samoa",
+      "fr": "Samoa"
+    },
+    "formalReferenceName": {
+      "en": "Samoa",
+      "fr": "Samoa (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Samoa"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "YEM",
+    "alpha2": "YE",
+    "numeric": "887",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Yemen",
+      "fr": "Yémen"
+    },
+    "formalReferenceName": {
+      "en": "Yemen",
+      "fr": "Yémen (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Yemen"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "ZAF",
+    "alpha2": "ZA",
+    "numeric": "710",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "South Africa",
+      "fr": "Afrique du Sud"
+    },
+    "formalReferenceName": {
+      "en": "South Africa",
+      "fr": "Afrique du Sud (l')"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "South Africa"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "ZMB",
+    "alpha2": "ZM",
+    "numeric": "894",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Zambia",
+      "fr": "Zambie"
+    },
+    "formalReferenceName": {
+      "en": "Zambia",
+      "fr": "Zambie (la)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Zambia"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "ZWE",
+    "alpha2": "ZW",
+    "numeric": "716",
+    "codeNamespace": "ISO-3166-1-alpha3",
+    "name": {
+      "en": "Zimbabwe",
+      "fr": "Zimbabwe"
+    },
+    "formalReferenceName": {
+      "en": "Zimbabwe",
+      "fr": "Zimbabwe (le)"
+    },
+    "formalReferenceSource": {
+      "en": "ISO OBP English short name; directly verified 2026-10-31",
+      "fr": "ISO OBP French short name; directly verified 2026-10-31"
+    },
+    "geometry_source": {
+      "include": [
+        {
+          "layer": "countries",
+          "key": "ADMIN",
+          "value": "Zimbabwe"
+        }
+      ],
+      "exclude": []
+    },
+    "pictureFocus": "primary-and-nearby"
+  }
+]

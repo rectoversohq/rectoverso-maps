@@ -1,0 +1,516 @@
+{
+  "FRA": [
+    {
+      "name": {
+        "en": "Metropolitan France",
+        "fr": "France métropolitaine"
+      },
+      "bounds": [
+        -6,
+        41,
+        10,
+        52
+      ]
+    },
+    {
+      "name": {
+        "en": "Clipperton Island",
+        "fr": "Île de Clipperton"
+      },
+      "bounds": [
+        -110,
+        10,
+        -108,
+        11
+      ]
+    }
+  ],
+  "PRT": [
+    {
+      "name": {
+        "en": "Mainland Portugal",
+        "fr": "Portugal continental"
+      },
+      "bounds": [
+        -10,
+        36,
+        -6,
+        43
+      ]
+    },
+    {
+      "name": {
+        "en": "Azores",
+        "fr": "Açores"
+      },
+      "bounds": [
+        -32,
+        36,
+        -24,
+        41
+      ]
+    },
+    {
+      "name": {
+        "en": "Madeira",
+        "fr": "Madère"
+      },
+      "bounds": [
+        -18,
+        29,
+        -15,
+        34
+      ]
+    }
+  ],
+  "SJM": [
+    {
+      "name": {
+        "en": "Svalbard",
+        "fr": "Svalbard"
+      },
+      "bounds": [
+        0,
+        73,
+        40,
+        82
+      ]
+    },
+    {
+      "name": {
+        "en": "Jan Mayen",
+        "fr": "Jan Mayen"
+      },
+      "bounds": [
+        -10,
+        70,
+        -6,
+        72
+      ]
+    }
+  ],
+  "BES": [
+    {
+      "name": {
+        "en": "Bonaire",
+        "fr": "Bonaire"
+      },
+      "bounds": [
+        -69,
+        11,
+        -67,
+        13
+      ]
+    },
+    {
+      "name": {
+        "en": "Sint Eustatius",
+        "fr": "Saint-Eustache"
+      },
+      "bounds": [
+        -63.1,
+        17.4,
+        -62.8,
+        17.6
+      ]
+    },
+    {
+      "name": {
+        "en": "Saba",
+        "fr": "Saba"
+      },
+      "bounds": [
+        -63.4,
+        17.6,
+        -63.1,
+        17.8
+      ]
+    }
+  ],
+  "HMD": [
+    {
+      "name": {
+        "en": "Heard Island",
+        "fr": "Île Heard"
+      },
+      "bounds": [
+        73,
+        -54,
+        74,
+        -52
+      ]
+    },
+    {
+      "name": {
+        "en": "McDonald Islands",
+        "fr": "Îles McDonald"
+      },
+      "bounds": [
+        72,
+        -54,
+        73,
+        -52
+      ]
+    }
+  ],
+  "TKL": [
+    {
+      "name": {
+        "en": "Atafu",
+        "fr": "Atafu"
+      },
+      "bounds": [
+        -173,
+        -8.8,
+        -171,
+        -8
+      ]
+    },
+    {
+      "name": {
+        "en": "Nukunonu",
+        "fr": "Nukunonu"
+      },
+      "bounds": [
+        -173,
+        -9.25,
+        -171,
+        -8.8
+      ]
+    },
+    {
+      "name": {
+        "en": "Fakaofo",
+        "fr": "Fakaofo"
+      },
+      "bounds": [
+        -173,
+        -9.5,
+        -171,
+        -9.25
+      ]
+    }
+  ],
+  "SHN": [
+    {
+      "name": {
+        "en": "Saint Helena",
+        "fr": "Sainte-Hélène"
+      },
+      "bounds": [
+        -7,
+        -17,
+        -4,
+        -15
+      ]
+    },
+    {
+      "name": {
+        "en": "Ascension",
+        "fr": "Ascension"
+      },
+      "bounds": [
+        -16,
+        -9,
+        -13,
+        -7
+      ]
+    },
+    {
+      "name": {
+        "en": "Tristan da Cunha group",
+        "fr": "Archipel Tristan da Cunha"
+      },
+      "bounds": [
+        -14,
+        -42,
+        -8,
+        -35
+      ]
+    }
+  ],
+  "SGS": [
+    {
+      "name": {
+        "en": "South Georgia",
+        "fr": "Géorgie du Sud"
+      },
+      "bounds": [
+        -43,
+        -56,
+        -34,
+        -52
+      ]
+    },
+    {
+      "name": {
+        "en": "South Sandwich Islands",
+        "fr": "Îles Sandwich du Sud"
+      },
+      "bounds": [
+        -30,
+        -61,
+        -24,
+        -55
+      ]
+    }
+  ],
+  "PCN": [
+    {
+      "name": {
+        "en": "Pitcairn",
+        "fr": "Pitcairn"
+      },
+      "bounds": [
+        -130.3,
+        -25.3,
+        -129.9,
+        -24.9
+      ]
+    },
+    {
+      "name": {
+        "en": "Henderson",
+        "fr": "Henderson"
+      },
+      "bounds": [
+        -128.5,
+        -24.6,
+        -128.1,
+        -24.1
+      ]
+    },
+    {
+      "name": {
+        "en": "Oeno",
+        "fr": "Oeno"
+      },
+      "bounds": [
+        -131,
+        -24.1,
+        -130.5,
+        -23.7
+      ]
+    },
+    {
+      "name": {
+        "en": "Ducie",
+        "fr": "Ducie"
+      },
+      "bounds": [
+        -125,
+        -24.9,
+        -124.5,
+        -24.4
+      ]
+    }
+  ],
+  "ATF": [
+    {
+      "name": {
+        "en": "Kerguelen Islands",
+        "fr": "Îles Kerguelen"
+      },
+      "bounds": [
+        67,
+        -51,
+        72,
+        -47
+      ]
+    },
+    {
+      "name": {
+        "en": "Crozet Islands",
+        "fr": "Îles Crozet"
+      },
+      "bounds": [
+        49,
+        -48,
+        53,
+        -45
+      ]
+    },
+    {
+      "name": {
+        "en": "Amsterdam and Saint Paul",
+        "fr": "Amsterdam et Saint-Paul"
+      },
+      "bounds": [
+        76,
+        -40,
+        79,
+        -36
+      ]
+    },
+    {
+      "name": {
+        "en": "Glorioso Islands",
+        "fr": "Îles Glorieuses"
+      },
+      "bounds": [
+        46,
+        -12.5,
+        49,
+        -10
+      ]
+    },
+    {
+      "name": {
+        "en": "Juan de Nova",
+        "fr": "Juan de Nova"
+      },
+      "bounds": [
+        42,
+        -18,
+        44,
+        -16
+      ]
+    },
+    {
+      "name": {
+        "en": "Europa",
+        "fr": "Europa"
+      },
+      "bounds": [
+        40,
+        -23,
+        41,
+        -22
+      ]
+    },
+    {
+      "name": {
+        "en": "Bassas da India",
+        "fr": "Bassas da India"
+      },
+      "bounds": [
+        39,
+        -22,
+        40,
+        -21
+      ]
+    },
+    {
+      "name": {
+        "en": "Tromelin",
+        "fr": "Tromelin"
+      },
+      "bounds": [
+        54,
+        -17,
+        55,
+        -15
+      ]
+    }
+  ],
+  "UMI": [
+    {
+      "name": {
+        "en": "Johnston Atoll",
+        "fr": "Atoll Johnston"
+      },
+      "bounds": [
+        -169.699509,
+        16.571015000000003,
+        -169.362766,
+        16.912599999999998
+      ]
+    },
+    {
+      "name": {
+        "en": "Jarvis Island",
+        "fr": "Île Jarvis"
+      },
+      "bounds": [
+        -160.179978,
+        -0.538767,
+        -159.858901,
+        -0.22249100000000002
+      ]
+    },
+    {
+      "name": {
+        "en": "Baker Island",
+        "fr": "Île Baker"
+      },
+      "bounds": [
+        -176.635829,
+        0.04033400000000001,
+        -176.309177,
+        0.37589799999999995
+      ]
+    },
+    {
+      "name": {
+        "en": "Howland Island",
+        "fr": "Île Howland"
+      },
+      "bounds": [
+        -176.790492,
+        0.640188,
+        -176.486098,
+        0.956952
+      ]
+    },
+    {
+      "name": {
+        "en": "Wake Atoll",
+        "fr": "Atoll Wake"
+      },
+      "bounds": [
+        166.469395,
+        19.125580000000003,
+        166.802354,
+        19.455731999999998
+      ]
+    },
+    {
+      "name": {
+        "en": "Midway Islands",
+        "fr": "Îles Midway"
+      },
+      "bounds": [
+        -177.53959700000001,
+        28.047659000000003,
+        -177.171156,
+        28.365318
+      ]
+    },
+    {
+      "name": {
+        "en": "Navassa Island",
+        "fr": "Île de la Navasse"
+      },
+      "bounds": [
+        -75.18083200000001,
+        18.245006,
+        -74.852634,
+        18.567262999999997
+      ]
+    },
+    {
+      "name": {
+        "en": "Palmyra Atoll",
+        "fr": "Atoll Palmyra"
+      },
+      "bounds": [
+        -162.253627,
+        5.719371,
+        -161.90760699999998,
+        6.0402450000000005
+      ]
+    },
+    {
+      "name": {
+        "en": "Kingman Reef",
+        "fr": "Récif Kingman"
+      },
+      "bounds": [
+        -162.55017700000002,
+        6.280243,
+        -162.235284,
+        6.595136
+      ]
+    }
+  ]
+}

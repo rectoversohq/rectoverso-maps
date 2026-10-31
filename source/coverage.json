@@ -1,0 +1,5500 @@
+{
+  "policy": "ISO-3166-1-current-assigned",
+  "snapshotDate": "2026-10-31",
+  "referenceCount": 249,
+  "authoritativeRegistryVerified": true,
+  "boundaryConvention": "UN-territorial-with-neutral-undetermined-areas",
+  "entries": [
+    {
+      "code": "ABW",
+      "alpha2": "AW",
+      "numeric": "533",
+      "name": {
+        "en": "Aruba",
+        "fr": "Aruba"
+      },
+      "formalReferenceName": {
+        "en": "Aruba",
+        "fr": "Aruba"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-abw",
+        "fr": "rv-map-fr-abw"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "AFG",
+      "alpha2": "AF",
+      "numeric": "004",
+      "name": {
+        "en": "Afghanistan",
+        "fr": "Afghanistan"
+      },
+      "formalReferenceName": {
+        "en": "Afghanistan",
+        "fr": "Afghanistan (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-afg",
+        "fr": "rv-map-fr-afg"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "AGO",
+      "alpha2": "AO",
+      "numeric": "024",
+      "name": {
+        "en": "Angola",
+        "fr": "Angola"
+      },
+      "formalReferenceName": {
+        "en": "Angola",
+        "fr": "Angola (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-ago",
+        "fr": "rv-map-fr-ago"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "AIA",
+      "alpha2": "AI",
+      "numeric": "660",
+      "name": {
+        "en": "Anguilla",
+        "fr": "Anguilla"
+      },
+      "formalReferenceName": {
+        "en": "Anguilla",
+        "fr": "Anguilla"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-aia",
+        "fr": "rv-map-fr-aia"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "ALA",
+      "alpha2": "AX",
+      "numeric": "248",
+      "name": {
+        "en": "Åland Islands",
+        "fr": "Åland"
+      },
+      "formalReferenceName": {
+        "en": "Åland Islands",
+        "fr": "Åland(les Îles)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-ala",
+        "fr": "rv-map-fr-ala"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "ALB",
+      "alpha2": "AL",
+      "numeric": "008",
+      "name": {
+        "en": "Albania",
+        "fr": "Albanie"
+      },
+      "formalReferenceName": {
+        "en": "Albania",
+        "fr": "Albanie (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-alb",
+        "fr": "rv-map-fr-alb"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "AND",
+      "alpha2": "AD",
+      "numeric": "020",
+      "name": {
+        "en": "Andorra",
+        "fr": "Andorre"
+      },
+      "formalReferenceName": {
+        "en": "Andorra",
+        "fr": "Andorre (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-and",
+        "fr": "rv-map-fr-and"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "ARE",
+      "alpha2": "AE",
+      "numeric": "784",
+      "name": {
+        "en": "United Arab Emirates",
+        "fr": "Émirats arabes unis"
+      },
+      "formalReferenceName": {
+        "en": "United Arab Emirates (the)",
+        "fr": "Émirats arabes unis (les)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-are",
+        "fr": "rv-map-fr-are"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "ARG",
+      "alpha2": "AR",
+      "numeric": "032",
+      "name": {
+        "en": "Argentina",
+        "fr": "Argentine"
+      },
+      "formalReferenceName": {
+        "en": "Argentina",
+        "fr": "Argentine (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-arg",
+        "fr": "rv-map-fr-arg"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "ARM",
+      "alpha2": "AM",
+      "numeric": "051",
+      "name": {
+        "en": "Armenia",
+        "fr": "Arménie"
+      },
+      "formalReferenceName": {
+        "en": "Armenia",
+        "fr": "Arménie (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-arm",
+        "fr": "rv-map-fr-arm"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "ASM",
+      "alpha2": "AS",
+      "numeric": "016",
+      "name": {
+        "en": "American Samoa",
+        "fr": "Samoa américaines"
+      },
+      "formalReferenceName": {
+        "en": "American Samoa",
+        "fr": "Samoa américaines (les)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-asm",
+        "fr": "rv-map-fr-asm"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "ATA",
+      "alpha2": "AQ",
+      "numeric": "010",
+      "name": {
+        "en": "Antarctica",
+        "fr": "Antarctique"
+      },
+      "formalReferenceName": {
+        "en": "Antarctica",
+        "fr": "Antarctique (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-ata",
+        "fr": "rv-map-fr-ata"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "ATF",
+      "alpha2": "TF",
+      "numeric": "260",
+      "name": {
+        "en": "French Southern Territories",
+        "fr": "Terres australes françaises"
+      },
+      "formalReferenceName": {
+        "en": "French Southern Territories (the)",
+        "fr": "Terres australes françaises (les)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-atf",
+        "fr": "rv-map-fr-atf"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "ATG",
+      "alpha2": "AG",
+      "numeric": "028",
+      "name": {
+        "en": "Antigua and Barbuda",
+        "fr": "Antigua-et-Barbuda"
+      },
+      "formalReferenceName": {
+        "en": "Antigua and Barbuda",
+        "fr": "Antigua-et-Barbuda"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-atg",
+        "fr": "rv-map-fr-atg"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "AUS",
+      "alpha2": "AU",
+      "numeric": "036",
+      "name": {
+        "en": "Australia",
+        "fr": "Australie"
+      },
+      "formalReferenceName": {
+        "en": "Australia",
+        "fr": "Australie (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-aus",
+        "fr": "rv-map-fr-aus"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "AUT",
+      "alpha2": "AT",
+      "numeric": "040",
+      "name": {
+        "en": "Austria",
+        "fr": "Autriche"
+      },
+      "formalReferenceName": {
+        "en": "Austria",
+        "fr": "Autriche (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-aut",
+        "fr": "rv-map-fr-aut"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "AZE",
+      "alpha2": "AZ",
+      "numeric": "031",
+      "name": {
+        "en": "Azerbaijan",
+        "fr": "Azerbaïdjan"
+      },
+      "formalReferenceName": {
+        "en": "Azerbaijan",
+        "fr": "Azerbaïdjan (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-aze",
+        "fr": "rv-map-fr-aze"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BDI",
+      "alpha2": "BI",
+      "numeric": "108",
+      "name": {
+        "en": "Burundi",
+        "fr": "Burundi"
+      },
+      "formalReferenceName": {
+        "en": "Burundi",
+        "fr": "Burundi (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-bdi",
+        "fr": "rv-map-fr-bdi"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BEL",
+      "alpha2": "BE",
+      "numeric": "056",
+      "name": {
+        "en": "Belgium",
+        "fr": "Belgique"
+      },
+      "formalReferenceName": {
+        "en": "Belgium",
+        "fr": "Belgique (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-bel",
+        "fr": "rv-map-fr-bel"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BEN",
+      "alpha2": "BJ",
+      "numeric": "204",
+      "name": {
+        "en": "Benin",
+        "fr": "Bénin"
+      },
+      "formalReferenceName": {
+        "en": "Benin",
+        "fr": "Bénin (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-ben",
+        "fr": "rv-map-fr-ben"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BES",
+      "alpha2": "BQ",
+      "numeric": "535",
+      "name": {
+        "en": "Bonaire, Sint Eustatius and Saba",
+        "fr": "Bonaire, Saint-Eustache et Saba"
+      },
+      "formalReferenceName": {
+        "en": "Bonaire, Sint Eustatius and Saba",
+        "fr": "Bonaire, Saint-Eustache et Saba"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-bes",
+        "fr": "rv-map-fr-bes"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BFA",
+      "alpha2": "BF",
+      "numeric": "854",
+      "name": {
+        "en": "Burkina Faso",
+        "fr": "Burkina Faso"
+      },
+      "formalReferenceName": {
+        "en": "Burkina Faso",
+        "fr": "Burkina Faso (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-bfa",
+        "fr": "rv-map-fr-bfa"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BGD",
+      "alpha2": "BD",
+      "numeric": "050",
+      "name": {
+        "en": "Bangladesh",
+        "fr": "Bangladesh"
+      },
+      "formalReferenceName": {
+        "en": "Bangladesh",
+        "fr": "Bangladesh (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-bgd",
+        "fr": "rv-map-fr-bgd"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BGR",
+      "alpha2": "BG",
+      "numeric": "100",
+      "name": {
+        "en": "Bulgaria",
+        "fr": "Bulgarie"
+      },
+      "formalReferenceName": {
+        "en": "Bulgaria",
+        "fr": "Bulgarie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-bgr",
+        "fr": "rv-map-fr-bgr"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BHR",
+      "alpha2": "BH",
+      "numeric": "048",
+      "name": {
+        "en": "Bahrain",
+        "fr": "Bahreïn"
+      },
+      "formalReferenceName": {
+        "en": "Bahrain",
+        "fr": "Bahreïn"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-bhr",
+        "fr": "rv-map-fr-bhr"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BHS",
+      "alpha2": "BS",
+      "numeric": "044",
+      "name": {
+        "en": "The Bahamas",
+        "fr": "Bahamas"
+      },
+      "formalReferenceName": {
+        "en": "Bahamas (The)",
+        "fr": "Bahamas (Les)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-bhs",
+        "fr": "rv-map-fr-bhs"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BIH",
+      "alpha2": "BA",
+      "numeric": "070",
+      "name": {
+        "en": "Bosnia and Herzegovina",
+        "fr": "Bosnie-Herzégovine"
+      },
+      "formalReferenceName": {
+        "en": "Bosnia and Herzegovina",
+        "fr": "Bosnie-Herzégovine (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-bih",
+        "fr": "rv-map-fr-bih"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BLM",
+      "alpha2": "BL",
+      "numeric": "652",
+      "name": {
+        "en": "Saint Barthélemy",
+        "fr": "Saint-Barthélemy"
+      },
+      "formalReferenceName": {
+        "en": "Saint Barthélemy",
+        "fr": "Saint-Barthélemy"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-blm",
+        "fr": "rv-map-fr-blm"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BLR",
+      "alpha2": "BY",
+      "numeric": "112",
+      "name": {
+        "en": "Belarus",
+        "fr": "Biélorussie"
+      },
+      "formalReferenceName": {
+        "en": "Belarus",
+        "fr": "Bélarus (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-blr",
+        "fr": "rv-map-fr-blr"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BLZ",
+      "alpha2": "BZ",
+      "numeric": "084",
+      "name": {
+        "en": "Belize",
+        "fr": "Belize"
+      },
+      "formalReferenceName": {
+        "en": "Belize",
+        "fr": "Belize (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-blz",
+        "fr": "rv-map-fr-blz"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BMU",
+      "alpha2": "BM",
+      "numeric": "060",
+      "name": {
+        "en": "Bermuda",
+        "fr": "Bermudes"
+      },
+      "formalReferenceName": {
+        "en": "Bermuda",
+        "fr": "Bermudes (les)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-bmu",
+        "fr": "rv-map-fr-bmu"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BOL",
+      "alpha2": "BO",
+      "numeric": "068",
+      "name": {
+        "en": "Bolivia",
+        "fr": "Bolivie"
+      },
+      "formalReferenceName": {
+        "en": "Bolivia (Plurinational State of)",
+        "fr": "Bolivie (État plurinational de)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-bol",
+        "fr": "rv-map-fr-bol"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BRA",
+      "alpha2": "BR",
+      "numeric": "076",
+      "name": {
+        "en": "Brazil",
+        "fr": "Brésil"
+      },
+      "formalReferenceName": {
+        "en": "Brazil",
+        "fr": "Brésil (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-bra",
+        "fr": "rv-map-fr-bra"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BRB",
+      "alpha2": "BB",
+      "numeric": "052",
+      "name": {
+        "en": "Barbados",
+        "fr": "Barbade"
+      },
+      "formalReferenceName": {
+        "en": "Barbados",
+        "fr": "Barbade (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-brb",
+        "fr": "rv-map-fr-brb"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BRN",
+      "alpha2": "BN",
+      "numeric": "096",
+      "name": {
+        "en": "Brunei",
+        "fr": "Brunei"
+      },
+      "formalReferenceName": {
+        "en": "Brunei Darussalam",
+        "fr": "Brunéi Darussalam (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-brn",
+        "fr": "rv-map-fr-brn"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BTN",
+      "alpha2": "BT",
+      "numeric": "064",
+      "name": {
+        "en": "Bhutan",
+        "fr": "Bhoutan"
+      },
+      "formalReferenceName": {
+        "en": "Bhutan",
+        "fr": "Bhoutan (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-btn",
+        "fr": "rv-map-fr-btn"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BVT",
+      "alpha2": "BV",
+      "numeric": "074",
+      "name": {
+        "en": "Bouvet Island",
+        "fr": "Île Bouvet"
+      },
+      "formalReferenceName": {
+        "en": "Bouvet Island",
+        "fr": "Bouvet (l'Île)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-bvt",
+        "fr": "rv-map-fr-bvt"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "BWA",
+      "alpha2": "BW",
+      "numeric": "072",
+      "name": {
+        "en": "Botswana",
+        "fr": "Botswana"
+      },
+      "formalReferenceName": {
+        "en": "Botswana",
+        "fr": "Botswana (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-bwa",
+        "fr": "rv-map-fr-bwa"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "CAF",
+      "alpha2": "CF",
+      "numeric": "140",
+      "name": {
+        "en": "Central African Republic",
+        "fr": "République centrafricaine"
+      },
+      "formalReferenceName": {
+        "en": "Central African Republic (the)",
+        "fr": "République centrafricaine (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-caf",
+        "fr": "rv-map-fr-caf"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "CAN",
+      "alpha2": "CA",
+      "numeric": "124",
+      "name": {
+        "en": "Canada",
+        "fr": "Canada"
+      },
+      "formalReferenceName": {
+        "en": "Canada",
+        "fr": "Canada (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-can",
+        "fr": "rv-map-fr-can"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "CCK",
+      "alpha2": "CC",
+      "numeric": "166",
+      "name": {
+        "en": "Cocos (Keeling) Islands",
+        "fr": "Îles Cocos (Keeling)"
+      },
+      "formalReferenceName": {
+        "en": "Cocos (Keeling) Islands (the)",
+        "fr": "Cocos (les Îles)/ Keeling (les Îles)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-cck",
+        "fr": "rv-map-fr-cck"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "CHE",
+      "alpha2": "CH",
+      "numeric": "756",
+      "name": {
+        "en": "Switzerland",
+        "fr": "Suisse"
+      },
+      "formalReferenceName": {
+        "en": "Switzerland",
+        "fr": "Suisse (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-che",
+        "fr": "rv-map-fr-che"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "CHL",
+      "alpha2": "CL",
+      "numeric": "152",
+      "name": {
+        "en": "Chile",
+        "fr": "Chili"
+      },
+      "formalReferenceName": {
+        "en": "Chile",
+        "fr": "Chili (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-chl",
+        "fr": "rv-map-fr-chl"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "CHN",
+      "alpha2": "CN",
+      "numeric": "156",
+      "name": {
+        "en": "China",
+        "fr": "Chine"
+      },
+      "formalReferenceName": {
+        "en": "China",
+        "fr": "Chine (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-chn",
+        "fr": "rv-map-fr-chn"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "CIV",
+      "alpha2": "CI",
+      "numeric": "384",
+      "name": {
+        "en": "Ivory Coast",
+        "fr": "Côte d'Ivoire"
+      },
+      "formalReferenceName": {
+        "en": "Côte d'Ivoire",
+        "fr": "Côte d'Ivoire (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-civ",
+        "fr": "rv-map-fr-civ"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "CMR",
+      "alpha2": "CM",
+      "numeric": "120",
+      "name": {
+        "en": "Cameroon",
+        "fr": "Cameroun"
+      },
+      "formalReferenceName": {
+        "en": "Cameroon",
+        "fr": "Cameroun (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-cmr",
+        "fr": "rv-map-fr-cmr"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "COD",
+      "alpha2": "CD",
+      "numeric": "180",
+      "name": {
+        "en": "Democratic Republic of the Congo",
+        "fr": "République démocratique du Congo"
+      },
+      "formalReferenceName": {
+        "en": "Congo (the Democratic Republic of the)",
+        "fr": "Congo (la République démocratique du)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-cod",
+        "fr": "rv-map-fr-cod"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "COG",
+      "alpha2": "CG",
+      "numeric": "178",
+      "name": {
+        "en": "Republic of the Congo",
+        "fr": "République du Congo"
+      },
+      "formalReferenceName": {
+        "en": "Congo (the)",
+        "fr": "Congo (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-cog",
+        "fr": "rv-map-fr-cog"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "COK",
+      "alpha2": "CK",
+      "numeric": "184",
+      "name": {
+        "en": "Cook Islands",
+        "fr": "Îles Cook"
+      },
+      "formalReferenceName": {
+        "en": "Cook Islands (the)",
+        "fr": "Cook (les Îles)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-cok",
+        "fr": "rv-map-fr-cok"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "COL",
+      "alpha2": "CO",
+      "numeric": "170",
+      "name": {
+        "en": "Colombia",
+        "fr": "Colombie"
+      },
+      "formalReferenceName": {
+        "en": "Colombia",
+        "fr": "Colombie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-col",
+        "fr": "rv-map-fr-col"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "COM",
+      "alpha2": "KM",
+      "numeric": "174",
+      "name": {
+        "en": "Comoros",
+        "fr": "Comores"
+      },
+      "formalReferenceName": {
+        "en": "Comoros (the)",
+        "fr": "Comores (les)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-com",
+        "fr": "rv-map-fr-com"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "CPV",
+      "alpha2": "CV",
+      "numeric": "132",
+      "name": {
+        "en": "Cape Verde",
+        "fr": "Cap-Vert"
+      },
+      "formalReferenceName": {
+        "en": "Cabo Verde",
+        "fr": "Cabo Verde"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-cpv",
+        "fr": "rv-map-fr-cpv"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "CRI",
+      "alpha2": "CR",
+      "numeric": "188",
+      "name": {
+        "en": "Costa Rica",
+        "fr": "Costa Rica"
+      },
+      "formalReferenceName": {
+        "en": "Costa Rica",
+        "fr": "Costa Rica (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-cri",
+        "fr": "rv-map-fr-cri"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "CUB",
+      "alpha2": "CU",
+      "numeric": "192",
+      "name": {
+        "en": "Cuba",
+        "fr": "Cuba"
+      },
+      "formalReferenceName": {
+        "en": "Cuba",
+        "fr": "Cuba"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-cub",
+        "fr": "rv-map-fr-cub"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "CUW",
+      "alpha2": "CW",
+      "numeric": "531",
+      "name": {
+        "en": "Curaçao",
+        "fr": "Curaçao"
+      },
+      "formalReferenceName": {
+        "en": "Curaçao",
+        "fr": "Curaçao"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-cuw",
+        "fr": "rv-map-fr-cuw"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "CXR",
+      "alpha2": "CX",
+      "numeric": "162",
+      "name": {
+        "en": "Christmas Island",
+        "fr": "Île Christmas"
+      },
+      "formalReferenceName": {
+        "en": "Christmas Island",
+        "fr": "Christmas (l'Île)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-cxr",
+        "fr": "rv-map-fr-cxr"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "CYM",
+      "alpha2": "KY",
+      "numeric": "136",
+      "name": {
+        "en": "Cayman Islands",
+        "fr": "Îles Caïmans"
+      },
+      "formalReferenceName": {
+        "en": "Cayman Islands (the)",
+        "fr": "Caïmans (les Îles)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-cym",
+        "fr": "rv-map-fr-cym"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "CYP",
+      "alpha2": "CY",
+      "numeric": "196",
+      "name": {
+        "en": "Cyprus",
+        "fr": "Chypre"
+      },
+      "formalReferenceName": {
+        "en": "Cyprus",
+        "fr": "Chypre"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-cyp",
+        "fr": "rv-map-fr-cyp"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "CZE",
+      "alpha2": "CZ",
+      "numeric": "203",
+      "name": {
+        "en": "Czech Republic",
+        "fr": "Tchéquie"
+      },
+      "formalReferenceName": {
+        "en": "Czechia",
+        "fr": "Tchéquie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-cze",
+        "fr": "rv-map-fr-cze"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "DEU",
+      "alpha2": "DE",
+      "numeric": "276",
+      "name": {
+        "en": "Germany",
+        "fr": "Allemagne"
+      },
+      "formalReferenceName": {
+        "en": "Germany",
+        "fr": "Allemagne (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-deu",
+        "fr": "rv-map-fr-deu"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "DJI",
+      "alpha2": "DJ",
+      "numeric": "262",
+      "name": {
+        "en": "Djibouti",
+        "fr": "Djibouti"
+      },
+      "formalReferenceName": {
+        "en": "Djibouti",
+        "fr": "Djibouti"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-dji",
+        "fr": "rv-map-fr-dji"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "DMA",
+      "alpha2": "DM",
+      "numeric": "212",
+      "name": {
+        "en": "Dominica",
+        "fr": "Dominique"
+      },
+      "formalReferenceName": {
+        "en": "Dominica",
+        "fr": "Dominique (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-dma",
+        "fr": "rv-map-fr-dma"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "DNK",
+      "alpha2": "DK",
+      "numeric": "208",
+      "name": {
+        "en": "Denmark",
+        "fr": "Danemark"
+      },
+      "formalReferenceName": {
+        "en": "Denmark",
+        "fr": "Danemark (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-dnk",
+        "fr": "rv-map-fr-dnk"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "DOM",
+      "alpha2": "DO",
+      "numeric": "214",
+      "name": {
+        "en": "Dominican Republic",
+        "fr": "République dominicaine"
+      },
+      "formalReferenceName": {
+        "en": "Dominican Republic (the)",
+        "fr": "dominicaine (la République)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-dom",
+        "fr": "rv-map-fr-dom"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "DZA",
+      "alpha2": "DZ",
+      "numeric": "012",
+      "name": {
+        "en": "Algeria",
+        "fr": "Algérie"
+      },
+      "formalReferenceName": {
+        "en": "Algeria",
+        "fr": "Algérie (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-dza",
+        "fr": "rv-map-fr-dza"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "ECU",
+      "alpha2": "EC",
+      "numeric": "218",
+      "name": {
+        "en": "Ecuador",
+        "fr": "Équateur"
+      },
+      "formalReferenceName": {
+        "en": "Ecuador",
+        "fr": "Équateur (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-ecu",
+        "fr": "rv-map-fr-ecu"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "EGY",
+      "alpha2": "EG",
+      "numeric": "818",
+      "name": {
+        "en": "Egypt",
+        "fr": "Égypte"
+      },
+      "formalReferenceName": {
+        "en": "Egypt",
+        "fr": "Égypte (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-egy",
+        "fr": "rv-map-fr-egy"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "ERI",
+      "alpha2": "ER",
+      "numeric": "232",
+      "name": {
+        "en": "Eritrea",
+        "fr": "Érythrée"
+      },
+      "formalReferenceName": {
+        "en": "Eritrea",
+        "fr": "Érythrée (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-eri",
+        "fr": "rv-map-fr-eri"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "ESH",
+      "alpha2": "EH",
+      "numeric": "732",
+      "name": {
+        "en": "Western Sahara",
+        "fr": "Sahara occidental"
+      },
+      "formalReferenceName": {
+        "en": "Western Sahara*",
+        "fr": "Sahara occidental (le)*"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-esh",
+        "fr": "rv-map-fr-esh"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3",
+      "formalReferenceNote": {
+        "en": "The asterisk marks a provisional name in ISO. The learner name omits the annotation.",
+        "fr": "L’astérisque indique un nom provisoire dans l’ISO. Le nom destiné à l’apprentissage omet cette annotation."
+      }
+    },
+    {
+      "code": "ESP",
+      "alpha2": "ES",
+      "numeric": "724",
+      "name": {
+        "en": "Spain",
+        "fr": "Espagne"
+      },
+      "formalReferenceName": {
+        "en": "Spain",
+        "fr": "Espagne (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-esp",
+        "fr": "rv-map-fr-esp"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "EST",
+      "alpha2": "EE",
+      "numeric": "233",
+      "name": {
+        "en": "Estonia",
+        "fr": "Estonie"
+      },
+      "formalReferenceName": {
+        "en": "Estonia",
+        "fr": "Estonie (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-est",
+        "fr": "rv-map-fr-est"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "ETH",
+      "alpha2": "ET",
+      "numeric": "231",
+      "name": {
+        "en": "Ethiopia",
+        "fr": "Éthiopie"
+      },
+      "formalReferenceName": {
+        "en": "Ethiopia",
+        "fr": "Éthiopie (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-eth",
+        "fr": "rv-map-fr-eth"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "FIN",
+      "alpha2": "FI",
+      "numeric": "246",
+      "name": {
+        "en": "Finland",
+        "fr": "Finlande"
+      },
+      "formalReferenceName": {
+        "en": "Finland",
+        "fr": "Finlande (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-fin",
+        "fr": "rv-map-fr-fin"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "FJI",
+      "alpha2": "FJ",
+      "numeric": "242",
+      "name": {
+        "en": "Fiji",
+        "fr": "Fidji"
+      },
+      "formalReferenceName": {
+        "en": "Fiji",
+        "fr": "Fidji (les)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-fji",
+        "fr": "rv-map-fr-fji"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "FLK",
+      "alpha2": "FK",
+      "numeric": "238",
+      "name": {
+        "en": "Falkland Islands",
+        "fr": "Îles Malouines"
+      },
+      "formalReferenceName": {
+        "en": "Falkland Islands (the) [Malvinas]",
+        "fr": "Falkland (les Îles)/Malouines (les Îles)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-flk",
+        "fr": "rv-map-fr-flk"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "FRA",
+      "alpha2": "FR",
+      "numeric": "250",
+      "name": {
+        "en": "France",
+        "fr": "France"
+      },
+      "formalReferenceName": {
+        "en": "France",
+        "fr": "France (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-fra",
+        "fr": "rv-map-fr-fra"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "FRO",
+      "alpha2": "FO",
+      "numeric": "234",
+      "name": {
+        "en": "Faroe Islands",
+        "fr": "Îles Féroé"
+      },
+      "formalReferenceName": {
+        "en": "Faroe Islands (the)",
+        "fr": "Féroé (les Îles)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-fro",
+        "fr": "rv-map-fr-fro"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "FSM",
+      "alpha2": "FM",
+      "numeric": "583",
+      "name": {
+        "en": "Federated States of Micronesia",
+        "fr": "États fédérés de Micronésie"
+      },
+      "formalReferenceName": {
+        "en": "Micronesia (Federated States of)",
+        "fr": "Micronésie (États fédérés de)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-fsm",
+        "fr": "rv-map-fr-fsm"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "GAB",
+      "alpha2": "GA",
+      "numeric": "266",
+      "name": {
+        "en": "Gabon",
+        "fr": "Gabon"
+      },
+      "formalReferenceName": {
+        "en": "Gabon",
+        "fr": "Gabon (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-gab",
+        "fr": "rv-map-fr-gab"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "GBR",
+      "alpha2": "GB",
+      "numeric": "826",
+      "name": {
+        "en": "United Kingdom",
+        "fr": "Royaume-Uni"
+      },
+      "formalReferenceName": {
+        "en": "United Kingdom of Great Britain and Northern Ireland (the)",
+        "fr": "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-gbr",
+        "fr": "rv-map-fr-gbr"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "GEO",
+      "alpha2": "GE",
+      "numeric": "268",
+      "name": {
+        "en": "Georgia",
+        "fr": "Géorgie"
+      },
+      "formalReferenceName": {
+        "en": "Georgia",
+        "fr": "Géorgie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-geo",
+        "fr": "rv-map-fr-geo"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "GGY",
+      "alpha2": "GG",
+      "numeric": "831",
+      "name": {
+        "en": "Guernsey",
+        "fr": "Guernesey"
+      },
+      "formalReferenceName": {
+        "en": "Guernsey",
+        "fr": "Guernesey"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-ggy",
+        "fr": "rv-map-fr-ggy"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "GHA",
+      "alpha2": "GH",
+      "numeric": "288",
+      "name": {
+        "en": "Ghana",
+        "fr": "Ghana"
+      },
+      "formalReferenceName": {
+        "en": "Ghana",
+        "fr": "Ghana (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-gha",
+        "fr": "rv-map-fr-gha"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "GIB",
+      "alpha2": "GI",
+      "numeric": "292",
+      "name": {
+        "en": "Gibraltar",
+        "fr": "Gibraltar"
+      },
+      "formalReferenceName": {
+        "en": "Gibraltar",
+        "fr": "Gibraltar"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-gib",
+        "fr": "rv-map-fr-gib"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "GIN",
+      "alpha2": "GN",
+      "numeric": "324",
+      "name": {
+        "en": "Guinea",
+        "fr": "Guinée"
+      },
+      "formalReferenceName": {
+        "en": "Guinea",
+        "fr": "Guinée (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-gin",
+        "fr": "rv-map-fr-gin"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "GLP",
+      "alpha2": "GP",
+      "numeric": "312",
+      "name": {
+        "en": "Guadeloupe",
+        "fr": "Guadeloupe"
+      },
+      "formalReferenceName": {
+        "en": "Guadeloupe",
+        "fr": "Guadeloupe (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-glp",
+        "fr": "rv-map-fr-glp"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "GMB",
+      "alpha2": "GM",
+      "numeric": "270",
+      "name": {
+        "en": "The Gambia",
+        "fr": "Gambie"
+      },
+      "formalReferenceName": {
+        "en": "Gambia (the)",
+        "fr": "Gambie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-gmb",
+        "fr": "rv-map-fr-gmb"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "GNB",
+      "alpha2": "GW",
+      "numeric": "624",
+      "name": {
+        "en": "Guinea-Bissau",
+        "fr": "Guinée-Bissau"
+      },
+      "formalReferenceName": {
+        "en": "Guinea-Bissau",
+        "fr": "Guinée-Bissau (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-gnb",
+        "fr": "rv-map-fr-gnb"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "GNQ",
+      "alpha2": "GQ",
+      "numeric": "226",
+      "name": {
+        "en": "Equatorial Guinea",
+        "fr": "Guinée équatoriale"
+      },
+      "formalReferenceName": {
+        "en": "Equatorial Guinea",
+        "fr": "Guinée équatoriale (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-gnq",
+        "fr": "rv-map-fr-gnq"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "GRC",
+      "alpha2": "GR",
+      "numeric": "300",
+      "name": {
+        "en": "Greece",
+        "fr": "Grèce"
+      },
+      "formalReferenceName": {
+        "en": "Greece",
+        "fr": "Grèce (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-grc",
+        "fr": "rv-map-fr-grc"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "GRD",
+      "alpha2": "GD",
+      "numeric": "308",
+      "name": {
+        "en": "Grenada",
+        "fr": "Grenade"
+      },
+      "formalReferenceName": {
+        "en": "Grenada",
+        "fr": "Grenade (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-grd",
+        "fr": "rv-map-fr-grd"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "GRL",
+      "alpha2": "GL",
+      "numeric": "304",
+      "name": {
+        "en": "Greenland",
+        "fr": "Groenland"
+      },
+      "formalReferenceName": {
+        "en": "Greenland",
+        "fr": "Groenland (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-grl",
+        "fr": "rv-map-fr-grl"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "GTM",
+      "alpha2": "GT",
+      "numeric": "320",
+      "name": {
+        "en": "Guatemala",
+        "fr": "Guatemala"
+      },
+      "formalReferenceName": {
+        "en": "Guatemala",
+        "fr": "Guatemala (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-gtm",
+        "fr": "rv-map-fr-gtm"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "GUF",
+      "alpha2": "GF",
+      "numeric": "254",
+      "name": {
+        "en": "French Guiana",
+        "fr": "Guyane"
+      },
+      "formalReferenceName": {
+        "en": "French Guiana",
+        "fr": "Guyane française (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-guf",
+        "fr": "rv-map-fr-guf"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "GUM",
+      "alpha2": "GU",
+      "numeric": "316",
+      "name": {
+        "en": "Guam",
+        "fr": "Guam"
+      },
+      "formalReferenceName": {
+        "en": "Guam",
+        "fr": "Guam"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-gum",
+        "fr": "rv-map-fr-gum"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "GUY",
+      "alpha2": "GY",
+      "numeric": "328",
+      "name": {
+        "en": "Guyana",
+        "fr": "Guyana"
+      },
+      "formalReferenceName": {
+        "en": "Guyana",
+        "fr": "Guyana (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-guy",
+        "fr": "rv-map-fr-guy"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "HKG",
+      "alpha2": "HK",
+      "numeric": "344",
+      "name": {
+        "en": "Hong Kong",
+        "fr": "Hong Kong"
+      },
+      "formalReferenceName": {
+        "en": "Hong Kong",
+        "fr": "Hong Kong"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-hkg",
+        "fr": "rv-map-fr-hkg"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "HMD",
+      "alpha2": "HM",
+      "numeric": "334",
+      "name": {
+        "en": "Heard Island and McDonald Islands",
+        "fr": "Îles Heard et McDonald"
+      },
+      "formalReferenceName": {
+        "en": "Heard Island and McDonald Islands",
+        "fr": "Heard-et-Îles MacDonald (l'Île)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-hmd",
+        "fr": "rv-map-fr-hmd"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "HND",
+      "alpha2": "HN",
+      "numeric": "340",
+      "name": {
+        "en": "Honduras",
+        "fr": "Honduras"
+      },
+      "formalReferenceName": {
+        "en": "Honduras",
+        "fr": "Honduras (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-hnd",
+        "fr": "rv-map-fr-hnd"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "HRV",
+      "alpha2": "HR",
+      "numeric": "191",
+      "name": {
+        "en": "Croatia",
+        "fr": "Croatie"
+      },
+      "formalReferenceName": {
+        "en": "Croatia",
+        "fr": "Croatie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-hrv",
+        "fr": "rv-map-fr-hrv"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "HTI",
+      "alpha2": "HT",
+      "numeric": "332",
+      "name": {
+        "en": "Haiti",
+        "fr": "Haïti"
+      },
+      "formalReferenceName": {
+        "en": "Haiti",
+        "fr": "Haïti"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-hti",
+        "fr": "rv-map-fr-hti"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "HUN",
+      "alpha2": "HU",
+      "numeric": "348",
+      "name": {
+        "en": "Hungary",
+        "fr": "Hongrie"
+      },
+      "formalReferenceName": {
+        "en": "Hungary",
+        "fr": "Hongrie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-hun",
+        "fr": "rv-map-fr-hun"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "IDN",
+      "alpha2": "ID",
+      "numeric": "360",
+      "name": {
+        "en": "Indonesia",
+        "fr": "Indonésie"
+      },
+      "formalReferenceName": {
+        "en": "Indonesia",
+        "fr": "Indonésie (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-idn",
+        "fr": "rv-map-fr-idn"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "IMN",
+      "alpha2": "IM",
+      "numeric": "833",
+      "name": {
+        "en": "Isle of Man",
+        "fr": "Île de Man"
+      },
+      "formalReferenceName": {
+        "en": "Isle of Man",
+        "fr": "Île de Man"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-imn",
+        "fr": "rv-map-fr-imn"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "IND",
+      "alpha2": "IN",
+      "numeric": "356",
+      "name": {
+        "en": "India",
+        "fr": "Inde"
+      },
+      "formalReferenceName": {
+        "en": "India",
+        "fr": "Inde (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-ind",
+        "fr": "rv-map-fr-ind"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "IOT",
+      "alpha2": "IO",
+      "numeric": "086",
+      "name": {
+        "en": "British Indian Ocean Territory",
+        "fr": "Territoire britannique de l’océan Indien"
+      },
+      "formalReferenceName": {
+        "en": "British Indian Ocean Territory (the)",
+        "fr": "Indien (le Territoire britannique de l'océan)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-iot",
+        "fr": "rv-map-fr-iot"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "IRL",
+      "alpha2": "IE",
+      "numeric": "372",
+      "name": {
+        "en": "Ireland",
+        "fr": "Irlande"
+      },
+      "formalReferenceName": {
+        "en": "Ireland",
+        "fr": "Irlande (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-irl",
+        "fr": "rv-map-fr-irl"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "IRN",
+      "alpha2": "IR",
+      "numeric": "364",
+      "name": {
+        "en": "Iran",
+        "fr": "Iran"
+      },
+      "formalReferenceName": {
+        "en": "Iran (Islamic Republic of)",
+        "fr": "Iran (République Islamique d')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-irn",
+        "fr": "rv-map-fr-irn"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "IRQ",
+      "alpha2": "IQ",
+      "numeric": "368",
+      "name": {
+        "en": "Iraq",
+        "fr": "Irak"
+      },
+      "formalReferenceName": {
+        "en": "Iraq",
+        "fr": "Iraq (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-irq",
+        "fr": "rv-map-fr-irq"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "ISL",
+      "alpha2": "IS",
+      "numeric": "352",
+      "name": {
+        "en": "Iceland",
+        "fr": "Islande"
+      },
+      "formalReferenceName": {
+        "en": "Iceland",
+        "fr": "Islande (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-isl",
+        "fr": "rv-map-fr-isl"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "ISR",
+      "alpha2": "IL",
+      "numeric": "376",
+      "name": {
+        "en": "Israel",
+        "fr": "Israël"
+      },
+      "formalReferenceName": {
+        "en": "Israel",
+        "fr": "Israël"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-isr",
+        "fr": "rv-map-fr-isr"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "ITA",
+      "alpha2": "IT",
+      "numeric": "380",
+      "name": {
+        "en": "Italy",
+        "fr": "Italie"
+      },
+      "formalReferenceName": {
+        "en": "Italy",
+        "fr": "Italie (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-ita",
+        "fr": "rv-map-fr-ita"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "JAM",
+      "alpha2": "JM",
+      "numeric": "388",
+      "name": {
+        "en": "Jamaica",
+        "fr": "Jamaïque"
+      },
+      "formalReferenceName": {
+        "en": "Jamaica",
+        "fr": "Jamaïque (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-jam",
+        "fr": "rv-map-fr-jam"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "JEY",
+      "alpha2": "JE",
+      "numeric": "832",
+      "name": {
+        "en": "Jersey",
+        "fr": "Jersey"
+      },
+      "formalReferenceName": {
+        "en": "Jersey",
+        "fr": "Jersey"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-jey",
+        "fr": "rv-map-fr-jey"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "JOR",
+      "alpha2": "JO",
+      "numeric": "400",
+      "name": {
+        "en": "Jordan",
+        "fr": "Jordanie"
+      },
+      "formalReferenceName": {
+        "en": "Jordan",
+        "fr": "Jordanie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-jor",
+        "fr": "rv-map-fr-jor"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "JPN",
+      "alpha2": "JP",
+      "numeric": "392",
+      "name": {
+        "en": "Japan",
+        "fr": "Japon"
+      },
+      "formalReferenceName": {
+        "en": "Japan",
+        "fr": "Japon (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-jpn",
+        "fr": "rv-map-fr-jpn"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "KAZ",
+      "alpha2": "KZ",
+      "numeric": "398",
+      "name": {
+        "en": "Kazakhstan",
+        "fr": "Kazakhstan"
+      },
+      "formalReferenceName": {
+        "en": "Kazakhstan",
+        "fr": "Kazakhstan (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-kaz",
+        "fr": "rv-map-fr-kaz"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "KEN",
+      "alpha2": "KE",
+      "numeric": "404",
+      "name": {
+        "en": "Kenya",
+        "fr": "Kenya"
+      },
+      "formalReferenceName": {
+        "en": "Kenya",
+        "fr": "Kenya (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-ken",
+        "fr": "rv-map-fr-ken"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "KGZ",
+      "alpha2": "KG",
+      "numeric": "417",
+      "name": {
+        "en": "Kyrgyzstan",
+        "fr": "Kirghizistan"
+      },
+      "formalReferenceName": {
+        "en": "Kyrgyzstan",
+        "fr": "Kirghizistan (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-kgz",
+        "fr": "rv-map-fr-kgz"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "KHM",
+      "alpha2": "KH",
+      "numeric": "116",
+      "name": {
+        "en": "Cambodia",
+        "fr": "Cambodge"
+      },
+      "formalReferenceName": {
+        "en": "Cambodia",
+        "fr": "Cambodge (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-khm",
+        "fr": "rv-map-fr-khm"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "KIR",
+      "alpha2": "KI",
+      "numeric": "296",
+      "name": {
+        "en": "Kiribati",
+        "fr": "Kiribati"
+      },
+      "formalReferenceName": {
+        "en": "Kiribati",
+        "fr": "Kiribati"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-kir",
+        "fr": "rv-map-fr-kir"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "KNA",
+      "alpha2": "KN",
+      "numeric": "659",
+      "name": {
+        "en": "Saint Kitts and Nevis",
+        "fr": "Saint-Christophe-et-Niévès"
+      },
+      "formalReferenceName": {
+        "en": "Saint Kitts and Nevis",
+        "fr": "Saint-Kitts-et-Nevis"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-kna",
+        "fr": "rv-map-fr-kna"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "KOR",
+      "alpha2": "KR",
+      "numeric": "410",
+      "name": {
+        "en": "South Korea",
+        "fr": "Corée du Sud"
+      },
+      "formalReferenceName": {
+        "en": "Korea (the Republic of)",
+        "fr": "Corée (la République de)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-kor",
+        "fr": "rv-map-fr-kor"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "KWT",
+      "alpha2": "KW",
+      "numeric": "414",
+      "name": {
+        "en": "Kuwait",
+        "fr": "Koweït"
+      },
+      "formalReferenceName": {
+        "en": "Kuwait",
+        "fr": "Koweït (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-kwt",
+        "fr": "rv-map-fr-kwt"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "LAO",
+      "alpha2": "LA",
+      "numeric": "418",
+      "name": {
+        "en": "Laos",
+        "fr": "Laos"
+      },
+      "formalReferenceName": {
+        "en": "Lao People's Democratic Republic (the)",
+        "fr": "Lao (la République démocratique populaire)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-lao",
+        "fr": "rv-map-fr-lao"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "LBN",
+      "alpha2": "LB",
+      "numeric": "422",
+      "name": {
+        "en": "Lebanon",
+        "fr": "Liban"
+      },
+      "formalReferenceName": {
+        "en": "Lebanon",
+        "fr": "Liban (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-lbn",
+        "fr": "rv-map-fr-lbn"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "LBR",
+      "alpha2": "LR",
+      "numeric": "430",
+      "name": {
+        "en": "Liberia",
+        "fr": "Liberia"
+      },
+      "formalReferenceName": {
+        "en": "Liberia",
+        "fr": "Libéria (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-lbr",
+        "fr": "rv-map-fr-lbr"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "LBY",
+      "alpha2": "LY",
+      "numeric": "434",
+      "name": {
+        "en": "Libya",
+        "fr": "Libye"
+      },
+      "formalReferenceName": {
+        "en": "Libya",
+        "fr": "Libye (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-lby",
+        "fr": "rv-map-fr-lby"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "LCA",
+      "alpha2": "LC",
+      "numeric": "662",
+      "name": {
+        "en": "Saint Lucia",
+        "fr": "Sainte-Lucie"
+      },
+      "formalReferenceName": {
+        "en": "Saint Lucia",
+        "fr": "Sainte-Lucie"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-lca",
+        "fr": "rv-map-fr-lca"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "LIE",
+      "alpha2": "LI",
+      "numeric": "438",
+      "name": {
+        "en": "Liechtenstein",
+        "fr": "Liechtenstein"
+      },
+      "formalReferenceName": {
+        "en": "Liechtenstein",
+        "fr": "Liechtenstein (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-lie",
+        "fr": "rv-map-fr-lie"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "LKA",
+      "alpha2": "LK",
+      "numeric": "144",
+      "name": {
+        "en": "Sri Lanka",
+        "fr": "Sri Lanka"
+      },
+      "formalReferenceName": {
+        "en": "Sri Lanka",
+        "fr": "Sri Lanka"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-lka",
+        "fr": "rv-map-fr-lka"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "LSO",
+      "alpha2": "LS",
+      "numeric": "426",
+      "name": {
+        "en": "Lesotho",
+        "fr": "Lesotho"
+      },
+      "formalReferenceName": {
+        "en": "Lesotho",
+        "fr": "Lesotho (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-lso",
+        "fr": "rv-map-fr-lso"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "LTU",
+      "alpha2": "LT",
+      "numeric": "440",
+      "name": {
+        "en": "Lithuania",
+        "fr": "Lituanie"
+      },
+      "formalReferenceName": {
+        "en": "Lithuania",
+        "fr": "Lituanie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-ltu",
+        "fr": "rv-map-fr-ltu"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "LUX",
+      "alpha2": "LU",
+      "numeric": "442",
+      "name": {
+        "en": "Luxembourg",
+        "fr": "Luxembourg"
+      },
+      "formalReferenceName": {
+        "en": "Luxembourg",
+        "fr": "Luxembourg (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-lux",
+        "fr": "rv-map-fr-lux"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "LVA",
+      "alpha2": "LV",
+      "numeric": "428",
+      "name": {
+        "en": "Latvia",
+        "fr": "Lettonie"
+      },
+      "formalReferenceName": {
+        "en": "Latvia",
+        "fr": "Lettonie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-lva",
+        "fr": "rv-map-fr-lva"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MAC",
+      "alpha2": "MO",
+      "numeric": "446",
+      "name": {
+        "en": "Macau",
+        "fr": "Macao"
+      },
+      "formalReferenceName": {
+        "en": "Macao",
+        "fr": "Macao"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-mac",
+        "fr": "rv-map-fr-mac"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MAF",
+      "alpha2": "MF",
+      "numeric": "663",
+      "name": {
+        "en": "Saint Martin",
+        "fr": "Saint-Martin (Antilles françaises)"
+      },
+      "formalReferenceName": {
+        "en": "Saint Martin (French part)",
+        "fr": "Saint-Martin (partie française)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-maf",
+        "fr": "rv-map-fr-maf"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MAR",
+      "alpha2": "MA",
+      "numeric": "504",
+      "name": {
+        "en": "Morocco",
+        "fr": "Maroc"
+      },
+      "formalReferenceName": {
+        "en": "Morocco",
+        "fr": "Maroc (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-mar",
+        "fr": "rv-map-fr-mar"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MCO",
+      "alpha2": "MC",
+      "numeric": "492",
+      "name": {
+        "en": "Monaco",
+        "fr": "Monaco"
+      },
+      "formalReferenceName": {
+        "en": "Monaco",
+        "fr": "Monaco"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-mco",
+        "fr": "rv-map-fr-mco"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MDA",
+      "alpha2": "MD",
+      "numeric": "498",
+      "name": {
+        "en": "Moldova",
+        "fr": "Moldavie"
+      },
+      "formalReferenceName": {
+        "en": "Moldova (the Republic of)",
+        "fr": "Moldova (la République de)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-mda",
+        "fr": "rv-map-fr-mda"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MDG",
+      "alpha2": "MG",
+      "numeric": "450",
+      "name": {
+        "en": "Madagascar",
+        "fr": "Madagascar"
+      },
+      "formalReferenceName": {
+        "en": "Madagascar",
+        "fr": "Madagascar"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-mdg",
+        "fr": "rv-map-fr-mdg"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MDV",
+      "alpha2": "MV",
+      "numeric": "462",
+      "name": {
+        "en": "Maldives",
+        "fr": "Maldives"
+      },
+      "formalReferenceName": {
+        "en": "Maldives",
+        "fr": "Maldives (les)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-mdv",
+        "fr": "rv-map-fr-mdv"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MEX",
+      "alpha2": "MX",
+      "numeric": "484",
+      "name": {
+        "en": "Mexico",
+        "fr": "Mexique"
+      },
+      "formalReferenceName": {
+        "en": "Mexico",
+        "fr": "Mexique (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-mex",
+        "fr": "rv-map-fr-mex"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MHL",
+      "alpha2": "MH",
+      "numeric": "584",
+      "name": {
+        "en": "Marshall Islands",
+        "fr": "Îles Marshall"
+      },
+      "formalReferenceName": {
+        "en": "Marshall Islands (the)",
+        "fr": "Marshall (les Îles)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-mhl",
+        "fr": "rv-map-fr-mhl"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MKD",
+      "alpha2": "MK",
+      "numeric": "807",
+      "name": {
+        "en": "North Macedonia",
+        "fr": "Macédoine du Nord"
+      },
+      "formalReferenceName": {
+        "en": "North Macedonia",
+        "fr": "Macédoine du Nord (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-mkd",
+        "fr": "rv-map-fr-mkd"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MLI",
+      "alpha2": "ML",
+      "numeric": "466",
+      "name": {
+        "en": "Mali",
+        "fr": "Mali"
+      },
+      "formalReferenceName": {
+        "en": "Mali",
+        "fr": "Mali (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-mli",
+        "fr": "rv-map-fr-mli"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MLT",
+      "alpha2": "MT",
+      "numeric": "470",
+      "name": {
+        "en": "Malta",
+        "fr": "Malte"
+      },
+      "formalReferenceName": {
+        "en": "Malta",
+        "fr": "Malte"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-mlt",
+        "fr": "rv-map-fr-mlt"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MMR",
+      "alpha2": "MM",
+      "numeric": "104",
+      "name": {
+        "en": "Myanmar",
+        "fr": "Birmanie"
+      },
+      "formalReferenceName": {
+        "en": "Myanmar",
+        "fr": "Myanmar (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-mmr",
+        "fr": "rv-map-fr-mmr"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MNE",
+      "alpha2": "ME",
+      "numeric": "499",
+      "name": {
+        "en": "Montenegro",
+        "fr": "Monténégro"
+      },
+      "formalReferenceName": {
+        "en": "Montenegro",
+        "fr": "Monténégro (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-mne",
+        "fr": "rv-map-fr-mne"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MNG",
+      "alpha2": "MN",
+      "numeric": "496",
+      "name": {
+        "en": "Mongolia",
+        "fr": "Mongolie"
+      },
+      "formalReferenceName": {
+        "en": "Mongolia",
+        "fr": "Mongolie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-mng",
+        "fr": "rv-map-fr-mng"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MNP",
+      "alpha2": "MP",
+      "numeric": "580",
+      "name": {
+        "en": "Northern Mariana Islands",
+        "fr": "Îles Mariannes du Nord"
+      },
+      "formalReferenceName": {
+        "en": "Northern Mariana Islands (the)",
+        "fr": "Mariannes du Nord (les Îles)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-mnp",
+        "fr": "rv-map-fr-mnp"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MOZ",
+      "alpha2": "MZ",
+      "numeric": "508",
+      "name": {
+        "en": "Mozambique",
+        "fr": "Mozambique"
+      },
+      "formalReferenceName": {
+        "en": "Mozambique",
+        "fr": "Mozambique (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-moz",
+        "fr": "rv-map-fr-moz"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MRT",
+      "alpha2": "MR",
+      "numeric": "478",
+      "name": {
+        "en": "Mauritania",
+        "fr": "Mauritanie"
+      },
+      "formalReferenceName": {
+        "en": "Mauritania",
+        "fr": "Mauritanie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-mrt",
+        "fr": "rv-map-fr-mrt"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MSR",
+      "alpha2": "MS",
+      "numeric": "500",
+      "name": {
+        "en": "Montserrat",
+        "fr": "Montserrat"
+      },
+      "formalReferenceName": {
+        "en": "Montserrat",
+        "fr": "Montserrat"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-msr",
+        "fr": "rv-map-fr-msr"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MTQ",
+      "alpha2": "MQ",
+      "numeric": "474",
+      "name": {
+        "en": "Martinique",
+        "fr": "Martinique"
+      },
+      "formalReferenceName": {
+        "en": "Martinique",
+        "fr": "Martinique (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-mtq",
+        "fr": "rv-map-fr-mtq"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MUS",
+      "alpha2": "MU",
+      "numeric": "480",
+      "name": {
+        "en": "Mauritius",
+        "fr": "Maurice"
+      },
+      "formalReferenceName": {
+        "en": "Mauritius",
+        "fr": "Maurice"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-mus",
+        "fr": "rv-map-fr-mus"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MWI",
+      "alpha2": "MW",
+      "numeric": "454",
+      "name": {
+        "en": "Malawi",
+        "fr": "Malawi"
+      },
+      "formalReferenceName": {
+        "en": "Malawi",
+        "fr": "Malawi (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-mwi",
+        "fr": "rv-map-fr-mwi"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MYS",
+      "alpha2": "MY",
+      "numeric": "458",
+      "name": {
+        "en": "Malaysia",
+        "fr": "Malaisie"
+      },
+      "formalReferenceName": {
+        "en": "Malaysia",
+        "fr": "Malaisie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-mys",
+        "fr": "rv-map-fr-mys"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "MYT",
+      "alpha2": "YT",
+      "numeric": "175",
+      "name": {
+        "en": "Mayotte",
+        "fr": "Mayotte"
+      },
+      "formalReferenceName": {
+        "en": "Mayotte",
+        "fr": "Mayotte"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-myt",
+        "fr": "rv-map-fr-myt"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "NAM",
+      "alpha2": "NA",
+      "numeric": "516",
+      "name": {
+        "en": "Namibia",
+        "fr": "Namibie"
+      },
+      "formalReferenceName": {
+        "en": "Namibia",
+        "fr": "Namibie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-nam",
+        "fr": "rv-map-fr-nam"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "NCL",
+      "alpha2": "NC",
+      "numeric": "540",
+      "name": {
+        "en": "New Caledonia",
+        "fr": "Nouvelle-Calédonie"
+      },
+      "formalReferenceName": {
+        "en": "New Caledonia",
+        "fr": "Nouvelle-Calédonie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-ncl",
+        "fr": "rv-map-fr-ncl"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "NER",
+      "alpha2": "NE",
+      "numeric": "562",
+      "name": {
+        "en": "Niger",
+        "fr": "Niger"
+      },
+      "formalReferenceName": {
+        "en": "Niger (the)",
+        "fr": "Niger (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-ner",
+        "fr": "rv-map-fr-ner"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "NFK",
+      "alpha2": "NF",
+      "numeric": "574",
+      "name": {
+        "en": "Norfolk Island",
+        "fr": "Île Norfolk"
+      },
+      "formalReferenceName": {
+        "en": "Norfolk Island",
+        "fr": "Norfolk (l'Île)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-nfk",
+        "fr": "rv-map-fr-nfk"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "NGA",
+      "alpha2": "NG",
+      "numeric": "566",
+      "name": {
+        "en": "Nigeria",
+        "fr": "Nigeria"
+      },
+      "formalReferenceName": {
+        "en": "Nigeria",
+        "fr": "Nigéria (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-nga",
+        "fr": "rv-map-fr-nga"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "NIC",
+      "alpha2": "NI",
+      "numeric": "558",
+      "name": {
+        "en": "Nicaragua",
+        "fr": "Nicaragua"
+      },
+      "formalReferenceName": {
+        "en": "Nicaragua",
+        "fr": "Nicaragua (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-nic",
+        "fr": "rv-map-fr-nic"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "NIU",
+      "alpha2": "NU",
+      "numeric": "570",
+      "name": {
+        "en": "Niue",
+        "fr": "Niue"
+      },
+      "formalReferenceName": {
+        "en": "Niue",
+        "fr": "Niue"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-niu",
+        "fr": "rv-map-fr-niu"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "NLD",
+      "alpha2": "NL",
+      "numeric": "528",
+      "name": {
+        "en": "Netherlands",
+        "fr": "Pays-Bas"
+      },
+      "formalReferenceName": {
+        "en": "Netherlands (Kingdom of the)",
+        "fr": "Pays-Bas (Royaume des)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-nld",
+        "fr": "rv-map-fr-nld"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "NOR",
+      "alpha2": "NO",
+      "numeric": "578",
+      "name": {
+        "en": "Norway",
+        "fr": "Norvège"
+      },
+      "formalReferenceName": {
+        "en": "Norway",
+        "fr": "Norvège (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-nor",
+        "fr": "rv-map-fr-nor"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "NPL",
+      "alpha2": "NP",
+      "numeric": "524",
+      "name": {
+        "en": "Nepal",
+        "fr": "Népal"
+      },
+      "formalReferenceName": {
+        "en": "Nepal",
+        "fr": "Népal (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-npl",
+        "fr": "rv-map-fr-npl"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "NRU",
+      "alpha2": "NR",
+      "numeric": "520",
+      "name": {
+        "en": "Nauru",
+        "fr": "Nauru"
+      },
+      "formalReferenceName": {
+        "en": "Naoero",
+        "fr": "Naoero"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-nru",
+        "fr": "rv-map-fr-nru"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "NZL",
+      "alpha2": "NZ",
+      "numeric": "554",
+      "name": {
+        "en": "New Zealand",
+        "fr": "Nouvelle-Zélande"
+      },
+      "formalReferenceName": {
+        "en": "New Zealand",
+        "fr": "Nouvelle-Zélande (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-nzl",
+        "fr": "rv-map-fr-nzl"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "OMN",
+      "alpha2": "OM",
+      "numeric": "512",
+      "name": {
+        "en": "Oman",
+        "fr": "Oman"
+      },
+      "formalReferenceName": {
+        "en": "Oman",
+        "fr": "Oman"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-omn",
+        "fr": "rv-map-fr-omn"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "PAK",
+      "alpha2": "PK",
+      "numeric": "586",
+      "name": {
+        "en": "Pakistan",
+        "fr": "Pakistan"
+      },
+      "formalReferenceName": {
+        "en": "Pakistan",
+        "fr": "Pakistan (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-pak",
+        "fr": "rv-map-fr-pak"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "PAN",
+      "alpha2": "PA",
+      "numeric": "591",
+      "name": {
+        "en": "Panama",
+        "fr": "Panama"
+      },
+      "formalReferenceName": {
+        "en": "Panama",
+        "fr": "Panama (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-pan",
+        "fr": "rv-map-fr-pan"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "PCN",
+      "alpha2": "PN",
+      "numeric": "612",
+      "name": {
+        "en": "Pitcairn Islands",
+        "fr": "Îles Pitcairn"
+      },
+      "formalReferenceName": {
+        "en": "Pitcairn",
+        "fr": "Pitcairn"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-pcn",
+        "fr": "rv-map-fr-pcn"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "PER",
+      "alpha2": "PE",
+      "numeric": "604",
+      "name": {
+        "en": "Peru",
+        "fr": "Pérou"
+      },
+      "formalReferenceName": {
+        "en": "Peru",
+        "fr": "Pérou (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-per",
+        "fr": "rv-map-fr-per"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "PHL",
+      "alpha2": "PH",
+      "numeric": "608",
+      "name": {
+        "en": "Philippines",
+        "fr": "Philippines"
+      },
+      "formalReferenceName": {
+        "en": "Philippines (the)",
+        "fr": "Philippines (les)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-phl",
+        "fr": "rv-map-fr-phl"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "PLW",
+      "alpha2": "PW",
+      "numeric": "585",
+      "name": {
+        "en": "Palau",
+        "fr": "Palaos"
+      },
+      "formalReferenceName": {
+        "en": "Palau",
+        "fr": "Palaos (les)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-plw",
+        "fr": "rv-map-fr-plw"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "PNG",
+      "alpha2": "PG",
+      "numeric": "598",
+      "name": {
+        "en": "Papua New Guinea",
+        "fr": "Papouasie-Nouvelle-Guinée"
+      },
+      "formalReferenceName": {
+        "en": "Papua New Guinea",
+        "fr": "Papouasie-Nouvelle-Guinée (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-png",
+        "fr": "rv-map-fr-png"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "POL",
+      "alpha2": "PL",
+      "numeric": "616",
+      "name": {
+        "en": "Poland",
+        "fr": "Pologne"
+      },
+      "formalReferenceName": {
+        "en": "Poland",
+        "fr": "Pologne (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-pol",
+        "fr": "rv-map-fr-pol"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "PRI",
+      "alpha2": "PR",
+      "numeric": "630",
+      "name": {
+        "en": "Puerto Rico",
+        "fr": "Porto Rico"
+      },
+      "formalReferenceName": {
+        "en": "Puerto Rico",
+        "fr": "Porto Rico"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-pri",
+        "fr": "rv-map-fr-pri"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "PRK",
+      "alpha2": "KP",
+      "numeric": "408",
+      "name": {
+        "en": "North Korea",
+        "fr": "Corée du Nord"
+      },
+      "formalReferenceName": {
+        "en": "Korea (the Democratic People's Republic of)",
+        "fr": "Corée (la République populaire démocratique de)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-prk",
+        "fr": "rv-map-fr-prk"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "PRT",
+      "alpha2": "PT",
+      "numeric": "620",
+      "name": {
+        "en": "Portugal",
+        "fr": "Portugal"
+      },
+      "formalReferenceName": {
+        "en": "Portugal",
+        "fr": "Portugal (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-prt",
+        "fr": "rv-map-fr-prt"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "PRY",
+      "alpha2": "PY",
+      "numeric": "600",
+      "name": {
+        "en": "Paraguay",
+        "fr": "Paraguay"
+      },
+      "formalReferenceName": {
+        "en": "Paraguay",
+        "fr": "Paraguay (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-pry",
+        "fr": "rv-map-fr-pry"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "PSE",
+      "alpha2": "PS",
+      "numeric": "275",
+      "name": {
+        "en": "Palestine",
+        "fr": "Palestine"
+      },
+      "formalReferenceName": {
+        "en": "Palestine, State of",
+        "fr": "Palestine, État de"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-pse",
+        "fr": "rv-map-fr-pse"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "PYF",
+      "alpha2": "PF",
+      "numeric": "258",
+      "name": {
+        "en": "French Polynesia",
+        "fr": "Polynésie française"
+      },
+      "formalReferenceName": {
+        "en": "French Polynesia",
+        "fr": "Polynésie française (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-pyf",
+        "fr": "rv-map-fr-pyf"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "QAT",
+      "alpha2": "QA",
+      "numeric": "634",
+      "name": {
+        "en": "Qatar",
+        "fr": "Qatar"
+      },
+      "formalReferenceName": {
+        "en": "Qatar",
+        "fr": "Qatar (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-qat",
+        "fr": "rv-map-fr-qat"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "REU",
+      "alpha2": "RE",
+      "numeric": "638",
+      "name": {
+        "en": "Réunion",
+        "fr": "La Réunion"
+      },
+      "formalReferenceName": {
+        "en": "Réunion",
+        "fr": "Réunion (La)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-reu",
+        "fr": "rv-map-fr-reu"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "ROU",
+      "alpha2": "RO",
+      "numeric": "642",
+      "name": {
+        "en": "Romania",
+        "fr": "Roumanie"
+      },
+      "formalReferenceName": {
+        "en": "Romania",
+        "fr": "Roumanie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-rou",
+        "fr": "rv-map-fr-rou"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "RUS",
+      "alpha2": "RU",
+      "numeric": "643",
+      "name": {
+        "en": "Russia",
+        "fr": "Russie"
+      },
+      "formalReferenceName": {
+        "en": "Russian Federation (the)",
+        "fr": "Russie (la Fédération de)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-rus",
+        "fr": "rv-map-fr-rus"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "RWA",
+      "alpha2": "RW",
+      "numeric": "646",
+      "name": {
+        "en": "Rwanda",
+        "fr": "Rwanda"
+      },
+      "formalReferenceName": {
+        "en": "Rwanda",
+        "fr": "Rwanda (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-rwa",
+        "fr": "rv-map-fr-rwa"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SAU",
+      "alpha2": "SA",
+      "numeric": "682",
+      "name": {
+        "en": "Saudi Arabia",
+        "fr": "Arabie saoudite"
+      },
+      "formalReferenceName": {
+        "en": "Saudi Arabia",
+        "fr": "Arabie saoudite (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-sau",
+        "fr": "rv-map-fr-sau"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SDN",
+      "alpha2": "SD",
+      "numeric": "729",
+      "name": {
+        "en": "Sudan",
+        "fr": "Soudan"
+      },
+      "formalReferenceName": {
+        "en": "Sudan (the)",
+        "fr": "Soudan (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-sdn",
+        "fr": "rv-map-fr-sdn"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SEN",
+      "alpha2": "SN",
+      "numeric": "686",
+      "name": {
+        "en": "Senegal",
+        "fr": "Sénégal"
+      },
+      "formalReferenceName": {
+        "en": "Senegal",
+        "fr": "Sénégal (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-sen",
+        "fr": "rv-map-fr-sen"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SGP",
+      "alpha2": "SG",
+      "numeric": "702",
+      "name": {
+        "en": "Singapore",
+        "fr": "Singapour"
+      },
+      "formalReferenceName": {
+        "en": "Singapore",
+        "fr": "Singapour"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-sgp",
+        "fr": "rv-map-fr-sgp"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SGS",
+      "alpha2": "GS",
+      "numeric": "239",
+      "name": {
+        "en": "South Georgia and the South Sandwich Islands",
+        "fr": "Géorgie du Sud-et-les Îles Sandwich du Sud"
+      },
+      "formalReferenceName": {
+        "en": "South Georgia and the South Sandwich Islands",
+        "fr": "Géorgie du Sud-et-les Îles Sandwich du Sud (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-sgs",
+        "fr": "rv-map-fr-sgs"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SHN",
+      "alpha2": "SH",
+      "numeric": "654",
+      "name": {
+        "en": "Saint Helena, Ascension and Tristan da Cunha",
+        "fr": "Sainte-Hélène, Ascension et Tristan da Cunha"
+      },
+      "formalReferenceName": {
+        "en": "Saint Helena, Ascension and Tristan da Cunha",
+        "fr": "Sainte-Hélène, Ascension et Tristan da Cunha"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-shn",
+        "fr": "rv-map-fr-shn"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SJM",
+      "alpha2": "SJ",
+      "numeric": "744",
+      "name": {
+        "en": "Svalbard and Jan Mayen",
+        "fr": "Svalbard et Jan Mayen"
+      },
+      "formalReferenceName": {
+        "en": "Svalbard and Jan Mayen",
+        "fr": "Svalbard et l'Île Jan Mayen (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-sjm",
+        "fr": "rv-map-fr-sjm"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SLB",
+      "alpha2": "SB",
+      "numeric": "090",
+      "name": {
+        "en": "Solomon Islands",
+        "fr": "Îles Salomon"
+      },
+      "formalReferenceName": {
+        "en": "Solomon Islands",
+        "fr": "Salomon (les Îles)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-slb",
+        "fr": "rv-map-fr-slb"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SLE",
+      "alpha2": "SL",
+      "numeric": "694",
+      "name": {
+        "en": "Sierra Leone",
+        "fr": "Sierra Leone"
+      },
+      "formalReferenceName": {
+        "en": "Sierra Leone",
+        "fr": "Sierra Leone (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-sle",
+        "fr": "rv-map-fr-sle"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SLV",
+      "alpha2": "SV",
+      "numeric": "222",
+      "name": {
+        "en": "El Salvador",
+        "fr": "Salvador"
+      },
+      "formalReferenceName": {
+        "en": "El Salvador",
+        "fr": "El Salvador"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-slv",
+        "fr": "rv-map-fr-slv"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SMR",
+      "alpha2": "SM",
+      "numeric": "674",
+      "name": {
+        "en": "San Marino",
+        "fr": "Saint-Marin"
+      },
+      "formalReferenceName": {
+        "en": "San Marino",
+        "fr": "Saint-Marin"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-smr",
+        "fr": "rv-map-fr-smr"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SOM",
+      "alpha2": "SO",
+      "numeric": "706",
+      "name": {
+        "en": "Somalia",
+        "fr": "Somalie"
+      },
+      "formalReferenceName": {
+        "en": "Somalia",
+        "fr": "Somalie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-som",
+        "fr": "rv-map-fr-som"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SPM",
+      "alpha2": "PM",
+      "numeric": "666",
+      "name": {
+        "en": "Saint Pierre and Miquelon",
+        "fr": "Saint-Pierre-et-Miquelon"
+      },
+      "formalReferenceName": {
+        "en": "Saint Pierre and Miquelon",
+        "fr": "Saint-Pierre-et-Miquelon"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-spm",
+        "fr": "rv-map-fr-spm"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SRB",
+      "alpha2": "RS",
+      "numeric": "688",
+      "name": {
+        "en": "Serbia",
+        "fr": "Serbie"
+      },
+      "formalReferenceName": {
+        "en": "Serbia",
+        "fr": "Serbie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-srb",
+        "fr": "rv-map-fr-srb"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SSD",
+      "alpha2": "SS",
+      "numeric": "728",
+      "name": {
+        "en": "South Sudan",
+        "fr": "Soudan du Sud"
+      },
+      "formalReferenceName": {
+        "en": "South Sudan",
+        "fr": "Soudan du Sud (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-ssd",
+        "fr": "rv-map-fr-ssd"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "STP",
+      "alpha2": "ST",
+      "numeric": "678",
+      "name": {
+        "en": "São Tomé and Príncipe",
+        "fr": "Sao Tomé-et-Principe"
+      },
+      "formalReferenceName": {
+        "en": "Sao Tome and Principe",
+        "fr": "Sao Tomé-et-Principe"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-stp",
+        "fr": "rv-map-fr-stp"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SUR",
+      "alpha2": "SR",
+      "numeric": "740",
+      "name": {
+        "en": "Suriname",
+        "fr": "Suriname"
+      },
+      "formalReferenceName": {
+        "en": "Suriname",
+        "fr": "Suriname (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-sur",
+        "fr": "rv-map-fr-sur"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SVK",
+      "alpha2": "SK",
+      "numeric": "703",
+      "name": {
+        "en": "Slovakia",
+        "fr": "Slovaquie"
+      },
+      "formalReferenceName": {
+        "en": "Slovakia",
+        "fr": "Slovaquie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-svk",
+        "fr": "rv-map-fr-svk"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SVN",
+      "alpha2": "SI",
+      "numeric": "705",
+      "name": {
+        "en": "Slovenia",
+        "fr": "Slovénie"
+      },
+      "formalReferenceName": {
+        "en": "Slovenia",
+        "fr": "Slovénie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-svn",
+        "fr": "rv-map-fr-svn"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SWE",
+      "alpha2": "SE",
+      "numeric": "752",
+      "name": {
+        "en": "Sweden",
+        "fr": "Suède"
+      },
+      "formalReferenceName": {
+        "en": "Sweden",
+        "fr": "Suède (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-swe",
+        "fr": "rv-map-fr-swe"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SWZ",
+      "alpha2": "SZ",
+      "numeric": "748",
+      "name": {
+        "en": "Eswatini",
+        "fr": "Eswatini"
+      },
+      "formalReferenceName": {
+        "en": "Eswatini",
+        "fr": "Eswatini (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-swz",
+        "fr": "rv-map-fr-swz"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SXM",
+      "alpha2": "SX",
+      "numeric": "534",
+      "name": {
+        "en": "Sint Maarten",
+        "fr": "Saint-Martin (royaume des Pays-Bas)"
+      },
+      "formalReferenceName": {
+        "en": "Sint Maarten (Dutch part)",
+        "fr": "Saint-Martin (partie néerlandaise)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-sxm",
+        "fr": "rv-map-fr-sxm"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SYC",
+      "alpha2": "SC",
+      "numeric": "690",
+      "name": {
+        "en": "Seychelles",
+        "fr": "Seychelles"
+      },
+      "formalReferenceName": {
+        "en": "Seychelles",
+        "fr": "Seychelles (les)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-syc",
+        "fr": "rv-map-fr-syc"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "SYR",
+      "alpha2": "SY",
+      "numeric": "760",
+      "name": {
+        "en": "Syria",
+        "fr": "Syrie"
+      },
+      "formalReferenceName": {
+        "en": "Syrian Arab Republic (the)",
+        "fr": "République arabe syrienne (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-syr",
+        "fr": "rv-map-fr-syr"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "TCA",
+      "alpha2": "TC",
+      "numeric": "796",
+      "name": {
+        "en": "Turks and Caicos Islands",
+        "fr": "Îles Turques-et-Caïques"
+      },
+      "formalReferenceName": {
+        "en": "Turks and Caicos Islands (the)",
+        "fr": "Turks-et-Caïcos (les Îles)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-tca",
+        "fr": "rv-map-fr-tca"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "TCD",
+      "alpha2": "TD",
+      "numeric": "148",
+      "name": {
+        "en": "Chad",
+        "fr": "Tchad"
+      },
+      "formalReferenceName": {
+        "en": "Chad",
+        "fr": "Tchad (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-tcd",
+        "fr": "rv-map-fr-tcd"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "TGO",
+      "alpha2": "TG",
+      "numeric": "768",
+      "name": {
+        "en": "Togo",
+        "fr": "Togo"
+      },
+      "formalReferenceName": {
+        "en": "Togo",
+        "fr": "Togo (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-tgo",
+        "fr": "rv-map-fr-tgo"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "THA",
+      "alpha2": "TH",
+      "numeric": "764",
+      "name": {
+        "en": "Thailand",
+        "fr": "Thaïlande"
+      },
+      "formalReferenceName": {
+        "en": "Thailand",
+        "fr": "Thaïlande (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-tha",
+        "fr": "rv-map-fr-tha"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "TJK",
+      "alpha2": "TJ",
+      "numeric": "762",
+      "name": {
+        "en": "Tajikistan",
+        "fr": "Tadjikistan"
+      },
+      "formalReferenceName": {
+        "en": "Tajikistan",
+        "fr": "Tadjikistan (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-tjk",
+        "fr": "rv-map-fr-tjk"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "TKL",
+      "alpha2": "TK",
+      "numeric": "772",
+      "name": {
+        "en": "Tokelau",
+        "fr": "Tokelau"
+      },
+      "formalReferenceName": {
+        "en": "Tokelau",
+        "fr": "Tokelau (les)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-tkl",
+        "fr": "rv-map-fr-tkl"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "TKM",
+      "alpha2": "TM",
+      "numeric": "795",
+      "name": {
+        "en": "Turkmenistan",
+        "fr": "Turkménistan"
+      },
+      "formalReferenceName": {
+        "en": "Turkmenistan",
+        "fr": "Turkménistan (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-tkm",
+        "fr": "rv-map-fr-tkm"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "TLS",
+      "alpha2": "TL",
+      "numeric": "626",
+      "name": {
+        "en": "Timor-Leste",
+        "fr": "Timor oriental"
+      },
+      "formalReferenceName": {
+        "en": "Timor-Leste",
+        "fr": "Timor-Leste (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-tls",
+        "fr": "rv-map-fr-tls"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "TON",
+      "alpha2": "TO",
+      "numeric": "776",
+      "name": {
+        "en": "Tonga",
+        "fr": "Tonga"
+      },
+      "formalReferenceName": {
+        "en": "Tonga",
+        "fr": "Tonga (les)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-ton",
+        "fr": "rv-map-fr-ton"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "TTO",
+      "alpha2": "TT",
+      "numeric": "780",
+      "name": {
+        "en": "Trinidad and Tobago",
+        "fr": "Trinité-et-Tobago"
+      },
+      "formalReferenceName": {
+        "en": "Trinidad and Tobago",
+        "fr": "Trinité-et-Tobago (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-tto",
+        "fr": "rv-map-fr-tto"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "TUN",
+      "alpha2": "TN",
+      "numeric": "788",
+      "name": {
+        "en": "Tunisia",
+        "fr": "Tunisie"
+      },
+      "formalReferenceName": {
+        "en": "Tunisia",
+        "fr": "Tunisie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-tun",
+        "fr": "rv-map-fr-tun"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "TUR",
+      "alpha2": "TR",
+      "numeric": "792",
+      "name": {
+        "en": "Turkey",
+        "fr": "Turquie"
+      },
+      "formalReferenceName": {
+        "en": "Türkiye",
+        "fr": "Türkiye (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-tur",
+        "fr": "rv-map-fr-tur"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "TUV",
+      "alpha2": "TV",
+      "numeric": "798",
+      "name": {
+        "en": "Tuvalu",
+        "fr": "Tuvalu"
+      },
+      "formalReferenceName": {
+        "en": "Tuvalu",
+        "fr": "Tuvalu (les)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-tuv",
+        "fr": "rv-map-fr-tuv"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "TWN",
+      "alpha2": "TW",
+      "numeric": "158",
+      "name": {
+        "en": "Taiwan",
+        "fr": "Taïwan"
+      },
+      "formalReferenceName": {
+        "en": "Taiwan (Province of China)",
+        "fr": "Taïwan (Province de Chine)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-twn",
+        "fr": "rv-map-fr-twn"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "TZA",
+      "alpha2": "TZ",
+      "numeric": "834",
+      "name": {
+        "en": "Tanzania",
+        "fr": "Tanzanie"
+      },
+      "formalReferenceName": {
+        "en": "Tanzania, the United Republic of",
+        "fr": "Tanzanie (la République-Unie de)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-tza",
+        "fr": "rv-map-fr-tza"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "UGA",
+      "alpha2": "UG",
+      "numeric": "800",
+      "name": {
+        "en": "Uganda",
+        "fr": "Ouganda"
+      },
+      "formalReferenceName": {
+        "en": "Uganda",
+        "fr": "Ouganda (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-uga",
+        "fr": "rv-map-fr-uga"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "UKR",
+      "alpha2": "UA",
+      "numeric": "804",
+      "name": {
+        "en": "Ukraine",
+        "fr": "Ukraine"
+      },
+      "formalReferenceName": {
+        "en": "Ukraine",
+        "fr": "Ukraine (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-ukr",
+        "fr": "rv-map-fr-ukr"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "UMI",
+      "alpha2": "UM",
+      "numeric": "581",
+      "name": {
+        "en": "United States Minor Outlying Islands",
+        "fr": "Îles mineures éloignées des États-Unis"
+      },
+      "formalReferenceName": {
+        "en": "United States Minor Outlying Islands (the)",
+        "fr": "Îles mineures éloignées des États-Unis (les)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-umi",
+        "fr": "rv-map-fr-umi"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "URY",
+      "alpha2": "UY",
+      "numeric": "858",
+      "name": {
+        "en": "Uruguay",
+        "fr": "Uruguay"
+      },
+      "formalReferenceName": {
+        "en": "Uruguay",
+        "fr": "Uruguay (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-ury",
+        "fr": "rv-map-fr-ury"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "USA",
+      "alpha2": "US",
+      "numeric": "840",
+      "name": {
+        "en": "United States of America",
+        "fr": "États-Unis"
+      },
+      "formalReferenceName": {
+        "en": "United States of America (the)",
+        "fr": "États-Unis d'Amérique (les)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-usa",
+        "fr": "rv-map-fr-usa"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "UZB",
+      "alpha2": "UZ",
+      "numeric": "860",
+      "name": {
+        "en": "Uzbekistan",
+        "fr": "Ouzbékistan"
+      },
+      "formalReferenceName": {
+        "en": "Uzbekistan",
+        "fr": "Ouzbékistan (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-uzb",
+        "fr": "rv-map-fr-uzb"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "VAT",
+      "alpha2": "VA",
+      "numeric": "336",
+      "name": {
+        "en": "Vatican City",
+        "fr": "Cité du Vatican"
+      },
+      "formalReferenceName": {
+        "en": "Holy See (the)",
+        "fr": "Saint-Siège (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-vat",
+        "fr": "rv-map-fr-vat"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "VCT",
+      "alpha2": "VC",
+      "numeric": "670",
+      "name": {
+        "en": "Saint Vincent and the Grenadines",
+        "fr": "Saint-Vincent-et-les-Grenadines"
+      },
+      "formalReferenceName": {
+        "en": "Saint Vincent and the Grenadines",
+        "fr": "Saint-Vincent-et-les Grenadines"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-vct",
+        "fr": "rv-map-fr-vct"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "VEN",
+      "alpha2": "VE",
+      "numeric": "862",
+      "name": {
+        "en": "Venezuela",
+        "fr": "Venezuela"
+      },
+      "formalReferenceName": {
+        "en": "Venezuela (Bolivarian Republic of)",
+        "fr": "Venezuela (République bolivarienne du)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-ven",
+        "fr": "rv-map-fr-ven"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "VGB",
+      "alpha2": "VG",
+      "numeric": "092",
+      "name": {
+        "en": "British Virgin Islands",
+        "fr": "Îles Vierges britanniques"
+      },
+      "formalReferenceName": {
+        "en": "Virgin Islands (British)",
+        "fr": "Vierges britanniques (les Îles)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-vgb",
+        "fr": "rv-map-fr-vgb"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "VIR",
+      "alpha2": "VI",
+      "numeric": "850",
+      "name": {
+        "en": "United States Virgin Islands",
+        "fr": "Îles Vierges des États-Unis"
+      },
+      "formalReferenceName": {
+        "en": "Virgin Islands (U.S.)",
+        "fr": "Vierges des États-Unis (les Îles)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-vir",
+        "fr": "rv-map-fr-vir"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "VNM",
+      "alpha2": "VN",
+      "numeric": "704",
+      "name": {
+        "en": "Vietnam",
+        "fr": "Viêt Nam"
+      },
+      "formalReferenceName": {
+        "en": "Viet Nam",
+        "fr": "Viet Nam (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-vnm",
+        "fr": "rv-map-fr-vnm"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "VUT",
+      "alpha2": "VU",
+      "numeric": "548",
+      "name": {
+        "en": "Vanuatu",
+        "fr": "Vanuatu"
+      },
+      "formalReferenceName": {
+        "en": "Vanuatu",
+        "fr": "Vanuatu (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-vut",
+        "fr": "rv-map-fr-vut"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "WLF",
+      "alpha2": "WF",
+      "numeric": "876",
+      "name": {
+        "en": "Wallis and Futuna",
+        "fr": "Wallis-et-Futuna"
+      },
+      "formalReferenceName": {
+        "en": "Wallis and Futuna",
+        "fr": "Wallis-et-Futuna"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-wlf",
+        "fr": "rv-map-fr-wlf"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "WSM",
+      "alpha2": "WS",
+      "numeric": "882",
+      "name": {
+        "en": "Samoa",
+        "fr": "Samoa"
+      },
+      "formalReferenceName": {
+        "en": "Samoa",
+        "fr": "Samoa (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-wsm",
+        "fr": "rv-map-fr-wsm"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "YEM",
+      "alpha2": "YE",
+      "numeric": "887",
+      "name": {
+        "en": "Yemen",
+        "fr": "Yémen"
+      },
+      "formalReferenceName": {
+        "en": "Yemen",
+        "fr": "Yémen (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-yem",
+        "fr": "rv-map-fr-yem"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "ZAF",
+      "alpha2": "ZA",
+      "numeric": "710",
+      "name": {
+        "en": "South Africa",
+        "fr": "Afrique du Sud"
+      },
+      "formalReferenceName": {
+        "en": "South Africa",
+        "fr": "Afrique du Sud (l')"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-zaf",
+        "fr": "rv-map-fr-zaf"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "ZMB",
+      "alpha2": "ZM",
+      "numeric": "894",
+      "name": {
+        "en": "Zambia",
+        "fr": "Zambie"
+      },
+      "formalReferenceName": {
+        "en": "Zambia",
+        "fr": "Zambie (la)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-zmb",
+        "fr": "rv-map-fr-zmb"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    },
+    {
+      "code": "ZWE",
+      "alpha2": "ZW",
+      "numeric": "716",
+      "name": {
+        "en": "Zimbabwe",
+        "fr": "Zimbabwe"
+      },
+      "formalReferenceName": {
+        "en": "Zimbabwe",
+        "fr": "Zimbabwe (le)"
+      },
+      "formalReferenceSource": {
+        "en": "ISO OBP English short name; directly verified 2026-10-31",
+        "fr": "ISO OBP French short name; directly verified 2026-10-31"
+      },
+      "guid": {
+        "en": "rv-map-en-zwe",
+        "fr": "rv-map-fr-zwe"
+      },
+      "codeNamespace": "ISO-3166-1-alpha3"
+    }
+  ],
+  "registryVerification": {
+    "sourceURL": "https://www.iso.org/obp/ui/#search/code/",
+    "filter": "Officially assigned codes",
+    "verifiedAt": "2026-10-31T19:03:41Z",
+    "nameKind": "English and French short names as displayed by ISO OBP, including articles and annotations; not full state names",
+    "referenceFile": "source/iso-3166-1-reference.json",
+    "referenceSHA256": "450c741c64645a6beaa0c8e46b2649a9a666ae90189506d9002436432ea198f6",
+    "tableEvidenceSHA256": "d1a6c8f99ba73ba76e0f140ad8878bfd071854b94c280120f86cfc41360c26c6"
+  }
+}

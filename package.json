@@ -1,0 +1,9 @@
+{
+  "name": "rectoverso-maps",
+  "private": true,
+  "description": "Draw Maps / Cartes release candidates from pinned Natural Earth geometry.",
+  "type": "module",
+  "dependencies": {
+    "d3-geo": "3.1.1"
+  }
+}
