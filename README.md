@@ -67,6 +67,6 @@ build.sh                Builds and validates both language packages
 
 ## License and attribution
 
-Our authored deck content, maps, metadata and build source are **© Simon Pinkas, CC BY 4.0**. You may share and adapt them, including commercially, under that license's attribution and other terms. Credit the author, link the license and identify your changes. [LICENSE](LICENSE) records the scope and upstream credits; dependency licenses remain their own.
+Our authored deck content, maps, metadata and build source are **© Simon Pinkas, CC BY 4.0**. You may share and adapt them, including commercially, under that license's attribution and other terms. Credit the author, link the license and identify your changes. [LICENSE](LICENSE) contains the full license; [NOTICE.md](NOTICE.md) records its scope and upstream credits. Dependency licenses remain their own.
 
 The geometry comes primarily from **Natural Earth 5.1.2** (public domain). McDonald Islands use coastline data from **Geoscience Australia / Australian Antarctic Data Centre** (CC BY 4.0). Some common names derive from **Ultimate Geography 5.3** (public-domain text); none of its pictures are reused. Every generated picture has an entry in `rectoverso.json`'s `imageCredits`. [Full source details](docs/sources.md#credits-and-license).

@@ -67,6 +67,6 @@ La [référence de fabrication et de vérification](docs/building.fr.md) couvre 
 
 ## Licence et crédits
 
-Nos contenus originaux, cartes, métadonnées et outils sont **© Simon Pinkas, CC BY 4.0**. Vous pouvez les partager et les adapter, y compris commercialement, selon les conditions d’attribution et les autres termes de cette licence. Créditez l’auteur, liez la licence et indiquez vos modifications. [LICENSE](LICENSE) précise le périmètre et les crédits des sources ; les dépendances conservent leurs propres licences.
+Nos contenus originaux, cartes, métadonnées et outils sont **© Simon Pinkas, CC BY 4.0**. Vous pouvez les partager et les adapter, y compris commercialement, selon les conditions d’attribution et les autres termes de cette licence. Créditez l’auteur, liez la licence et indiquez vos modifications. [LICENSE](LICENSE) contient la licence complète ; [NOTICE.md](NOTICE.md) précise son périmètre et les crédits des sources. Les dépendances conservent leurs propres licences.
 
 La géométrie vient principalement de **Natural Earth 5.1.2** (domaine public). Les îles McDonald utilisent le littoral de **Geoscience Australia / Australian Antarctic Data Centre** (CC BY 4.0). Certains noms usuels proviennent d’**Ultimate Geography 5.3** (texte dans le domaine public) ; aucune de ses images n’est réutilisée. Chaque image produite est créditée dans `imageCredits`, dans `rectoverso.json`. [Détail des sources](docs/sources.fr.md#crédits-et-licence).
