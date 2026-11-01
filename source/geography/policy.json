@@ -1,6 +1,6 @@
 {
-  "approved": "2026-10-31",
-  "coverage": "All officially assigned ISO 3166-1 countries and territories; 249 entries directly verified against the ISO OBP registry",
+  "approved": "2026-11-01",
+  "coverage": "249 verified ISO countries/territories plus 39 supplementary questions for every existing named picture group; FRA/PRT reuse core questions, other ISO composites retain their overview.",
   "names": "Common learner EN/FR names with formal reference metadata",
   "boundaries": "UN-informed territorial house convention; not UN or ISO endorsement",
   "neutralUndeterminedAreas": [
@@ -84,5 +84,13 @@
       "scope": "Palestinian territory including East Jerusalem",
       "url": "https://www.un.org/unispal/permanent-status-issues/"
     }
-  ]
+  ],
+  "regionalQuestions": {
+    "rule": "All existing named picture groups, approved by the owner for the 288-card candidate; not all worldwide subdivisions.",
+    "file": "source/geography/regional-questions.json",
+    "issue": "https://github.com/rectoversohq/rectoverso-maps/issues/4",
+    "namespace": "rectoverso-maps-regions-v1",
+    "isoReferenceUnchanged": true,
+    "publishedIdentitiesPreserved": true
+  }
 }

@@ -51,6 +51,6 @@ def inputs(language):
             fields['place']: place['field'],
             fields['boundary']: translation['boundaryNotes'].get(place['code'], ''),
         },
-        'tags': translation['tags'],
+        'tags': translation['tags'] + (['place::regional', 'place::parent::' + place['parentCode']] if place.get('parentCode') else []),
     } for place in places]
     return meta, notes, model, deck

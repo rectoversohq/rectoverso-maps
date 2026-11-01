@@ -2288,7 +2288,15 @@
       ],
       "exclude": []
     },
-    "pictureFocus": "whole-place-with-component-insets"
+    "pictureFocus": "primary-and-nearby",
+    "questionScope": {
+      "kind": "core-region",
+      "groupIndex": 0,
+      "name": {
+        "en": "Metropolitan France",
+        "fr": "France métropolitaine"
+      }
+    }
   },
   {
     "code": "FRO",
@@ -5523,7 +5531,15 @@
       ],
       "exclude": []
     },
-    "pictureFocus": "whole-place-with-component-insets"
+    "pictureFocus": "whole-place",
+    "questionScope": {
+      "kind": "core-region",
+      "groupIndex": 0,
+      "name": {
+        "en": "Mainland Portugal",
+        "fr": "Portugal continental"
+      }
+    }
   },
   {
     "code": "PRY",
@@ -7518,5 +7534,1726 @@
       "exclude": []
     },
     "pictureFocus": "primary-and-nearby"
+  },
+  {
+    "code": "MAPS-ATF-KERGUELEN-ISLANDS",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "ATF",
+    "groupIndex": 0,
+    "name": {
+      "en": "Kerguelen Islands",
+      "fr": "Îles Kerguelen"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-atf-kerguelen-islands",
+      "fr": "rv-map-fr-maps-atf-kerguelen-islands"
+    },
+    "regionHint": {
+      "en": "Indian Ocean",
+      "fr": "Océan Indien"
+    },
+    "geometry_source": {
+      "parentCode": "ATF",
+      "groupIndex": 0,
+      "bounds": [
+        67,
+        -51,
+        72,
+        -47
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "ATF"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "ATF"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-ATF-CROZET-ISLANDS",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "ATF",
+    "groupIndex": 1,
+    "name": {
+      "en": "Crozet Islands",
+      "fr": "Îles Crozet"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-atf-crozet-islands",
+      "fr": "rv-map-fr-maps-atf-crozet-islands"
+    },
+    "regionHint": {
+      "en": "Indian Ocean",
+      "fr": "Océan Indien"
+    },
+    "geometry_source": {
+      "parentCode": "ATF",
+      "groupIndex": 1,
+      "bounds": [
+        49,
+        -48,
+        53,
+        -45
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "ATF"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "ATF"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-ATF-AMSTERDAM-AND-SAINT-PAUL",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "ATF",
+    "groupIndex": 2,
+    "name": {
+      "en": "Amsterdam and Saint Paul",
+      "fr": "Amsterdam et Saint-Paul"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-atf-amsterdam-and-saint-paul",
+      "fr": "rv-map-fr-maps-atf-amsterdam-and-saint-paul"
+    },
+    "regionHint": {
+      "en": "Indian Ocean",
+      "fr": "Océan Indien"
+    },
+    "geometry_source": {
+      "parentCode": "ATF",
+      "groupIndex": 2,
+      "bounds": [
+        76,
+        -40,
+        79,
+        -36
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "ATF"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "ATF"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-ATF-GLORIOSO-ISLANDS",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "ATF",
+    "groupIndex": 3,
+    "name": {
+      "en": "Glorioso Islands",
+      "fr": "Îles Glorieuses"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-atf-glorioso-islands",
+      "fr": "rv-map-fr-maps-atf-glorioso-islands"
+    },
+    "regionHint": {
+      "en": "Indian Ocean",
+      "fr": "Océan Indien"
+    },
+    "geometry_source": {
+      "parentCode": "ATF",
+      "groupIndex": 3,
+      "bounds": [
+        46,
+        -12.5,
+        49,
+        -10
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "ATF"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "ATF"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-ATF-JUAN-DE-NOVA",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "ATF",
+    "groupIndex": 4,
+    "name": {
+      "en": "Juan de Nova",
+      "fr": "Juan de Nova"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-atf-juan-de-nova",
+      "fr": "rv-map-fr-maps-atf-juan-de-nova"
+    },
+    "regionHint": {
+      "en": "Indian Ocean",
+      "fr": "Océan Indien"
+    },
+    "geometry_source": {
+      "parentCode": "ATF",
+      "groupIndex": 4,
+      "bounds": [
+        42,
+        -18,
+        44,
+        -16
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "ATF"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "ATF"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-ATF-EUROPA",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "ATF",
+    "groupIndex": 5,
+    "name": {
+      "en": "Europa",
+      "fr": "Europa"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-atf-europa",
+      "fr": "rv-map-fr-maps-atf-europa"
+    },
+    "regionHint": {
+      "en": "Indian Ocean",
+      "fr": "Océan Indien"
+    },
+    "geometry_source": {
+      "parentCode": "ATF",
+      "groupIndex": 5,
+      "bounds": [
+        40,
+        -23,
+        41,
+        -22
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "ATF"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "ATF"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-ATF-BASSAS-DA-INDIA",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "ATF",
+    "groupIndex": 6,
+    "name": {
+      "en": "Bassas da India",
+      "fr": "Bassas da India"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-atf-bassas-da-india",
+      "fr": "rv-map-fr-maps-atf-bassas-da-india"
+    },
+    "regionHint": {
+      "en": "Indian Ocean",
+      "fr": "Océan Indien"
+    },
+    "geometry_source": {
+      "parentCode": "ATF",
+      "groupIndex": 6,
+      "bounds": [
+        39,
+        -22,
+        40,
+        -21
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "ATF"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "ATF"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-ATF-TROMELIN",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "ATF",
+    "groupIndex": 7,
+    "name": {
+      "en": "Tromelin",
+      "fr": "Tromelin"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-atf-tromelin",
+      "fr": "rv-map-fr-maps-atf-tromelin"
+    },
+    "regionHint": {
+      "en": "Indian Ocean",
+      "fr": "Océan Indien"
+    },
+    "geometry_source": {
+      "parentCode": "ATF",
+      "groupIndex": 7,
+      "bounds": [
+        54,
+        -17,
+        55,
+        -15
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "ATF"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "ATF"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-BES-BONAIRE",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "BES",
+    "groupIndex": 0,
+    "name": {
+      "en": "Bonaire",
+      "fr": "Bonaire"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-bes-bonaire",
+      "fr": "rv-map-fr-maps-bes-bonaire"
+    },
+    "regionHint": {
+      "en": "Caribbean",
+      "fr": "Caraïbes"
+    },
+    "geometry_source": {
+      "parentCode": "BES",
+      "groupIndex": 0,
+      "bounds": [
+        -69,
+        11,
+        -67,
+        13
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "NLY"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-BES-SINT-EUSTATIUS",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "BES",
+    "groupIndex": 1,
+    "name": {
+      "en": "Sint Eustatius",
+      "fr": "Saint-Eustache"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-bes-sint-eustatius",
+      "fr": "rv-map-fr-maps-bes-sint-eustatius"
+    },
+    "regionHint": {
+      "en": "Caribbean",
+      "fr": "Caraïbes"
+    },
+    "geometry_source": {
+      "parentCode": "BES",
+      "groupIndex": 1,
+      "bounds": [
+        -63.1,
+        17.4,
+        -62.8,
+        17.6
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "NLY"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-BES-SABA",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "BES",
+    "groupIndex": 2,
+    "name": {
+      "en": "Saba",
+      "fr": "Saba"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-bes-saba",
+      "fr": "rv-map-fr-maps-bes-saba"
+    },
+    "regionHint": {
+      "en": "Caribbean",
+      "fr": "Caraïbes"
+    },
+    "geometry_source": {
+      "parentCode": "BES",
+      "groupIndex": 2,
+      "bounds": [
+        -63.4,
+        17.6,
+        -63.1,
+        17.8
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "NLY"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-FRA-CLIPPERTON-ISLAND",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "FRA",
+    "groupIndex": 1,
+    "name": {
+      "en": "Clipperton Island",
+      "fr": "Île de Clipperton"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-fra-clipperton-island",
+      "fr": "rv-map-fr-maps-fra-clipperton-island"
+    },
+    "regionHint": {
+      "en": "Eastern Pacific",
+      "fr": "Pacifique oriental"
+    },
+    "geometry_source": {
+      "parentCode": "FRA",
+      "groupIndex": 1,
+      "bounds": [
+        -110,
+        10,
+        -108,
+        11
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "FXX"
+          },
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "CLP"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-HMD-HEARD-ISLAND",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "HMD",
+    "groupIndex": 0,
+    "name": {
+      "en": "Heard Island",
+      "fr": "Île Heard"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-hmd-heard-island",
+      "fr": "rv-map-fr-maps-hmd-heard-island"
+    },
+    "regionHint": {
+      "en": "Southern Indian Ocean",
+      "fr": "Sud de l’océan Indien"
+    },
+    "geometry_source": {
+      "parentCode": "HMD",
+      "groupIndex": 0,
+      "bounds": [
+        73,
+        -54,
+        74,
+        -52
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "HMD"
+          },
+          {
+            "layer": "aadc_mcdonald",
+            "key": "metadata_id",
+            "value": "McDonald_Island_Coastline_2020"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "HMD"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-HMD-MCDONALD-ISLANDS",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "HMD",
+    "groupIndex": 1,
+    "name": {
+      "en": "McDonald Islands",
+      "fr": "Îles McDonald"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-hmd-mcdonald-islands",
+      "fr": "rv-map-fr-maps-hmd-mcdonald-islands"
+    },
+    "regionHint": {
+      "en": "Southern Indian Ocean",
+      "fr": "Sud de l’océan Indien"
+    },
+    "geometry_source": {
+      "parentCode": "HMD",
+      "groupIndex": 1,
+      "bounds": [
+        72,
+        -54,
+        73,
+        -52
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "HMD"
+          },
+          {
+            "layer": "aadc_mcdonald",
+            "key": "metadata_id",
+            "value": "McDonald_Island_Coastline_2020"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "HMD"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-PCN-PITCAIRN",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "PCN",
+    "groupIndex": 0,
+    "name": {
+      "en": "Pitcairn",
+      "fr": "Pitcairn"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-pcn-pitcairn",
+      "fr": "rv-map-fr-maps-pcn-pitcairn"
+    },
+    "regionHint": {
+      "en": "South Pacific",
+      "fr": "Pacifique Sud"
+    },
+    "geometry_source": {
+      "parentCode": "PCN",
+      "groupIndex": 0,
+      "bounds": [
+        -130.3,
+        -25.3,
+        -129.9,
+        -24.9
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "PCN"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "PCN"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-PCN-HENDERSON",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "PCN",
+    "groupIndex": 1,
+    "name": {
+      "en": "Henderson",
+      "fr": "Henderson"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-pcn-henderson",
+      "fr": "rv-map-fr-maps-pcn-henderson"
+    },
+    "regionHint": {
+      "en": "South Pacific",
+      "fr": "Pacifique Sud"
+    },
+    "geometry_source": {
+      "parentCode": "PCN",
+      "groupIndex": 1,
+      "bounds": [
+        -128.5,
+        -24.6,
+        -128.1,
+        -24.1
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "PCN"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "PCN"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-PCN-OENO",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "PCN",
+    "groupIndex": 2,
+    "name": {
+      "en": "Oeno",
+      "fr": "Oeno"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-pcn-oeno",
+      "fr": "rv-map-fr-maps-pcn-oeno"
+    },
+    "regionHint": {
+      "en": "South Pacific",
+      "fr": "Pacifique Sud"
+    },
+    "geometry_source": {
+      "parentCode": "PCN",
+      "groupIndex": 2,
+      "bounds": [
+        -131,
+        -24.1,
+        -130.5,
+        -23.7
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "PCN"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "PCN"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-PCN-DUCIE",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "PCN",
+    "groupIndex": 3,
+    "name": {
+      "en": "Ducie",
+      "fr": "Ducie"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-pcn-ducie",
+      "fr": "rv-map-fr-maps-pcn-ducie"
+    },
+    "regionHint": {
+      "en": "South Pacific",
+      "fr": "Pacifique Sud"
+    },
+    "geometry_source": {
+      "parentCode": "PCN",
+      "groupIndex": 3,
+      "bounds": [
+        -125,
+        -24.9,
+        -124.5,
+        -24.4
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "PCN"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "PCN"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-PRT-AZORES",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "PRT",
+    "groupIndex": 1,
+    "name": {
+      "en": "Azores",
+      "fr": "Açores"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-prt-azores",
+      "fr": "rv-map-fr-maps-prt-azores"
+    },
+    "regionHint": {
+      "en": "North Atlantic",
+      "fr": "Atlantique Nord"
+    },
+    "geometry_source": {
+      "parentCode": "PRT",
+      "groupIndex": 1,
+      "bounds": [
+        -32,
+        36,
+        -24,
+        41
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "PRX"
+          },
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "PAZ"
+          },
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "PMD"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-PRT-MADEIRA",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "PRT",
+    "groupIndex": 2,
+    "name": {
+      "en": "Madeira",
+      "fr": "Madère"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-prt-madeira",
+      "fr": "rv-map-fr-maps-prt-madeira"
+    },
+    "regionHint": {
+      "en": "North Atlantic",
+      "fr": "Atlantique Nord"
+    },
+    "geometry_source": {
+      "parentCode": "PRT",
+      "groupIndex": 2,
+      "bounds": [
+        -18,
+        29,
+        -15,
+        34
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "PRX"
+          },
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "PAZ"
+          },
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "PMD"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-SGS-SOUTH-GEORGIA",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "SGS",
+    "groupIndex": 0,
+    "name": {
+      "en": "South Georgia",
+      "fr": "Géorgie du Sud"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-sgs-south-georgia",
+      "fr": "rv-map-fr-maps-sgs-south-georgia"
+    },
+    "regionHint": {
+      "en": "South Atlantic",
+      "fr": "Atlantique Sud"
+    },
+    "geometry_source": {
+      "parentCode": "SGS",
+      "groupIndex": 0,
+      "bounds": [
+        -43,
+        -56,
+        -34,
+        -52
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "SGS"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "SGS"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-SGS-SOUTH-SANDWICH-ISLANDS",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "SGS",
+    "groupIndex": 1,
+    "name": {
+      "en": "South Sandwich Islands",
+      "fr": "Îles Sandwich du Sud"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-sgs-south-sandwich-islands",
+      "fr": "rv-map-fr-maps-sgs-south-sandwich-islands"
+    },
+    "regionHint": {
+      "en": "South Atlantic",
+      "fr": "Atlantique Sud"
+    },
+    "geometry_source": {
+      "parentCode": "SGS",
+      "groupIndex": 1,
+      "bounds": [
+        -30,
+        -61,
+        -24,
+        -55
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "SGS"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "SGS"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-SHN-SAINT-HELENA",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "SHN",
+    "groupIndex": 0,
+    "name": {
+      "en": "Saint Helena",
+      "fr": "Sainte-Hélène"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-shn-saint-helena",
+      "fr": "rv-map-fr-maps-shn-saint-helena"
+    },
+    "regionHint": {
+      "en": "South Atlantic",
+      "fr": "Atlantique Sud"
+    },
+    "geometry_source": {
+      "parentCode": "SHN",
+      "groupIndex": 0,
+      "bounds": [
+        -7,
+        -17,
+        -4,
+        -15
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "SHN"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "SHN"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-SHN-ASCENSION",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "SHN",
+    "groupIndex": 1,
+    "name": {
+      "en": "Ascension",
+      "fr": "Ascension"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-shn-ascension",
+      "fr": "rv-map-fr-maps-shn-ascension"
+    },
+    "regionHint": {
+      "en": "South Atlantic",
+      "fr": "Atlantique Sud"
+    },
+    "geometry_source": {
+      "parentCode": "SHN",
+      "groupIndex": 1,
+      "bounds": [
+        -16,
+        -9,
+        -13,
+        -7
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "SHN"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "SHN"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-SHN-TRISTAN-DA-CUNHA-GROUP",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "SHN",
+    "groupIndex": 2,
+    "name": {
+      "en": "Tristan da Cunha group",
+      "fr": "Archipel Tristan da Cunha"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-shn-tristan-da-cunha-group",
+      "fr": "rv-map-fr-maps-shn-tristan-da-cunha-group"
+    },
+    "regionHint": {
+      "en": "South Atlantic",
+      "fr": "Atlantique Sud"
+    },
+    "geometry_source": {
+      "parentCode": "SHN",
+      "groupIndex": 2,
+      "bounds": [
+        -14,
+        -42,
+        -8,
+        -35
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "SHN"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "SHN"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-SJM-SVALBARD",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "SJM",
+    "groupIndex": 0,
+    "name": {
+      "en": "Svalbard",
+      "fr": "Svalbard"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-sjm-svalbard",
+      "fr": "rv-map-fr-maps-sjm-svalbard"
+    },
+    "regionHint": {
+      "en": "Arctic",
+      "fr": "Arctique"
+    },
+    "geometry_source": {
+      "parentCode": "SJM",
+      "groupIndex": 0,
+      "bounds": [
+        0,
+        73,
+        40,
+        82
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "NSV"
+          },
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "NJM"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-SJM-JAN-MAYEN",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "SJM",
+    "groupIndex": 1,
+    "name": {
+      "en": "Jan Mayen",
+      "fr": "Jan Mayen"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-sjm-jan-mayen",
+      "fr": "rv-map-fr-maps-sjm-jan-mayen"
+    },
+    "regionHint": {
+      "en": "Arctic",
+      "fr": "Arctique"
+    },
+    "geometry_source": {
+      "parentCode": "SJM",
+      "groupIndex": 1,
+      "bounds": [
+        -10,
+        70,
+        -6,
+        72
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "NSV"
+          },
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "NJM"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-TKL-ATAFU",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "TKL",
+    "groupIndex": 0,
+    "name": {
+      "en": "Atafu",
+      "fr": "Atafu"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-tkl-atafu",
+      "fr": "rv-map-fr-maps-tkl-atafu"
+    },
+    "regionHint": {
+      "en": "Polynesia",
+      "fr": "Polynésie"
+    },
+    "geometry_source": {
+      "parentCode": "TKL",
+      "groupIndex": 0,
+      "bounds": [
+        -173,
+        -8.8,
+        -171,
+        -8
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "TKL"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_gu_a3",
+            "value": "TKL"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-TKL-NUKUNONU",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "TKL",
+    "groupIndex": 1,
+    "name": {
+      "en": "Nukunonu",
+      "fr": "Nukunonu"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-tkl-nukunonu",
+      "fr": "rv-map-fr-maps-tkl-nukunonu"
+    },
+    "regionHint": {
+      "en": "Polynesia",
+      "fr": "Polynésie"
+    },
+    "geometry_source": {
+      "parentCode": "TKL",
+      "groupIndex": 1,
+      "bounds": [
+        -173,
+        -9.25,
+        -171,
+        -8.8
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "TKL"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_gu_a3",
+            "value": "TKL"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-TKL-FAKAOFO",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "TKL",
+    "groupIndex": 2,
+    "name": {
+      "en": "Fakaofo",
+      "fr": "Fakaofo"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-tkl-fakaofo",
+      "fr": "rv-map-fr-maps-tkl-fakaofo"
+    },
+    "regionHint": {
+      "en": "Polynesia",
+      "fr": "Polynésie"
+    },
+    "geometry_source": {
+      "parentCode": "TKL",
+      "groupIndex": 2,
+      "bounds": [
+        -173,
+        -9.5,
+        -171,
+        -9.25
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "map_units",
+            "key": "GU_A3",
+            "value": "TKL"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_gu_a3",
+            "value": "TKL"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-UMI-JOHNSTON-ATOLL",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "UMI",
+    "groupIndex": 0,
+    "name": {
+      "en": "Johnston Atoll",
+      "fr": "Atoll Johnston"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-umi-johnston-atoll",
+      "fr": "rv-map-fr-maps-umi-johnston-atoll"
+    },
+    "regionHint": {
+      "en": "Pacific Ocean",
+      "fr": "Océan Pacifique"
+    },
+    "geometry_source": {
+      "parentCode": "UMI",
+      "groupIndex": 0,
+      "bounds": [
+        -169.699509,
+        16.571015000000003,
+        -169.362766,
+        16.912599999999998
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "UMI"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "UMI"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-UMI-JARVIS-ISLAND",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "UMI",
+    "groupIndex": 1,
+    "name": {
+      "en": "Jarvis Island",
+      "fr": "Île Jarvis"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-umi-jarvis-island",
+      "fr": "rv-map-fr-maps-umi-jarvis-island"
+    },
+    "regionHint": {
+      "en": "Pacific Ocean",
+      "fr": "Océan Pacifique"
+    },
+    "geometry_source": {
+      "parentCode": "UMI",
+      "groupIndex": 1,
+      "bounds": [
+        -160.179978,
+        -0.538767,
+        -159.858901,
+        -0.22249100000000002
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "UMI"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "UMI"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-UMI-BAKER-ISLAND",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "UMI",
+    "groupIndex": 2,
+    "name": {
+      "en": "Baker Island",
+      "fr": "Île Baker"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-umi-baker-island",
+      "fr": "rv-map-fr-maps-umi-baker-island"
+    },
+    "regionHint": {
+      "en": "Pacific Ocean",
+      "fr": "Océan Pacifique"
+    },
+    "geometry_source": {
+      "parentCode": "UMI",
+      "groupIndex": 2,
+      "bounds": [
+        -176.635829,
+        0.04033400000000001,
+        -176.309177,
+        0.37589799999999995
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "UMI"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "UMI"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-UMI-HOWLAND-ISLAND",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "UMI",
+    "groupIndex": 3,
+    "name": {
+      "en": "Howland Island",
+      "fr": "Île Howland"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-umi-howland-island",
+      "fr": "rv-map-fr-maps-umi-howland-island"
+    },
+    "regionHint": {
+      "en": "Pacific Ocean",
+      "fr": "Océan Pacifique"
+    },
+    "geometry_source": {
+      "parentCode": "UMI",
+      "groupIndex": 3,
+      "bounds": [
+        -176.790492,
+        0.640188,
+        -176.486098,
+        0.956952
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "UMI"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "UMI"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-UMI-WAKE-ATOLL",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "UMI",
+    "groupIndex": 4,
+    "name": {
+      "en": "Wake Atoll",
+      "fr": "Atoll Wake"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-umi-wake-atoll",
+      "fr": "rv-map-fr-maps-umi-wake-atoll"
+    },
+    "regionHint": {
+      "en": "Pacific Ocean",
+      "fr": "Océan Pacifique"
+    },
+    "geometry_source": {
+      "parentCode": "UMI",
+      "groupIndex": 4,
+      "bounds": [
+        166.469395,
+        19.125580000000003,
+        166.802354,
+        19.455731999999998
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "UMI"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "UMI"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-UMI-MIDWAY-ISLANDS",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "UMI",
+    "groupIndex": 5,
+    "name": {
+      "en": "Midway Islands",
+      "fr": "Îles Midway"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-umi-midway-islands",
+      "fr": "rv-map-fr-maps-umi-midway-islands"
+    },
+    "regionHint": {
+      "en": "Pacific Ocean",
+      "fr": "Océan Pacifique"
+    },
+    "geometry_source": {
+      "parentCode": "UMI",
+      "groupIndex": 5,
+      "bounds": [
+        -177.53959700000001,
+        28.047659000000003,
+        -177.171156,
+        28.365318
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "UMI"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "UMI"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-UMI-NAVASSA-ISLAND",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "UMI",
+    "groupIndex": 6,
+    "name": {
+      "en": "Navassa Island",
+      "fr": "Île de la Navasse"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-umi-navassa-island",
+      "fr": "rv-map-fr-maps-umi-navassa-island"
+    },
+    "regionHint": {
+      "en": "Caribbean",
+      "fr": "Caraïbes"
+    },
+    "geometry_source": {
+      "parentCode": "UMI",
+      "groupIndex": 6,
+      "bounds": [
+        -75.18083200000001,
+        18.245006,
+        -74.852634,
+        18.567262999999997
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "UMI"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "UMI"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-UMI-PALMYRA-ATOLL",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "UMI",
+    "groupIndex": 7,
+    "name": {
+      "en": "Palmyra Atoll",
+      "fr": "Atoll Palmyra"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-umi-palmyra-atoll",
+      "fr": "rv-map-fr-maps-umi-palmyra-atoll"
+    },
+    "regionHint": {
+      "en": "Pacific Ocean",
+      "fr": "Océan Pacifique"
+    },
+    "geometry_source": {
+      "parentCode": "UMI",
+      "groupIndex": 7,
+      "bounds": [
+        -162.253627,
+        5.719371,
+        -161.90760699999998,
+        6.0402450000000005
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "UMI"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "UMI"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
+  },
+  {
+    "code": "MAPS-UMI-KINGMAN-REEF",
+    "codeNamespace": "rectoverso-maps-regions-v1",
+    "parentCode": "UMI",
+    "groupIndex": 8,
+    "name": {
+      "en": "Kingman Reef",
+      "fr": "Récif Kingman"
+    },
+    "guid": {
+      "en": "rv-map-en-maps-umi-kingman-reef",
+      "fr": "rv-map-fr-maps-umi-kingman-reef"
+    },
+    "regionHint": {
+      "en": "Pacific Ocean",
+      "fr": "Océan Pacifique"
+    },
+    "geometry_source": {
+      "parentCode": "UMI",
+      "groupIndex": 8,
+      "bounds": [
+        -162.55017700000002,
+        6.280243,
+        -162.235284,
+        6.595136
+      ],
+      "sourceSelection": {
+        "include": [
+          {
+            "layer": "countries",
+            "key": "ADM0_A3",
+            "value": "UMI"
+          },
+          {
+            "layer": "minor_islands",
+            "key": "sr_adm0_a3",
+            "value": "UMI"
+          }
+        ],
+        "exclude": []
+      }
+    },
+    "pictureFocus": "parent-context-with-regional-detail"
   }
 ]

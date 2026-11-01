@@ -9,7 +9,7 @@
   ],
   "templates": [
     {
-      "name": "Carte → Pays ou territoire",
+      "name": "Carte → Lieu",
       "qfmt": "{{Carte}}",
       "afmt": "{{FrontSide}}<hr id=\"answer\"><div class=\"answer\">{{Pays ou territoire}}</div>{{#Note sur les limites}}<div class=\"boundary-note\">{{Note sur les limites}}</div>{{/Note sur les limites}}",
       "id": 7755391580088409756

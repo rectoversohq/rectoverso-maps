@@ -27,7 +27,7 @@ const REGION_FR = {
 // all parts in the picture's frame. The field always retains the full geometry.
 const WHOLE_PLACE = new Set(["KIR", "FJI", "RUS", "IDN", "FSM", "BES", "SJM", "SHN", "UMI", "ATF", "SGS", "TKL", "HMD", "PCN", "PRT"]);
 function focus(feature) {
-  if (WHOLE_PLACE.has(feature.properties.code) || feature.geometry.type !== "MultiPolygon") return feature;
+  if (feature.properties.wholeQuestion || WHOLE_PLACE.has(feature.properties.code) || feature.geometry.type !== "MultiPolygon") return feature;
   const parts = feature.geometry.coordinates.map(c => ({type:"Polygon",coordinates:c}));
   const main = parts.reduce((a,b) => d3.geoArea(b)>d3.geoArea(a)?b:a);
   const center = d3.geoCentroid(main);
@@ -90,10 +90,13 @@ function rings(draw, feature, pad = 22, min = 32) {
 }
 
 function view(feature, width, height, close = false, whole = false, locatorGroups = [], parent) {
-  const p = projection(feature, width, height, whole, close), draw = d3.geoPath(p);
+  const frame = feature.properties?.regionalContext
+    ? {type:"Feature", properties:{code:feature.properties.parentCode}, geometry:feature.properties.regionalContext} : feature;
+  const p = projection(frame, width, height, whole, close), draw = d3.geoPath(p);
   // Do not draw a second, coarser coastline underneath the highlighted entry.
   // The 50m Netherlands feature still combines the Caribbean Netherlands.
-  const contextCode = ({BES:"NLD",SJM:"NOR",GUF:"FRA",GLP:"FRA",MTQ:"FRA",MYT:"FRA",REU:"FRA"})[parent.properties.code] || parent.properties.code;
+  const entryCode = parent.properties.parentCode || parent.properties.code;
+  const contextCode = ({BES:"NLD",SJM:"NOR",GUF:"FRA",GLP:"FRA",MTQ:"FRA",MYT:"FRA",REU:"FRA"})[entryCode] || entryCode;
   const neighbours = context.flatMap(f => {
     if (f.properties.ADM0_A3 !== contextCode) return [f];
     const parts = f.geometry.type === "Polygon" ? [f.geometry.coordinates] : f.geometry.coordinates;
@@ -109,7 +112,9 @@ function view(feature, width, height, close = false, whole = false, locatorGroup
 }
 
 function night(feature) {
-  const groups = feature.properties.pictureGroups || [];
+  const groups = feature.properties.regionalContext
+    ? [{type:"Feature", properties:{name:feature.properties.name}, geometry:feature.geometry}]
+    : feature.properties.pictureGroups || [];
   const count = groups.length, rows = count > 4 ? 2 : 1, cols = Math.ceil(count / rows);
   const detailsHeight = count > 4 ? 420 : 300;
   const overviewHeight = count ? H - detailsHeight - 12 : H;
@@ -120,7 +125,7 @@ function night(feature) {
     defs += `<clipPath id="${id}"><rect width="${width}" height="${height}"/></clipPath>`;
     drawing += `<g transform="translate(${x},${y})"><g clip-path="url(#${id})">${view(f,width,height,close,whole,locators,feature)}</g></g>`;
   }
-  panel(feature,0,0,W,overviewHeight,0,false,count>0,groups);
+  panel(feature,0,0,W,overviewHeight,0,false,count>0 || feature.properties.wholeQuestion,groups);
   groups.forEach((group,i) => {
     const width = (W - (cols-1)*12)/cols, height = (detailsHeight-(rows-1)*12)/rows;
     panel(group,(i%cols)*(width+12),overviewHeight+12+Math.floor(i/cols)*(height+12),width,height,i+1,true,true,[]);
@@ -140,10 +145,11 @@ for (const entry of roster) {
   const feature = detailed.find(f => f.properties.code === entry.code);
   if (!feature) throw new Error(`Missing geometry: ${entry.code}`);
   const code = entry.code, region = entry.region;
-  if (!REGION_FR[region]) throw new Error(`Missing French region: ${region}`);
+  const regionFr = entry.regionHint?.fr || REGION_FR[region];
+  if (!regionFr) throw new Error(`Missing French region: ${region}`);
   fs.writeFileSync(path.join(out, `${code}.svg`), night(feature));
-  const field = { code, region: { en: region, fr: REGION_FR[region] }, outline: outline(feature) };
-  places.push({ ...entry, pictureFocus: entry.pictureGroups ? "whole-place-with-component-insets" : WHOLE_PLACE.has(code) ? "whole-place" : "primary-and-nearby", picture: `rv-map-${code.toLowerCase()}.png`, field: JSON.stringify(field) });
+  const field = { code, region: { en: region, fr: regionFr }, outline: outline(feature) };
+  places.push({ ...entry, pictureFocus: entry.parentCode ? "parent-context-with-regional-detail" : entry.pictureGroups ? "whole-place-with-component-insets" : WHOLE_PLACE.has(code) ? "whole-place" : "primary-and-nearby", picture: `rv-map-${code.toLowerCase()}.png`, field: JSON.stringify(field) });
 }
-fs.writeFileSync(path.join(out, "places.json"), JSON.stringify(places, null, 1));
+fs.writeFileSync(path.join(out, "places.json"), JSON.stringify(places, null, 2) + "\n");
 console.log(`Drew ${places.length} maps and fields.`);

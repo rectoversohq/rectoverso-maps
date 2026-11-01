@@ -1,6 +1,6 @@
 {
   "id": "rectoverso-maps",
-  "version": "0.2.0-rc.2",
+  "version": "0.3.0-rc.1",
   "status": "review-candidate",
   "title": {
     "en": "Maps",
@@ -15,10 +15,10 @@
     "en": "Maps drawn by Simon Pinkas from Natural Earth v5.1.2 (public domain), with McDonald Islands coastline from Geoscience Australia / Australian Antarctic Data Centre, 2020 (CC BY 4.0). Common place names adapted in part from Ultimate Geography 5.3, by the anki-geo contributors (text public domain). No Ultimate Geography pictures are included. © Simon Pinkas. Deck: CC BY 4.0.",
     "fr": "Cartes dessinées par Simon Pinkas à partir de Natural Earth v5.1.2 (domaine public), avec le littoral des îles McDonald de Geoscience Australia / Australian Antarctic Data Centre, 2020 (CC BY 4.0). Noms usuels adaptés en partie d’Ultimate Geography 5.3, par les contributeurs d’anki-geo (texte dans le domaine public). Aucune image d’Ultimate Geography n’est incluse. © Simon Pinkas. Jeu : CC BY 4.0."
   },
-  "roster": "iso-countries-territories-249",
-  "cards": 249,
+  "roster": "iso-249-plus-named-regions-v1",
+  "cards": 288,
   "sounds": 0,
-  "pictures": 249,
+  "pictures": 288,
   "cardKinds": [
     {
       "en": "Map → Country or territory",
@@ -1557,7 +1557,7 @@
       "creator": "Simon Pinkas",
       "placeCode": "FRA",
       "codeNamespace": "ISO-3166-1-alpha3",
-      "pictureFocus": "whole-place-with-component-insets",
+      "pictureFocus": "primary-and-nearby",
       "geometry": {
         "include": [
           {
@@ -1572,6 +1572,14 @@
           }
         ],
         "exclude": []
+      },
+      "questionScope": {
+        "kind": "core-region",
+        "groupIndex": 0,
+        "name": {
+          "en": "Metropolitan France",
+          "fr": "France métropolitaine"
+        }
       }
     },
     {
@@ -3717,7 +3725,7 @@
       "creator": "Simon Pinkas",
       "placeCode": "PRT",
       "codeNamespace": "ISO-3166-1-alpha3",
-      "pictureFocus": "whole-place-with-component-insets",
+      "pictureFocus": "whole-place",
       "geometry": {
         "include": [
           {
@@ -3737,6 +3745,14 @@
           }
         ],
         "exclude": []
+      },
+      "questionScope": {
+        "kind": "core-region",
+        "groupIndex": 0,
+        "name": {
+          "en": "Mainland Portugal",
+          "fr": "Portugal continental"
+        }
       }
     },
     {
@@ -5072,10 +5088,1341 @@
         ],
         "exclude": []
       }
+    },
+    {
+      "file": "rv-map-maps-atf-kerguelen-islands.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-ATF-KERGUELEN-ISLANDS",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "ATF",
+        "groupIndex": 0,
+        "bounds": [
+          67,
+          -51,
+          72,
+          -47
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "ATF"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "ATF"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-atf-crozet-islands.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-ATF-CROZET-ISLANDS",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "ATF",
+        "groupIndex": 1,
+        "bounds": [
+          49,
+          -48,
+          53,
+          -45
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "ATF"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "ATF"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-atf-amsterdam-and-saint-paul.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-ATF-AMSTERDAM-AND-SAINT-PAUL",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "ATF",
+        "groupIndex": 2,
+        "bounds": [
+          76,
+          -40,
+          79,
+          -36
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "ATF"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "ATF"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-atf-glorioso-islands.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-ATF-GLORIOSO-ISLANDS",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "ATF",
+        "groupIndex": 3,
+        "bounds": [
+          46,
+          -12.5,
+          49,
+          -10
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "ATF"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "ATF"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-atf-juan-de-nova.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-ATF-JUAN-DE-NOVA",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "ATF",
+        "groupIndex": 4,
+        "bounds": [
+          42,
+          -18,
+          44,
+          -16
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "ATF"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "ATF"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-atf-europa.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-ATF-EUROPA",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "ATF",
+        "groupIndex": 5,
+        "bounds": [
+          40,
+          -23,
+          41,
+          -22
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "ATF"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "ATF"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-atf-bassas-da-india.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-ATF-BASSAS-DA-INDIA",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "ATF",
+        "groupIndex": 6,
+        "bounds": [
+          39,
+          -22,
+          40,
+          -21
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "ATF"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "ATF"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-atf-tromelin.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-ATF-TROMELIN",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "ATF",
+        "groupIndex": 7,
+        "bounds": [
+          54,
+          -17,
+          55,
+          -15
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "ATF"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "ATF"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-bes-bonaire.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-BES-BONAIRE",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "BES",
+        "groupIndex": 0,
+        "bounds": [
+          -69,
+          11,
+          -67,
+          13
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "map_units",
+              "key": "GU_A3",
+              "value": "NLY"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-bes-sint-eustatius.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-BES-SINT-EUSTATIUS",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "BES",
+        "groupIndex": 1,
+        "bounds": [
+          -63.1,
+          17.4,
+          -62.8,
+          17.6
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "map_units",
+              "key": "GU_A3",
+              "value": "NLY"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-bes-saba.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-BES-SABA",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "BES",
+        "groupIndex": 2,
+        "bounds": [
+          -63.4,
+          17.6,
+          -63.1,
+          17.8
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "map_units",
+              "key": "GU_A3",
+              "value": "NLY"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-fra-clipperton-island.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-FRA-CLIPPERTON-ISLAND",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "FRA",
+        "groupIndex": 1,
+        "bounds": [
+          -110,
+          10,
+          -108,
+          11
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "map_units",
+              "key": "GU_A3",
+              "value": "FXX"
+            },
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "CLP"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-hmd-heard-island.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-HMD-HEARD-ISLAND",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "HMD",
+        "groupIndex": 0,
+        "bounds": [
+          73,
+          -54,
+          74,
+          -52
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "HMD"
+            },
+            {
+              "layer": "aadc_mcdonald",
+              "key": "metadata_id",
+              "value": "McDonald_Island_Coastline_2020"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "HMD"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-hmd-mcdonald-islands.png",
+      "source": "Geoscience Australia / Australian Antarctic Data Centre, McDonald Islands coastline 2020; Natural Earth v5.1.2 context",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-HMD-MCDONALD-ISLANDS",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "HMD",
+        "groupIndex": 1,
+        "bounds": [
+          72,
+          -54,
+          73,
+          -52
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "HMD"
+            },
+            {
+              "layer": "aadc_mcdonald",
+              "key": "metadata_id",
+              "value": "McDonald_Island_Coastline_2020"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "HMD"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-pcn-pitcairn.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-PCN-PITCAIRN",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "PCN",
+        "groupIndex": 0,
+        "bounds": [
+          -130.3,
+          -25.3,
+          -129.9,
+          -24.9
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "PCN"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "PCN"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-pcn-henderson.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-PCN-HENDERSON",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "PCN",
+        "groupIndex": 1,
+        "bounds": [
+          -128.5,
+          -24.6,
+          -128.1,
+          -24.1
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "PCN"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "PCN"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-pcn-oeno.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-PCN-OENO",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "PCN",
+        "groupIndex": 2,
+        "bounds": [
+          -131,
+          -24.1,
+          -130.5,
+          -23.7
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "PCN"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "PCN"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-pcn-ducie.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-PCN-DUCIE",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "PCN",
+        "groupIndex": 3,
+        "bounds": [
+          -125,
+          -24.9,
+          -124.5,
+          -24.4
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "PCN"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "PCN"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-prt-azores.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-PRT-AZORES",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "PRT",
+        "groupIndex": 1,
+        "bounds": [
+          -32,
+          36,
+          -24,
+          41
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "map_units",
+              "key": "GU_A3",
+              "value": "PRX"
+            },
+            {
+              "layer": "map_units",
+              "key": "GU_A3",
+              "value": "PAZ"
+            },
+            {
+              "layer": "map_units",
+              "key": "GU_A3",
+              "value": "PMD"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-prt-madeira.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-PRT-MADEIRA",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "PRT",
+        "groupIndex": 2,
+        "bounds": [
+          -18,
+          29,
+          -15,
+          34
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "map_units",
+              "key": "GU_A3",
+              "value": "PRX"
+            },
+            {
+              "layer": "map_units",
+              "key": "GU_A3",
+              "value": "PAZ"
+            },
+            {
+              "layer": "map_units",
+              "key": "GU_A3",
+              "value": "PMD"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-sgs-south-georgia.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-SGS-SOUTH-GEORGIA",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "SGS",
+        "groupIndex": 0,
+        "bounds": [
+          -43,
+          -56,
+          -34,
+          -52
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "SGS"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "SGS"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-sgs-south-sandwich-islands.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-SGS-SOUTH-SANDWICH-ISLANDS",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "SGS",
+        "groupIndex": 1,
+        "bounds": [
+          -30,
+          -61,
+          -24,
+          -55
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "SGS"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "SGS"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-shn-saint-helena.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-SHN-SAINT-HELENA",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "SHN",
+        "groupIndex": 0,
+        "bounds": [
+          -7,
+          -17,
+          -4,
+          -15
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "SHN"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "SHN"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-shn-ascension.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-SHN-ASCENSION",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "SHN",
+        "groupIndex": 1,
+        "bounds": [
+          -16,
+          -9,
+          -13,
+          -7
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "SHN"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "SHN"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-shn-tristan-da-cunha-group.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-SHN-TRISTAN-DA-CUNHA-GROUP",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "SHN",
+        "groupIndex": 2,
+        "bounds": [
+          -14,
+          -42,
+          -8,
+          -35
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "SHN"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "SHN"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-sjm-svalbard.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-SJM-SVALBARD",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "SJM",
+        "groupIndex": 0,
+        "bounds": [
+          0,
+          73,
+          40,
+          82
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "map_units",
+              "key": "GU_A3",
+              "value": "NSV"
+            },
+            {
+              "layer": "map_units",
+              "key": "GU_A3",
+              "value": "NJM"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-sjm-jan-mayen.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-SJM-JAN-MAYEN",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "SJM",
+        "groupIndex": 1,
+        "bounds": [
+          -10,
+          70,
+          -6,
+          72
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "map_units",
+              "key": "GU_A3",
+              "value": "NSV"
+            },
+            {
+              "layer": "map_units",
+              "key": "GU_A3",
+              "value": "NJM"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-tkl-atafu.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-TKL-ATAFU",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "TKL",
+        "groupIndex": 0,
+        "bounds": [
+          -173,
+          -8.8,
+          -171,
+          -8
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "map_units",
+              "key": "GU_A3",
+              "value": "TKL"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_gu_a3",
+              "value": "TKL"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-tkl-nukunonu.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-TKL-NUKUNONU",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "TKL",
+        "groupIndex": 1,
+        "bounds": [
+          -173,
+          -9.25,
+          -171,
+          -8.8
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "map_units",
+              "key": "GU_A3",
+              "value": "TKL"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_gu_a3",
+              "value": "TKL"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-tkl-fakaofo.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-TKL-FAKAOFO",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "TKL",
+        "groupIndex": 2,
+        "bounds": [
+          -173,
+          -9.5,
+          -171,
+          -9.25
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "map_units",
+              "key": "GU_A3",
+              "value": "TKL"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_gu_a3",
+              "value": "TKL"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-umi-johnston-atoll.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-UMI-JOHNSTON-ATOLL",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "UMI",
+        "groupIndex": 0,
+        "bounds": [
+          -169.699509,
+          16.571015000000003,
+          -169.362766,
+          16.912599999999998
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "UMI"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "UMI"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-umi-jarvis-island.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-UMI-JARVIS-ISLAND",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "UMI",
+        "groupIndex": 1,
+        "bounds": [
+          -160.179978,
+          -0.538767,
+          -159.858901,
+          -0.22249100000000002
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "UMI"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "UMI"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-umi-baker-island.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-UMI-BAKER-ISLAND",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "UMI",
+        "groupIndex": 2,
+        "bounds": [
+          -176.635829,
+          0.04033400000000001,
+          -176.309177,
+          0.37589799999999995
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "UMI"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "UMI"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-umi-howland-island.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-UMI-HOWLAND-ISLAND",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "UMI",
+        "groupIndex": 3,
+        "bounds": [
+          -176.790492,
+          0.640188,
+          -176.486098,
+          0.956952
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "UMI"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "UMI"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-umi-wake-atoll.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-UMI-WAKE-ATOLL",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "UMI",
+        "groupIndex": 4,
+        "bounds": [
+          166.469395,
+          19.125580000000003,
+          166.802354,
+          19.455731999999998
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "UMI"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "UMI"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-umi-midway-islands.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-UMI-MIDWAY-ISLANDS",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "UMI",
+        "groupIndex": 5,
+        "bounds": [
+          -177.53959700000001,
+          28.047659000000003,
+          -177.171156,
+          28.365318
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "UMI"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "UMI"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-umi-navassa-island.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-UMI-NAVASSA-ISLAND",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "UMI",
+        "groupIndex": 6,
+        "bounds": [
+          -75.18083200000001,
+          18.245006,
+          -74.852634,
+          18.567262999999997
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "UMI"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "UMI"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-umi-palmyra-atoll.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-UMI-PALMYRA-ATOLL",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "UMI",
+        "groupIndex": 7,
+        "bounds": [
+          -162.253627,
+          5.719371,
+          -161.90760699999998,
+          6.0402450000000005
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "UMI"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "UMI"
+            }
+          ],
+          "exclude": []
+        }
+      }
+    },
+    {
+      "file": "rv-map-maps-umi-kingman-reef.png",
+      "source": "Natural Earth v5.1.2",
+      "license": "CC-BY-4.0",
+      "creator": "Simon Pinkas",
+      "placeCode": "MAPS-UMI-KINGMAN-REEF",
+      "codeNamespace": "rectoverso-maps-regions-v1",
+      "pictureFocus": "parent-context-with-regional-detail",
+      "geometry": {
+        "parentCode": "UMI",
+        "groupIndex": 8,
+        "bounds": [
+          -162.55017700000002,
+          6.280243,
+          -162.235284,
+          6.595136
+        ],
+        "sourceSelection": {
+          "include": [
+            {
+              "layer": "countries",
+              "key": "ADM0_A3",
+              "value": "UMI"
+            },
+            {
+              "layer": "minor_islands",
+              "key": "sr_adm0_a3",
+              "value": "UMI"
+            }
+          ],
+          "exclude": []
+        }
+      }
     }
   ],
   "repository": "https://github.com/rectoversohq/rectoverso-maps",
-  "releaseTag": "v0.2.0-rc.2",
+  "releaseTag": "v0.3.0-rc.1",
   "sourceFiles": {
     "pictures": "source/media",
     "originals": "artwork/svg",
@@ -5087,24 +6434,29 @@
     "supplement": "source/geography/supplements/provenance.json",
     "policy": "source/geography/policy.json",
     "isoReference": "source/geography/iso-3166-1-reference.json",
-    "style": "source/style.css"
+    "style": "source/style.css",
+    "regionalQuestions": "source/geography/regional-questions.json"
   },
   "coverage": {
     "file": "source/geography/coverage.json",
     "referenceCount": 249,
     "authoritativeRegistryVerified": true,
     "boundaryConvention": "UN-territorial-with-neutral-undetermined-areas",
-    "formalNames": "ISO OBP English/French short names, directly verified; see source/coverage.json for the dated reference and annotations"
+    "formalNames": "ISO OBP EN/FR short names for the 249 ISO records only; see source/geography/coverage.json and the frozen reference.",
+    "totalCount": 288,
+    "supplementaryCount": 39,
+    "supplementaryNamespace": "rectoverso-maps-regions-v1",
+    "isoScope": "Only the 249 ISO entries carry verified ISO codes/formal names; 39 additional questions are named geographic groups, not additional ISO entities."
   },
   "schemaVersion": 2,
   "languages": {
     "en": {
       "id": "rectoverso-maps-en",
       "package": {
-        "file": "Maps-en-249.apkg",
-        "bytes": 69301911,
-        "sha256": "f550c1fd895f8bb9e0f8b476cfcf3c9aafb2f43fb50cb93f409776c5f4b201b0",
-        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.2.0-rc.2/Maps-en-249.apkg"
+        "file": "Maps-en-288.apkg",
+        "bytes": 82231138,
+        "sha256": "c43878dd1303c64cc1e6a3ea2d3fb11fe84055a3b2526bbdefea4c461e372ccb",
+        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.3.0-rc.1/Maps-en-288.apkg"
       },
       "sourceFiles": {
         "deck": "source/languages/en/deck.json",
@@ -5115,15 +6467,34 @@
     "fr": {
       "id": "rectoverso-maps-fr",
       "package": {
-        "file": "Cartes-fr-249.apkg",
-        "bytes": 69302093,
-        "sha256": "8e81dbb0040b69488c19fc7e92968d0366344f456e87b22d465b454edd7391fe",
-        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.2.0-rc.2/Cartes-fr-249.apkg"
+        "file": "Cartes-fr-288.apkg",
+        "bytes": 82232243,
+        "sha256": "203387ec451a72130be08466857568c6bdac9067e2ce0e631d59d3cf386bcf68",
+        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.3.0-rc.1/Cartes-fr-288.apkg"
       },
       "sourceFiles": {
         "deck": "source/languages/fr/deck.json",
         "noteType": "source/languages/fr/note-type.json",
         "translation": "source/languages/fr/translation.json"
+      }
+    }
+  },
+  "upgradeBaseline": {
+    "version": "0.2.0-rc.2",
+    "cards": 249,
+    "sourceCommit": "17c5531cfb27f742beaf5cf702e54a83d584cac0",
+    "languages": {
+      "en": {
+        "file": "Maps-en-249.apkg",
+        "bytes": 69301911,
+        "sha256": "f550c1fd895f8bb9e0f8b476cfcf3c9aafb2f43fb50cb93f409776c5f4b201b0",
+        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.2.0-rc.2/Maps-en-249.apkg"
+      },
+      "fr": {
+        "file": "Cartes-fr-249.apkg",
+        "bytes": 69302093,
+        "sha256": "8e81dbb0040b69488c19fc7e92968d0366344f456e87b22d465b454edd7391fe",
+        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.2.0-rc.2/Cartes-fr-249.apkg"
       }
     }
   }

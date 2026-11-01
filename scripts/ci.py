@@ -39,7 +39,9 @@ def main():
         for name, path in [('verify-coverage', 'scripts/checks/verify-coverage.py'),
                            ('test-source', 'tests/test-source.py'),
                            ('test-render-pngs', 'tests/test-render-pngs.py'),
-                           ('test-identities', 'tests/test-identities.py')]:
+                           ('test-identities', 'tests/test-identities.py'),
+                           ('test-regions', 'tests/test-regions.py'),
+                           ('test-upgrade-baseline', 'tests/test-upgrade-baseline.py')]:
             run(name, sys.executable, '-B', str(ROOT / path))
         if args.base:
             run('base-identities', sys.executable, '-B', str(ROOT / 'scripts/checks/check-identities.py'),
@@ -52,6 +54,13 @@ def main():
             run('rebuild-' + language, sys.executable, str(ROOT / 'scripts/checks/validate-rebuild.py'),
                 str(out / 'packages' / filename), str(out / 'rebuilt' / filename),
                 str(out / ('rebuild-' + language + '.json')))
+        if meta.get('upgradeBaseline'):
+            run('upgrade-baseline', sys.executable, str(ROOT / 'scripts/checks/fetch-upgrade-baseline.py'), str(out / 'upgrade-baseline'))
+            for language, artifact in meta['languages'].items():
+                old = meta['upgradeBaseline']['languages'][language]['file']
+                run('release-upgrade-' + language, sys.executable, str(ROOT / 'scripts/checks/validate-upgrade.py'),
+                    str(out / 'upgrade-baseline' / old), str(out / 'packages' / artifact['package']['file']),
+                    str(out / ('release-upgrade-' + language + '.json')))
         report['passed'] = True
     finally:
         (out / 'ci.json').write_text(json.dumps(report, indent=2) + '\n')

@@ -1,6 +1,6 @@
 # Cartes / Maps
 
-**Reconnaître un lieu. Apprendre son nom.** 249 pays et territoires, en français ou en anglais, pour Anki.
+**Reconnaître un lieu. Apprendre son nom.** 288 questions géographiques : pays, territoires et régions nommées, en français ou en anglais, pour Anki.
 
 [English](README.md) · [Construire les jeux](#construire-pour-anki) · [Sources et limites](docs/sources.fr.md) · [CC BY 4.0](LICENSE)
 
@@ -12,14 +12,14 @@
 
 | Langue | Jeu dans Anki | Cartes | Fichier produit |
 | --- | --- | ---: | --- |
-| English | Maps | 249 | `Maps-en-249.apkg` |
-| Français | Cartes | 249 | `Cartes-fr-249.apkg` |
+| English | Maps | 288 | `Maps-en-288.apkg` |
+| Français | Cartes | 288 | `Cartes-fr-288.apkg` |
 
 Choisissez une langue ou installez les deux. Les paquets partagent leurs images et leur géométrie, mais leurs identités de notes sont distinctes : les révisions restent indépendantes. Chaque paquet contient toutes ses images ; aucun compte ni application RectoVerso n’est nécessaire pour étudier dans Anki.
 
-La sélection suit les 249 codes de pays et territoires officiellement attribués par l’ISO 3166-1 dans la référence conservée. Elle comprend des territoires inhabités : **ce n’est pas une liste de 249 États souverains**. Les noms usuels sont distincts des noms formels de l’ISO. [Lire la convention de couverture et de limites](docs/sources.fr.md), notamment le traitement neutre du Cachemire et d’Abyei.
+Ce jeu conserve les **249 identités de cartes de pays et territoires ISO** et ajoute **39 questions sur des régions nommées**, soit **288 cartes par langue**. La France et le Portugal présentent désormais leur partie métropolitaine ou continentale, les régions éloignées ayant leurs propres questions. Les autres entrées ISO composites gardent leur vue d’ensemble et reçoivent des questions régionales. **Il ne s’agit pas de 288 pays.** Les régions supplémentaires ont des codes propres au jeu, sans se faire passer pour des codes ISO. Les noms usuels sont distincts des noms formels de l’ISO. [Lire la convention de couverture et de limites](docs/sources.fr.md), notamment le traitement neutre du Cachemire et d’Abyei.
 
-**État de la version :** [0.2.0-rc.2 est disponible en préversion](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.2.0-rc.2), avec un paquet Anki en français et un en anglais. Téléchargez le `.apkg` de votre langue ou construisez-le à partir des sources ci-dessous. Les notes de version donnent les empreintes exactes et les contrôles réalisés. Les étiquettes publiées sont immuables ; cette mise à jour du README ne change aucun contenu du jeu.
+**Télécharger [0.3.0-rc.1 — 288 cartes](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.3.0-rc.1) :** [Français · Cartes](https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.3.0-rc.1/Cartes-fr-288.apkg) · [English · Maps](https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.3.0-rc.1/Maps-en-288.apkg). Il s’agit d’une préversion. Importez le `.apkg` dans Anki ou construisez les mêmes sources ci-dessous. Les notes de version donnent les empreintes exactes et les contrôles réalisés. La mise à jour depuis [0.2.0-rc.2 (249 cartes)](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.2.0-rc.2) conserve les identités et les progrès ; 39 nouvelles questions sont ajoutées. Les étiquettes et fichiers publiés restent immuables.
 
 ## Construire pour Anki
 
@@ -35,6 +35,8 @@ cd rectoverso-maps
 python3.14 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 ```
+
+Pour construire les sources exactes de la release, exécutez `git switch --detach v0.3.0-rc.1` après le clonage. Pour le développement courant, restez sur `main`. Consultez `rectoverso.json` pour connaître la version et le nombre de cartes de la révision construite.
 
 Construisez les deux langues dans un **nouveau dossier hors du dépôt**. Les SVG originaux occupent une place importante ; prévoyez de l’espace pour les sources, les paquets et les fichiers temporaires. Remplacez le chemin d’exemple par un chemin sur votre disque de données :
 
