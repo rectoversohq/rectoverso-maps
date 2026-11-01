@@ -916,7 +916,7 @@
     "islands": "Caribbean islands and Clipperton are grouped with North America; Madeira and the Canary Islands with Africa; Azores with Europe; Polynesia/Micronesia/Melanesia with Oceania. Named Antarctica assignments remain subject to the separate taxonomy note.",
     "scope": "FRA and PRT use their approved core geography. ATF spans tropical African islands and subantarctic groups; UMI spans Navassa in the Caribbean and Pacific groups. Neither inherits the continent of its administering country.",
     "transcontinental": "Russia, Turkey, Kazakhstan, Georgia and Azerbaijan cross the documented Europe/Asia divide. Egypt includes Sinai; Indonesia includes western New Guinea; USA includes Hawaii; Chile includes Rapa Nui; Spain includes its African geography.",
-    "subantarcticReview": "The exact four-row GeoNames versus UN M49 discovery-classification choice is recorded under taxonomyReview, with a recommendation and named ATF components. No continent is inferred from Antarctic-program management.",
+    "subantarcticReview": "The owner approved the named Antarctic-island discovery convention on 2 November 2026; the decision and UN M49 comparison remain under taxonomyReview. ATF’s Scattered Islands remain African. No continent is inferred from Antarctic-program management.",
     "renderedAudit": "COL contains San Andrés/Providencia polygons at roughly 12–13°N,81°W; VEN contains Isla de Aves at roughly15.70°N,63.64°W, so both are SA+NA. FRA/PRT core questions remain EU; regional Madeira remains AF and Clipperton NA."
   },
   "references": [
@@ -958,8 +958,7 @@
     }
   ],
   "taxonomyReview": {
-    "status": "owner-review",
-    "recommendation": "Retain the explicitly named GeoNames Antarctic discovery grouping, with African Scattered Islands independently retained in ATF; do not generalize from agency administration.",
+    "status": "owner-approved",
     "references": {
       "geonames": "https://download.geonames.org/export/dump/countryInfo.txt",
       "unM49": "https://unstats.un.org/unsd/methodology/m49/"
@@ -1025,6 +1024,8 @@
         "South Sandwich Islands"
       ]
     },
-    "meaning": "These are competing discovery classifications, not claims that all named islands lie on the Antarctic continental landmass. Antarctic-program management never changes a place’s membership by itself."
+    "meaning": "These are competing discovery classifications, not claims that all named islands lie on the Antarctic continental landmass. Antarctic-program management never changes a place’s membership by itself.",
+    "approvedOn": "2026-11-02",
+    "decision": "Retain the explicitly named GeoNames Antarctic discovery grouping, with African Scattered Islands independently retained in ATF; do not generalize from agency administration."
   }
 }

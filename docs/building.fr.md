@@ -2,7 +2,7 @@
 
 [Retour à Cartes / Maps](../README.fr.md) · [English](building.md)
 
-Pour le candidat 0.4 non publié, lire [la migration des champs continent](continent-search.fr.md). La CI utilise désormais 0.3.0-rc.1 (288 cartes), indique Toujours explicitement et conserve le contrôle du défaut non pris en charge. Les exemples historiques de 249 cartes ci-dessous concernent la release régionale précédente.
+Pour le candidat 0.4 non publié, lire [la migration des champs continent](continent-search.fr.md). La CI utilise désormais 0.3.0-rc.1 (288 cartes), indique Toujours comme contrôle diagnostique uniquement, non accepté pour publier, et conserve le contrôle du défaut non pris en charge. Les exemples historiques de 249 cartes ci-dessous concernent la release régionale précédente.
 
 ## Empaqueter les cartes existantes
 

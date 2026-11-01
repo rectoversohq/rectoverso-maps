@@ -70,7 +70,7 @@ def main():
                                           'modelModified': value[guid]['modelModified'],
                                           'fieldCount': len(value[guid]['fields'])}
                                     for name, value in [('published', before), ('candidate', expected), ('afterDefaultImport', actual)]},
-                        'supportedMigration': 'Merge note types + Always update notes and note types',
+                        'diagnosticWorkaround': 'Merge note types + Always update notes and note types; not approved for release',
                         'diagnosticPassed': True,
                         'meaning': 'A passing diagnostic documents this result; it is not a default-upgrade compatibility pass.'}
         finally:

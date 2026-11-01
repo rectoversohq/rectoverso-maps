@@ -27,7 +27,7 @@ def main():
               'workingTreeDirty': bool(subprocess.check_output(['git', 'status', '--porcelain'], cwd=ROOT)),
               'baseline': args.base, 'steps': [], 'packageSource': 'source-build-candidate',
               'releaseReady': False,
-              'releaseGate': 'Owner acceptance of manual Always migration or a verified default-safe fix is required'}
+              'releaseGate': 'Owner requires a safer upgrade; manual Always is diagnostic only and not accepted for release'}
 
     def run(name, *command):
         with (out / (name + '.log')).open('w') as log:

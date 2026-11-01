@@ -1,6 +1,6 @@
 # Continent search and the 0.4 source migration
 
-The owner approved this source-only addition on 1–2 November 2026, tracked in [Maps #6](https://github.com/rectoversohq/rectoverso-maps/issues/6). This batch is an unpublished review candidate. **Release review is blocked until the owner accepts the manual Always migration, or a default-safe fix is verified.** Generic extra-field search belongs to a separate app feature branch.
+The owner approved this source-only addition on 1–2 November 2026, tracked in [Maps #6](https://github.com/rectoversohq/rectoverso-maps/issues/6). This batch is an unpublished review candidate. **The owner chose to hold release and seek a safer upgrade on 2 November 2026. The manual Always workaround is not accepted for publication.** Generic extra-field search belongs to a separate app feature branch.
 
 ## Content and identities
 
@@ -22,7 +22,7 @@ Multiple memberships describe the actual geography asked by a question, not its 
 
 ## Anki migration: the default does not suffice
 
-Actual **0.3.0-rc.1 → 0.4 candidate** imports in Anki 26.09.3 preserve all 288 card/note/deck identities, schedules and FSRS memory when using **Merge note types + Always update existing notes and note types**. Every new continent/search value is applied. Back up personal edits before choosing Always: it can overwrite edited note content.
+Actual **0.3.0-rc.1 → 0.4 candidate** imports in Anki 26.09.3 preserve all 288 card/note/deck identities, schedules and FSRS memory when using **Merge note types + Always update existing notes and note types**. Every new continent/search value is applied. This is diagnostic evidence only: Always can overwrite edited note content and is not the approved release migration.
 
 The ordinary **If newer** option adds the two fields but leaves their values empty. This is not caused by old incoming note dates. Anki's schema-merge step rewrites existing notes, marks them modified at import time, and only then compares the incoming notes. The original builder also left model modification dates at zero; this candidate fixes both model and note dates using the reviewed `contentModifiedAt` epoch. The corrected-date control still reproduces the schema-merge failure. No future date is forged.
 
@@ -34,7 +34,7 @@ The ordinary **If newer** option adds the two fields but leaves their values emp
 
 This produced 0 updated notes and 288 duplicates. Primary code: [Anki field-schema rewriting](https://github.com/ankitects/anki/blob/26.09.3/rslib/src/notetype/schemachange.rs) and [note-type-before-note package import](https://github.com/ankitects/anki/blob/26.09.3/rslib/src/import_export/package/apkg/import/notes.rs). The headless validator also clears Anki's Python model cache after backend import so it observes the imported schema.
 
-`validate-upgrade.py` keeps **If newer as its default**. CI explicitly requests the supported Always policy and separately records the default failure with exact timestamps and counts. A green diagnostic is not a default-upgrade compatibility pass.
+`validate-upgrade.py` keeps **If newer as its default**. CI explicitly requests Always as a diagnostic control and separately records the default failure with exact timestamps and counts. A green diagnostic is not a default-upgrade compatibility pass.
 
 ```sh
 python scripts/checks/validate-upgrade.py /old/Maps-en-288.apkg /new/Maps-en-288.apkg /evidence/upgrade.json --update-existing always
@@ -49,25 +49,53 @@ The local CI round passes source, identity and regional geometry tests, both lan
 
 The separate app search branch imported Maps/Cartes 288 successfully and verified authored metadata and bilingual continent discovery. Native app presentation remains a separate review from the backend import probe.
 
-A clean-clone run is required for the committed source. Release stays blocked on owner acceptance of the manual Anki migration or a verified default-safe fix, followed by approval of the concrete release batch.
+A clean-clone run is required for the committed source. Release stays held until a safer upgrade is verified, followed by approval of the concrete release batch. The owner rejected adopting the manual Always workaround as the release path.
 
 No tag, release, submodule pointer or public catalog was changed. No map artwork changed, and this source work makes no claim about live-globe rendering.
 
 ## Additional depicted-region audit
 
-Colombia and Venezuela metadata now include North America as well as South America: the unchanged approved outlines actually contain San Andrés/Providencia and Isla de Aves. France/Portugal core questions remain Europe. No artwork, geometry or identity changed. The existing named BVT/HMD/SGS/southern-ATF Antarctic search grouping is provisional pending geographic-taxonomy review; it is not inferred from Antarctic-program management and is not expanded to Australia, New Zealand, South Africa or Saint Helena.
+Colombia and Venezuela metadata now include North America as well as South America: the unchanged approved outlines actually contain San Andrés/Providencia and Isla de Aves. France/Portugal core questions remain Europe. No artwork, geometry or identity changed. The owner approved the named BVT/HMD/SGS/southern-ATF Antarctic search grouping on 2 November 2026; it is not inferred from Antarctic-program management and is not expanded to Australia, New Zealand, South Africa or Saint Helena.
 
-## Four-row taxonomy review
+## Approved Antarctic-island convention
 
 This is a named discovery-classification choice, not uncertainty about where the islands are. [GeoNames’ continent register](https://download.geonames.org/export/dump/countryInfo.txt) groups the four entries below with Antarctica; [UN M49’s statistical geography](https://unstats.un.org/unsd/methodology/m49/) groups them differently.
 
-| Entry | Candidate search groups | UN M49 comparison |
+| Entry | Approved search groups | UN M49 comparison |
 |---|---|---|
 | Bouvet Island | Antarctica | South America |
 | Heard Island and McDonald Islands | Antarctica | Oceania |
 | South Georgia and South Sandwich Islands | Antarctica | South America |
 | French Southern Territories | Africa + Antarctica | Eastern Africa |
 
-Recommendation for owner review: retain the explicitly named GeoNames Antarctic group while preserving ATF’s African Scattered Islands separately. Its Kerguelen, Crozet and Amsterdam/Saint-Paul groups use AN; Glorioso, Juan de Nova, Europa, Bassas da India and Tromelin use AF. There is no automatic Antarctica membership for Australia, New Zealand, South Africa or Saint Helena merely because an Antarctic program operates on an island. This wording does not say the named islands are on the Antarctic continental landmass.
+Owner decision, 2 November 2026: retain the explicitly named GeoNames Antarctic group while preserving ATF’s African Scattered Islands separately. Its Kerguelen, Crozet and Amsterdam/Saint-Paul groups use AN; Glorioso, Juan de Nova, Europa, Bassas da India and Tromelin use AF. There is no automatic Antarctica membership for Australia, New Zealand, South Africa or Saint Helena merely because an Antarctic program operates on an island. This wording does not say the named islands are on the Antarctic continental landmass.
 
-Choosing M49 instead changes Antarctica discovery membership for these named entries and their regional Maps questions; it changes no card count, artwork or boundary. The exact source record is under `taxonomyReview` in the continent JSON. This remains an explicit owner review item before publication.
+The owner approved these existing candidate assignments, so this decision changes no package content, card count, artwork or boundary. The exact decision and source comparison remain under `taxonomyReview` in the continent JSON. This geographic classification is settled; publication gates are tracked separately.
+
+## Safer-upgrade research — 2 November 2026
+
+The owner chose **keep release held; seek a safer upgrade**. The following is a bounded backend experiment, not a release procedure or a default-import pass.
+
+The same six cases were run against both published 0.3.0-rc.1 packages and the 0.4 candidates in disposable Anki 26.09.3 collections. Every old note received a custom personal field and tag, selected answers were edited, note-type CSS was customized, and all cards received review schedules and FSRS memory before the update.
+
+| Import case | New metadata values applied, per language | Result |
+|---|---:|---|
+| Merge disabled | 0 / 288 | Notes conflict with the appended schema. |
+| Merge + If newer | 0 / 288 | New fields appear, values remain blank. |
+| Merge + Never update note types | 0 / 288 | Does not avoid schema rewrite. |
+| Merge + Always update note types, notes If newer | 0 / 288 | Also replaces personal CSS. |
+| Repeat the default merge import | 0 / 288 | A second import does not repair values. |
+| Default merge, then GUID-matched text import of **only the two new fields** | 288 / 288 | Existing answers, custom fields, tags, CSS, note/card/field identities, schedules and FSRS memory preserved. |
+
+Anki's package importer replaces notes as a unit; its [note update logic](https://github.com/ankitects/anki/blob/26.09.3/rslib/src/import_export/package/apkg/import/notes.rs) does not fill only the newly merged fields. Its [text importer](https://github.com/ankitects/anki/blob/26.09.3/rslib/src/import_export/text/import.rs), however, leaves unmapped fields alone. That explains the successful additive control without using future timestamps or changing any published identity.
+
+The text-import result is a possible foundation for an explicitly reviewed migration. It still needs a guarded design: validate stable GUIDs and field identities, require that target metadata fields are absent/empty or already match, reject personal target-field conflicts, demonstrate backup/recovery and repeatability, and verify the actual desktop import mappings. Ordinary packaged-deck import remains insufficient. No personal Anki collection was opened or modified.
+
+Reproduce the research on local packages, once per language:
+
+```sh
+python scripts/checks/probe-safer-upgrade.py /published/Maps-en-288.apkg /candidate/Maps-en-288.apkg /new/evidence/safer-upgrade-en
+python scripts/checks/probe-safer-upgrade.py /published/Cartes-fr-288.apkg /candidate/Cartes-fr-288.apkg /new/evidence/safer-upgrade-fr
+```
+
+This script creates disposable collections under the explicitly supplied output directory. It is **not a migration tool** for an existing profile. Its generated TSV is research evidence, not an approved release asset.

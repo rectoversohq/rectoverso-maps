@@ -2,7 +2,7 @@
 
 [Back to Maps / Cartes](../README.md) · [Français](building.fr.md)
 
-For the unpublished 0.4 candidate, read [the continent schema migration](continent-search.md). CI now pins published 0.3.0-rc.1 (288 cards), uses Always explicitly for supported upgrades, and records the unsupported default separately. Historical 249-card examples below describe the earlier regional release.
+For the unpublished 0.4 candidate, read [the continent schema migration](continent-search.md). CI now pins published 0.3.0-rc.1 (288 cards), uses Always only as a diagnostic control, which the owner has not accepted for release, and records the unsupported default separately. Historical 249-card examples below describe the earlier regional release.
 
 ## Package existing maps
 
