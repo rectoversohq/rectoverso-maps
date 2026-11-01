@@ -1,0 +1,936 @@
+{
+  "v": 1,
+  "convention": "Seven geographic search groups, with Oceania including Australia and Pacific islands. Multiple memberships describe the geography actually asked by a card, not the sovereign parent. This is a documented discovery convention, not an ISO or UN boundary classification.",
+  "labels": {
+    "AF": {
+      "en": "Africa",
+      "fr": "Afrique"
+    },
+    "AN": {
+      "en": "Antarctica",
+      "fr": "Antarctique"
+    },
+    "AS": {
+      "en": "Asia",
+      "fr": "Asie"
+    },
+    "EU": {
+      "en": "Europe",
+      "fr": "Europe"
+    },
+    "NA": {
+      "en": "North America",
+      "fr": "Amérique du Nord"
+    },
+    "SA": {
+      "en": "South America",
+      "fr": "Amérique du Sud"
+    },
+    "OC": {
+      "en": "Oceania",
+      "fr": "Océanie"
+    }
+  },
+  "assignments": {
+    "ABW": [
+      "NA"
+    ],
+    "AFG": [
+      "AS"
+    ],
+    "AGO": [
+      "AF"
+    ],
+    "AIA": [
+      "NA"
+    ],
+    "ALA": [
+      "EU"
+    ],
+    "ALB": [
+      "EU"
+    ],
+    "AND": [
+      "EU"
+    ],
+    "ARE": [
+      "AS"
+    ],
+    "ARG": [
+      "SA"
+    ],
+    "ARM": [
+      "AS"
+    ],
+    "ASM": [
+      "OC"
+    ],
+    "ATA": [
+      "AN"
+    ],
+    "ATF": [
+      "AF",
+      "AN"
+    ],
+    "ATG": [
+      "NA"
+    ],
+    "AUS": [
+      "OC"
+    ],
+    "AUT": [
+      "EU"
+    ],
+    "AZE": [
+      "EU",
+      "AS"
+    ],
+    "BDI": [
+      "AF"
+    ],
+    "BEL": [
+      "EU"
+    ],
+    "BEN": [
+      "AF"
+    ],
+    "BES": [
+      "NA"
+    ],
+    "BFA": [
+      "AF"
+    ],
+    "BGD": [
+      "AS"
+    ],
+    "BGR": [
+      "EU"
+    ],
+    "BHR": [
+      "AS"
+    ],
+    "BHS": [
+      "NA"
+    ],
+    "BIH": [
+      "EU"
+    ],
+    "BLM": [
+      "NA"
+    ],
+    "BLR": [
+      "EU"
+    ],
+    "BLZ": [
+      "NA"
+    ],
+    "BMU": [
+      "NA"
+    ],
+    "BOL": [
+      "SA"
+    ],
+    "BRA": [
+      "SA"
+    ],
+    "BRB": [
+      "NA"
+    ],
+    "BRN": [
+      "AS"
+    ],
+    "BTN": [
+      "AS"
+    ],
+    "BVT": [
+      "AN"
+    ],
+    "BWA": [
+      "AF"
+    ],
+    "CAF": [
+      "AF"
+    ],
+    "CAN": [
+      "NA"
+    ],
+    "CCK": [
+      "AS"
+    ],
+    "CHE": [
+      "EU"
+    ],
+    "CHL": [
+      "SA",
+      "OC"
+    ],
+    "CHN": [
+      "AS"
+    ],
+    "CIV": [
+      "AF"
+    ],
+    "CMR": [
+      "AF"
+    ],
+    "COD": [
+      "AF"
+    ],
+    "COG": [
+      "AF"
+    ],
+    "COK": [
+      "OC"
+    ],
+    "COL": [
+      "SA"
+    ],
+    "COM": [
+      "AF"
+    ],
+    "CPV": [
+      "AF"
+    ],
+    "CRI": [
+      "NA"
+    ],
+    "CUB": [
+      "NA"
+    ],
+    "CUW": [
+      "NA"
+    ],
+    "CXR": [
+      "AS"
+    ],
+    "CYM": [
+      "NA"
+    ],
+    "CYP": [
+      "AS"
+    ],
+    "CZE": [
+      "EU"
+    ],
+    "DEU": [
+      "EU"
+    ],
+    "DJI": [
+      "AF"
+    ],
+    "DMA": [
+      "NA"
+    ],
+    "DNK": [
+      "EU"
+    ],
+    "DOM": [
+      "NA"
+    ],
+    "DZA": [
+      "AF"
+    ],
+    "ECU": [
+      "SA"
+    ],
+    "EGY": [
+      "AF",
+      "AS"
+    ],
+    "ERI": [
+      "AF"
+    ],
+    "ESH": [
+      "AF"
+    ],
+    "ESP": [
+      "EU",
+      "AF"
+    ],
+    "EST": [
+      "EU"
+    ],
+    "ETH": [
+      "AF"
+    ],
+    "FIN": [
+      "EU"
+    ],
+    "FJI": [
+      "OC"
+    ],
+    "FLK": [
+      "SA"
+    ],
+    "FRA": [
+      "EU"
+    ],
+    "FRO": [
+      "EU"
+    ],
+    "FSM": [
+      "OC"
+    ],
+    "GAB": [
+      "AF"
+    ],
+    "GBR": [
+      "EU"
+    ],
+    "GEO": [
+      "EU",
+      "AS"
+    ],
+    "GGY": [
+      "EU"
+    ],
+    "GHA": [
+      "AF"
+    ],
+    "GIB": [
+      "EU"
+    ],
+    "GIN": [
+      "AF"
+    ],
+    "GLP": [
+      "NA"
+    ],
+    "GMB": [
+      "AF"
+    ],
+    "GNB": [
+      "AF"
+    ],
+    "GNQ": [
+      "AF"
+    ],
+    "GRC": [
+      "EU"
+    ],
+    "GRD": [
+      "NA"
+    ],
+    "GRL": [
+      "NA"
+    ],
+    "GTM": [
+      "NA"
+    ],
+    "GUF": [
+      "SA"
+    ],
+    "GUM": [
+      "OC"
+    ],
+    "GUY": [
+      "SA"
+    ],
+    "HKG": [
+      "AS"
+    ],
+    "HMD": [
+      "AN"
+    ],
+    "HND": [
+      "NA"
+    ],
+    "HRV": [
+      "EU"
+    ],
+    "HTI": [
+      "NA"
+    ],
+    "HUN": [
+      "EU"
+    ],
+    "IDN": [
+      "AS",
+      "OC"
+    ],
+    "IMN": [
+      "EU"
+    ],
+    "IND": [
+      "AS"
+    ],
+    "IOT": [
+      "AS"
+    ],
+    "IRL": [
+      "EU"
+    ],
+    "IRN": [
+      "AS"
+    ],
+    "IRQ": [
+      "AS"
+    ],
+    "ISL": [
+      "EU"
+    ],
+    "ISR": [
+      "AS"
+    ],
+    "ITA": [
+      "EU"
+    ],
+    "JAM": [
+      "NA"
+    ],
+    "JEY": [
+      "EU"
+    ],
+    "JOR": [
+      "AS"
+    ],
+    "JPN": [
+      "AS"
+    ],
+    "KAZ": [
+      "EU",
+      "AS"
+    ],
+    "KEN": [
+      "AF"
+    ],
+    "KGZ": [
+      "AS"
+    ],
+    "KHM": [
+      "AS"
+    ],
+    "KIR": [
+      "OC"
+    ],
+    "KNA": [
+      "NA"
+    ],
+    "KOR": [
+      "AS"
+    ],
+    "KWT": [
+      "AS"
+    ],
+    "LAO": [
+      "AS"
+    ],
+    "LBN": [
+      "AS"
+    ],
+    "LBR": [
+      "AF"
+    ],
+    "LBY": [
+      "AF"
+    ],
+    "LCA": [
+      "NA"
+    ],
+    "LIE": [
+      "EU"
+    ],
+    "LKA": [
+      "AS"
+    ],
+    "LSO": [
+      "AF"
+    ],
+    "LTU": [
+      "EU"
+    ],
+    "LUX": [
+      "EU"
+    ],
+    "LVA": [
+      "EU"
+    ],
+    "MAC": [
+      "AS"
+    ],
+    "MAF": [
+      "NA"
+    ],
+    "MAR": [
+      "AF"
+    ],
+    "MCO": [
+      "EU"
+    ],
+    "MDA": [
+      "EU"
+    ],
+    "MDG": [
+      "AF"
+    ],
+    "MDV": [
+      "AS"
+    ],
+    "MEX": [
+      "NA"
+    ],
+    "MHL": [
+      "OC"
+    ],
+    "MKD": [
+      "EU"
+    ],
+    "MLI": [
+      "AF"
+    ],
+    "MLT": [
+      "EU"
+    ],
+    "MMR": [
+      "AS"
+    ],
+    "MNE": [
+      "EU"
+    ],
+    "MNG": [
+      "AS"
+    ],
+    "MNP": [
+      "OC"
+    ],
+    "MOZ": [
+      "AF"
+    ],
+    "MRT": [
+      "AF"
+    ],
+    "MSR": [
+      "NA"
+    ],
+    "MTQ": [
+      "NA"
+    ],
+    "MUS": [
+      "AF"
+    ],
+    "MWI": [
+      "AF"
+    ],
+    "MYS": [
+      "AS"
+    ],
+    "MYT": [
+      "AF"
+    ],
+    "NAM": [
+      "AF"
+    ],
+    "NCL": [
+      "OC"
+    ],
+    "NER": [
+      "AF"
+    ],
+    "NFK": [
+      "OC"
+    ],
+    "NGA": [
+      "AF"
+    ],
+    "NIC": [
+      "NA"
+    ],
+    "NIU": [
+      "OC"
+    ],
+    "NLD": [
+      "EU"
+    ],
+    "NOR": [
+      "EU"
+    ],
+    "NPL": [
+      "AS"
+    ],
+    "NRU": [
+      "OC"
+    ],
+    "NZL": [
+      "OC"
+    ],
+    "OMN": [
+      "AS"
+    ],
+    "PAK": [
+      "AS"
+    ],
+    "PAN": [
+      "NA"
+    ],
+    "PCN": [
+      "OC"
+    ],
+    "PER": [
+      "SA"
+    ],
+    "PHL": [
+      "AS"
+    ],
+    "PLW": [
+      "OC"
+    ],
+    "PNG": [
+      "OC"
+    ],
+    "POL": [
+      "EU"
+    ],
+    "PRI": [
+      "NA"
+    ],
+    "PRK": [
+      "AS"
+    ],
+    "PRT": [
+      "EU"
+    ],
+    "PRY": [
+      "SA"
+    ],
+    "PSE": [
+      "AS"
+    ],
+    "PYF": [
+      "OC"
+    ],
+    "QAT": [
+      "AS"
+    ],
+    "REU": [
+      "AF"
+    ],
+    "ROU": [
+      "EU"
+    ],
+    "RUS": [
+      "EU",
+      "AS"
+    ],
+    "RWA": [
+      "AF"
+    ],
+    "SAU": [
+      "AS"
+    ],
+    "SDN": [
+      "AF"
+    ],
+    "SEN": [
+      "AF"
+    ],
+    "SGP": [
+      "AS"
+    ],
+    "SGS": [
+      "AN"
+    ],
+    "SHN": [
+      "AF"
+    ],
+    "SJM": [
+      "EU"
+    ],
+    "SLB": [
+      "OC"
+    ],
+    "SLE": [
+      "AF"
+    ],
+    "SLV": [
+      "NA"
+    ],
+    "SMR": [
+      "EU"
+    ],
+    "SOM": [
+      "AF"
+    ],
+    "SPM": [
+      "NA"
+    ],
+    "SRB": [
+      "EU"
+    ],
+    "SSD": [
+      "AF"
+    ],
+    "STP": [
+      "AF"
+    ],
+    "SUR": [
+      "SA"
+    ],
+    "SVK": [
+      "EU"
+    ],
+    "SVN": [
+      "EU"
+    ],
+    "SWE": [
+      "EU"
+    ],
+    "SWZ": [
+      "AF"
+    ],
+    "SXM": [
+      "NA"
+    ],
+    "SYC": [
+      "AF"
+    ],
+    "SYR": [
+      "AS"
+    ],
+    "TCA": [
+      "NA"
+    ],
+    "TCD": [
+      "AF"
+    ],
+    "TGO": [
+      "AF"
+    ],
+    "THA": [
+      "AS"
+    ],
+    "TJK": [
+      "AS"
+    ],
+    "TKL": [
+      "OC"
+    ],
+    "TKM": [
+      "AS"
+    ],
+    "TLS": [
+      "AS"
+    ],
+    "TON": [
+      "OC"
+    ],
+    "TTO": [
+      "NA"
+    ],
+    "TUN": [
+      "AF"
+    ],
+    "TUR": [
+      "EU",
+      "AS"
+    ],
+    "TUV": [
+      "OC"
+    ],
+    "TWN": [
+      "AS"
+    ],
+    "TZA": [
+      "AF"
+    ],
+    "UGA": [
+      "AF"
+    ],
+    "UKR": [
+      "EU"
+    ],
+    "UMI": [
+      "NA",
+      "OC"
+    ],
+    "URY": [
+      "SA"
+    ],
+    "USA": [
+      "NA",
+      "OC"
+    ],
+    "UZB": [
+      "AS"
+    ],
+    "VAT": [
+      "EU"
+    ],
+    "VCT": [
+      "NA"
+    ],
+    "VEN": [
+      "SA"
+    ],
+    "VGB": [
+      "NA"
+    ],
+    "VIR": [
+      "NA"
+    ],
+    "VNM": [
+      "AS"
+    ],
+    "VUT": [
+      "OC"
+    ],
+    "WLF": [
+      "OC"
+    ],
+    "WSM": [
+      "OC"
+    ],
+    "YEM": [
+      "AS"
+    ],
+    "ZAF": [
+      "AF"
+    ],
+    "ZMB": [
+      "AF"
+    ],
+    "ZWE": [
+      "AF"
+    ],
+    "MAPS-ATF-KERGUELEN-ISLANDS": [
+      "AN"
+    ],
+    "MAPS-ATF-CROZET-ISLANDS": [
+      "AN"
+    ],
+    "MAPS-ATF-AMSTERDAM-AND-SAINT-PAUL": [
+      "AN"
+    ],
+    "MAPS-ATF-GLORIOSO-ISLANDS": [
+      "AF"
+    ],
+    "MAPS-ATF-JUAN-DE-NOVA": [
+      "AF"
+    ],
+    "MAPS-ATF-EUROPA": [
+      "AF"
+    ],
+    "MAPS-ATF-BASSAS-DA-INDIA": [
+      "AF"
+    ],
+    "MAPS-ATF-TROMELIN": [
+      "AF"
+    ],
+    "MAPS-BES-BONAIRE": [
+      "NA"
+    ],
+    "MAPS-BES-SINT-EUSTATIUS": [
+      "NA"
+    ],
+    "MAPS-BES-SABA": [
+      "NA"
+    ],
+    "MAPS-FRA-CLIPPERTON-ISLAND": [
+      "NA"
+    ],
+    "MAPS-HMD-HEARD-ISLAND": [
+      "AN"
+    ],
+    "MAPS-HMD-MCDONALD-ISLANDS": [
+      "AN"
+    ],
+    "MAPS-PCN-PITCAIRN": [
+      "OC"
+    ],
+    "MAPS-PCN-HENDERSON": [
+      "OC"
+    ],
+    "MAPS-PCN-OENO": [
+      "OC"
+    ],
+    "MAPS-PCN-DUCIE": [
+      "OC"
+    ],
+    "MAPS-PRT-AZORES": [
+      "EU"
+    ],
+    "MAPS-PRT-MADEIRA": [
+      "AF"
+    ],
+    "MAPS-SGS-SOUTH-GEORGIA": [
+      "AN"
+    ],
+    "MAPS-SGS-SOUTH-SANDWICH-ISLANDS": [
+      "AN"
+    ],
+    "MAPS-SHN-SAINT-HELENA": [
+      "AF"
+    ],
+    "MAPS-SHN-ASCENSION": [
+      "AF"
+    ],
+    "MAPS-SHN-TRISTAN-DA-CUNHA-GROUP": [
+      "AF"
+    ],
+    "MAPS-SJM-SVALBARD": [
+      "EU"
+    ],
+    "MAPS-SJM-JAN-MAYEN": [
+      "EU"
+    ],
+    "MAPS-TKL-ATAFU": [
+      "OC"
+    ],
+    "MAPS-TKL-NUKUNONU": [
+      "OC"
+    ],
+    "MAPS-TKL-FAKAOFO": [
+      "OC"
+    ],
+    "MAPS-UMI-JOHNSTON-ATOLL": [
+      "OC"
+    ],
+    "MAPS-UMI-JARVIS-ISLAND": [
+      "OC"
+    ],
+    "MAPS-UMI-BAKER-ISLAND": [
+      "OC"
+    ],
+    "MAPS-UMI-HOWLAND-ISLAND": [
+      "OC"
+    ],
+    "MAPS-UMI-WAKE-ATOLL": [
+      "OC"
+    ],
+    "MAPS-UMI-MIDWAY-ISLANDS": [
+      "OC"
+    ],
+    "MAPS-UMI-NAVASSA-ISLAND": [
+      "NA"
+    ],
+    "MAPS-UMI-PALMYRA-ATOLL": [
+      "OC"
+    ],
+    "MAPS-UMI-KINGMAN-REEF": [
+      "OC"
+    ]
+  },
+  "notes": {
+    "continentalBoundaries": "Europe/Asia: Urals, Ural River, Caspian Sea, Greater Caucasus watershed, Black Sea and Turkish straits. Africa/Asia: Suez. North/South America: Panama/Colombia boundary. Asia/Oceania: New Guinea belongs to Oceania; the rest of Indonesia is grouped with Asia.",
+    "islands": "Caribbean islands and Clipperton are grouped with North America; Madeira and the Canary Islands with Africa; Azores with Europe; Pacific island groups with Oceania. Subantarctic islands are grouped with Antarctica for discovery; this does not put them inside the Antarctic Treaty area.",
+    "scope": "FRA and PRT use their approved core geography. ATF spans tropical African islands and subantarctic groups; UMI spans Navassa in the Caribbean and Pacific groups. Neither inherits the continent of its administering country.",
+    "transcontinental": "Russia, Turkey, Kazakhstan, Georgia and Azerbaijan cross the documented Europe/Asia divide. Egypt includes Sinai; Indonesia includes western New Guinea; USA includes Hawaii; Chile includes Rapa Nui; Spain includes its African geography."
+  },
+  "references": [
+    {
+      "url": "https://www.nationalgeographic.org/national-geographic-map-policy",
+      "use": "Europe/Asia boundary; our search retains both memberships rather than the source single-country classification."
+    },
+    {
+      "url": "https://unstats.un.org/unsd/methodology/m49/",
+      "use": "Regional vocabulary and island context; not a claim to implement its single-region statistical assignment."
+    },
+    {
+      "url": "https://institut-polaire.fr/fr/iles-subantarctiques/iles-subantarctiques/",
+      "use": "Crozet, Kerguelen and Amsterdam/Saint-Paul subantarctic grouping."
+    },
+    {
+      "url": "https://www.antarctica.gov.au/about-antarctica/australia-in-antarctica/the-territory-of-heard-island-and-mcdonald-islands/",
+      "use": "Heard/McDonald location; subantarctic is not Australia by administration."
+    }
+  ]
+}

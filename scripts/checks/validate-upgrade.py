@@ -11,13 +11,20 @@ import tempfile
 
 from anki.collection import Collection
 from anki.cards_pb2 import FsrsMemoryState
-from anki.import_export_pb2 import ImportAnkiPackageOptions, ImportAnkiPackageRequest
+from anki.import_export_pb2 import ImportAnkiPackageOptions, ImportAnkiPackageRequest, ImportAnkiPackageUpdateCondition
+
+
+UPDATE_MODE = ImportAnkiPackageUpdateCondition.IMPORT_ANKI_PACKAGE_UPDATE_CONDITION_IF_NEWER
 
 
 def import_package(collection, package):
-    options = ImportAnkiPackageOptions(with_scheduling=True, merge_notetypes=True)
+    options = ImportAnkiPackageOptions(with_scheduling=True, merge_notetypes=True,
+                                       update_notes=UPDATE_MODE, update_notetypes=UPDATE_MODE)
     collection.import_anki_package(ImportAnkiPackageRequest(
         package_path=str(package.resolve()), options=options))
+    # The headless backend import bypasses Anki desktop's operation/cache refresh.
+    # Read the imported schema, not a pre-import Python cache of that note type.
+    collection.models._clear_cache()
 
 
 def schedule(card):
@@ -58,7 +65,13 @@ def main():
     parser.add_argument('original', type=Path)
     parser.add_argument('updated', type=Path)
     parser.add_argument('output', type=Path)
+    parser.add_argument('--update-existing', choices=('if-newer', 'always'), default='if-newer',
+                        help='Anki update policy. Schema-append migration requires explicit always.')
     args = parser.parse_args()
+    global UPDATE_MODE
+    UPDATE_MODE = (ImportAnkiPackageUpdateCondition.IMPORT_ANKI_PACKAGE_UPDATE_CONDITION_ALWAYS
+                   if args.update_existing == 'always' else
+                   ImportAnkiPackageUpdateCondition.IMPORT_ANKI_PACKAGE_UPDATE_CONDITION_IF_NEWER)
     expected = json.loads(args.updated.with_suffix('.rectoverso.json').read_text())['cards']
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix='upgrade-', dir=args.output.parent) as temporary:
@@ -102,7 +115,7 @@ def main():
                 raise ValueError('Upgrade did not apply the target notes, image bytes or rendering schema')
             for mid, old_schema in old_schemas.items():
                 new_schema = actual_contents[1][mid]
-                if [f[1] for f in new_schema['fields']] != [f[1] for f in old_schema['fields']]:
+                if [f[1] for f in new_schema['fields'][:len(old_schema['fields'])]] != [f[1] for f in old_schema['fields']]:
                     raise ValueError('Upgrade changed field identities')
                 if [t[0] for t in new_schema['templates']] != [t[0] for t in old_schema['templates']]:
                     raise ValueError('Upgrade changed template identities')
@@ -113,6 +126,7 @@ def main():
                     raise ValueError('Empty upgraded render')
             result = {'original': args.original.name, 'updated': args.updated.name,
                       'before': len(before), 'after': expected, 'added': expected - len(before),
+                      'mergeNoteTypes': True, 'updateExisting': args.update_existing,
                       'everyOldCardIDAndSchedulePreserved': True, 'FSRSMemoryPreserved': True,
                       'fieldAndTemplateIDsPreserved': True, 'targetContentAndMediaApplied': True,
                       'allSidesRender': True, 'missingMedia': 0}

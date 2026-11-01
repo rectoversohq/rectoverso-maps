@@ -1,6 +1,6 @@
 {
   "id": "rectoverso-maps",
-  "version": "0.3.0-rc.1",
+  "version": "0.4.0-rc.1",
   "status": "review-candidate",
   "title": {
     "en": "Maps",
@@ -6422,7 +6422,7 @@
     }
   ],
   "repository": "https://github.com/rectoversohq/rectoverso-maps",
-  "releaseTag": "v0.3.0-rc.1",
+  "releaseTag": "v0.4.0-rc.1",
   "sourceFiles": {
     "pictures": "source/media",
     "originals": "artwork/svg",
@@ -6435,7 +6435,8 @@
     "policy": "source/geography/policy.json",
     "isoReference": "source/geography/iso-3166-1-reference.json",
     "style": "source/style.css",
-    "regionalQuestions": "source/geography/regional-questions.json"
+    "regionalQuestions": "source/geography/regional-questions.json",
+    "continents": "source/geography/continents.json"
   },
   "coverage": {
     "file": "source/geography/coverage.json",
@@ -6454,9 +6455,9 @@
       "id": "rectoverso-maps-en",
       "package": {
         "file": "Maps-en-288.apkg",
-        "bytes": 82231138,
-        "sha256": "c43878dd1303c64cc1e6a3ea2d3fb11fe84055a3b2526bbdefea4c461e372ccb",
-        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.3.0-rc.1/Maps-en-288.apkg"
+        "bytes": 82244961,
+        "sha256": "8402bc07476a61335bc5aebd1d71a9ac89874afd93e476b875fbc7eaa635a6a5",
+        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.4.0-rc.1/Maps-en-288.apkg"
       },
       "sourceFiles": {
         "deck": "source/languages/en/deck.json",
@@ -6468,9 +6469,9 @@
       "id": "rectoverso-maps-fr",
       "package": {
         "file": "Cartes-fr-288.apkg",
-        "bytes": 82232243,
-        "sha256": "203387ec451a72130be08466857568c6bdac9067e2ce0e631d59d3cf386bcf68",
-        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.3.0-rc.1/Cartes-fr-288.apkg"
+        "bytes": 82244933,
+        "sha256": "168555af0a077090abcd4c57a3c06365af07e705b1c74a3a5b094e02a435952c",
+        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.4.0-rc.1/Cartes-fr-288.apkg"
       },
       "sourceFiles": {
         "deck": "source/languages/fr/deck.json",
@@ -6480,22 +6481,23 @@
     }
   },
   "upgradeBaseline": {
-    "version": "0.2.0-rc.2",
-    "cards": 249,
-    "sourceCommit": "17c5531cfb27f742beaf5cf702e54a83d584cac0",
+    "version": "0.3.0-rc.1",
+    "cards": 288,
+    "sourceCommit": "54271c0cbfb6d36b14cfd969b484e0af2febdd75",
     "languages": {
       "en": {
-        "file": "Maps-en-249.apkg",
-        "bytes": 69301911,
-        "sha256": "f550c1fd895f8bb9e0f8b476cfcf3c9aafb2f43fb50cb93f409776c5f4b201b0",
-        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.2.0-rc.2/Maps-en-249.apkg"
+        "file": "Maps-en-288.apkg",
+        "bytes": 82231138,
+        "sha256": "c43878dd1303c64cc1e6a3ea2d3fb11fe84055a3b2526bbdefea4c461e372ccb",
+        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.3.0-rc.1/Maps-en-288.apkg"
       },
       "fr": {
-        "file": "Cartes-fr-249.apkg",
-        "bytes": 69302093,
-        "sha256": "8e81dbb0040b69488c19fc7e92968d0366344f456e87b22d465b454edd7391fe",
-        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.2.0-rc.2/Cartes-fr-249.apkg"
+        "file": "Cartes-fr-288.apkg",
+        "bytes": 82232243,
+        "sha256": "203387ec451a72130be08466857568c6bdac9067e2ce0e631d59d3cf386bcf68",
+        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.3.0-rc.1/Cartes-fr-288.apkg"
       }
     }
-  }
+  },
+  "contentModifiedAt": "2026-11-01T22:55:00Z"
 }

@@ -3,7 +3,9 @@
     "answer": "Pays ou territoire",
     "picture": "Carte",
     "place": "RectoVerso place",
-    "boundary": "Note sur les limites"
+    "boundary": "Note sur les limites",
+    "continent": "Continent",
+    "search": "RectoVerso search"
   },
   "pictureAlt": "Un lieu mis en évidence en doré.",
   "tags": [

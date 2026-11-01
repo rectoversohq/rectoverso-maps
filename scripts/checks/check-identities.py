@@ -32,9 +32,15 @@ def compare(before, after):
         if language not in after['languages']:
             raise ValueError(f'{language}: existing language removed')
         new = after['languages'][language]
-        for field in ('artifact', 'deck', 'model', 'fields', 'templates'):
+        for field in ('artifact', 'deck', 'model', 'templates'):
             if old[field] != new[field]:
                 raise ValueError(f'{language}: {field} identities changed; needs an explicit migration')
+        # Append-only fields are the reviewed v0.4 metadata migration. Existing field
+        # identities and order remain exact; reorder/replacement/deletion still fail.
+        old_fields, new_fields = old['fields'], new['fields']
+        if (not isinstance(new_fields, list) or new_fields[:len(old_fields)] != old_fields
+                or len(set(new_fields)) != len(new_fields)):
+            raise ValueError(f'{language}: fields identities changed; needs an explicit migration')
         for code, guid in old['guids'].items():
             if new['guids'].get(code) != guid:
                 raise ValueError(f'{language}/{code}: existing note removed or GUID changed')

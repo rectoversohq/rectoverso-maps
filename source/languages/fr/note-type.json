@@ -5,7 +5,9 @@
     "Pays ou territoire",
     "Carte",
     "RectoVerso place",
-    "Note sur les limites"
+    "Note sur les limites",
+    "Continent",
+    "RectoVerso search"
   ],
   "templates": [
     {
@@ -19,6 +21,8 @@
     "Pays ou territoire": -138338067345376319,
     "Carte": -2411086927286484763,
     "RectoVerso place": -2065092899215387258,
-    "Note sur les limites": 1800000631102
+    "Note sur les limites": 1800000631102,
+    "Continent": -7466247575538655974,
+    "RectoVerso search": -6287309214970337230
   }
 }

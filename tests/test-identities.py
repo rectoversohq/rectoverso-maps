@@ -30,6 +30,14 @@ class UpdateIdentities(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, 'identities changed'):
                     identities.compare(self.before, self.after)
 
+    def test_append_only_fields_keep_existing_identities(self):
+        self.after['languages']['en']['fields'] += [6, 7]
+        self.assertTrue(identities.compare(self.before, self.after)['existingIdentitiesPreserved'])
+        for bad in ([4, 3, 6], [3, 6], [3, 4, 3]):
+            self.after['languages']['en']['fields'] = bad
+            with self.assertRaisesRegex(ValueError, 'fields identities changed'):
+                identities.compare(self.before, self.after)
+
     def test_language_removal_fails(self):
         self.after['languages'].clear()
         with self.assertRaisesRegex(ValueError, 'language removed'):

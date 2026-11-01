@@ -1,6 +1,6 @@
 # Maps source rules
 
-Read README.md, README.fr.md and source/geography/policy.json before editing. This repository belongs to RectoVerso's gallery work, currently tracked in rectoversohq/rectoverso-maps#4 and simonpinkas/RectoVerso#605 (prior integration #631/#633 is complete). The owner settles coverage, learner names, territorial conventions and publication decisions in chat.
+Read README.md, README.fr.md and source/geography/policy.json before editing. This repository belongs to RectoVerso's gallery work, currently tracked in rectoversohq/rectoverso-maps#6 (regional source #4 is complete) and simonpinkas/RectoVerso#605 (prior integration #631/#633 is complete). The owner settles coverage, learner names, territorial conventions and publication decisions in chat.
 
 - Keep the root for the READMEs, license/notice, agent rules, manifest and Python dependencies. Content belongs in source/, map-specific references in source/geography/, vector originals in artwork/svg/, tools in scripts/, map tooling and its Node dependencies in scripts/maps/, validators in scripts/checks/, regression tests in tests/, and guides in docs/. Build outputs and caches stay outside Git.
 - Maintain one multilingual repository: shared geometry, media, roster and builders, with English/French definitions under source/languages. Produce separate Anki packages; preserve every published note GUID and deck/model/field/template identity.
@@ -10,3 +10,5 @@ Read README.md, README.fr.md and source/geography/policy.json before editing. Th
 - Before a change is committed, run scripts/checks/verify-coverage.py, tests/test-source.py and tests/test-render-pngs.py. Builder changes also require a fresh-clone build, Anki validation and scripts/checks/validate-rebuild.py against the previous candidate. Changed geometry requires full scripts/maps/regenerate.sh comparison and visual review.
 - Keep English/French documentation current and record implementation, evidence and remaining gates in the app PR and its agents/gallery-handoff.md. Never claim local results certify remote releases or the app's live globe.
 - Commit only named files on the task branch. No force pushes, history rewrites, source publication, tags, releases or merges without the owner's explicit go for the reviewed batch. Deck-source CI and the app compatibility workflow remain separate responsibilities.
+
+- Before changing schema or update checks, read docs/continent-search.md. Preserve the separate If-newer failure diagnostic and explicit Always-update success check. A reviewed source epoch sets model/note modification dates; it must be in the past. The default Anki migration is not certified.
