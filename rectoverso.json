@@ -6455,8 +6455,8 @@
       "id": "rectoverso-maps-en",
       "package": {
         "file": "Maps-en-288.apkg",
-        "bytes": 82244961,
-        "sha256": "8402bc07476a61335bc5aebd1d71a9ac89874afd93e476b875fbc7eaa635a6a5",
+        "bytes": 82244317,
+        "sha256": "3a25b738c52991abb87dc32630b164476d6d6102e56e7573a6d0b84185bd0fab",
         "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.4.0-rc.1/Maps-en-288.apkg"
       },
       "sourceFiles": {
@@ -6469,8 +6469,8 @@
       "id": "rectoverso-maps-fr",
       "package": {
         "file": "Cartes-fr-288.apkg",
-        "bytes": 82244933,
-        "sha256": "168555af0a077090abcd4c57a3c06365af07e705b1c74a3a5b094e02a435952c",
+        "bytes": 82244955,
+        "sha256": "ef5dfcf5e6e8586e9335f248e5311860a3c0d0f2e37508dc6c6570723589e705",
         "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.4.0-rc.1/Cartes-fr-288.apkg"
       },
       "sourceFiles": {

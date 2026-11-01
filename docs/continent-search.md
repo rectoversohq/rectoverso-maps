@@ -52,3 +52,22 @@ The separate app search branch imported Maps/Cartes 288 successfully and verifie
 A clean-clone run is required for the committed source. Release stays blocked on owner acceptance of the manual Anki migration or a verified default-safe fix, followed by approval of the concrete release batch.
 
 No tag, release, submodule pointer or public catalog was changed. No map artwork changed, and this source work makes no claim about live-globe rendering.
+
+## Additional depicted-region audit
+
+Colombia and Venezuela metadata now include North America as well as South America: the unchanged approved outlines actually contain San Andrés/Providencia and Isla de Aves. France/Portugal core questions remain Europe. No artwork, geometry or identity changed. The existing named BVT/HMD/SGS/southern-ATF Antarctic search grouping is provisional pending geographic-taxonomy review; it is not inferred from Antarctic-program management and is not expanded to Australia, New Zealand, South Africa or Saint Helena.
+
+## Four-row taxonomy review
+
+This is a named discovery-classification choice, not uncertainty about where the islands are. [GeoNames’ continent register](https://download.geonames.org/export/dump/countryInfo.txt) groups the four entries below with Antarctica; [UN M49’s statistical geography](https://unstats.un.org/unsd/methodology/m49/) groups them differently.
+
+| Entry | Candidate search groups | UN M49 comparison |
+|---|---|---|
+| Bouvet Island | Antarctica | South America |
+| Heard Island and McDonald Islands | Antarctica | Oceania |
+| South Georgia and South Sandwich Islands | Antarctica | South America |
+| French Southern Territories | Africa + Antarctica | Eastern Africa |
+
+Recommendation for owner review: retain the explicitly named GeoNames Antarctic group while preserving ATF’s African Scattered Islands separately. Its Kerguelen, Crozet and Amsterdam/Saint-Paul groups use AN; Glorioso, Juan de Nova, Europa, Bassas da India and Tromelin use AF. There is no automatic Antarctica membership for Australia, New Zealand, South Africa or Saint Helena merely because an Antarctic program operates on an island. This wording does not say the named islands are on the Antarctic continental landmass.
+
+Choosing M49 instead changes Antarctica discovery membership for these named entries and their regional Maps questions; it changes no card count, artwork or boundary. The exact source record is under `taxonomyReview` in the continent JSON. This remains an explicit owner review item before publication.

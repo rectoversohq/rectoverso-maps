@@ -183,7 +183,8 @@
       "OC"
     ],
     "COL": [
-      "SA"
+      "SA",
+      "NA"
     ],
     "COM": [
       "AF"
@@ -759,7 +760,8 @@
       "NA"
     ],
     "VEN": [
-      "SA"
+      "SA",
+      "NA"
     ],
     "VGB": [
       "NA"
@@ -911,9 +913,11 @@
   },
   "notes": {
     "continentalBoundaries": "Europe/Asia: Urals, Ural River, Caspian Sea, Greater Caucasus watershed, Black Sea and Turkish straits. Africa/Asia: Suez. North/South America: Panama/Colombia boundary. Asia/Oceania: New Guinea belongs to Oceania; the rest of Indonesia is grouped with Asia.",
-    "islands": "Caribbean islands and Clipperton are grouped with North America; Madeira and the Canary Islands with Africa; Azores with Europe; Pacific island groups with Oceania. Subantarctic islands are grouped with Antarctica for discovery; this does not put them inside the Antarctic Treaty area.",
+    "islands": "Caribbean islands and Clipperton are grouped with North America; Madeira and the Canary Islands with Africa; Azores with Europe; Polynesia/Micronesia/Melanesia with Oceania. Named Antarctica assignments remain subject to the separate taxonomy note.",
     "scope": "FRA and PRT use their approved core geography. ATF spans tropical African islands and subantarctic groups; UMI spans Navassa in the Caribbean and Pacific groups. Neither inherits the continent of its administering country.",
-    "transcontinental": "Russia, Turkey, Kazakhstan, Georgia and Azerbaijan cross the documented Europe/Asia divide. Egypt includes Sinai; Indonesia includes western New Guinea; USA includes Hawaii; Chile includes Rapa Nui; Spain includes its African geography."
+    "transcontinental": "Russia, Turkey, Kazakhstan, Georgia and Azerbaijan cross the documented Europe/Asia divide. Egypt includes Sinai; Indonesia includes western New Guinea; USA includes Hawaii; Chile includes Rapa Nui; Spain includes its African geography.",
+    "subantarcticReview": "The exact four-row GeoNames versus UN M49 discovery-classification choice is recorded under taxonomyReview, with a recommendation and named ATF components. No continent is inferred from Antarctic-program management.",
+    "renderedAudit": "COL contains San Andrés/Providencia polygons at roughly 12–13°N,81°W; VEN contains Isla de Aves at roughly15.70°N,63.64°W, so both are SA+NA. FRA/PRT core questions remain EU; regional Madeira remains AF and Clipperton NA."
   },
   "references": [
     {
@@ -931,6 +935,96 @@
     {
       "url": "https://www.antarctica.gov.au/about-antarctica/australia-in-antarctica/the-territory-of-heard-island-and-mcdonald-islands/",
       "use": "Heard/McDonald location; subantarctic is not Australia by administration."
+    },
+    {
+      "url": "https://questions.assemblee-nationale.fr/q15/15-15677QE.htm",
+      "use": "Clipperton is French territory in the North Pacific; the declared island convention places it with North America."
+    },
+    {
+      "url": "https://www.apmadeira.pt/media/74653/media-kit-2023-en-uk.pdf",
+      "use": "Official Madeira location and Portuguese membership; Africa is this deck’s geographic-island convention, not a quotation of the tourism board’s political continental label."
+    },
+    {
+      "url": "https://regions.colombia.travel/en/greater-colombian-caribbean/san-andres-y-providencia",
+      "use": "The Colombian department of San Andrés/Providencia lies in the western Caribbean, rather than the South American mainland."
+    },
+    {
+      "url": "https://www.inparques.gob.ve/Refugios/isla-aves.html",
+      "use": "Venezuela’s Isla de Aves is a remote Caribbean dependency."
+    },
+    {
+      "url": "https://download.geonames.org/export/dump/countryInfo.txt",
+      "use": "Independent gazetteer evidence for the inherited AN grouping of BVT/HMD/SGS/ATF; not a rule that Antarctic-program management changes continental membership."
     }
-  ]
+  ],
+  "taxonomyReview": {
+    "status": "owner-review",
+    "recommendation": "Retain the explicitly named GeoNames Antarctic discovery grouping, with African Scattered Islands independently retained in ATF; do not generalize from agency administration.",
+    "references": {
+      "geonames": "https://download.geonames.org/export/dump/countryInfo.txt",
+      "unM49": "https://unstats.un.org/unsd/methodology/m49/"
+    },
+    "rows": [
+      {
+        "code": "BVT",
+        "candidate": [
+          "AN"
+        ],
+        "unM49": [
+          "SA"
+        ]
+      },
+      {
+        "code": "HMD",
+        "candidate": [
+          "AN"
+        ],
+        "unM49": [
+          "OC"
+        ]
+      },
+      {
+        "code": "SGS",
+        "candidate": [
+          "AN"
+        ],
+        "unM49": [
+          "SA"
+        ]
+      },
+      {
+        "code": "ATF",
+        "candidate": [
+          "AF",
+          "AN"
+        ],
+        "unM49": [
+          "AF"
+        ]
+      }
+    ],
+    "mapsRegionalComponents": {
+      "ATF-Antarctic-group": [
+        "Kerguelen Islands",
+        "Crozet Islands",
+        "Amsterdam and Saint Paul"
+      ],
+      "ATF-African-group": [
+        "Glorioso Islands",
+        "Juan de Nova",
+        "Europa",
+        "Bassas da India",
+        "Tromelin"
+      ],
+      "HMD-Antarctic-group": [
+        "Heard Island",
+        "McDonald Islands"
+      ],
+      "SGS-Antarctic-group": [
+        "South Georgia",
+        "South Sandwich Islands"
+      ]
+    },
+    "meaning": "These are competing discovery classifications, not claims that all named islands lie on the Antarctic continental landmass. Antarctic-program management never changes a place’s membership by itself."
+  }
 }

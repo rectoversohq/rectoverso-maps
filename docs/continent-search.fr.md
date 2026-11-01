@@ -30,3 +30,7 @@ Répéter en anglais. La référence CI est la release publiée de 288 cartes, v
 La CI locale passe les tests de source, identités et régions, les constructions bilingues, la reproductibilité sémantique et la migration explicite Toujours. Le contrôle distinct conserve `defaultContentApplied: false` pour les 288 notes existantes dans chaque langue. Le premier essai a signalé l’absence de Shapely dans son environnement ; le nouvel environnement contient toutes les dépendances fixées.
 
 La branche séparée de recherche importe bien les deux paquets et leurs métadonnées de continent. Cela ne remplace pas une revue visuelle native. Une construction du commit depuis un clone propre reste requise ; la publication attend le choix du propriétaire sur la migration.
+
+## Contrôle des régions effectivement dessinées
+
+Les métadonnées de la Colombie et du Venezuela comprennent désormais les Amériques du Sud et du Nord : les contours approuvés, inchangés, comprennent bien San Andrés/Providencia et Isla de Aves. Les questions centrales France/Portugal restent européennes. Aucun dessin, contour ni identifiant n’a changé. Le choix précis entre les regroupements GeoNames et ONU M49 pour BVT/HMD/SGS/ATF est documenté dans le tableau anglais et dans `taxonomyReview`. La recommandation conserve le groupe antarctique nommé de GeoNames et les îles Éparses africaines d’ATF, sans déduire un continent de l’administration par un programme antarctique. Ce choix attend la revue du propriétaire avant publication.
