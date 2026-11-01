@@ -2,6 +2,8 @@
 
 [Back to Maps / Cartes](../README.md) · [Français](building.fr.md)
 
+For the unpublished 0.4 candidate, read [the continent schema migration](continent-search.md). CI now pins published 0.3.0-rc.1 (288 cards), uses Always only as a diagnostic control, which the owner has not accepted for release, and records the unsupported default separately. Historical 249-card examples below describe the earlier regional release.
+
 ## Package existing maps
 
 Follow the [README setup](../README.md#build-for-anki). Run commands from the repository root. `requirements.txt` pins the direct Python dependencies: Anki 26.9.3 and Shapely 2.1.2. Shapely is used for geometry regeneration; Anki packages can be built from the stored pictures without regenerating geometry.
@@ -58,7 +60,7 @@ PNG conversion gets at most three fresh processes, each with a 60-second limit. 
 
 `rectoverso.json` uses `schemaVersion: 2`. Shared title, credits, coverage, source paths, image credits and version appear once. `languages.en` and `languages.fr` hold stable artifact IDs, package filenames/hashes/URLs and paths to localized definitions. `scripts/source_data.py` expands these to the per-package sidecars, including `language` and the common `deckID`.
 
-[0.3.0-rc.1](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.3.0-rc.1) contains 288 cards per language. Its tag identifies the approved source, and its four release assets are the exact reviewed English/French packages and sidecars. `rectoverso.json` at that tag records the package bytes and hashes. Independent rebuilds can differ in archive bytes because of Anki timestamps while preserving content and identities. The previous [0.2.0-rc.2 release](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.2.0-rc.2), its tag and its 249-card assets remain intact; CI uses them as the frozen upgrade baseline. The earlier v0.2.0-rc.1 tag retains its original tool layout. Tags are not moved, packages remain outside source Git, and the original language working trees and histories remain preserved.
+[0.3.0-rc.1](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.3.0-rc.1) contains 288 cards per language. Its tag identifies the approved source, and its four release assets are the exact reviewed English/French packages and sidecars. `rectoverso.json` at that tag records the package bytes and hashes. Independent rebuilds can differ in archive bytes because of Anki timestamps while preserving content and identities. The previous [0.2.0-rc.2 release](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.2.0-rc.2), its tag and its 249-card assets remain intact; the earlier regional source used them as its frozen upgrade baseline. The earlier v0.2.0-rc.1 tag retains its original tool layout. Tags are not moved, packages remain outside source Git, and the original language working trees and histories remain preserved.
 
 Deck-source CI is responsible for source checks, Anki checks and rebuild identities. The RectoVerso app repository is responsible for its own import/export compatibility and gallery integration. Its single-submodule migration is tracked in simonpinkas/RectoVerso#633; the source workflow is implemented here, with a separate explicit compatibility workflow in the app repository. Source CI is active on GitHub. The app workflow implementation is merged into the gallery feature; hosted manual availability waits for feature #616 to reach main; source CI does not upload packages or activate Apple asset packs. Anki uses these stored images; the app's Antarctica and dispersed-island live-globe limitations are separate and remain held.
 
@@ -93,7 +95,7 @@ Version 0.3.0-rc.1 contains 288 cards per language. Metadata distinguishes 249 I
 Use the approved old release and a new candidate to check a real additive upgrade (this is separate from two-build reproducibility):
 
 ```sh
-.venv/bin/python scripts/checks/validate-upgrade.py /path/to/rc2/Maps-en-249.apkg /path/to/candidate/Maps-en-288.apkg /path/to/evidence/upgrade-en.json
+.venv/bin/python scripts/checks/validate-upgrade.py /path/to/rc2/Maps-en-249.apkg /path/to/candidate/Maps-en-288.apkg /path/to/evidence/upgrade-en.json --update-existing always
 ```
 
 Repeat for French. It imports the old package, schedules every existing card, imports the new package, and verifies all old card/note/deck identities and schedules, schema IDs, final count, media and rendering. Packages, caches and evidence stay outside Git. Full drawing regeneration and visual review remain required; source CI does not certify the live globe.

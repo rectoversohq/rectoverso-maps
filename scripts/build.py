@@ -1,5 +1,6 @@
 """Make an Anki package from this repository's tracked notes, template and media."""
 import argparse
+from datetime import datetime
 import hashlib
 import json
 from pathlib import Path
@@ -18,6 +19,7 @@ def main():
     args = parser.parse_args()
     metadata, notes, model, deck = inputs(args.language)
     source = metadata['sourceFiles']
+    epoch = int(datetime.fromisoformat(metadata['contentModifiedAt'].replace('Z', '+00:00')).timestamp())
     args.out = args.out.resolve()
     if args.out.is_relative_to(ROOT) or args.out.exists() or args.out.with_suffix('.rectoverso.json').exists():
         raise ValueError('Use a new package path outside the source repository')
@@ -38,7 +40,7 @@ def main():
                 entry = col.models.new_template(template['name'])
                 entry.update(template)
                 col.models.add_template(note_type, entry)
-            note_type.update(id=model['id'], css=model['css'])
+            note_type.update(id=model['id'], css=model['css'], mod=epoch)
             col.models.update(note_type)
             if col.models.by_name(model['name'])['id'] != model['id']:
                 raise ValueError('Anki changed the stable note-type id')
@@ -52,6 +54,8 @@ def main():
                     note[name] = value
                 note.tags = source_note['tags']
                 col.add_note(note, DeckId(deck['id']))
+            # Package content dates belong to the reviewed source revision.
+            col.db.execute('update notes set mod = ?', epoch)
             for credit in metadata['imageCredits']:
                 name = credit['file']
                 if Path(name).name != name:

@@ -25,7 +25,9 @@ def main():
     report = {'passed': False, 'commit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),
               'python': sys.version, 'platform': platform.platform(),
               'workingTreeDirty': bool(subprocess.check_output(['git', 'status', '--porcelain'], cwd=ROOT)),
-              'baseline': args.base, 'steps': [], 'packageSource': 'source-build-candidate'}
+              'baseline': args.base, 'steps': [], 'packageSource': 'source-build-candidate',
+              'releaseReady': False,
+              'releaseGate': 'Owner requires a safer upgrade; manual Always is diagnostic only and not accepted for release'}
 
     def run(name, *command):
         with (out / (name + '.log')).open('w') as log:
@@ -60,7 +62,10 @@ def main():
                 old = meta['upgradeBaseline']['languages'][language]['file']
                 run('release-upgrade-' + language, sys.executable, str(ROOT / 'scripts/checks/validate-upgrade.py'),
                     str(out / 'upgrade-baseline' / old), str(out / 'packages' / artifact['package']['file']),
-                    str(out / ('release-upgrade-' + language + '.json')))
+                    str(out / ('release-upgrade-' + language + '.json')), '--update-existing', 'always')
+                run('default-upgrade-diagnostic-' + language, sys.executable, str(ROOT / 'scripts/checks/check-default-schema-upgrade.py'),
+                    str(out / 'upgrade-baseline' / old), str(out / 'packages' / artifact['package']['file']),
+                    str(out / ('default-upgrade-diagnostic-' + language + '.json')))
         report['passed'] = True
     finally:
         (out / 'ci.json').write_text(json.dumps(report, indent=2) + '\n')

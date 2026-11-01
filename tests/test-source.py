@@ -118,6 +118,28 @@ class MultilingualSourceTests(unittest.TestCase):
             self.check()
 
 
+    def test_continent_search_is_localized_and_keeps_cross_continent_membership(self):
+        for lang in ('en', 'fr'):
+            _, notes, _, _ = source_data.inputs(lang)
+            by_guid = {n['guid']:n for n in notes}
+            russia = by_guid[f'rv-map-{lang}-rus']['fields']
+            query = json.loads(russia['RectoVerso search'])
+            self.assertEqual(query['v'], 1)
+            self.assertEqual(query['fields'][0]['values'], ['Europe', 'Asia' if lang == 'en' else 'Asie'])
+            self.assertIn('Asie', query['fields'][0]['aliases'])
+            self.assertIn('Asia', query['fields'][0]['aliases'])
+        assignments = source_data.read('source/geography/continents.json')['assignments']
+        self.assertEqual(assignments['FRA'], ['EU'])
+        self.assertEqual(assignments['MAPS-FRA-CLIPPERTON-ISLAND'], ['NA'])
+        self.assertEqual(assignments['MAPS-PRT-MADEIRA'], ['AF'])
+        self.assertEqual(assignments['MAPS-UMI-NAVASSA-ISLAND'], ['NA'])
+        self.assertEqual(assignments['MAPS-UMI-WAKE-ATOLL'], ['OC'])
+
+    def test_missing_continent_or_unknown_membership_is_rejected(self):
+        self.edit('source/geography/continents.json', lambda v: v['assignments'].pop('FRA'))
+        with self.assertRaisesRegex(ValueError, 'Continent coverage'):
+            self.check()
+
     def test_card_kind_matches_the_existing_app_mapping(self):
         self.edit('rectoverso.json', lambda value: value['cardKinds'][0].update(en='Map → Place'))
         with self.assertRaisesRegex(ValueError, 'Card kind differs'):
