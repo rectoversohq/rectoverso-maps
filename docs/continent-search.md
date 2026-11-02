@@ -99,3 +99,20 @@ python scripts/checks/probe-safer-upgrade.py /published/Cartes-fr-288.apkg /cand
 ```
 
 This script creates disposable collections under the explicitly supplied output directory. It is **not a migration tool** for an existing profile. Its generated TSV is research evidence, not an approved release asset.
+
+## Conflict and recovery controls
+
+A second, bounded experiment uses the same published and candidate packages in disposable collections only. It never opens a profile supplied by a user. In each language, 15 cases check empty, matching and partially matching metadata; personal continent/search values; renamed or differently identified fields; missing, additional or duplicate GUIDs; and changed, unknown or duplicate TSV rows. The fixtures also include edited answers, an extra personal field, personal tags/CSS, all-card schedules/FSRS state and a real review-log entry.
+
+The research preflight refuses every schema, GUID or target-value conflict before the text import, with the collection unchanged. Where the two new fields are empty or already equal the reviewed candidate, the field-only import applies all 288 records, preserves the existing data and is idempotent. This deliberately narrow fixture requires the complete 288-note roster; it is not an implementation for arbitrary mixed personal collections.
+
+**The decisive limit remains:** bypassing that preflight and using Anki’s ordinary text-import **Update** policy overwrites a personal value in a mapped target field. **Preserve** leaves that value alone but skips the entire existing note, so it cannot fill the other new fields. Normal text import has no per-field “empty or already equal” condition, exact identity/coverage gate, or atomic check-and-import safeguard. Anki’s [documented GUID and field-mapping support](https://docs.ankiweb.net/manual/importing/text-files) makes the mechanical import possible through its normal UI; the protective preflight would require a separate reviewed tool/add-on or an explicit manual audit. No desktop procedure has been certified, and no such migration tool is delivered here.
+
+The intentional overwrite control can be undone immediately with Anki’s native **Undo** operation. A standard automatic backup, restored through Anki’s backend into another disposable collection, also restores the checked notes, models, IDs, schedules, FSRS state and review log. As the [Anki backup manual](https://docs.ankiweb.net/manual/backups) explains, automatic backups omit media and a full-profile restore discards work performed after the backup. This text-only operation leaves media untouched; the recovery check does not promise selective rollback or permission to rely on an unreviewed import.
+
+```sh
+python scripts/checks/probe-metadata-conflicts.py /published/Maps-en-288.apkg /candidate/Maps-en-288.apkg /new/evidence/conflicts-en
+python scripts/checks/probe-metadata-conflicts.py /published/Cartes-fr-288.apkg /candidate/Cartes-fr-288.apkg /new/evidence/conflicts-fr
+```
+
+The reports retain `researchOnly: true`, `defaultSafeAPKG: false` and `releaseReady: false`. No Always import, direct database mutation, release, tag or catalog update is used. The bounded investigation stops at this demonstrated stock-import limitation; the owner’s release hold remains in force.
