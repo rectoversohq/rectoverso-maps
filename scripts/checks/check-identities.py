@@ -13,8 +13,11 @@ def snapshot(read):
     places = read(meta['sourceFiles']['places'])
     languages = {}
     for language, artifact in meta['languages'].items():
-        model = read(artifact['sourceFiles']['noteType'])
-        deck = read(artifact['sourceFiles']['deck'])
+        # Schema 2 named each language's files; the gallery layout keeps them under sourceFiles' languages.
+        files = artifact.get('sourceFiles') or {key: f"{meta['sourceFiles']['languages']}/{language}/{name}"
+                                                for key, name in (('noteType', 'note-type.json'), ('deck', 'deck.json'))}
+        model = read(files['noteType'])
+        deck = read(files['deck'])
         languages[language] = {
             'artifact': artifact['id'], 'deck': deck['id'], 'model': model['id'],
             'fields': [model['fieldIDs'][name] for name in model['fields']],

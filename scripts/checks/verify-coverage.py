@@ -101,10 +101,15 @@ def main():
             raise ValueError('Missing image or incomplete image credit')
     if {place['picture'] for place in sources['places']} != {credit['file'] for credit in credits}:
         raise ValueError('Place pictures and image credits disagree')
+    remote = 'https://github.com/rectoversohq/' + metadata['id']
+    publication = metadata['publication']
+    if publication.get('remote') != remote or publication.get('release') != remote + '/releases/tag/' + metadata['releaseTag']:
+        raise ValueError('Publication URL differs from the repository/tag')
     all_guids, model_ids, deck_ids, package_names = set(), set(), set(), set()
     for language, artifact in metadata['languages'].items():
         verify_language(language, sources, coverage, expected_codes)
-        localized, notes, model, deck = inputs(language)
+        localized, notes, types, deck = inputs(language)
+        (model,) = types.values()
         guids = {note['guid'] for note in notes}
         if all_guids & guids or model['id'] in model_ids or deck['id'] in deck_ids:
             raise ValueError('Languages collide in note, model or deck identities')
@@ -113,16 +118,20 @@ def main():
         if Path(package['file']).name != package['file'] or package['file'] in package_names:
             raise ValueError('Invalid or duplicate language artifact filename')
         package_names.add(package['file'])
-        expected_url = metadata['repository'] + '/releases/download/' + metadata['releaseTag'] + '/' + package['file']
-        if package['url'] != expected_url:
-            raise ValueError('Artifact URL differs from shared repository/tag')
-        if localized['cards'] != len(notes) or deck['name'] != metadata['title'][language]:
+        if set(package) != {'file'}:
+            raise ValueError('A package names its file; its size and hash are its sidecar\'s and SHA256SUMS\'s')
+        if (localized['cards'] != len(notes) or artifact['cards'] != len(notes)
+                or deck['name'] != metadata['title'][language] or artifact['title'] != metadata['title'][language]):
             raise ValueError('Language card count or plain deck title differs')
+        # The gallery's sample question: one of this language's cards (each note makes one), with its map.
+        sample = [note for note in notes if note['guid'] == artifact.get('sample')]
+        if len(sample) != 1:
+            raise ValueError('The gallery sample is not one of this language\'s cards')
     print(f'{len(official)} ISO entries + {len(extras)} regional questions: names, exact named-group geometry, both language answers and distinct identities verified.')
 
 
 def verify_language(language, sources, coverage, expected_codes):
-    metadata, notes, model, deck = inputs(language)
+    metadata, notes, types, deck = inputs(language)
     by_guid = {note['guid']: note for note in notes}
     if len(by_guid) != len(notes) or len(notes) != len(expected_codes):
         raise ValueError('Duplicate note GUIDs or wrong note count')

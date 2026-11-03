@@ -61,7 +61,7 @@ class MultilingualSourceTests(unittest.TestCase):
             self.check()
 
     def test_external_language_source_is_rejected(self):
-        self.edit('rectoverso.json', lambda value: value['languages']['fr']['sourceFiles'].update(deck='../outside.json'))
+        self.edit('rectoverso.json', lambda value: value['sourceFiles'].update(languages='../outside'))
         with self.assertRaisesRegex(ValueError, 'leaves the repository'):
             self.check()
 
@@ -71,9 +71,16 @@ class MultilingualSourceTests(unittest.TestCase):
             self.check()
 
     def test_wrong_release_repository_is_rejected(self):
-        self.edit('rectoverso.json', lambda value: value['languages']['fr']['package'].update(url='https://example.com/wrong.apkg'))
-        with self.assertRaisesRegex(ValueError, 'Artifact URL'):
+        self.edit('rectoverso.json', lambda value: value['publication'].update(release='https://example.com/wrong'))
+        with self.assertRaisesRegex(ValueError, 'Publication URL'):
             self.check()
+
+    def test_sample_must_be_a_card_of_its_language(self):
+        for sample in ('rv-map-en-ita', 'rv-map-fr-xxx'):
+            with self.subTest(sample=sample):
+                self.edit('rectoverso.json', lambda value: value['languages']['fr'].update(sample=sample))
+                with self.assertRaisesRegex(ValueError, 'gallery sample'):
+                    self.check()
 
     def test_missing_supplementary_group_is_rejected(self):
         self.edit('source/geography/coverage.json', lambda value: value['supplementaryEntries'].pop())
