@@ -11,12 +11,12 @@
     "fr": "Géographie"
   },
   "headline": {
-    "en": "Name a place from its outline on the map.",
-    "fr": "Nommer un lieu d’après sa carte."
+    "en": "Know a place by its shape on the map.",
+    "fr": "Reconnaître un lieu à sa forme sur la carte."
   },
   "description": {
-    "en": "A place is shown on the map, and you name it: the 249 countries and territories of ISO 3166, and 39 named regions. The maps are drawn from Natural Earth.",
-    "fr": "Un lieu est montré sur la carte, et vous le nommez : les 249 pays et territoires de l’ISO 3166, et 39 régions nommées. Les cartes sont dessinées d’après Natural Earth."
+    "en": "288 places to name from the map, each shown in gold: the 249 with an ISO 3166-1 country code, and 39 parts of 11 of them asked on their own, such as the Azores, Svalbard and the Kerguelen Islands.",
+    "fr": "288 lieux à nommer sur la carte, chacun montré en doré : les 249 qui ont un code pays ISO 3166-1, et 39 parties de 11 d’entre eux, demandées à part, comme les Açores, le Svalbard et les îles Kerguelen."
   },
   "categories": [
     "geography"
