@@ -6437,7 +6437,7 @@
   "releaseTag": "v0.3.0-rc.3",
   "guidPrefix": "rv-map",
   "identityBase": 1800000631000,
-  "contentModifiedAt": "2026-11-05T06:27:00Z",
+  "contentModifiedAt": "2026-11-05T06:40:00Z",
   "publication": {
     "remote": "https://github.com/rectoversohq/rectoverso-maps",
     "release": "https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.3.0-rc.3",

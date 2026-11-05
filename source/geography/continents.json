@@ -800,7 +800,7 @@
       "AN"
     ],
     "MAPS-ATF-AMSTERDAM-AND-SAINT-PAUL": [
-      "AN"
+      "AF"
     ],
     "MAPS-ATF-GLORIOSO-ISLANDS": [
       "AF"
@@ -851,7 +851,7 @@
       "EU"
     ],
     "MAPS-PRT-MADEIRA": [
-      "AF"
+      "EU"
     ],
     "MAPS-SGS-SOUTH-GEORGIA": [
       "AN"
@@ -913,11 +913,11 @@
   },
   "notes": {
     "continentalBoundaries": "Europe/Asia: Urals, Ural River, Caspian Sea, Greater Caucasus watershed, Black Sea and Turkish straits. Africa/Asia: Suez. North/South America: Panama/Colombia boundary. Asia/Oceania: New Guinea belongs to Oceania; the rest of Indonesia is grouped with Asia.",
-    "islands": "Caribbean islands and Clipperton are grouped with North America; Madeira and the Canary Islands with Africa; Azores with Europe; Polynesia/Micronesia/Melanesia with Oceania. Named Antarctica assignments remain subject to the separate taxonomy note.",
-    "scope": "FRA and PRT use their approved core geography. ATF spans tropical African islands and subantarctic groups; UMI spans Navassa in the Caribbean and Pacific groups. Neither inherits the continent of its administering country.",
+    "islands": "Caribbean islands and Clipperton are grouped with North America; Madeira and the Azores with Europe, as Portugal is in UN M49 and GeoNames (the owner, 2026-11-05: follow the sources); Polynesia/Micronesia/Melanesia with Oceania. Named Antarctica assignments remain subject to the separate taxonomy note.",
+    "scope": "FRA and PRT use their approved core geography. ATF spans tropical African islands, Amsterdam and Saint Paul (Africa, as UN M49 classifies ATF) and the Kerguelen and Crozet subantarctic groups (Antarctica); UMI spans Navassa in the Caribbean and Pacific groups. Neither inherits the continent of its administering country.",
     "transcontinental": "Russia, Turkey, Kazakhstan, Georgia and Azerbaijan cross the documented Europe/Asia divide. Egypt includes Sinai; Indonesia includes western New Guinea; USA includes Hawaii; Chile includes Rapa Nui; Spain includes its African geography.",
-    "subantarcticReview": "The owner approved the named Antarctic-island discovery convention on 2 November 2026; the decision and UN M49 comparison remain under taxonomyReview. ATF’s Scattered Islands remain African. No continent is inferred from Antarctic-program management.",
-    "renderedAudit": "COL contains San Andrés/Providencia polygons at roughly 12–13°N,81°W; VEN contains Isla de Aves at roughly15.70°N,63.64°W, so both are SA+NA. FRA/PRT core questions remain EU; regional Madeira remains AF and Clipperton NA."
+    "subantarcticReview": "The owner approved the named Antarctic-island discovery convention on 2 November 2026; on 5 November the owner moved Amsterdam and Saint Paul to Africa, as UN M49 has ATF, replacing that call for those two islands. The decision and UN M49 comparison remain under taxonomyReview. ATF’s Scattered Islands remain African. No continent is inferred from Antarctic-program management.",
+    "renderedAudit": "COL contains San Andrés/Providencia polygons at roughly 12–13°N,81°W; VEN contains Isla de Aves at roughly15.70°N,63.64°W, so both are SA+NA. FRA/PRT core questions remain EU; regional Madeira is EU and Clipperton NA."
   },
   "references": [
     {
@@ -930,7 +930,7 @@
     },
     {
       "url": "https://institut-polaire.fr/fr/iles-subantarctiques/iles-subantarctiques/",
-      "use": "Crozet, Kerguelen and Amsterdam/Saint-Paul subantarctic grouping."
+      "use": "Crozet and Kerguelen subantarctic grouping (IPEV also counts Amsterdam–Saint-Paul as subantarctic; the deck classes those two islands with Africa, as UN M49 does ATF)."
     },
     {
       "url": "https://www.antarctica.gov.au/about-antarctica/australia-in-antarctica/the-territory-of-heard-island-and-mcdonald-islands/",
@@ -939,10 +939,6 @@
     {
       "url": "https://questions.assemblee-nationale.fr/q15/15-15677QE.htm",
       "use": "Clipperton is French territory in the North Pacific; the declared island convention places it with North America."
-    },
-    {
-      "url": "https://www.apmadeira.pt/media/74653/media-kit-2023-en-uk.pdf",
-      "use": "Official Madeira location and Portuguese membership; Africa is this deck’s geographic-island convention, not a quotation of the tourism board’s political continental label."
     },
     {
       "url": "https://regions.colombia.travel/en/greater-colombian-caribbean/san-andres-y-providencia",
@@ -1005,10 +1001,10 @@
     "mapsRegionalComponents": {
       "ATF-Antarctic-group": [
         "Kerguelen Islands",
-        "Crozet Islands",
-        "Amsterdam and Saint Paul"
+        "Crozet Islands"
       ],
       "ATF-African-group": [
+        "Amsterdam and Saint Paul",
         "Glorioso Islands",
         "Juan de Nova",
         "Europa",
@@ -1026,7 +1022,9 @@
     },
     "meaning": "These are competing discovery classifications, not claims that all named islands lie on the Antarctic continental landmass. Antarctic-program management never changes a place’s membership by itself.",
     "approvedOn": "2026-11-02",
-    "decision": "Retain the explicitly named GeoNames Antarctic discovery grouping, with African Scattered Islands independently retained in ATF; do not generalize from agency administration."
+    "decision": "Retain the explicitly named GeoNames Antarctic discovery grouping, with African Scattered Islands independently retained in ATF; do not generalize from agency administration.",
+    "amendedOn": "2026-11-05",
+    "amendment": "The owner: Amsterdam and Saint Paul → Africa, as UN M49 has it, not Antarctica. This replaces the 2 November call for those two islands."
   },
   "independentCheck": {
     "scope": "The 41 assignments that differ from the published Flags: the 39 regional questions and the core FRA and PRT questions.",
@@ -1065,19 +1063,22 @@
       "MAPS-UMI-MIDWAY-ISLANDS",
       "MAPS-UMI-NAVASSA-ISLAND",
       "MAPS-UMI-PALMYRA-ATOLL",
-      "MAPS-UMI-KINGMAN-REEF"
+      "MAPS-UMI-KINGMAN-REEF",
+      "MAPS-PRT-MADEIRA"
     ],
-    "supportedNote": "Every source that names a continent for these agrees with the assignment. The Azores and the three Saint Helena, Ascension and Tristan da Cunha questions are supported at parent level only: no place-level source names their continent. Caribbean, Middle America and Central America labels count as North America.",
+    "supportedNote": "Every source that names a continent for these agrees with the assignment. Madeira, the Azores and the three Saint Helena, Ascension and Tristan da Cunha questions are supported at parent level only: no place-level source names their continent. Caribbean, Middle America and Central America labels count as North America.",
     "conventionWhereSourcesDisagree": {
       "MAPS-HMD-HEARD-ISLAND": "GeoNames and the Factbook's map region: Antarctica; UN M49: Oceania. The owner-approved Antarctic-island convention (taxonomyReview).",
       "MAPS-HMD-MCDONALD-ISLANDS": "As Heard Island.",
       "MAPS-SGS-SOUTH-GEORGIA": "GeoNames and the Factbook's map region: Antarctica; UN M49 and the Factbook's location: South America. The owner-approved convention.",
       "MAPS-SGS-SOUTH-SANDWICH-ISLANDS": "As South Georgia.",
       "MAPS-ATF-KERGUELEN-ISLANDS": "GeoNames (whole ATF) and the Factbook's map region: Antarctica; UN M49 (whole ATF): Africa. Inside the Antarctic Convergence. The owner-approved convention.",
-      "MAPS-ATF-CROZET-ISLANDS": "As Kerguelen; inside the Antarctic Convergence, close to the line.",
-      "MAPS-ATF-AMSTERDAM-AND-SAINT-PAUL": "Antarctica rests on the owner-approved convention and IPEV's grouping of Amsterdam–Saint-Paul with Crozet and Kerguelen as France's subantarctic islands. No place-level source names a continent, the parent-level sources split (GeoNames Antarctica, UN M49 Africa), and the islands (37°50′S and 38°43′S) lie north of the Antarctic Convergence (45°S at 30–80°E).",
-      "MAPS-PRT-MADEIRA": "Africa rests on the deck's geographic-location convention for islands: Madeira lies on the African plate, about 500 km from the African coast (Visit Madeira; Geldmacher et al. 2000). No source read assigns Madeira to the continent of Africa; every continent classification read classifies only Portugal as a whole (Europe)."
+      "MAPS-ATF-CROZET-ISLANDS": "As Kerguelen; inside the Antarctic Convergence, close to the line."
     },
+    "followsUnM49WhereSourcesDisagree": {
+      "MAPS-ATF-AMSTERDAM-AND-SAINT-PAUL": "Africa, as UN M49 classifies ATF (the owner, 2026-11-05). GeoNames (whole ATF) says Antarctica; the Factbook's map regions for ATF are Antarctic Region and Africa; IPEV counts the islands as subantarctic. No place-level source names a continent; at 37°50′S and 38°43′S they lie north of the Antarctic Convergence (45°S at 30–80°E)."
+    },
+    "ownerDecisions": "2026-11-05: Madeira → Europe, not Africa (\"Follow the sources\"); Amsterdam and Saint Paul → Africa, as UN M49 has it, not Antarctica (\"This replaces the 2 November call for those two islands\").",
     "evidence": "Recorded outside Git with the deck's release evidence (sources/maps-continents-20261105: evidence.json, the raw source texts and their retrieval notes)."
   }
 }

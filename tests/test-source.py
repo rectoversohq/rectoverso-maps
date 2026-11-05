@@ -138,7 +138,9 @@ class MultilingualSourceTests(unittest.TestCase):
         assignments = source_data.read('source/geography/continents.json')['assignments']
         self.assertEqual(assignments['FRA'], ['EU'])
         self.assertEqual(assignments['MAPS-FRA-CLIPPERTON-ISLAND'], ['NA'])
-        self.assertEqual(assignments['MAPS-PRT-MADEIRA'], ['AF'])
+        self.assertEqual(assignments['MAPS-PRT-MADEIRA'], ['EU'])
+        self.assertEqual(assignments['MAPS-ATF-AMSTERDAM-AND-SAINT-PAUL'], ['AF'])
+        self.assertEqual(assignments['MAPS-ATF-KERGUELEN-ISLANDS'], ['AN'])
         self.assertEqual(assignments['MAPS-UMI-NAVASSA-ISLAND'], ['NA'])
         self.assertEqual(assignments['MAPS-UMI-WAKE-ATOLL'], ['OC'])
 
