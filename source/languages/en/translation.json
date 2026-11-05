@@ -3,7 +3,9 @@
     "answer": "Country or territory",
     "picture": "Map",
     "place": "RectoVerso place",
-    "boundary": "Boundary note"
+    "boundary": "Boundary note",
+    "continent": "Continent",
+    "search": "RectoVerso search"
   },
   "pictureAlt": "A place highlighted in gold.",
   "tags": [
