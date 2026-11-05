@@ -5,7 +5,9 @@
     "Country or territory",
     "Map",
     "RectoVerso place",
-    "Boundary note"
+    "Boundary note",
+    "Continent",
+    "RectoVerso search"
   ],
   "templates": [
     {
@@ -19,6 +21,8 @@
     "Country or territory": 7077158423735342665,
     "Map": 6903151940522739599,
     "RectoVerso place": -5993031168503139680,
-    "Boundary note": 1800000631101
+    "Boundary note": 1800000631101,
+    "Continent": 7415512539686133814,
+    "RectoVerso search": 213693942845656772
   }
 }
