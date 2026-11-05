@@ -1,7 +1,7 @@
 {
   "id": "rectoverso-maps",
   "version": "0.3.0-rc.2",
-  "status": "review-candidate",
+  "status": "prerelease",
   "title": {
     "en": "Maps",
     "fr": "Cartes"
