@@ -19,7 +19,7 @@ Choose either language, or install both. The two packages share their artwork an
 
 This deck retains all **249 ISO country/territory card identities** and adds **39 named regional questions**, for **288 cards per language**. France and Portugal now ask their metropolitan/mainland geography, with separate outlying-region questions; other composite ISO entries retain their overview and gain individual regional questions. This is **not a list of 288 countries**. The extra regions use explicit deck-local codes, not invented ISO codes. Common learner names are separate from formal ISO names. [Read the coverage and boundary convention](docs/sources.md), including the neutral treatment of Kashmir and Abyei.
 
-**Download [0.3.0-rc.1 — 288 cards](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.3.0-rc.1):** [English · Maps](https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.3.0-rc.1/Maps-en-288.apkg) · [Français · Cartes](https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.3.0-rc.1/Cartes-fr-288.apkg). This is a prerelease. Import the `.apkg` into Anki, or build the same source below. The release notes include exact checksums and validation details. Updating from [0.2.0-rc.2 (249 cards)](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.2.0-rc.2) keeps existing note identities and review progress; 39 new questions are added. Published tags and release assets remain immutable.
+**Download [0.3.0-rc.2 — 288 cards](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.3.0-rc.2):** [English · Maps](https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.3.0-rc.2/Maps-en-288.apkg) · [Français · Cartes](https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.3.0-rc.2/Cartes-fr-288.apkg). This is a prerelease. Import the `.apkg` into Anki, or build the same source below. The release notes and `SHA256SUMS` give exact checksums and validation details. Its cards are those of [0.3.0-rc.1](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.3.0-rc.1); it adds the description RectoVerso's gallery reads. Updating from 0.3.0-rc.1 keeps every note identity and your review progress. Updating from [0.2.0-rc.2 (249 cards)](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.2.0-rc.2) keeps existing note identities and review progress; 39 new questions are added. Published tags and release assets remain immutable.
 
 ## Build for Anki
 
@@ -36,7 +36,7 @@ python3.14 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 ```
 
-To build the exact release source, run `git switch --detach v0.3.0-rc.1` after cloning. For current development, stay on `main`. Check `rectoverso.json` for the version and card count of the revision you build.
+To build the exact release source, run `git switch --detach v0.3.0-rc.2` after cloning. For current development, stay on `main`. Check `rectoverso.json` for the version and card count of the revision you build.
 
 Build both languages into a **new directory outside the checkout**. The source tree includes large SVG originals; use a disk with room for the checkout, packages and temporary build files. Replace the example output path with one on your data drive:
 

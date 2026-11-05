@@ -16,7 +16,10 @@ def main():
     parser.add_argument('--out', required=True, type=Path)
     parser.add_argument('--language', required=True, choices=tuple(read('rectoverso.json')['languages']))
     args = parser.parse_args()
-    metadata, notes, model, deck = inputs(args.language)
+    metadata, notes, types, deck = inputs(args.language)
+    if len(types) != 1:
+        raise ValueError('Maps builds one note type a language')
+    (model,) = types.values()
     source = metadata['sourceFiles']
     args.out = args.out.resolve()
     if args.out.is_relative_to(ROOT) or args.out.exists() or args.out.with_suffix('.rectoverso.json').exists():

@@ -1,7 +1,7 @@
 {
   "id": "rectoverso-maps",
-  "version": "0.3.0-rc.1",
-  "status": "review-candidate",
+  "version": "0.3.0-rc.2",
+  "status": "prerelease",
   "title": {
     "en": "Maps",
     "fr": "Cartes"
@@ -10,7 +10,20 @@
     "en": "Geography",
     "fr": "Géographie"
   },
+  "headline": {
+    "en": "Know a place by its shape on the map.",
+    "fr": "Reconnaître un lieu à sa forme sur la carte."
+  },
+  "description": {
+    "en": "288 places to name from the map, each shown in gold: the 249 with an ISO 3166-1 country code, and 39 parts of 11 of them asked on their own, such as the Azores, Svalbard and the Kerguelen Islands.",
+    "fr": "288 lieux à nommer sur la carte, chacun montré en doré : les 249 qui ont un code pays ISO 3166-1, et 39 parties de 11 d’entre eux, demandées à part, comme les Açores, le Svalbard et les îles Kerguelen."
+  },
+  "categories": [
+    "geography"
+  ],
   "license": "CC-BY-4.0",
+  "creator": "Simon Pinkas",
+  "proOnly": false,
   "credits": {
     "en": "Maps drawn by Simon Pinkas from Natural Earth v5.1.2 (public domain), with McDonald Islands coastline from Geoscience Australia / Australian Antarctic Data Centre, 2020 (CC BY 4.0). Common place names adapted in part from Ultimate Geography 5.3, by the anki-geo contributors (text public domain). No Ultimate Geography pictures are included. © Simon Pinkas. Deck: CC BY 4.0.",
     "fr": "Cartes dessinées par Simon Pinkas à partir de Natural Earth v5.1.2 (domaine public), avec le littoral des îles McDonald de Geoscience Australia / Australian Antarctic Data Centre, 2020 (CC BY 4.0). Noms usuels adaptés en partie d’Ultimate Geography 5.3, par les contributeurs d’anki-geo (texte dans le domaine public). Aucune image d’Ultimate Geography n’est incluse. © Simon Pinkas. Jeu : CC BY 4.0."
@@ -26,7 +39,7 @@
     }
   ],
   "coverCode": "ITA",
-  "source": [
+  "sources": [
     {
       "name": "Natural Earth",
       "version": "5.1.2",
@@ -6421,8 +6434,16 @@
       }
     }
   ],
-  "repository": "https://github.com/rectoversohq/rectoverso-maps",
-  "releaseTag": "v0.3.0-rc.1",
+  "releaseTag": "v0.3.0-rc.2",
+  "guidPrefix": "rv-map",
+  "identityBase": 1800000631000,
+  "contentModifiedAt": "2026-10-31T23:36:12Z",
+  "publication": {
+    "remote": "https://github.com/rectoversohq/rectoverso-maps",
+    "release": "https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.3.0-rc.2",
+    "approved": true,
+    "visibility": "public"
+  },
   "sourceFiles": {
     "pictures": "source/media",
     "originals": "artwork/svg",
@@ -6435,7 +6456,8 @@
     "policy": "source/geography/policy.json",
     "isoReference": "source/geography/iso-3166-1-reference.json",
     "style": "source/style.css",
-    "regionalQuestions": "source/geography/regional-questions.json"
+    "regionalQuestions": "source/geography/regional-questions.json",
+    "languages": "source/languages"
   },
   "coverage": {
     "file": "source/geography/coverage.json",
@@ -6448,35 +6470,24 @@
     "supplementaryNamespace": "rectoverso-maps-regions-v1",
     "isoScope": "Only the 249 ISO entries carry verified ISO codes/formal names; 39 additional questions are named geographic groups, not additional ISO entities."
   },
-  "schemaVersion": 2,
   "languages": {
     "en": {
       "id": "rectoverso-maps-en",
+      "title": "Maps",
+      "cards": 288,
       "package": {
-        "file": "Maps-en-288.apkg",
-        "bytes": 82231138,
-        "sha256": "c43878dd1303c64cc1e6a3ea2d3fb11fe84055a3b2526bbdefea4c461e372ccb",
-        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.3.0-rc.1/Maps-en-288.apkg"
+        "file": "Maps-en-288.apkg"
       },
-      "sourceFiles": {
-        "deck": "source/languages/en/deck.json",
-        "noteType": "source/languages/en/note-type.json",
-        "translation": "source/languages/en/translation.json"
-      }
+      "sample": "rv-map-en-ita"
     },
     "fr": {
       "id": "rectoverso-maps-fr",
+      "title": "Cartes",
+      "cards": 288,
       "package": {
-        "file": "Cartes-fr-288.apkg",
-        "bytes": 82232243,
-        "sha256": "203387ec451a72130be08466857568c6bdac9067e2ce0e631d59d3cf386bcf68",
-        "url": "https://github.com/rectoversohq/rectoverso-maps/releases/download/v0.3.0-rc.1/Cartes-fr-288.apkg"
+        "file": "Cartes-fr-288.apkg"
       },
-      "sourceFiles": {
-        "deck": "source/languages/fr/deck.json",
-        "noteType": "source/languages/fr/note-type.json",
-        "translation": "source/languages/fr/translation.json"
-      }
+      "sample": "rv-map-fr-ita"
     }
   },
   "upgradeBaseline": {
