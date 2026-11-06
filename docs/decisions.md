@@ -24,3 +24,10 @@ The owner approved the gallery copy in `rectoverso.json`: the headline "Know a p
 ## 2026-11-06 — One complete AGENTS.md for every agent, by kind of work
 
 The owner: a single `AGENTS.md`, read by any agent (Codex, Claude Code or another) and complete on its own, organized around the three kinds of work done here: deck authoring (the content), contract honoring (what RectoVerso's gallery and Anki read: rectoverso.json, identities, packages, versions and releases) and cover making (the gallery's pictures: the specification, the names, the masters, renderer and check). It restates RectoVerso's `agents/decks.md`, the Library page's deck contract and cover specification and its French, with this repository's own rules; where they disagree, RectoVerso's pages win and this file is corrected. The `CLAUDE.md` first proposed here, importing RectoVerso's page, isn't kept.
+
+## 2026-11-06 — Canada and Thailand gallery covers
+
+The owner asked to rebuild the two screenshot studies with NASA imagery
+and the deck’s own outlines. The covers show Canada on a day–night globe
+and Thailand at night, in that order. Both are shared across languages
+and appearances. The render and CI verify the two JPEGs before review.

@@ -8,6 +8,7 @@ import shutil
 import tempfile
 from anki.collection import Collection, ExportAnkiPackageOptions
 from anki.decks import DeckId
+from covers import render_covers
 from source_data import inputs, read
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -30,7 +31,7 @@ def main():
         raise ValueError('Output filename differs from the language artifact name')
     if len(notes) != metadata['cards'] or len({n['guid'] for n in notes}) != len(notes):
         raise ValueError('Source note count or GUIDs disagree with metadata')
-    args.out.parent.mkdir(parents=True, exist_ok=True)
+    render_covers(args.out.parent)
     with tempfile.TemporaryDirectory(prefix='anki-build-', dir=args.out.parent) as temporary:
         col = Collection(str(Path(temporary) / 'collection.anki2'))
         try:
