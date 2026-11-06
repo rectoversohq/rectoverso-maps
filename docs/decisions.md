@@ -35,3 +35,8 @@ The owner asked to rebuild the two screenshot studies with NASA imagery
 and the deck’s own outlines. The covers show Canada on a day–night globe
 and Thailand at night, in that order. Both are shared across languages
 and appearances. The render and CI verify the two JPEGs before review.
+
+## 2026-11-06 — 1.0.0 lists the gallery covers
+
+The owner approved the two covers and the 1.0.0 release (2026-11-06), with no `whatsNew`: the cards are those of 0.3.0-rc.3. `rectoverso.json` lists `rv-map-cover-1.jpg` (Canada on a day–night globe) and `rv-map-cover-2.jpg` (Thailand at night), in that order, in every language and both appearances: neither has words, and each serves light and dark. The release attaches the two JPEGs beside the packages.
+

@@ -6434,6 +6434,28 @@
       }
     }
   ],
+  "covers": {
+    "en": {
+      "light": [
+        "rv-map-cover-1.jpg",
+        "rv-map-cover-2.jpg"
+      ],
+      "dark": [
+        "rv-map-cover-1.jpg",
+        "rv-map-cover-2.jpg"
+      ]
+    },
+    "fr": {
+      "light": [
+        "rv-map-cover-1.jpg",
+        "rv-map-cover-2.jpg"
+      ],
+      "dark": [
+        "rv-map-cover-1.jpg",
+        "rv-map-cover-2.jpg"
+      ]
+    }
+  },
   "releaseTag": "v1.0.0",
   "guidPrefix": "rv-map",
   "identityBase": 1800000631000,
