@@ -120,11 +120,11 @@ The pictures the gallery shows for this deck: in the featured box, a row's thumb
 - **Never ambiguous:** one `n` is never both with and without a language, nor both with and without an appearance in one language. The deck's prefix keeps every deck's covers apart in the app, which holds them all in one folder by name.
 
 ### Masters, build and checks
-- **Masters** in artwork/covers/, SVG, named as their PNGs (`.svg`), with lettering outlined (or a pinned, embedded font) so every render is identical; no external resource.
-- **scripts/covers.py** renders every master to its PNG at 2010 × 1340, called by scripts/build.py, into the build's output folder, never into the repository (nothing rendered is committed). Two independent builds give the same bytes.
+- **Masters** in artwork/covers/, SVG, named with the same stem as the rendered covers, with lettering outlined (or a pinned, embedded font) so every render is identical; no external resource.
+- **scripts/covers.py** renders every master to its cover at 2010 × 1340 (JPEG for this deck’s photographic covers), called by scripts/build.py, into the build's output folder, never into the repository (nothing rendered is committed). Two independent builds give the same bytes.
 - **scripts/checks/verify-covers.py,** run by the deck's CI, refuses a wrong size or name, a language without a light and a dark cover, a worded cover missing in a language, an ambiguous set, and anything but background in the clear corner (within 4 per channel of the corner's dominant color). Its tests in tests/.
-- **A new or changed cover** is shown to the owner as rendered PNGs, light and dark, every language, before it's merged.
+- **A new or changed cover** is shown to the owner as rendered covers, light and dark, every language, before it's merged.
 - **Listed at release:** rectoverso.json's `covers` lists them per language and appearance, and the release attaches them with the packages; they reach the app with the deck's next release, never before.
 
 ### This deck's covers
-- **No covers yet:** the app shows placeholders until this deck releases its own. Build them as the specification above says, as Capitals' do (rectoversohq/rectoverso-capitals: scripts/covers.py, scripts/checks/verify-covers.py, tests/test_covers.py), once the owner has the designs.
+- **Two photographic covers:** Canada on a day–night globe, then Thailand at night, shared across languages and appearances. See [Building](docs/building.md#gallery-covers) for the NASA source rasters and reconstruction command.

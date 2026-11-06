@@ -103,3 +103,16 @@ Répétez en anglais. Le contrôle programme une révision pour chaque ancienne 
 La CI télécharge aussi la référence de mise à jour explicitement figée (`upgradeBaseline` dans `rectoverso.json`, aujourd’hui la 0.3.0-rc.1), avec vérification de l’URL, de la taille et du SHA-256, puis teste la mise à jour dans les deux langues, avec **Toujours** comme diagnostic, puisque la 0.3.0-rc.3 change les champs du type de note ([Continents et recherche](continent-search.fr.md#contrôles)). Durée et taille des téléchargements sont bornées ; ils restent dans le dossier externe fourni et ne constituent pas une nouvelle publication.
 
 Anki peut conserver le nom local du modèle de carte et les anciennes images inutilisées lors d’un conflit de noms de fichiers. Le contrôle compare les octets des nouvelles images réellement référencées et le schéma de rendu ; il conserve aussi la mémoire FSRS de chaque carte existante.
+
+## Couvertures de la galerie
+
+La construction produit aussi deux JPEG de 2010 × 1340 px, communs aux
+deux langues et aux deux apparences. L’ordre est le Canada vu de l’espace,
+puis la Thaïlande de nuit. Pour reconstruire les couvertures seules,
+utilisez `scripts/covers.py --output <dossier>` dans un dossier hors du
+dépôt. Les masters SVG contiennent les fonds photographiques et les
+contours vectoriels. Le contrôle `scripts/checks/verify-covers.py` vérifie
+notamment le fond dans le coin réservé à la pastille de langue. La CI
+compare deux constructions et joint les JPEG aux paquets. Les images
+proviennent de NASA Blue Marble et Black Marble. Consultez les
+[crédits et les sources des masters](building.md#artwork-provenance).
