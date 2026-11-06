@@ -1,7 +1,7 @@
 {
   "id": "rectoverso-maps",
-  "version": "0.3.0-rc.3",
-  "status": "prerelease",
+  "version": "1.0.0",
+  "status": "release",
   "title": {
     "en": "Maps",
     "fr": "Cartes"
@@ -6434,13 +6434,13 @@
       }
     }
   ],
-  "releaseTag": "v0.3.0-rc.3",
+  "releaseTag": "v1.0.0",
   "guidPrefix": "rv-map",
   "identityBase": 1800000631000,
   "contentModifiedAt": "2026-11-05T06:40:00Z",
   "publication": {
     "remote": "https://github.com/rectoversohq/rectoverso-maps",
-    "release": "https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.3.0-rc.3",
+    "release": "https://github.com/rectoversohq/rectoverso-maps/releases/tag/v1.0.0",
     "approved": true,
     "visibility": "public"
   },
