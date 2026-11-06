@@ -66,7 +66,7 @@ The questions, answers, names, words and pictures the learner studies, in every 
 rectoverso.json, the deck's identities, its packages, its versions and its releases. RectoVerso's gallery check (`scripts/gallery/decks.py check` in RectoVerso) refuses a deck that breaks any of this; a deck isn't done until it passes.
 
 ### rectoverso.json
-At the repository's root, the deck's single source of truth, released with its packages. It holds exactly these, and nothing else:
+At the repository's root, the deck's single source of truth, released with its packages. RectoVerso's gallery check requires the fields below (all but those marked optional), and of the deck's file the gallery reads only these. A deck may keep keys of its own beside them (`status`, `roster`, counts such as `sounds`): the check and the app leave them aside, so a key of the deck's own never changes what the app shows; a new key the app should read is a change to the contract (below).
 - **Identity and version:** `id` (the repository's name); `version`; `releaseTag` (`v` and the version: the tag RectoVerso pins); `guidPrefix` (every note's GUID starts with it, then the language); `identityBase` (the base of the note types' and decks' Anki ids, an integer); `contentModifiedAt` (ISO 8601, moved forward with each content change, never into the future); `publication`: the repository's URL (`remote`), the release's URL (`release`), `approved` (only an approved deck enters the catalog) and `visibility` (`public`, or `private` for a Pro deck).
 - **In every shipped language,** each holding every language in `languages`, none empty: `title` (the plain title), `subject`, `headline` (one line) and `description` (short).
 - **`languages`,** by code (`en`, `fr`): each language's artifact `id` (stable for good), its `title`, its `cards` (the count), its `sample` and its `package` (its file). The package is attached to the release with its sidecar (`<package>.rectoverso.json`) and listed in the release's SHA256SUMS.
@@ -120,11 +120,11 @@ The pictures the gallery shows for this deck: in the featured box, a row's thumb
 - **Never ambiguous:** one `n` is never both with and without a language, nor both with and without an appearance in one language. The deck's prefix keeps every deck's covers apart in the app, which holds them all in one folder by name.
 
 ### Masters, build and checks
-- **Masters** in artwork/covers/, SVG, named as their PNGs (`.svg`), with lettering outlined (or a pinned, embedded font) so every render is identical; no external resource.
-- **scripts/covers.py** renders every master to its PNG at 2010 × 1340, called by scripts/build.py, into the build's output folder, never into the repository (nothing rendered is committed). Two independent builds give the same bytes.
+- **Masters** in artwork/covers/, SVG, named with the same stem as the rendered covers, with lettering outlined (or a pinned, embedded font) so every render is identical; no external resource.
+- **scripts/covers.py** renders every master to its cover at 2010 × 1340 (JPEG for this deck’s photographic covers), called by scripts/build.py, into the build's output folder, never into the repository (nothing rendered is committed). Two independent builds give the same bytes.
 - **scripts/checks/verify-covers.py,** run by the deck's CI, refuses a wrong size or name, a language without a light and a dark cover, a worded cover missing in a language, an ambiguous set, and anything but background in the clear corner (within 4 per channel of the corner's dominant color). Its tests in tests/.
-- **A new or changed cover** is shown to the owner as rendered PNGs, light and dark, every language, before it's merged.
+- **A new or changed cover** is shown to the owner as rendered covers, light and dark, every language, before it's merged.
 - **Listed at release:** rectoverso.json's `covers` lists them per language and appearance, and the release attaches them with the packages; they reach the app with the deck's next release, never before.
 
 ### This deck's covers
-- **No covers yet:** the app shows placeholders until this deck releases its own. Build them as the specification above says, as Capitals' do (rectoversohq/rectoverso-capitals: scripts/covers.py, scripts/checks/verify-covers.py, tests/test_covers.py), once the owner has the designs.
+- **Two photographic covers:** Canada on a day–night globe, then Thailand at night, shared across languages and appearances. See [Building](docs/building.md#gallery-covers) for the NASA source rasters and reconstruction command.

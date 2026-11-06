@@ -105,3 +105,47 @@ Repeat for French. It imports the old package, schedules every existing card, im
 CI also downloads the explicitly pinned upgrade baseline (`upgradeBaseline` in `rectoverso.json`, now 0.3.0-rc.1) with exact URL/size/SHA-256 checks, then exercises the upgrade in both languages, with **Always** as a diagnostic since 0.3.0-rc.3 changes the note type's fields ([Continents and search](continent-search.md#checks)). Downloads have bounded time/size and stay in the supplied external output. These packages are compatibility fixtures, not newly published artifacts.
 
 Anki may keep the old local template display name and retain unused old pictures when filenames collide. The upgrade check compares the new pictures actually referenced by notes, by their bytes, and the rendering schema; it also preserves every existing card’s FSRS memory.
+
+## Gallery covers
+
+The normal package build also renders two 2010 × 1340 JPEGs beside the
+packages. The covers are shared by both languages and appearances. Their
+order is Canada from orbit (`rv-map-cover-1.jpg`), then Thailand at night
+(`rv-map-cover-2.jpg`). The two SVG masters embed their own photographic
+backdrops and use vector borders. Building from them requires no imagery
+download. For a cover-only build:
+
+```sh
+python scripts/covers.py --output /tmp/maps-covers
+python scripts/checks/verify-covers.py --output /tmp/maps-covers
+```
+
+Use an external output directory. Names follow
+`rv-map[-<language>]-cover[-<light|dark>]-<n>.jpg`. CI checks naming, size,
+language and appearance coverage, and the top-trailing language-pill corner
+(`x ≥ 1608, y ≤ 335`, within 4 per channel of its dominant colour). It compares
+two independent builds and includes the JPEGs in the Anki packages artifact.
+
+### Artwork provenance
+
+The compositions use [NASA Blue Marble: Next Generation](https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/)
+(August 2004 MODIS, NASA Earth Observatory / Reto Stöckli) and
+[NASA Black Marble](https://science.nasa.gov/earth/earth-observatory/earth-at-night/maps/)
+(2016 Suomi NPP/VIIRS, NASA Earth Observatory / NASA and NOAA). NASA imagery
+is credited under its [media usage guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/).
+The gold outlines use the CAN and THA geometries already in
+`source/places.json` ([boundary sources](sources.md#credits-and-license)).
+Canada uses an orthographic projection with an illustrative day–night
+transition. Thailand uses a north-up Mercator projection with the distant
+north-east background subdued for the language pill.
+
+To reproduce the masters, download the original global
+[21,600 × 10,800 Blue Marble JPEG](https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-base/august/world.200408.3x21600x10800.jpg)
+as `blue.jpg` and the
+[13,500 × 6,750 Black Marble JPEG](https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/144000/144898/BlackMarble_2016_3km.jpg)
+as `black.jpg`. The authoring script checks the original files against its
+pinned SHA-256 hashes. Use NumPy 2.5.4 and Pillow 12.3.0:
+
+```sh
+python scripts/maps/make-cover-masters.py --textures /path/to/nasa-inputs --output /tmp/maps-cover-masters
+```

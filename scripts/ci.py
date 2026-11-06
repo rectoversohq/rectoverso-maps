@@ -47,11 +47,15 @@ def main():
                            ('test-regions', 'tests/test-regions.py'),
                            ('test-upgrade-baseline', 'tests/test-upgrade-baseline.py')]:
             run(name, sys.executable, '-B', str(ROOT / path))
+        run('test-covers', sys.executable, '-B', '-m', 'unittest', 'discover',
+            '-s', 'tests', '-p', 'test_covers.py')
         if args.base:
             run('base-identities', sys.executable, '-B', str(ROOT / 'scripts/checks/check-identities.py'),
                 args.base, str(out / 'base-identities.json'))
         for name in ('packages', 'rebuilt'):
             run(name, 'bash', str(ROOT / 'scripts/build.sh'), str(out / name))
+        run('verify-covers', sys.executable, str(ROOT / 'scripts/checks/verify-covers.py'),
+            '--output', str(out / 'packages'), '--compare', str(out / 'rebuilt'))
         meta = json.loads((ROOT / 'rectoverso.json').read_text())
         for language, artifact in meta['languages'].items():
             filename = artifact['package']['file']

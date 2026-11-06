@@ -28,3 +28,10 @@ The owner: a single `AGENTS.md`, read by any agent (Codex, Claude Code or anothe
 ## 2026-11-06 — 1.0.0, the first release learners get
 
 The owner (2026-11-06): the deck's first release in RectoVerso's Deck gallery is 1.0.0, after the owner's review, its tag and release on the owner's go. It has the same cards as the last prerelease, 0.3.0-rc.3: version, tag and release address move to 1.0.0 in `rectoverso.json`, the READMEs and the review page, and `status` says `release`. No `whatsNew` (nothing changed for a learner since 0.3.0-rc.3) and no gallery covers yet (the app shows placeholders until the deck's own). `contentModifiedAt` stays.
+
+## 2026-11-06 — Canada and Thailand gallery covers
+
+The owner asked to rebuild the two screenshot studies with NASA imagery
+and the deck’s own outlines. The covers show Canada on a day–night globe
+and Thailand at night, in that order. Both are shared across languages
+and appearances. The render and CI verify the two JPEGs before review.
