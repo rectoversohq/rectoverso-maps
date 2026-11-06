@@ -25,9 +25,18 @@ The owner approved the gallery copy in `rectoverso.json`: the headline "Know a p
 
 The owner: a single `AGENTS.md`, read by any agent (Codex, Claude Code or another) and complete on its own, organized around the three kinds of work done here: deck authoring (the content), contract honoring (what RectoVerso's gallery and Anki read: rectoverso.json, identities, packages, versions and releases) and cover making (the gallery's pictures: the specification, the names, the masters, renderer and check). It restates RectoVerso's `agents/decks.md`, the Library page's deck contract and cover specification and its French, with this repository's own rules; where they disagree, RectoVerso's pages win and this file is corrected. The `CLAUDE.md` first proposed here, importing RectoVerso's page, isn't kept.
 
+## 2026-11-06 — 1.0.0, the first release learners get
+
+The owner (2026-11-06): the deck's first release in RectoVerso's Deck gallery is 1.0.0, after the owner's review, its tag and release on the owner's go. It has the same cards as the last prerelease, 0.3.0-rc.3: version, tag and release address move to 1.0.0 in `rectoverso.json`, the READMEs and the review page, and `status` says `release`. No `whatsNew` (nothing changed for a learner since 0.3.0-rc.3) and no gallery covers yet (the app shows placeholders until the deck's own). `contentModifiedAt` stays.
+
 ## 2026-11-06 — Canada and Thailand gallery covers
 
 The owner asked to rebuild the two screenshot studies with NASA imagery
 and the deck’s own outlines. The covers show Canada on a day–night globe
 and Thailand at night, in that order. Both are shared across languages
 and appearances. The render and CI verify the two JPEGs before review.
+
+## 2026-11-06 — 1.0.0 lists the gallery covers
+
+The owner approved the two covers and the 1.0.0 release (2026-11-06), with no `whatsNew`: the cards are those of 0.3.0-rc.3. `rectoverso.json` lists `rv-map-cover-1.jpg` (Canada on a day–night globe) and `rv-map-cover-2.jpg` (Thailand at night), in that order, in every language and both appearances: neither has words, and each serves light and dark. The release attaches the two JPEGs beside the packages.
+
