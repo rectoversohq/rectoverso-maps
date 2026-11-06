@@ -129,9 +129,11 @@ two independent builds and includes the JPEGs in the Anki packages artifact.
 ### Artwork provenance
 
 The compositions use [NASA Blue Marble: Next Generation](https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/)
-(August 2004 MODIS, NASA Earth Observatory / Reto Stöckli) and
+(August 2004 MODIS, produced by Reto Stöckli, NASA Earth Observatory, NASA
+Goddard Space Flight Center) and
 [NASA Black Marble](https://science.nasa.gov/earth/earth-observatory/earth-at-night/maps/)
-(2016 Suomi NPP/VIIRS, NASA Earth Observatory / NASA and NOAA). NASA imagery
+(2016 Suomi NPP/VIIRS, NASA's Goddard Space Flight Center: Miguel Román,
+NASA/GSFC; image processing, Joshua Stevens, SSAI; [SVS 30876](https://svs.gsfc.nasa.gov/30876/)). NASA imagery
 is credited under its [media usage guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/).
 The gold outlines use the CAN and THA geometries already in
 `source/places.json` ([boundary sources](sources.md#credits-and-license)).
