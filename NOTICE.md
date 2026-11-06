@@ -28,6 +28,10 @@ No endorsement by ISO, the UN or the upstream authors is implied.
 Dependencies retain their own licenses. The pinned Python requirements and
 scripts/maps/package-lock.json identify them; this license does not relicense dependencies.
 
-Gallery cover backdrops use NASA Blue Marble and Black Marble imagery.
+Gallery cover backdrops use NASA imagery, public domain: Blue Marble: Next
+Generation (August 2004), produced by Reto Stöckli, NASA Earth Observatory
+(NASA Goddard Space Flight Center), and Black Marble 2016, NASA's Goddard Space
+Flight Center (Miguel Román, NASA/GSFC; image processing, Joshua Stevens, SSAI).
+rectoverso.json lists both in its sources.
 See [cover artwork provenance](docs/building.md#artwork-provenance) for the
 specific source rasters, credits and media usage terms.
