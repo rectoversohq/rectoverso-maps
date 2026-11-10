@@ -1,4 +1,4 @@
-# Maps / Cartes
+# Maps / Atlas
 
 **Recognize a place. Learn its name.** 288 map questions: countries, territories and named regions, in English or French, for Anki.
 
@@ -13,13 +13,15 @@
 | Language | Deck in Anki | Cards | Built file |
 | --- | --- | ---: | --- |
 | English | Maps | 288 | `Maps-en-288.apkg` |
-| Français | Cartes | 288 | `Cartes-fr-288.apkg` |
+| Français | Atlas | 288 | `Atlas-fr-288.apkg` |
 
 Choose either language, or install both. The two packages share their artwork and geometry, with separate note identities so reviews stay independent. Each includes every picture; no RectoVerso account or app is needed to study in Anki.
 
 This deck retains all **249 ISO country/territory card identities** and adds **39 named regional questions**, for **288 cards per language**. France and Portugal now ask their metropolitan/mainland geography, with separate outlying-region questions; other composite ISO entries retain their overview and gain individual regional questions. This is **not a list of 288 countries**. The extra regions use explicit deck-local codes, not invented ISO codes. Common learner names are separate from formal ISO names. [Read the coverage and boundary convention](docs/sources.md), including the neutral treatment of Kashmir and Abyei.
 
-**Download [1.0.1 — 288 cards](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v1.0.1):** [English · Maps](https://github.com/rectoversohq/rectoverso-maps/releases/download/v1.0.1/Maps-en-288.apkg) · [Français · Cartes](https://github.com/rectoversohq/rectoverso-maps/releases/download/v1.0.1/Cartes-fr-288.apkg). Its cards are those of 1.0.0, the first release, and of the last prerelease, [0.3.0-rc.3](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.3.0-rc.3). 1.0.1 credits the NASA imagery of the gallery covers in the deck's sources. Import the `.apkg` into Anki, or build the same source below. The release notes and `SHA256SUMS` give exact checksums and validation details. Its questions and pictures are those of [0.3.0-rc.2](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.3.0-rc.2); each note gains a **Continent** field and RectoVerso's search metadata, and the French notes' typography is corrected. Updating in Anki from 0.3.0-rc.1 or 0.3.0-rc.2 keeps your cards and review progress, but the new fields arrive only with particular import options: see [Continents and search](docs/continent-search.md#updating-in-anki). Published tags and release assets remain immutable.
+**Download [1.0.2 — 288 cards](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v1.0.2):** [English · Maps](https://github.com/rectoversohq/rectoverso-maps/releases/download/v1.0.2/Maps-en-288.apkg) · [Français · Atlas](https://github.com/rectoversohq/rectoverso-maps/releases/download/v1.0.2/Atlas-fr-288.apkg). Its cards are those of 1.0.0, the first release, and of the last prerelease, [0.3.0-rc.3](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.3.0-rc.3). 1.0.2 credits the NASA imagery of the gallery covers in the deck's sources. Import the `.apkg` into Anki, or build the same source below. The release notes and `SHA256SUMS` give exact checksums and validation details. Its questions and pictures are those of [0.3.0-rc.2](https://github.com/rectoversohq/rectoverso-maps/releases/tag/v0.3.0-rc.2); each note gains a **Continent** field and RectoVerso's search metadata, and the French notes' typography is corrected. Updating in Anki from 0.3.0-rc.1 or 0.3.0-rc.2 keeps your cards and review progress, but the new fields arrive only with particular import options: see [Continents and search](docs/continent-search.md#updating-in-anki). Published tags and release assets remain immutable.
+
+**Already studying the French deck as “Cartes” in Anki?** Rename your deck to “Atlas” before importing 1.0.2: Anki files an update's cards by the deck's name, and would otherwise add an empty “Atlas” deck beside yours. Either way, your cards and their history are kept.
 
 ## Build for Anki
 
@@ -36,7 +38,7 @@ python3.14 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 ```
 
-To build the exact release source, run `git switch --detach v1.0.1` after cloning. For current development, stay on `main`. Check `rectoverso.json` for the version and card count of the revision you build.
+To build the exact release source, run `git switch --detach v1.0.2` after cloning. For current development, stay on `main`. Check `rectoverso.json` for the version and card count of the revision you build.
 
 Build both languages into a **new directory outside the checkout**. The source tree includes large SVG originals; use a disk with room for the checkout, packages and temporary build files. Replace the example output path with one on your data drive:
 

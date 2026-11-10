@@ -3,7 +3,7 @@
 **Read `kit/AGENTS.md` first.** The deck kit ([rectoverso-deck-kit](https://github.com/rectoversohq/rectoverso-deck-kit), a submodule at `kit/`: `git submodule update --init kit`) holds what every deck follows: the deck contract, its check, and the rules for authoring, covers, languages, versions and releases. This file adds only this deck's own rules and checks.
 
 ## This deck
-- **Maps** (« Cartes »), `rectoversohq/rectoverso-maps`, public. GUID prefix `rv-map`; languages English and French; license CC BY 4.0. Asks each place on a map: 288 questions a language, the 249 places with an ISO 3166-1 code and 39 named regional questions.
+- **Maps** (« Atlas »), `rectoversohq/rectoverso-maps`, public. GUID prefix `rv-map`; languages English and French; license CC BY 4.0. Asks each place on a map: 288 questions a language, the 249 places with an ISO 3166-1 code and 39 named regional questions.
 - **Our own material here is CC BY 4.0, © Simon Pinkas** (never another name or a company).
 - **The deck's own issues are in this repository;** the app's side of the deck (its pin, the catalog, the gallery) is an issue in simonpinkas/RectoVerso.
 

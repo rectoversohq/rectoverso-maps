@@ -1,6 +1,6 @@
 # Continents and search (0.3.0-rc.3)
 
-[Back to Maps / Cartes](../README.md) · [Français](continent-search.fr.md)
+[Back to Maps / Atlas](../README.md) · [Français](continent-search.fr.md)
 
 Tracked in [Maps #6](https://github.com/rectoversohq/rectoverso-maps/issues/6); the Anki update limit is [Maps #8](https://github.com/rectoversohq/rectoverso-maps/issues/8). Version 0.3.0-rc.3 keeps all **288 questions, answers, pictures and published identities** and appends two fields to each note type, with stable field IDs: **Continent**, for Anki's editor and browser, and **RectoVerso search**, discovery metadata for RectoVerso. Neither appears in the study templates. The four existing fields keep their IDs and order.
 
