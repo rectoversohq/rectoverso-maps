@@ -29,9 +29,14 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
+          submodules: true
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
         with:
           python-version: '3.14.7'
+      # The deck contract, by the deck kit's own check (kit/, a submodule pinned to a tag), as
+      # RectoVerso's gallery takes a deck. Standard library only: it runs before anything is installed.
+      - name: The deck contract
+        run: python3 kit/check.py --rectoverso
       - name: Install the pinned Anki environment
         run: |
           python -m venv "$RUNNER_TEMP/anki-venv"
