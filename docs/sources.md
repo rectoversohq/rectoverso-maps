@@ -1,6 +1,6 @@
 # Sources, coverage and boundaries
 
-[Back to Maps / Cartes](../README.md) · [Français](sources.fr.md)
+[Back to Maps / Atlas](../README.md) · [Français](sources.fr.md)
 
 ## Coverage, names and boundaries
 

@@ -1,6 +1,6 @@
-# Fabrication et vérification de Cartes
+# Fabrication et vérification d’Atlas
 
-[Retour à Cartes / Maps](../README.fr.md) · [English](building.md)
+[Retour à Atlas / Maps](../README.fr.md) · [English](building.md)
 
 ## Empaqueter les cartes existantes
 
@@ -10,7 +10,7 @@ Suivre la [préparation du README](../README.fr.md#construire-pour-anki). Exécu
 ANKI_PYTHON="$PWD/.venv/bin/python" ./scripts/build.sh /chemin/absolu/vers/nouveaux-paquets
 ```
 
-La commande crée `Maps-en-288.apkg`, `Cartes-fr-288.apkg`, un fichier `.rectoverso.json` par paquet et `evidence/anki-validation.json`. Elle refuse un dossier déjà présent ou situé dans le dépôt. Les fichiers temporaires de fabrication et d’Anki restent à côté des paquets de sortie.
+La commande crée `Maps-en-288.apkg`, `Atlas-fr-288.apkg`, un fichier `.rectoverso.json` par paquet et `evidence/anki-validation.json`. Elle refuse un dossier déjà présent ou situé dans le dépôt. Les fichiers temporaires de fabrication et d’Anki restent à côté des paquets de sortie.
 
 Chaque paquet contient 288 notes et cartes : les 249 identités ISO et 39 régions nommées. Le script combine noms, GUID et champs géographiques partagés avec les modèles, noms de champs et notes sur les limites de chaque langue. Il ne télécharge pas de données et ne modifie pas les sources. Les horodatages d’Anki peuvent changer les octets d’une archive reconstruite : comparer son contenu et ses identités. Les empreintes des métadonnées désignent les candidats exacts préparés pour une release.
 
@@ -33,7 +33,7 @@ Après une fabrication indépendante, comparer chaque langue à son candidat pr�
 
 ```sh
 .venv/bin/python scripts/checks/validate-rebuild.py /chemin/precedent/Maps-en-288.apkg /chemin/nouveau/Maps-en-288.apkg /chemin/preuves/identity-en.json
-.venv/bin/python scripts/checks/validate-rebuild.py /chemin/precedent/Cartes-fr-288.apkg /chemin/nouveau/Cartes-fr-288.apkg /chemin/preuves/identity-fr.json
+.venv/bin/python scripts/checks/validate-rebuild.py /chemin/precedent/Atlas-fr-288.apkg /chemin/nouveau/Atlas-fr-288.apkg /chemin/preuves/identity-fr.json
 ```
 
 Ce contrôle compare les GUID, les identités de decks, types de notes, champs et modèles de cartes, puis importe réellement la mise à jour dans une collection avec des progrès planifiés. Anki peut attribuer une identité locale au deck lors du premier import ; les imports suivants doivent la conserver avec les progrès. Les deux langues peuvent coexister avec des révisions indépendantes.
@@ -95,7 +95,7 @@ Actions est activé pour ce dépôt public. Dans les paramètres, autoriser `act
 La version 0.3.0-rc.1 contient 288 cartes par langue : 249 entités ISO et 39 régions supplémentaires. Les noms historiques des champs de réponse restent stables ; les nouveaux modèles Anki s’appellent **Carte → Lieu**. RectoVerso déduit son en-tête **Carte → Pays ou territoire** des noms de champs conservés : les métadonnées gardent donc ce libellé, y compris pour les questions régionales. Une modification du texte de l’app dépasse cette mise à jour des sources. Les fichiers rc.2 publiés restent intacts. `tests/test-regions.py` et les tests de sources corrompues contrôlent l’affectation exacte des polygones, les groupes manquants ou superposés et les fausses classifications ISO ; ces tests sont exécutés en CI.
 
 ```sh
-.venv/bin/python scripts/checks/validate-upgrade.py /chemin/rc2/Cartes-fr-249.apkg /chemin/candidat/Cartes-fr-288.apkg /chemin/preuves/upgrade-fr.json
+.venv/bin/python scripts/checks/validate-upgrade.py /chemin/rc2/Cartes-fr-249.apkg /chemin/candidat/Atlas-fr-288.apkg /chemin/preuves/upgrade-fr.json
 ```
 
 Répétez en anglais. Le contrôle programme une révision pour chaque ancienne carte, importe le candidat et vérifie identités, schéma, échéances, total, médias et rendu. Il est distinct de la comparaison de deux constructions. La régénération complète des images et leur examen visuel restent obligatoires ; la CI des sources ne certifie pas le globe de l’app.

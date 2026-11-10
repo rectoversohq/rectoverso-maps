@@ -1,10 +1,10 @@
 {
   "id": "rectoverso-maps",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "status": "release",
   "title": {
     "en": "Maps",
-    "fr": "Cartes"
+    "fr": "Atlas"
   },
   "subject": {
     "en": "Geography",
@@ -19,8 +19,8 @@
     "fr": "288 lieux à nommer sur la carte, chacun montré en doré : les 249 qui ont un code pays ISO 3166-1, et 39 parties de 11 d’entre eux, demandées à part, comme les Açores, le Svalbard et les îles Kerguelen."
   },
   "whatsNew": {
-    "en": "The covers' NASA imagery is credited in the deck's sources.",
-    "fr": "Les images de la NASA des couvertures sont créditées dans les sources du deck."
+    "en": "The French deck is now titled Atlas.",
+    "fr": "Le deck s’appelle désormais « Atlas »."
   },
   "categories": [
     "geography"
@@ -6472,13 +6472,13 @@
       ]
     }
   },
-  "releaseTag": "v1.0.1",
+  "releaseTag": "v1.0.2",
   "guidPrefix": "rv-map",
   "identityBase": 1800000631000,
   "contentModifiedAt": "2026-11-05T06:40:00Z",
   "publication": {
     "remote": "https://github.com/rectoversohq/rectoverso-maps",
-    "release": "https://github.com/rectoversohq/rectoverso-maps/releases/tag/v1.0.1",
+    "release": "https://github.com/rectoversohq/rectoverso-maps/releases/tag/v1.0.2",
     "approved": true,
     "visibility": "public"
   },
@@ -6521,10 +6521,10 @@
     },
     "fr": {
       "id": "rectoverso-maps-fr",
-      "title": "Cartes",
+      "title": "Atlas",
       "cards": 288,
       "package": {
-        "file": "Cartes-fr-288.apkg"
+        "file": "Atlas-fr-288.apkg"
       },
       "sample": "rv-map-fr-ita"
     }

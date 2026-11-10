@@ -1,6 +1,6 @@
 # Building and verifying Maps
 
-[Back to Maps / Cartes](../README.md) · [Français](building.fr.md)
+[Back to Maps / Atlas](../README.md) · [Français](building.fr.md)
 
 ## Package existing maps
 
@@ -10,7 +10,7 @@ Follow the [README setup](../README.md#build-for-anki). Run commands from the re
 ANKI_PYTHON="$PWD/.venv/bin/python" ./scripts/build.sh /absolute/path/to/new-packages
 ```
 
-This creates `Maps-en-288.apkg`, `Cartes-fr-288.apkg`, one `.rectoverso.json` sidecar per package, and `evidence/anki-validation.json`. A directory that already exists, or one inside the checkout, is rejected. Build and Anki temporary files are placed beside the output packages.
+This creates `Maps-en-288.apkg`, `Atlas-fr-288.apkg`, one `.rectoverso.json` sidecar per package, and `evidence/anki-validation.json`. A directory that already exists, or one inside the checkout, is rejected. Build and Anki temporary files are placed beside the output packages.
 
 Each candidate artifact contains 288 notes/cards: the 249 ISO baseline identities plus 39 explicitly named regions. The builder combines shared names, GUIDs and place fields with language-specific templates, labels and boundary notes. It does not fetch data or change source files. Archive bytes can change between builds because Anki writes timestamps; compare content and identities, not whole-archive hashes, when checking a rebuild. Metadata hashes describe the exact candidate artifacts prepared for a release.
 
@@ -33,7 +33,7 @@ After an independent package build, compare each language with its previous cand
 
 ```sh
 .venv/bin/python scripts/checks/validate-rebuild.py /path/to/previous/Maps-en-288.apkg /path/to/new/Maps-en-288.apkg /path/to/evidence/identity-en.json
-.venv/bin/python scripts/checks/validate-rebuild.py /path/to/previous/Cartes-fr-288.apkg /path/to/new/Cartes-fr-288.apkg /path/to/evidence/identity-fr.json
+.venv/bin/python scripts/checks/validate-rebuild.py /path/to/previous/Atlas-fr-288.apkg /path/to/new/Atlas-fr-288.apkg /path/to/evidence/identity-fr.json
 ```
 
 This checks source note GUIDs, deck/model IDs, field/template IDs, and an actual import over an existing collection with scheduled progress. Anki may assign a local deck ID on the first import; a subsequent import must preserve that local identity and progress. Both languages can coexist with independent reviews.

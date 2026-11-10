@@ -1,6 +1,6 @@
 # Sources, couverture et limites
 
-[Retour à Cartes / Maps](../README.fr.md) · [English](sources.md)
+[Retour à Atlas / Maps](../README.fr.md) · [English](sources.md)
 
 ## Couverture, noms et limites
 
