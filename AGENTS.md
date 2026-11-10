@@ -4,6 +4,8 @@
 
 ## This deck
 - **Maps** (« Cartes »), `rectoversohq/rectoverso-maps`, public. GUID prefix `rv-map`; languages English and French; license CC BY 4.0. Asks each place on a map: 288 questions a language, the 249 places with an ISO 3166-1 code and 39 named regional questions.
+- **Our own material here is CC BY 4.0, © Simon Pinkas** (never another name or a company).
+- **The deck's own issues are in this repository;** the app's side of the deck (its pin, the catalog, the gallery) is an issue in simonpinkas/RectoVerso.
 
 ## This repository
 - **Read first:** README.md, README.fr.md and source/geography/policy.json; docs/building.md how the deck is built, docs/sources.md its sources, docs/continent-search.md the note type's search and upgrade checks, docs/decisions.md the dated decisions. French versions beside each (`.fr.md`).
@@ -23,6 +25,12 @@
 
 ## This deck's covers
 - **Two photographic covers:** Canada on a day–night globe, then Thailand at night, shared across languages and appearances. See [Building](docs/building.md#gallery-covers) for the NASA source rasters and reconstruction command.
+- **PNG** for drawn art (a JPEG only for a photograph); small files (they ship inside the app's download: aim under 400 KB).
+- **Accurate:** whatever real place, flag, element, name or shape a cover shows is right, checked against the deck's own sources.
+- **Masters** in artwork/covers/, SVG, named with the same stem as the rendered covers, with lettering outlined (or a pinned, embedded font) so every render is identical; no external resource.
+- **scripts/covers.py** renders every master to its cover at 2010 × 1340 (JPEG for this deck’s photographic covers), called by scripts/build.py, into the build's output folder, never into the repository (nothing rendered is committed). Two independent builds give the same bytes.
+- **scripts/checks/verify-covers.py,** run by the deck's CI, refuses a wrong size or name, a language without a light and a dark cover, a worded cover missing in a language, an ambiguous set, and anything but background in the top-trailing corner the gallery keeps for the language's pill (within 4 per channel of the corner's dominant color). Its tests in tests/.
+- **A new or changed cover** is shown to the owner as rendered covers, light and dark, every language, before it's merged.
 
 ## The kit
 - **Pinned at `kit/`, at a tag.** Moving it is a pull request of its own, with the check run again (`kit/docs/versioning.md`). Never edit a file under `kit/` from here.
